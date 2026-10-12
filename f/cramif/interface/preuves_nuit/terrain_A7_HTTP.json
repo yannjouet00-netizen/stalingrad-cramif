@@ -1,0 +1,107 @@
+{
+  "status": 200,
+  "bytes": 29175586,
+  "parts": [
+    {
+      "nom": "Sol_lisse",
+      "vertices": 514617,
+      "finite": true,
+      "unique_rgb": 6,
+      "normales_finies": true,
+      "normales_nulles": 0,
+      "normales_non_unitaires": 0,
+      "source": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/acces_paliers_a7/Sol_lisse_Eole_paliers.npz",
+      "positions_exactes": true,
+      "couleurs_exactes": true
+    },
+    {
+      "nom": "Chaussees",
+      "vertices": 139755,
+      "finite": true,
+      "unique_rgb": 1,
+      "normales_finies": true,
+      "normales_nulles": 0,
+      "normales_non_unitaires": 0,
+      "source": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/maillage/Chaussees.npz",
+      "positions_exactes": true
+    },
+    {
+      "nom": "Trottoirs",
+      "vertices": 204834,
+      "finite": true,
+      "unique_rgb": 1,
+      "normales_finies": true,
+      "normales_nulles": 0,
+      "normales_non_unitaires": 0,
+      "source": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/contact_rotonde/Trottoirs.npz",
+      "positions_exactes": true
+    },
+    {
+      "nom": "Bordures",
+      "vertices": 56940,
+      "finite": true,
+      "unique_rgb": 1,
+      "normales_finies": true,
+      "normales_nulles": 0,
+      "normales_non_unitaires": 0,
+      "source": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/maillage/Bordures.npz",
+      "positions_exactes": true
+    },
+    {
+      "nom": "Quais",
+      "vertices": 33840,
+      "finite": true,
+      "unique_rgb": 2,
+      "normales_finies": true,
+      "normales_nulles": 0,
+      "normales_non_unitaires": 0,
+      "source": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/maillage/Quais.npz",
+      "positions_exactes": true
+    },
+    {
+      "nom": "Accidents",
+      "vertices": 135,
+      "finite": true,
+      "unique_rgb": 1,
+      "normales_finies": true,
+      "normales_nulles": 0,
+      "normales_non_unitaires": 0,
+      "source": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/maillage/Accidents.npz",
+      "positions_exactes": true
+    },
+    {
+      "nom": "Amenagements",
+      "vertices": 112392,
+      "finite": true,
+      "unique_rgb": 2,
+      "normales_finies": true,
+      "normales_nulles": 0,
+      "normales_non_unitaires": 0,
+      "source": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/simplification_quais/Amenagements.npz",
+      "positions_exactes": true
+    },
+    {
+      "nom": "Tabliers",
+      "vertices": 12417,
+      "finite": true,
+      "unique_rgb": 5,
+      "normales_finies": true,
+      "normales_nulles": 0,
+      "normales_non_unitaires": 0,
+      "source": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/maillage/Tabliers.npz",
+      "positions_exactes": true
+    },
+    {
+      "nom": "Escaliers",
+      "vertices": 5628,
+      "finite": true,
+      "unique_rgb": 2,
+      "normales_finies": true,
+      "normales_nulles": 0,
+      "normales_non_unitaires": 0,
+      "source": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/maillage/../escaliers/Escaliers.npz",
+      "positions_exactes": true,
+      "couleurs_exactes": true
+    }
+  ]
+}

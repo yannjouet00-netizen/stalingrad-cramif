@@ -1,0 +1,22 @@
+ACTIVITÉ DES AGENTS — FRAÎCHEUR DISTINCTE DU DERNIER ÉTAT
+11 octobre 2026, 08:10 Paris
+
+Défaut : le résumé Pro comptait uniquement les agents au retour récent. Zéro retour actif récent devenait « 0 en activité », même lorsque des missions en cours étaient déclarées dans le fichier d’état.
+
+Correction Pro et Brain :
+- Actif récent : nombre d’agents en activité.
+- Actifs déclarés, tous périmés : « Agents · état à actualiser ».
+- Actifs frais et périmés mélangés : nombre frais et nombre d’états à actualiser.
+- Aucun actif déclaré : « Agents · aucun en activité dans le dernier état ».
+- Données absentes : « Agents · état non renseigné ».
+La liste Pro conserve « Dernier état reçu · tâche » pour les actifs périmés. Brain distingue l’état périmé de l’attente : nœuds et détails portent « État à actualiser », avec tâche annoncée conservée. Les flux restent animés uniquement pour les états actifs récents.
+
+Suivi ne présente pas de compteur d’agents. Ses opérations actives périmées portent désormais « Dernier état reçu · en cours, à actualiser », y compris quand un compteur d’étapes est affiché. Les étapes actives anciennes sont qualifiées comme dernier état reçu. Le rafraîchissement tient compte de l’écoulement du temps même lorsque le JSON publié reste identique.
+
+Le seuil reste exactement 180000 ms. La date individuelle prime sur la date du groupe ; le repli sur la date du groupe est conservé uniquement en l’absence de date individuelle. Un état terminé reste terminé même ancien. Aucun nouveau signal de présence n’est inventé, aucun fichier agents_chantier.json ou backend modifié.
+
+Tests exécutés : actif frais, actif périmé, limite exacte à 180000 ms, terminé ancien, attente, actif sans date ; résumés vrai zéro, données absentes et état mixte ; quatre états d’opérations Suivi. Le test du constructeur réel de la liste Pro confirme le texte de dernier état et l’absence de classe active sur un agent périmé. Types Brain reliés à la même logique ; flux réservés à active. Syntaxe complète des modules vérifiée ; hub/index identiques.
+
+HTTP /pro, /brain et /suivi : correspondance exacte des fichiers modifiés. Pas de nouvelle recette graphique revendiquée ; aucun accès au navigateur partagé ni au natif.
+
+Preuves : validation.json, test.cjs, http.json, chantier.json et différences dans /private/tmp/nuit_agents_0805.

@@ -1,0 +1,32 @@
+{
+  "origine_local_m": [
+    62.44337428744018,
+    163.619816139112
+  ],
+  "origine_definition": "centre bbox des8corps CRAMIF; pas centre cadastral",
+  "axe_longitudinal_Flandre_vers_NE_xy": [
+    0.6425167926969231,
+    0.7662716040037365
+  ],
+  "axe_transversal_vers_Tanger_NW_xy": [
+    -0.7662716040037365,
+    0.6425167926969231
+  ],
+  "azimut_Flandre_deg_depuis_N": 39.97974742822406,
+  "source": "orientation arête source commune2512233/2512234 longue101.168m; repère de travail, pas plan de façade exact",
+  "fronts": {
+    "Flandre": [
+      "2512234",
+      "2512233",
+      "2505949"
+    ],
+    "Maroc": [
+      "2505948",
+      "2505950"
+    ],
+    "Tanger_cour": [
+      "2505946",
+      "2505947"
+    ]
+  }
+}

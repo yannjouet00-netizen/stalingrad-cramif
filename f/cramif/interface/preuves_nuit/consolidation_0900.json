@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-11T07:00:39.010630+00:00",
+  "native_sha256": "443186a6e9f7d7247c78d915ae81c75af548b6a3ff26facf24830f9e389f92d6",
+  "http": {
+    "/pro": {
+      "status": 200,
+      "bytes": 137104
+    },
+    "/brain": {
+      "status": 200,
+      "bytes": 29110
+    },
+    "/carnet": {
+      "status": 200,
+      "bytes": 46092
+    },
+    "/images": {
+      "status": 200,
+      "bytes": 46092
+    },
+    "/suivi": {
+      "status": 200,
+      "bytes": 45939
+    },
+    "/api/etat": {
+      "status": 200,
+      "bytes": 121728,
+      "json_valid": true
+    },
+    "/api/hub": {
+      "status": 200,
+      "bytes": 11146629,
+      "json_valid": true
+    }
+  },
+  "hub_js_syntax": "passed",
+  "keep_awake_process": "88068 caffeinate -is -t 28800",
+  "new_native_geometry": false
+}

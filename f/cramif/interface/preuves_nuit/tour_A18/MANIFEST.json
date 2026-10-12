@@ -1,0 +1,47 @@
+{
+  "status": "READY_RECETTE_CIBLEE",
+  "native_sha256": "05b662aedbb5da36b19af634b79765b474c5b72d9301d40094f94902530c1b82",
+  "files": [
+    {
+      "path": "RAPPORT.txt",
+      "bytes": 4588,
+      "sha256": "a2f5caebc08515cc49ebb7055c326135e0efb4c2e08c6ebdb5f9c00847d2b779"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 33737,
+      "sha256": "5717f69e6e2653d14be234c59a64cdcd5655838e93de0230a3c7f64ea5c1937f"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 2552,
+      "sha256": "5ce3398f6b420ed565fa01125b9a4b2a3835481d63398bf669b4a1e4e99249cd"
+    },
+    {
+      "path": "tour_front_proche.png",
+      "bytes": 1140819,
+      "sha256": "1482ce59cfe6261c4d45bebac0419414d024832e78d04b1b27ea11c9a7274b14"
+    },
+    {
+      "path": "tour_retour_proche.png",
+      "bytes": 1181309,
+      "sha256": "b38c2476a073147cb498c40aa114f2608113d7638e9f3f49b409cf468783f352"
+    },
+    {
+      "path": "natif_tour_triangles.npz",
+      "bytes": 120229,
+      "sha256": "1d3256d5e4dfb5920c16f39d13df2439fdf7a86e0f074d42c928d012dae4cf60"
+    },
+    {
+      "path": "web_tour_extrait.npz",
+      "bytes": 132393,
+      "sha256": "40cbeb3b4a5b5aac4a068a6e8fcd95f950dc0cd0db74454b8980d19ad5577091"
+    },
+    {
+      "path": "web_reponse.json",
+      "bytes": 419,
+      "sha256": "6f727a4be28f92ed522926e2f39b23f19547b017bdfbf6b3120055ba76907917"
+    }
+  ],
+  "no_native_save": true
+}

@@ -1,0 +1,53 @@
+AUDIT GÉOMÉTRIQUE — RUES PROCHES CRAMIF — 10 OCTOBRE 2026
+Lecture seule. Aucun objet ajouté, déplacé ou enregistré dans Blender.
+
+CONCLUSION
+Les altitudes principales CRAMIF restent soutenues par le LiDAR : les photographies ne prouvent pas qu’il faut les abaisser ou les relever. L’effort prioritaire porte sur le pied de façade, les trames distinctes Flandre/Maroc, les seuils et les clôtures. La tour voisine possède déjà 29 volumes dans le natif ; plusieurs éléments fins sont extrudés jusqu’au sol et méritent une vérification de leur fonction avant ajout de balcons. L’étude ne transforme pas ces volumes automatiquement en dalles.
+
+MODÈLE LU
+Stalingrad_CRAMIF_travail.blend, scène05 sélectionnée puis view_layer.update avant lecture. SHA256 ba900ae04010ef1a83a292ea00a535530666aa25a17d64ad6e15722c9097e573. Extraction37 objets :8CRAMIF et29tour ; tous fermés (chaque arête appartient à2faces). Écart maximal entre sommets natifs mondiaux et triangles Volumes.npz :0,0000107m, soit environ0,011mm. Cela confirme que l’audit des sources géométriques s’applique à ces objets natifs. Les ajouts toiture/mobilier antérieurs ne sont pas inclus dans ces37corps. Le script ne sauvegarde jamais le blend.
+
+IDENTIFICATION ET REPÈRES
+Repère : x=Lambert93 E−653700, y=N−6865100, z=IGN69 mètres.
+CRAMIF : APUR750087099_0, parcelle750065209. Ne pas réduire le bâtiment au seul quadrilatère : l’aile Flandre se prolonge au sud jusqu’à y93,66.
+AileFlandre : groupe2512234 (Ztoit81,83),2512233 (78,41) et socle2505949 (56,40). Bbox globale de cette bande x41,676..120,730/y93,660..183,997. Les trois IDs décrivent des couches volumétriques différentes; la photo ne suffit pas à attribuer chaque montant à un de ces corps. La face nord-est du groupe forme le pignon visible depuisMaroc.
+RetourMaroc :2505948 (78,77) et2505950 (75,06), bbox x41,984..107,912/y173,940..233,580. Grand panopaque/bandevitrée et retouràbaies doivent être traités séparément. Le raccord entre groupeFlandre et retourMaroc doit rester distinct.
+AileTanger/cour :2505946 (84,95),2505947 (86,95). Petit volume2505945 (79,005) : toitESTIME, très peu de points; aucune correction métrique fiable proposée.
+
+TOUR VOISINE : RECROISEMENT FORT, DISTINCTE DE CRAMIF
+Enseignes de la capture23.11.37 = Espace Fleurs + pharmacie. Annuaire officiel établissement38752577700026 :27–31avenue deFlandre. Acceslibre confirme GrandePharmacie deStalingrad27Flandre. GéocodageIGN/BAN27Flandre local(141,31;194,45), score0,983, au pied SE du groupe. SourceAPUR OBJECTID54117 :n_sq_eb750113299, parcelle750068239, annéeconstruction1996, h_med36,195m et h_max39,440m documentaires, altitudesol méd50,4m. La relation image/adresse/emprise est fortement étayée; elle ne fait pas du commerce une limitefoncière. Le siège actuelEspaceFleurs108Flandre serait un mauvais repère pour cette image ancienne.
+Les30records sources associés à cetAPUR donnent29objets natifs.2506357 figure dansvolumes.json mais est absent duNPZ et duBlender; ne pas le recréer sans relire le journal de fusion/suppression.
+Noyau2506371 :318,83m²,108triangles, base48,728 conventionnelle, toit86,80mesuré.29corps cumulés : source déjà décomposée, aucune justification de tout remplacer par un parallélépipède. Auvent/volumehaut2506373 : base80,567ESTIME, dessus87,13mesuré; ne pas le prolonger jusqu’au sol.
+Petits éléments en bandes2506358..2506369 et2505958..2505966 (avec IDs manquants/variables listés auJSON) ont souvent bases48..50m et hauts52..87m. C’est une extrusion depuislesol, pas une dalle debalcon mince. La photo atteste des balcons superposés et des retraits, mais n’établit pas quelles bandesPVP correspondent à chaque dalle. Diagnostic à traiter : risque de pleins verticaux parasites ou de confusion entreprojection de niveaux et volumephysique. Plan : relever les planslatéraux de la tour, distinguer noyau/nezdebalcons/joues/voiles, ensuite remplacer uniquement les bandes réellement identifiées comme projections de balcons.
+
+CONTRÔLE DIRECT LIDAR2023, PAS MESURE PHOTO
+CRAMIF : contrôler les valeurs avec audit initial et sensibilite_toits.json. Les grands écarts bruts de2512233 provenaient largement des rives/retoursbas; toitprincipal inchangé. Les compteurs Ville d’étages et hauteurs calculées sursol de cour ne sont pas une mesure de la façade sur rue. Exemple :2512234 toit81,83 et solméd intérieur47,986 donnent33,84m, mais ce solinclut des niveauxbas; ne pas distribuer automatiquement11étages surla façade.
+Tour2506371,3024pointsclasse6dans empreinte érodée0,50m : zP05/méd/P95=85,25/87,09/87,4485; résidu absolu méd0,410/P95=1,590m auplan86,80. La toiture n’est pas parfaitement mononiveau : cartographie de couches et équipements à poursuivre avant changement.
+Tour2505941,155points intérieurs : méd80,61, alors quetoitmodèle85,73ESTIME ; résidu méd5,12m/P95=5,183m. Correction candidate importante, mais voisin2505943 et retours plus hauts mélangés interdisent d’abaisser tout le bloc sans partition spatiale despoints.2505943,méd80,64 pourtoit80,56ESTIME,P95de résidu4,65m : même mélange local.2505942 mieux soutenu :54points,méd85,725, résidu méd0,05/P95=0,117m.
+Les parties de moinsd’unmètre de large n’ont aucunpoint aprèsérosion50cm :absence depreuve, pas preuve d’absence. Les niveauxbas desbalcons ne sont pas vérifiables avec le seul toitLiDAR supérieur.
+
+NIVEAUX ET CONTACTS
+PhotoFlandre octobre2025 : RDC enretrait, accès17–19 avec nezdemarches visibles, grille enavant et muret segmenté. Étatmodèle : corpspleins jusqu’àbasesCONVENTION; aucune géométrie de retrait/seuil prouvée dans ces8corps. Priorité = plan auRDC et coupe traversant trottoir/entrée, pas une textureappliquée surle plein.
+PhotoMaroc octobre2025 : muret/jardin, portailhaut barreaudé avec silhouette latérale arrondie, raccordvitre vertical enretrait. Positionprécise/largeur/hauteur inconnu ; pas d’équivalence avec barrièreBRO deTanger.
+Rampecoursud :12stations bassesLiDAR46,30→43,42m, axeXYindicatif11,58/127,83→29/115. Auvent/dallehaut proche50m attestés dansaudit. Deuxniveauxsuperposés : unterrain2,5D de surfacehaute unique ne peut décrire la rampe dessous. Ni lisser ni reboucher ; largeur/contour nonmesurés, pas de nouvelle dalle ou rambardeproposée. La carte marque l’axe avecsonstatut, pas unbord.
+
+PLAN DE CORRECTION, COÛT RELATIF ET POINT D’ARRÊT
+P0 — Socle/retraits/niveauxCRAMIF (coûtfort) : récupérerplanRDC/coupes etphotofrontale; caler lignesdegrille, sous-face, portes,seuils puis construire volumes séparés conservant terrainetniveauxbas. Mesuresmanquantes : profondeur retrait, hauteur sous-face, seuils etnombre demarches. Préparationpeu coûteuse, exécutionfiable conditionnée par relevés.
+P0 — Tour,2505941/43 etbandesfines (coûtfort) : classifier points enplansde toit et releverbalcons, vérifier record2506357; corriger les pleins seulement après correspondance. Aucun étage entier ajouté/retiré depuisphoto.
+P1 — FaçadesFlandre/Maroc (coûtmoyenàfort) : rectification distincte parplan; comptertramesvisibles, caler deuxdimensionsconnues, créer montants/panneaux/allèges sansouverture inventée enzonemasquée. TrameFlandreverticale différente duMarocàbaiesisolées etpignonopaque.
+P1 — Murets/clôtures/portailMaroc etFlandre (coûtmoyen) : PVP+vuefrontale+unehauteurmesurée ; silhouettebarreaudée spécifique, propriétéESTIME si dimensionsconventionnelles assumées. Ne pas copier la barrièreBRO.
+P1 — Perron17–19 (coûtmoyen, donnéemanquantecritique) : altitudeseuil etcontour +relevémarches; sourceLiDAR peut raterles nez étroits. Ne pas utiliser une norme dehauteurdemarche comme mesure.
+P2 — Toitures/couronnements tour etCRAMIF (coûtmoyen) : coucheLiDARparzone, ponctuelsgarde-corps uniquement oùobservés; les3émergences déjàretenues sontconservées.
+P2 — Mobilier/plantations (coûtmoyen) : garder les5bancs actuels commeCONVENTION. Photoatteste unbanc historique, mais aucuneassociation certaine aux5IDs; rechercher correspondanceavantremplacement. Palmier privéMaroc observé mais espèceetdimensionsnonmesurées. Ne pas multiplier despalmiers dansl’alignement public.
+Échelle coût : faible=paramétrage/documentation, moyen=unefamille+quelquesimplantations, fort=modificationtopologique/croisementdeplusieurssources. Pas de délai ferme avant disponibilité descotes.
+
+PREUVES ET LIVRABLES
+carte_ids_rues.png : ortho etcontours exacts, rues, séparationtour/CRAMIF, rampe basse.
+inventaire_volumes.json :37corps, altitudes, alertes, surfaces, testsLiDAR.
+emprises.geojson : contours XY issus destriangles, sansconvexhull.
+natif_extrait.json etcomparaison_natif.json : étatnatif lu, contrôlecontrat/géométrie.
+Photosutilisateur : Desktop23.11.15Flandre et23.11.59Maroc, vuesoctobre2025;23.11.37tour dateacquisitioninconnue. CopyrightGoogle2026 ne date pasla photographie.
+Sources primaires enligne :
+https://annuaire-entreprises.data.gouv.fr/etablissement/38752577700026
+https://acceslibre.beta.gouv.fr/app/75-paris/a/pharmacie/erp/grande-pharmacie-de-stalingrad/
+SourceAPUR locale sources/web/apur_bati_site.geojson, OBJECTID54117 etgéocodageIGN/BAN documenté paragent sources.

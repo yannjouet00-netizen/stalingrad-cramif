@@ -1,0 +1,16 @@
+{
+  "finished_at": "2026-10-11T08:03:17.406310+00:00",
+  "automation": "PAUSED",
+  "mission": "paused",
+  "native_A17_unchanged": true,
+  "keep_awake_pid_released": 88068,
+  "own_headless_browser_closed": true,
+  "site_available_HTTP_200": true,
+  "notice_read_in_browser_at": "2026-10-11T08:02:47.356Z",
+  "notice_search_results": 1,
+  "notice_reader_opened": true,
+  "notice_pending_section_present": true,
+  "notice_overflow": 0,
+  "quota_at_closure_used_percent": 36,
+  "quota_remaining_percent": 64
+}

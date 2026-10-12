@@ -1,0 +1,12 @@
+ÉOLE — DEUX MANQUES D’ASSISE RESTENT À DOCUMENTER
+Notice de diagnostic — 11 octobre 2026
+
+Deux courts segments du faisceau présentent encore un manque visible d’assise dans la représentation simplifiée. Le diagnostic confirme une dépression latérale soutenue par les points LiDAR et le sol du modèle. Une assise uniforme masquerait ce relief ou resterait suspendue : aucune nouvelle géométrie n’a été importée pour combler ce secteur.
+
+Un ouvrage carré apparaît sur l’orthophoto, mais sa fonction reste inconnue. Il n’est pas qualifié de regard, fosse ou avaloir. L’axe documentaire paraît décalé sur l’image ; cette observation reste qualitative et n’a entraîné aucun déplacement de voie.
+
+Les mesures altimétriques sont issues du LiDAR IGN historique de mars 2023. L’orthophoto IGN a été récupérée en octobre 2026, mais sa date d’acquisition n’est pas déterminée. Les axes OpenStreetMap sont des sources documentaires ; les emprises de diagnostic sont conventionnelles. Ces dates ne prouvent pas l’état physique du site en 2026.
+
+La suite utile est un relevé géoréférencé ou un plan permettant de préciser l’axe réel, le vide et la fonction de l’ouvrage bas avant une reconstruction distincte de l’assise et de l’ouvrage. Ce diagnostic laisse la lacune explicitement visible ; il ne la déclare pas corrigée.
+
+Rapport source à conserver dans le projet : donnees/v3/eole/diagnostic_lacunes_a16/RAPPORT.txt.

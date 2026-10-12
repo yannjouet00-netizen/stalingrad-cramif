@@ -1,0 +1,947 @@
+{
+  "date": "2026-10-10",
+  "perimetre": "bboxCRAMIF+250m",
+  "repere": "L93local E-653700,N-6865100,IGN69m",
+  "rues": {
+    "Rue du Département": {
+      "troncons": 3,
+      "longueur_axes_roi_m": 182.02654318469212,
+      "z_min_max_m": [
+        50.09650383340079,
+        50.844725191361995
+      ],
+      "profil_n": 184,
+      "controle_ecart_p95_abs_m": 0.04014061760086916,
+      "arbres_associes_n": 8,
+      "arbres_par_espece": {
+        "Pyrus calleryana": 1,
+        "Acer monspessulanum": 4,
+        "Aesculus flava": 1,
+        "Gleditsia triacanthos": 2
+      },
+      "arbres_hauteur_doc_p10_med_p90_m": [
+        5.0,
+        6.5,
+        8.6
+      ],
+      "arbres_modele_candidats_match_3m": 8,
+      "arbres_sans_match_3m": 0,
+      "mobilier_primitives_pvp_n": 210,
+      "mobilier_par_lib_level": {
+        "BORNE": 194,
+        "BARRIERE": 10,
+        "ENVIRONNEMENT": 6
+      },
+      "trottoirs_PVP_aire_dans_bande20m_m2": 1273.1209248298765,
+      "chaussee_PVP_aire_dans_bande20m_m2": 1942.6720349347306,
+      "arbres_alignement_adresse_exacte_n": 0,
+      "arbres_alignement_adresse_exacte_especes": {},
+      "arbres_proches_adresses": {
+        "CONSERVATOIRE MUNICIPAL EOLE / 28 RUE AUBERVILLIERS": 1,
+        "RUE D AUBERVILLIERS": 4,
+        "JARDIN D EOLE / 18 BIS RUE DU DEPARTEMENT": 3
+      },
+      "arbres_proches_domanialite": {
+        "DAC": 1,
+        "Alignement": 4,
+        "Jardin": 3
+      },
+      "groupes_symboles_PVP_3cm": {
+        "BORNE": 87,
+        "BARRIERE": 8,
+        "ENVIRONNEMENT": 6
+      }
+    },
+    "Rue du Maroc": {
+      "troncons": 5,
+      "longueur_axes_roi_m": 307.5561828590016,
+      "z_min_max_m": [
+        48.51363604109835,
+        50.364735367945364
+      ],
+      "profil_n": 311,
+      "controle_ecart_p95_abs_m": 0.04632715736635973,
+      "arbres_associes_n": 8,
+      "arbres_par_espece": {
+        "Ostrya carpinifolia": 1,
+        "Tilia sp.": 2,
+        "Acer monspessulanum": 2,
+        "Olea europaea": 1,
+        "Carpinus betulus": 2
+      },
+      "arbres_hauteur_doc_p10_med_p90_m": [
+        5.0,
+        9.0,
+        17.0
+      ],
+      "arbres_modele_candidats_match_3m": 8,
+      "arbres_sans_match_3m": 0,
+      "mobilier_primitives_pvp_n": 334,
+      "mobilier_par_lib_level": {
+        "BARRIERE": 174,
+        "BORNE": 145,
+        "ENVIRONNEMENT": 15
+      },
+      "trottoirs_PVP_aire_dans_bande20m_m2": 2766.811892007843,
+      "chaussee_PVP_aire_dans_bande20m_m2": 4767.019720738693,
+      "arbres_alignement_adresse_exacte_n": 0,
+      "arbres_alignement_adresse_exacte_especes": {},
+      "arbres_proches_adresses": {
+        "RUE PAUL LAURENT": 3,
+        "AVENUE DE FLANDRE": 2,
+        "RUE D AUBERVILLIERS": 2,
+        "PLACE DU MAROC": 1
+      },
+      "arbres_proches_domanialite": {
+        "Alignement": 8
+      },
+      "groupes_symboles_PVP_3cm": {
+        "BORNE": 145,
+        "BARRIERE": 142,
+        "ENVIRONNEMENT": 15
+      }
+    },
+    "Avenue de Flandre": {
+      "troncons": 8,
+      "longueur_axes_roi_m": 1001.6371375600743,
+      "z_min_max_m": [
+        48.8691096249933,
+        52.34676921135187
+      ],
+      "profil_n": 1006,
+      "controle_ecart_p95_abs_m": 0.040631723445812895,
+      "arbres_associes_n": 190,
+      "arbres_par_espece": {
+        "Tilia tomentosa": 65,
+        "Tilia sp.": 111,
+        "Prunus avium": 5,
+        "Corylus colurna": 1,
+        "Tilia cordata": 4,
+        "Acer cappadocicum": 3,
+        "Platanus x hispanica": 1
+      },
+      "arbres_hauteur_doc_p10_med_p90_m": [
+        8.0,
+        12.0,
+        15.0
+      ],
+      "arbres_modele_candidats_match_3m": 190,
+      "arbres_sans_match_3m": 0,
+      "mobilier_primitives_pvp_n": 882,
+      "mobilier_par_lib_level": {
+        "BORNE": 592,
+        "BARRIERE": 40,
+        "ENVIRONNEMENT": 250
+      },
+      "trottoirs_PVP_aire_dans_bande20m_m2": 10933.713114168575,
+      "chaussee_PVP_aire_dans_bande20m_m2": 11132.444777204964,
+      "arbres_alignement_adresse_exacte_n": 185,
+      "arbres_alignement_adresse_exacte_especes": {
+        "Tilia tomentosa": 65,
+        "Tilia sp.": 111,
+        "Prunus avium": 5,
+        "Tilia cordata": 4
+      },
+      "arbres_proches_adresses": {
+        "AVENUE DE FLANDRE": 185,
+        "RUE SUZANNE MASSON": 1,
+        "PLACE DE LA BATAILLE DE STALINGRAD": 3,
+        "QUAI DE LA SEINE": 1
+      },
+      "arbres_proches_domanialite": {
+        "Alignement": 190
+      },
+      "groupes_symboles_PVP_3cm": {
+        "BORNE": 429,
+        "BARRIERE": 40,
+        "ENVIRONNEMENT": 85
+      }
+    },
+    "Rue de Tanger": {
+      "troncons": 6,
+      "longueur_axes_roi_m": 528.477494233682,
+      "z_min_max_m": [
+        48.5647406025294,
+        51.41373514489088
+      ],
+      "profil_n": 531,
+      "controle_ecart_p95_abs_m": 0.04229181406017801,
+      "arbres_associes_n": 24,
+      "arbres_par_espece": {
+        "Tilia x euchlora": 13,
+        "Platanus x hispanica": 4,
+        "Parrotia persica": 2,
+        "Tilia tomentosa": 1,
+        "Olea europaea": 1,
+        "Morus sp.": 1,
+        "Cercis siliquastrum": 1,
+        "Populus alba": 1
+      },
+      "arbres_hauteur_doc_p10_med_p90_m": [
+        5.0,
+        12.0,
+        18.0
+      ],
+      "arbres_modele_candidats_match_3m": 24,
+      "arbres_sans_match_3m": 0,
+      "mobilier_primitives_pvp_n": 1452,
+      "mobilier_par_lib_level": {
+        "BORNE": 329,
+        "BARRIERE": 1082,
+        "ENVIRONNEMENT": 41
+      },
+      "trottoirs_PVP_aire_dans_bande20m_m2": 4544.910967623956,
+      "chaussee_PVP_aire_dans_bande20m_m2": 7199.837337679578,
+      "arbres_alignement_adresse_exacte_n": 13,
+      "arbres_alignement_adresse_exacte_especes": {
+        "Tilia x euchlora": 13
+      },
+      "arbres_proches_adresses": {
+        "RUE DE TANGER": 13,
+        "BOULEVARD DE LA VILLETTE": 4,
+        "RUE GASTON REBUFFAT": 2,
+        "ECOLE ELEMENTAIRE B / 41 RUE TANGER": 2,
+        "ECOLE ELEMENTAIRE / 17 RUE TANGER": 1,
+        "JARDINIERE LANDOWSKI / 15 PASSAGE MARCEL LANDOWSKI": 2
+      },
+      "arbres_proches_domanialite": {
+        "Alignement": 19,
+        "DASCO": 3,
+        "Jardin": 2
+      },
+      "groupes_symboles_PVP_3cm": {
+        "BORNE": 251,
+        "BARRIERE": 848,
+        "ENVIRONNEMENT": 29
+      }
+    }
+  },
+  "segments": [
+    {
+      "id": "TV_750598982",
+      "rue": "Rue de Tanger",
+      "source_id": 750598982,
+      "longueur_roi_m": 40.75279619532819,
+      "extremites_local_m": [
+        [
+          -89.9964008310344,
+          68.8296961011365
+        ],
+        [
+          -63.61830083024688,
+          99.45789610315114
+        ]
+      ],
+      "n_profil": 41,
+      "z_min_max_m": [
+        50.024018997013016,
+        50.3205384568225
+      ],
+      "controle_lidar_n": 41,
+      "controle_ecart_p95_abs_m": 0.03605240406369603,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 4,
+        "p10_med_p90": [
+          7.185663568511961,
+          7.204377457879318,
+          7.233118308047999
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750599138",
+      "rue": "Rue de Tanger",
+      "source_id": 750599138,
+      "longueur_roi_m": 68.46793834597878,
+      "extremites_local_m": [
+        [
+          -130.21320083597675,
+          13.417896105907857
+        ],
+        [
+          -89.9964008310344,
+          68.8296961011365
+        ]
+      ],
+      "n_profil": 69,
+      "z_min_max_m": [
+        50.32305712963682,
+        51.41373514489088
+      ],
+      "controle_lidar_n": 69,
+      "controle_ecart_p95_abs_m": 0.04349317716147141,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 9,
+        "p10_med_p90": [
+          7.116171508531458,
+          7.146044132342675,
+          7.205169458149204
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598771",
+      "rue": "Rue de Tanger",
+      "source_id": 750598771,
+      "longueur_roi_m": 99.24695352531853,
+      "extremites_local_m": [
+        [
+          -18.154900830588304,
+          161.57559610530734
+        ],
+        [
+          38.80099916900508,
+          242.85279610194266
+        ]
+      ],
+      "n_profil": 100,
+      "z_min_max_m": [
+        48.767241927424514,
+        49.46148851095753
+      ],
+      "controle_lidar_n": 100,
+      "controle_ecart_p95_abs_m": 0.02238724917892334,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 16,
+        "p10_med_p90": [
+          14.518700617048154,
+          14.538631121613758,
+          14.558561626179362
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750599175",
+      "rue": "Avenue de Flandre",
+      "source_id": 750599175,
+      "longueur_roi_m": 40.12382667055777,
+      "extremites_local_m": [
+        [
+          -4.182500828173943,
+          -2.1537038944661617
+        ],
+        [
+          24.434399169287644,
+          24.52549610566348
+        ]
+      ],
+      "n_profil": 41,
+      "z_min_max_m": [
+        51.86856469885337,
+        52.14753998704294
+      ],
+      "controle_lidar_n": 41,
+      "controle_ecart_p95_abs_m": 0.0351308257277978,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 4,
+        "p10_med_p90": [
+          31.74001653985569,
+          33.7445995179951,
+          34.77481746000203
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598983",
+      "rue": "Rue du Département",
+      "source_id": 750598983,
+      "longueur_roi_m": 71.06819584683137,
+      "extremites_local_m": [
+        [
+          -89.9964008310344,
+          68.8296961011365
+        ],
+        [
+          -148.98370083316695,
+          108.46789610292763
+        ]
+      ],
+      "n_profil": 72,
+      "z_min_max_m": [
+        50.31949544790824,
+        50.724459072281306
+      ],
+      "controle_lidar_n": 72,
+      "controle_ecart_p95_abs_m": 0.030715760684611838,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 10,
+        "p10_med_p90": [
+          7.751040905861736,
+          7.764469919470805,
+          7.777892136888031
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750620752",
+      "rue": "Rue du Maroc",
+      "source_id": 750620752,
+      "longueur_roi_m": 9.533472331770152,
+      "extremites_local_m": [
+        [
+          153.39689917012583,
+          166.2245961036533
+        ],
+        [
+          146.0185991737526,
+          172.26179610565305
+        ]
+      ],
+      "n_profil": 10,
+      "z_min_max_m": [
+        50.210006583729964,
+        50.30014940542044
+      ],
+      "controle_lidar_n": 10,
+      "controle_ecart_p95_abs_m": 0.07195318246735631,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 0,
+        "p10_med_p90": null,
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598305",
+      "rue": "Avenue de Flandre",
+      "source_id": 750598305,
+      "longueur_roi_m": 32.925683818460236,
+      "extremites_local_m": [
+        [
+          311.75479917402845,
+          341.5084961038083
+        ],
+        [
+          332.74852589206364,
+          366.87311897507664
+        ]
+      ],
+      "n_profil": 33,
+      "z_min_max_m": [
+        49.23494850320664,
+        49.42832957796741
+      ],
+      "controle_lidar_n": 33,
+      "controle_ecart_p95_abs_m": 0.03656610203803581,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 2,
+        "p10_med_p90": [
+          8.943959982828202,
+          8.945661613959613,
+          8.947363245091024
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598245",
+      "rue": "Rue de Tanger",
+      "source_id": 750598245,
+      "longueur_roi_m": 115.65754509292756,
+      "extremites_local_m": [
+        [
+          123.83969916997012,
+          372.28699610196054
+        ],
+        [
+          166.4888830544634,
+          479.7938091461079
+        ]
+      ],
+      "n_profil": 116,
+      "z_min_max_m": [
+        49.21516130110822,
+        49.79537122903152
+      ],
+      "controle_lidar_n": 116,
+      "controle_ecart_p95_abs_m": 0.04973404709438434,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 19,
+        "p10_med_p90": [
+          8.209258013027338,
+          8.220326811342963,
+          8.245725052189012
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598894",
+      "rue": "Rue de Tanger",
+      "source_id": 750598894,
+      "longueur_roi_m": 76.9774602925222,
+      "extremites_local_m": [
+        [
+          -63.61830083024688,
+          99.45789610315114
+        ],
+        [
+          -18.154900830588304,
+          161.57559610530734
+        ]
+      ],
+      "n_profil": 77,
+      "z_min_max_m": [
+        49.46977449783212,
+        50.01756846720003
+      ],
+      "controle_lidar_n": 77,
+      "controle_ecart_p95_abs_m": 0.05905261394405846,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 11,
+        "p10_med_p90": [
+          12.834614838579531,
+          13.031141672898507,
+          13.673605722707718
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750599103",
+      "rue": "Avenue de Flandre",
+      "source_id": 750599103,
+      "longueur_roi_m": 191.3340848579067,
+      "extremites_local_m": [
+        [
+          24.434399169287644,
+          24.52549610566348
+        ],
+        [
+          146.0185991737526,
+          172.26179610565305
+        ]
+      ],
+      "n_profil": 192,
+      "z_min_max_m": [
+        50.20446676883158,
+        51.87116208649953
+      ],
+      "controle_lidar_n": 192,
+      "controle_ecart_p95_abs_m": 0.02450116024480663,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 34,
+        "p10_med_p90": [
+          8.953715892704002,
+          8.98332251655983,
+          8.995683047070683
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750599206",
+      "rue": "Avenue de Flandre",
+      "source_id": 750599206,
+      "longueur_roi_m": 36.30049428786052,
+      "extremites_local_m": [
+        [
+          18.353499170741998,
+          -15.733703900128603
+        ],
+        [
+          41.26279917056672,
+          12.424596102908254
+        ]
+      ],
+      "n_profil": 37,
+      "z_min_max_m": [
+        51.91579231128509,
+        52.34676921135187
+      ],
+      "controle_lidar_n": 37,
+      "controle_ecart_p95_abs_m": 0.025561893110244673,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 3,
+        "p10_med_p90": [
+          31.64165982685486,
+          32.9339073273485,
+          34.358124934817994
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598734",
+      "rue": "Rue du Maroc",
+      "source_id": 750598734,
+      "longueur_roi_m": 115.05335729837438,
+      "extremites_local_m": [
+        [
+          146.0185991737526,
+          172.26179610565305
+        ],
+        [
+          57.01999917346984,
+          245.079296101816
+        ]
+      ],
+      "n_profil": 116,
+      "z_min_max_m": [
+        48.865955757397515,
+        50.203613992349325
+      ],
+      "controle_lidar_n": 116,
+      "controle_ecart_p95_abs_m": 0.0388449665587256,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 19,
+        "p10_med_p90": [
+          10.944277585907303,
+          11.929645404873042,
+          11.94193870329689
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598398",
+      "rue": "Avenue de Flandre",
+      "source_id": 750598398,
+      "longueur_roi_m": 101.33609255577595,
+      "extremites_local_m": [
+        [
+          257.3182991751237,
+          305.08569610212
+        ],
+        [
+          321.0694600207682,
+          383.85620546511416
+        ]
+      ],
+      "n_profil": 102,
+      "z_min_max_m": [
+        48.8691096249933,
+        49.3519455803012
+      ],
+      "controle_lidar_n": 102,
+      "controle_ecart_p95_abs_m": 0.04317549373953611,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 16,
+        "p10_med_p90": [
+          8.948599976896087,
+          8.963860766547601,
+          8.970368609700468
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598806",
+      "rue": "Rue du Département",
+      "source_id": 750598806,
+      "longueur_roi_m": 41.94640098643855,
+      "extremites_local_m": [
+        [
+          -207.01250083744526,
+          145.55599610507488
+        ],
+        [
+          -246.0,
+          161.03099092784902
+        ]
+      ],
+      "n_profil": 42,
+      "z_min_max_m": [
+        50.15582127998749,
+        50.844725191361995
+      ],
+      "controle_lidar_n": 42,
+      "controle_ecart_p95_abs_m": 0.04575951671863904,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 4,
+        "p10_med_p90": [
+          7.325648630939897,
+          7.382777368799173,
+          7.417213637556531
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750599135",
+      "rue": "Avenue de Flandre",
+      "source_id": 750599135,
+      "longueur_roi_m": 196.0642418513656,
+      "extremites_local_m": [
+        [
+          41.26279917056672,
+          12.424596102908254
+        ],
+        [
+          167.415799170034,
+          162.51239610183984
+        ]
+      ],
+      "n_profil": 197,
+      "z_min_max_m": [
+        50.32163618134471,
+        51.912098468221366
+      ],
+      "controle_lidar_n": 197,
+      "controle_ecart_p95_abs_m": 0.02694372164962572,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 35,
+        "p10_med_p90": [
+          8.900064509384254,
+          8.960200101623313,
+          8.976535819211952
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598768",
+      "rue": "Rue du Maroc",
+      "source_id": 750598768,
+      "longueur_roi_m": 15.761371508434252,
+      "extremites_local_m": [
+        [
+          167.415799170034,
+          162.51239610183984
+        ],
+        [
+          153.39689917012583,
+          166.2245961036533
+        ]
+      ],
+      "n_profil": 16,
+      "z_min_max_m": [
+        50.312007721893146,
+        50.364735367945364
+      ],
+      "controle_lidar_n": 16,
+      "controle_ecart_p95_abs_m": 0.07659787572654686,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 0,
+        "p10_med_p90": null,
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598440",
+      "rue": "Rue du Maroc",
+      "source_id": 750598440,
+      "longueur_roi_m": 120.18813679123429,
+      "extremites_local_m": [
+        [
+          -7.891100827720948,
+          285.2285961052403
+        ],
+        [
+          -112.99530083523132,
+          343.523496106267
+        ]
+      ],
+      "n_profil": 121,
+      "z_min_max_m": [
+        48.78355754589426,
+        49.77454751040864
+      ],
+      "controle_lidar_n": 121,
+      "controle_ecart_p95_abs_m": 0.03799387577543456,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 20,
+        "p10_med_p90": [
+          7.0722452827390425,
+          7.116219782120822,
+          7.140509545201308
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598486",
+      "rue": "Rue de Tanger",
+      "source_id": 750598486,
+      "longueur_roi_m": 127.37480078160675,
+      "extremites_local_m": [
+        [
+          52.94619916845113,
+          267.20389610435814
+        ],
+        [
+          123.83969916997012,
+          372.28699610196054
+        ]
+      ],
+      "n_profil": 128,
+      "z_min_max_m": [
+        48.5647406025294,
+        49.21307085101041
+      ],
+      "controle_lidar_n": 128,
+      "controle_ecart_p95_abs_m": 0.030594776463726343,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 21,
+        "p10_med_p90": [
+          7.316417423115213,
+          9.002718832838688,
+          9.051259412466838
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598733",
+      "rue": "Avenue de Flandre",
+      "source_id": 750598733,
+      "longueur_roi_m": 173.6106539943018,
+      "extremites_local_m": [
+        [
+          146.0185991737526,
+          172.26179610565305
+        ],
+        [
+          257.3182991751237,
+          305.08569610212
+        ]
+      ],
+      "n_profil": 174,
+      "z_min_max_m": [
+        48.923886011597126,
+        50.20566789535356
+      ],
+      "controle_lidar_n": 174,
+      "controle_ecart_p95_abs_m": 0.04961378360012318,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 30,
+        "p10_med_p90": [
+          8.936010741325974,
+          8.951877206811128,
+          8.983903712036675
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598767",
+      "rue": "Avenue de Flandre",
+      "source_id": 750598767,
+      "longueur_roi_m": 229.94205952384567,
+      "extremites_local_m": [
+        [
+          167.415799170034,
+          162.51239610183984
+        ],
+        [
+          311.75479917402845,
+          341.5084961038083
+        ]
+      ],
+      "n_profil": 230,
+      "z_min_max_m": [
+        48.91033436419299,
+        50.32128299512834
+      ],
+      "controle_lidar_n": 230,
+      "controle_ecart_p95_abs_m": 0.024866682217893295,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 42,
+        "p10_med_p90": [
+          8.916154428622475,
+          8.944151907578325,
+          8.959624298681494
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598506",
+      "rue": "Rue du Maroc",
+      "source_id": 750598506,
+      "longueur_roi_m": 47.019844929188494,
+      "extremites_local_m": [
+        [
+          33.11299916787539,
+          262.2298961048946
+        ],
+        [
+          -7.891100827720948,
+          285.2285961052403
+        ]
+      ],
+      "n_profil": 48,
+      "z_min_max_m": [
+        48.51363604109835,
+        48.78336481763997
+      ],
+      "controle_lidar_n": 48,
+      "controle_ecart_p95_abs_m": 0.07565537947793569,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 5,
+        "p10_med_p90": [
+          7.1504583350368005,
+          7.181495739631421,
+          7.21253314422614
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    },
+    {
+      "id": "TV_750598880",
+      "rue": "Rue du Département",
+      "source_id": 750598880,
+      "longueur_roi_m": 69.0119463514222,
+      "extremites_local_m": [
+        [
+          -148.98370083316695,
+          108.46789610292763
+        ],
+        [
+          -207.01250083744526,
+          145.55599610507488
+        ]
+      ],
+      "n_profil": 70,
+      "z_min_max_m": [
+        50.09650383340079,
+        50.590841526690426
+      ],
+      "controle_lidar_n": 70,
+      "controle_ecart_p95_abs_m": 0.03551409217677058,
+      "jumps_1m_over30cm": [],
+      "largeurs_section_PVP_m": {
+        "n": 10,
+        "p10_med_p90": [
+          5.848881363301175,
+          6.7985993969453045,
+          7.724566241788548
+        ],
+        "statut": "SOURCE_DOCUMENTAIRE"
+      }
+    }
+  ],
+  "limites": [
+    "Axes tronçons schématiques : pas contours routiers, sens de circulation non garanti ; le jeu mentionne juin2018 et traitement05/10/2026.",
+    "Arbres inventory09/10/2026 : hauteurs/source documentaire, dateindividuelle mesure inconnue, inventaire municipal partiel ; LiDAR03/2023.",
+    "Association mobilier/arbres : rue la plus proche à≤25m parmi ces4rues, ambiguïté carrefours ; pas attestation adresse de chacun.",
+    "Mobilier compte des primitives PVP, pas des objets physiques. Dimensions des symboles≠dimensionscertifiées.",
+    "ZhautesurfaceterraininterpoléeESTIME ; prèsouvrages/niveauxsuperposés, choix couche de contrôle par±50cm peut cacher niveau inférieur.",
+    "Largeurs section chaussée issues contoursPVP uniquement là où axe dedans ; chaquechaussée Flandre distincte, paslargeuravenueglobale."
+  ]
+}

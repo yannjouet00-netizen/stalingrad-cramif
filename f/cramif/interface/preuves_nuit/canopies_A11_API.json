@@ -1,0 +1,20 @@
+{
+  "trees": 2584,
+  "replacement_ids": [
+    1444,
+    1465,
+    1396,
+    1398,
+    1534,
+    1536,
+    1568,
+    1630,
+    1697,
+    1886
+  ],
+  "mesh_vertices_unfolded": 2544,
+  "triangles": 848,
+  "positions_exact": true,
+  "normals_exact": true,
+  "colors_exact": true
+}

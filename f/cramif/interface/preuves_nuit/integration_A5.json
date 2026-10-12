@@ -1,0 +1,18 @@
+{
+  "verified_reopen": true,
+  "v_f": [
+    100292,
+    170773
+  ],
+  "web_npz_exact_float32": true,
+  "smooth_faces": 170773,
+  "sharp_edges": 32290,
+  "idempotent": true,
+  "packed_images_sources_exist": [
+    "/Users/yannjouet/Documents/01_VLAU/Stalingrad/sources/originales/capture_google_earth_2026-09-29.png",
+    "/Users/yannjouet/Documents/01_VLAU/Stalingrad/sources/web/ortho_ign.png"
+  ],
+  "native_sha256": "735b22806c0d0d007e0615b7a771466371b6121ca1e990fe258217c8ec5fd251",
+  "published_at": "2026-10-11T03:52:34.896526+00:00",
+  "scope": "432,63 m², neuf pieds arbres, niveaux bas et terrain sportif exclus"
+}

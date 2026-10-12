@@ -1,0 +1,34 @@
+{
+  "file": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend",
+  "scene": "06_Sol_et_voirie_V3",
+  "expected_triangles": {
+    "196801": 1631,
+    "196876": 394
+  },
+  "matches": [
+    {
+      "object": "NUIT Eole chemins documentes drapes",
+      "collections": [
+        "NUIT_EOLE_VOIES_DOCUMENTE"
+      ],
+      "source_triangles": 2077,
+      "matched_triangles": {
+        "196801": 1631,
+        "196876": 394
+      },
+      "matched_unique": {
+        "196801": 1631,
+        "196876": 394
+      },
+      "properties": {
+        "source_packet": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/nuit_a1/geometrie/lot_eole_voies.json",
+        "source_xy": "OSM, SOURCE_DOCUMENTAIRE",
+        "source_z": "LiDAR classe2 pour voies, projection terrain natif pour chemins",
+        "dimensions": "CONVENTION sauf gauge OSM",
+        "packet_sha256": "91481cde201654052e5704677f29c66144fa83cebfb3e164ef2d58ddb62156e9",
+        "mesh_sha256": "04cc50610bdfb48898eca56a1d6d74255d5fdc341cd0450d90bc309e3da68139"
+      }
+    }
+  ],
+  "note": "Lecture seule, aucun appel save."
+}

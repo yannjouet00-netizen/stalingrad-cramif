@@ -1,0 +1,14 @@
+CRAMIF — préparer puis vérifier les arbres Enscape
+
+État du paquet : inventaire et placement préparés. Aucun asset Enscape fourni, téléchargé, acheté ou validé au rendu. Aucun modèle natif modifié.
+
+1. Ouvrir la copie SketchUp de travail avec le repère local x=E2154−653700, y=N2154−6865100, z=IGN69 en mètres.
+2. Dans Enscape/Cosmos, vérifier le produit et le plan actifs puis chercher les taxons de assortiment_a_lier.json. Priorité : 23 Tilia tomentosa autour CRAMIF, 1 Olea europaea, 1 Prunus sans espèce et 1 inconnu. Les deux derniers ne reçoivent pas une espèce inventée.
+3. Importer de vrais assets dans SketchUp via la bibliothèque Enscape. Leurs proxies et références Enscape sont ainsi créés officiellement. Pour un modèle propre, passer par Custom Asset Editor (glTF/OBJ/FBX), matériaux, miniature puis export bibliothèque. Le dossier livré ici n'est pas une bibliothèque Enscape.
+4. Renseigner liaisons_assets.json : identifiants des arbres, persistent_id d'une instance racine importée, URL catalogue, hauteur/rayon réels de la géométrie à échelle1, coordonnées du pied dans la définition non transformée. Marquer enscape_verified et taxon_verified vrais uniquement après vérification réelle.
+5. Charger placer_assets_sketchup.rb dans la console Ruby. Exécuter CramifArbres.place('/private/tmp/cramif_arbres', dry_run: true, max_distance: 25). Ce précontrôle ne modifie rien.
+6. Après résolution des liaisons, appeler la même fonction avec dry_run:false. Chaque instance existante de cet importateur est préservée; aucun arbre natif n'est supprimé, aucun SKP n'est enregistré automatiquement. Les attributs de l'instance Enscape source sont recopiés intacts. La conformité Enscape des instances dupliquées reste à vérifier dans le moteur.
+7. Vérifier le résultat dans Enscape : pied, hauteur, diamètre houppier, feuillage, opacité et écorce. Choisir une autre variante quand le rayon ne convient pas à échelle uniforme. Le seuil de rejet du script (0.5m ou25%) est un filtre de sélection, pas une précision topographique garantie.
+8. Masquer les anciens arbres seulement après comparaison et contrôle. Sauvegarder la copie native puis rouvrir une vueEnscape pour vérifier les chemins des assets.
+
+Mesures et limites : dates LiDAR mars2023 et inventaire octobre2026 différentes; 1063 arbres dans buffer250m des façades,630 seulement dans cercle250m depuis centre. Voir rapport.json pour statuts. Le script préserve les coordonnées et hauteurs du tableau; il ne reconstitue pas les asymétries LiDAR avec un asset générique.

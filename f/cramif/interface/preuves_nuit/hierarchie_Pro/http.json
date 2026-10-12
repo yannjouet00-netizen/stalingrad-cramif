@@ -1,0 +1,17 @@
+{
+  "/pro": {
+    "status": 200,
+    "identique_fichier": true,
+    "bytes": 137104
+  },
+  "/carnet": {
+    "status": 200,
+    "identique_fichier": true,
+    "bytes": 44815
+  },
+  "/f/cramif/diagnostic_rotonde/NOTICE.txt": {
+    "status": 200,
+    "identique_fichier": true,
+    "bytes": 1608
+  }
+}

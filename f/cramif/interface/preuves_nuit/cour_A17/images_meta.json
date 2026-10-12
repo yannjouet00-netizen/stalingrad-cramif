@@ -1,0 +1,23 @@
+{
+  "schema": "preuves_locales_v1",
+  "date_documentation": "2026-10-11",
+  "images": [
+    {
+      "file": "cour_A17.png",
+      "sha256": "6d46d33458b8a5c29b72db0cd142bec27869edcb1abb39722f8b0cd16671656e",
+      "origine": "production_locale",
+      "titre": "Cour CRAMIF · couverture visible après intégration",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "Géométrie A17 publiée ; couverture fondée sur le LiDAR historique mars 2023, contour ESTIME.",
+      "role": "Preuve / analyse",
+      "contexte": "Recette Chrome headless du 11 octobre 2026 à 08:20 Paris",
+      "description": "Capture réelle de la vue Cour après intégration A17, en 1440 × 1000 : la couverture est visible en partie sud. Clic de caméra contrôlé par la coordination ; aucune certification Safari ou tactile.",
+      "note": "Preuve du site local /pro, pas une capture de Blender ni une synchronisation continue. Natif A17 identifié dans le rapport de recette. Dimensions estimées et supports non établis de la couverture conservent leurs qualifications.",
+      "date_note": "Capture produite le 11 octobre 2026 à 08:20 Paris, distincte de la date des données LiDAR de 2023.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/cour_A17/RAPPORT.txt",
+      "statut_publication": "CAPTURE_WEB_APRES_INTEGRATION_A17",
+      "file_projet": "documentation/v3/cramif/interface/preuves_nuit/cour_A17/cour_A17.png"
+    }
+  ]
+}

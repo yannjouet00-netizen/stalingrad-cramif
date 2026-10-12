@@ -1,0 +1,224 @@
+{
+  "sections": [
+    {
+      "id": "Flandre_muret_face_muret seg0 milieu",
+      "axe_xyz": [
+        98.6678241713671,
+        141.68359610415064,
+        50.859569858210904
+      ],
+      "normal_vers_rue": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "native_z_at_offsets": {
+        "0": 48.71806314137603,
+        "0.16": 48.72255653769281,
+        "0.5": 50.848707995431226,
+        "1": 50.838951034916455,
+        "2": 50.81400577952969
+      },
+      "n_class2_public": 26,
+      "public_z_p10_p50_p90": [
+        50.775000000000006,
+        50.81,
+        50.835
+      ],
+      "n_class2_interior": 1,
+      "interior_z_p10_p50_p90": [
+        49.15,
+        49.15,
+        49.15
+      ]
+    },
+    {
+      "id": "Flandre_front_nord_muret seg0 milieu",
+      "axe_xyz": [
+        121.77019917248981,
+        169.29767110431567,
+        50.480515976903995
+      ],
+      "normal_vers_rue": [
+        0.7663016880511038,
+        -0.6424809124713582
+      ],
+      "native_z_at_offsets": {
+        "0": 51.51611512090544,
+        "0.16": 51.527229852240986,
+        "0.5": 50.501803348470084,
+        "1": 50.491011137414795,
+        "2": 50.46942671530421
+      },
+      "n_class2_public": 28,
+      "public_z_p10_p50_p90": [
+        50.43,
+        50.46,
+        50.493
+      ],
+      "n_class2_interior": 14,
+      "interior_z_p10_p50_p90": [
+        51.58,
+        51.61,
+        51.661
+      ]
+    },
+    {
+      "id": "Flandre_front_nord_muret seg1 milieu",
+      "axe_xyz": [
+        123.35144917143043,
+        175.5326711020898,
+        50.208519285518825
+      ],
+      "normal_vers_rue": [
+        0.9950741893919538,
+        0.09913302984346865
+      ],
+      "native_z_at_offsets": {
+        "0": 51.412421754940446,
+        "0.16": 51.40194875421292,
+        "0.5": 50.2187357767631,
+        "1": 50.21625489554915,
+        "2": 50.21129313312128
+      },
+      "n_class2_public": 34,
+      "public_z_p10_p50_p90": [
+        50.183,
+        50.21,
+        50.24
+      ],
+      "n_class2_interior": 11,
+      "interior_z_p10_p50_p90": [
+        51.5,
+        51.53,
+        51.57
+      ]
+    },
+    {
+      "id": "Flandre_front_nord_muret seg2 milieu",
+      "axe_xyz": [
+        117.91514917113818,
+        183.5249211024493,
+        49.95974424934179
+      ],
+      "normal_vers_rue": [
+        0.6308491711898637,
+        0.7759054860026845
+      ],
+      "native_z_at_offsets": {
+        "0": 50.68408101122352,
+        "0.16": 50.67636607154493,
+        "0.5": 49.939039164987385,
+        "1": 49.926598805413,
+        "2": 49.90298089259423
+      },
+      "n_class2_public": 29,
+      "public_z_p10_p50_p90": [
+        49.821999999999996,
+        49.88,
+        49.942
+      ],
+      "n_class2_interior": 1,
+      "interior_z_p10_p50_p90": [
+        51.28,
+        51.28,
+        51.28
+      ]
+    },
+    {
+      "id": "Maroc_front_long_muret seg0 milieu",
+      "axe_xyz": [
+        81.3794741719903,
+        213.23064610478468,
+        49.39511653235151
+      ],
+      "normal_vers_rue": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "native_z_at_offsets": {
+        "0": 45.18157639442601,
+        "0.16": 49.361630814363394,
+        "0.5": 49.35024879387577,
+        "1": 49.333510528452805,
+        "2": 49.310572256808086
+      },
+      "n_class2_public": 25,
+      "public_z_p10_p50_p90": [
+        49.26,
+        49.29,
+        49.32
+      ],
+      "n_class2_interior": 16,
+      "interior_z_p10_p50_p90": [
+        45.135000000000005,
+        45.17,
+        45.18
+      ]
+    },
+    {
+      "id": "Maroc_front_entree_muret seg0 milieu",
+      "axe_xyz": [
+        105.8467741701752,
+        193.27854610187933,
+        49.78450363637539
+      ],
+      "normal_vers_rue": [
+        0.6314481481192843,
+        0.7754181041455807
+      ],
+      "native_z_at_offsets": {
+        "0": 45.7259073947879,
+        "0.16": 45.700206577245616,
+        "0.5": 49.747039675882704,
+        "1": 49.73726698608898,
+        "2": 49.716488983456436
+      },
+      "n_class2_public": 33,
+      "public_z_p10_p50_p90": [
+        49.612,
+        49.68,
+        49.708
+      ],
+      "n_class2_interior": 13,
+      "interior_z_p10_p50_p90": [
+        45.17,
+        45.19,
+        45.298
+      ]
+    },
+    {
+      "id": "Maroc_front_entree_muret extrémitéNW",
+      "axe_xyz": [
+        103.04404917167267,
+        195.56089610187337,
+        49.76003052262442
+      ],
+      "normal_vers_rue": [
+        0.6314481481192843,
+        0.7754181041455807
+      ],
+      "native_z_at_offsets": {
+        "0": 45.796120985174504,
+        "0.16": 45.84652529298663,
+        "0.5": 49.702966494557856,
+        "1": 49.692031896628585,
+        "2": 49.669974598805574
+      },
+      "n_class2_public": 31,
+      "public_z_p10_p50_p90": [
+        49.59,
+        49.64,
+        49.7
+      ],
+      "n_class2_interior": 14,
+      "interior_z_p10_p50_p90": [
+        45.133,
+        45.160000000000004,
+        45.197
+      ]
+    }
+  ],
+  "interpretation": "Écarts de surfaces ne prouvent pas anomalie; coupe côté public distincte de niveaux en contrebas. Aucun terrain modifié.",
+  "max_abs_base_vs_native_0_5m_public_m": 0.057064028066562855,
+  "conclusion": "Les niveaux intérieurs bas/hauts sont corroborés par points classe2; ne pas lisser ni reboucher. À0.5m côté rue, surface native proche base estimée. Contact exact sous largeur32cm et rupture de terrain reste à affiner; ni flottement global ni anomalie terrain prouvés."
+}

@@ -307,11 +307,11 @@
 @media(max-width:700px){#introduction{padding:22px;gap:18px}#introduction .intro-agence{display:none}#introduction .intro-composition{grid-template-columns:1fr;grid-template-rows:auto auto 1fr;gap:12px;min-height:260px}#introduction .intro-titre{grid-column:1;grid-row:1;font-size:48px}#introduction .intro-notice{grid-column:1;grid-row:2;display:block}#introduction .intro-repere{margin:0}#introduction .intro-notice h2,#introduction .intro-notice p{display:none}#introduction .intro-figure{grid-column:1;grid-row:3;min-height:160px;height:30vh}#introduction .intro-steps{gap:8px}#introduction .intro-steps li{font-size:9px;gap:5px}#introduction .intro-preparation{align-items:flex-start}#introduction #introPasser{padding:10px 12px;gap:8px;font-size:10px}#introduction #introPourcent{font-size:32px}}
 @media(max-height:620px) and (min-width:701px){#introduction{padding:20px 32px;gap:14px}#introduction .intro-figure{height:35vh;min-height:170px}#introduction .intro-composition{min-height:220px}#introduction .intro-titre{font-size:64px}#introduction .intro-notice h2{font-size:22px}#introduction .intro-repere{margin-bottom:12px}}
 @media(prefers-reduced-motion:reduce){#introduction,#introduction *{animation:none!important;transition:none!important}}
-</style><style>#chantier,#galerie,#btnJournal,#btnImages2,button[data-vue="platanes"]{display:none!important}</style></head>
+</style></head>
 <body>
 <div id="bande">
   <a class="marque" href="./"><img class="wm" src="charte/VLAU-logo.png" alt="VL·AU"><img class="lg" src="charte/VLAU-logotype-deplie.png" alt="Vincent Lavergne Architecture Urbanisme"></a>
-  <nav class="sommaire"><a href="./" aria-current="page">Vue 3D</a></nav>
+  <nav class="sommaire"><a href="./" aria-current="page">Vue 3D</a><a href="suivi.html">Suivi</a><a href="brain.html">Brain</a><a href="carnet.html">Carnet</a></nav>
   <div class="titre-bande">Stalingrad — étude CRAMIF</div>
 </div>
 <div id="vue"></div>
@@ -357,9 +357,9 @@
 </div>
 <div id="lecture"><b>CRAMIF · étude du bâtiment et de ses abords</b><div class="sous" id="perimetreTexte">Périmètre proche · proportions réelles · détails de façade à documenter</div></div>
 <section id="chantier" class="carte" aria-label="Journal du chantier">
-  <h1>Suivre le chantier</h1><section id="agentsChantier"></section><a href="/etude-rues" style="display:inline-block;margin-bottom:6px;color:#1d1e1c">Étude des rues · observations et écarts →</a>
+  <h1>Suivre le chantier</h1><section id="agentsChantier"></section><a href="etude-rues.html" style="display:inline-block;margin-bottom:6px;color:#1d1e1c">Étude des rues · observations et écarts →</a>
   <div id="phaseChantier" class="phase">Chargement du suivi…</div>
-  <a href="/brain" style="display:block;font-size:12px;padding:10px 0;margin-bottom:6px">Brain · explorer la carte du chantier ↗</a><div id="progressionChantier" aria-label="Avancement par lot"></div><label class="couche"><input type="checkbox" id="zonesChantier" checked>Repères des chantiers de modélisation</label>
+  <a href="brain.html" style="display:block;font-size:12px;padding:10px 0;margin-bottom:6px">Brain · explorer la carte du chantier ↗</a><div id="progressionChantier" aria-label="Avancement par lot"></div><label class="couche"><input type="checkbox" id="zonesChantier" checked>Repères des chantiers de modélisation</label>
   <details><summary>Journal, étapes et limites</summary>
     <div id="messageChantier" class="sous">Le journal se met à jour après chaque étape enregistrée.</div>
     <div id="journalChantier"></div><div id="prochainChantier" class="sous"></div>
@@ -369,7 +369,7 @@
   <label class="couche"><input id="arbresVisibles" type="checkbox" checked> Arbres visibles</label>
   <div class="sous" id="suiviModele">Suivi chaque seconde · modèle après sauvegarde</div><div class="sous" id="derniereIntegration">Chargement du modèle…</div>
 </section>
-<div id="galerie" class="carte"><h1>Conception</h1><div class="sous" style="margin-bottom:8px">Derniers aperçus · <a href="/images">Toute la banque d’images ↗</a></div><div id="figs"></div></div>
+<div id="galerie" class="carte"><h1>Conception</h1><div class="sous" style="margin-bottom:8px">Derniers aperçus · <a href="carnet.html">Toute la banque d’images ↗</a></div><div id="figs"></div></div>
 <div id="qualificationAbords" style="display:none;position:fixed;bottom:52px;right:12px;z-index:3;background:#fff;padding:6px 9px;font-size:12px">Barrière roulante probable · forme et dimensions estimées</div>
 <div id="barre"><button id="btnJournal" aria-expanded="true" aria-controls="chantier">Chantier</button><button id="btnCouches" aria-expanded="false" aria-controls="panneau">Réglages et sources</button><button id="btnImages2">Conception</button></div>
 <div id="agrandi"><img alt=""></div><div id="toast"></div><div id="statut"></div>
@@ -876,7 +876,7 @@ async function chargerVariantesGLB() {
   if (variantesGLB !== undefined) return variantesGLB;
   variantesGLB = null;
   try {
-    const r = await Promise.resolve({status:404});
+    const r = await fetch('pro/arbres/variantes.glb');
     if (r.status !== 200) return null;
     const { GLTFLoader } = await import('three/addons/loaders/GLTFLoader.js');
     const gltf = await new GLTFLoader().parseAsync(await r.arrayBuffer(), '/pro/arbres/');

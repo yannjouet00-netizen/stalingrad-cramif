@@ -1,0 +1,146 @@
+[
+  {
+    "layer": "bati_v3",
+    "part": "batiments",
+    "sourceTriangles": 295215,
+    "trianglesAnalyses": 295215,
+    "cuts": [
+      {
+        "radius": 80,
+        "axis": 0,
+        "value": -76,
+        "volumes": 38,
+        "area": 3064.4104311707974,
+        "open": 0
+      },
+      {
+        "radius": 80,
+        "axis": 0,
+        "value": 201,
+        "volumes": 17,
+        "area": 2414.076233788323,
+        "open": 0
+      },
+      {
+        "radius": 80,
+        "axis": 1,
+        "value": 14,
+        "volumes": 13,
+        "area": 1396.8231843551403,
+        "open": 0
+      },
+      {
+        "radius": 80,
+        "axis": 1,
+        "value": 314,
+        "volumes": 14,
+        "area": 1834.643032842708,
+        "open": 0
+      },
+      {
+        "radius": 250,
+        "axis": 0,
+        "value": -246,
+        "volumes": 36,
+        "area": 2623.1541470367993,
+        "open": 0
+      },
+      {
+        "radius": 250,
+        "axis": 0,
+        "value": 371,
+        "volumes": 25,
+        "area": 3288.941037260667,
+        "open": 0
+      },
+      {
+        "radius": 250,
+        "axis": 1,
+        "value": -156,
+        "volumes": 45,
+        "area": 3916.842670665652,
+        "open": 0
+      },
+      {
+        "radius": 250,
+        "axis": 1,
+        "value": 484,
+        "volumes": 17,
+        "area": 3823.1034748028355,
+        "open": 0
+      }
+    ]
+  },
+  {
+    "layer": "eole_ballast",
+    "part": "Ballast_Eole",
+    "sourceTriangles": 47424,
+    "trianglesAnalyses": 47424,
+    "cuts": [
+      {
+        "radius": 80,
+        "axis": 0,
+        "value": -76,
+        "volumes": 0,
+        "area": 0,
+        "open": 0
+      },
+      {
+        "radius": 80,
+        "axis": 0,
+        "value": 201,
+        "volumes": 0,
+        "area": 0,
+        "open": 0
+      },
+      {
+        "radius": 80,
+        "axis": 1,
+        "value": 14,
+        "volumes": 0,
+        "area": 0,
+        "open": 0
+      },
+      {
+        "radius": 80,
+        "axis": 1,
+        "value": 314,
+        "volumes": 0,
+        "area": 0,
+        "open": 0
+      },
+      {
+        "radius": 250,
+        "axis": 0,
+        "value": -246,
+        "volumes": 5,
+        "area": 9.840504183950543,
+        "open": 0
+      },
+      {
+        "radius": 250,
+        "axis": 0,
+        "value": 371,
+        "volumes": 0,
+        "area": 0,
+        "open": 0
+      },
+      {
+        "radius": 250,
+        "axis": 1,
+        "value": -156,
+        "volumes": 0,
+        "area": 0,
+        "open": 0
+      },
+      {
+        "radius": 250,
+        "axis": 1,
+        "value": 484,
+        "volumes": 5,
+        "area": 4.401490909111089,
+        "open": 0
+      }
+    ]
+  }
+]

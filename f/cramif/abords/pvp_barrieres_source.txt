@@ -1,0 +1,1 @@
+https://opendata.paris.fr/api/records/1.0/search/?dataset=plan-de-voirie-mobiliers-urbains-bornes-barrieres-potelets&geofilter.distance=48.88573%2C2.36952%2C180&rows=10000

@@ -1,0 +1,6 @@
+Barres par cinq étapes réelles, sans pourcentage de temps calculé.
+Préparer / Contrôler / Prêt / Importer / Visible.
+Les animations sont limitées aux tâches actives et au créneau borné confirmé. Les tâches prêtes à importer n’animent pas le chargement. Une étape sauvegardée ne recule pas pendant le contrôle du site.
+20 cas des quatre pages vérifiés. /pro : barres et détails confirmés dans le navigateur de Yann. Dernière modification du libellé pour différencier livraison UI et modèle. Contrôle mobile dédié non réalisé.
+Rotonde : 60 triangles exactement présents dans le site. Sol Flandre : comparaison intégrale natif/export/API réussie. Cour S6 non importée.
+2026-10-11T11:47:36.952180+00:00

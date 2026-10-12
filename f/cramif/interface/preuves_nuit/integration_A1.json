@@ -1,0 +1,34 @@
+{
+  "NUIT Eole rails axes OSM": {
+    "vertices": 19376,
+    "faces": 14532
+  },
+  "NUIT Eole traverses convention": {
+    "vertices": 27728,
+    "faces": 20796
+  },
+  "NUIT Eole chemins documentes drapes": {
+    "vertices": 6231,
+    "faces": 2077
+  },
+  "rotonde": [
+    "V3 Sol lisse",
+    "V3 Trottoirs"
+  ],
+  "scenes": [
+    "00_Cadrage",
+    "01_Terrain_IGN",
+    "02_Surface_LiDAR_reference",
+    "03_Enveloppes_documentees",
+    "04_Controles_et_lacunes",
+    "05_Volumes_simples_voirie",
+    "06_Sol_et_voirie_V3"
+  ],
+  "verified_reopen": true,
+  "saved_at": "2026-10-11T02:59:07.405896+00:00",
+  "native": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend",
+  "sha256": "96d1ebd16ae0421dd134a3a006980f830c7899dd3682385937dd504fa58c9605",
+  "web_palette_normalized": true,
+  "native_visual_proof": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/Eole_A1_natif.png",
+  "visual_scope": "Aperçu Workbench du natif sauvegardé, rails et chemins visibles ; pas une validation du viewer interactif"
+}

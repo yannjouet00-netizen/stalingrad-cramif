@@ -1,0 +1,17 @@
+[
+  {
+    "part": "Sol_lisse",
+    "unmodified_original_faces": 167456,
+    "original_faces_outside_cut_not_retained_indices": []
+  },
+  {
+    "part": "Amenagements",
+    "unmodified_original_faces": 37514,
+    "original_faces_outside_cut_not_retained_indices": []
+  },
+  {
+    "part": "Trottoirs",
+    "unmodified_original_faces": 68234,
+    "original_faces_outside_cut_not_retained_indices": []
+  }
+]

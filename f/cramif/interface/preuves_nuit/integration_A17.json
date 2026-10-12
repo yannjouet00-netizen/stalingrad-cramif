@@ -1,0 +1,16 @@
+{
+  "reopened": true,
+  "idempotent": true,
+  "old_objects_preserved_except_six_crowns": 13543,
+  "roof_closed_vertices": 34,
+  "roof_triangles": 64,
+  "roof_global_status": "ESTIME",
+  "roof_altitude": "MESURE_LIDAR",
+  "canopies_closed": 6,
+  "canopies_vertices": 256,
+  "canopies_triangles": 488,
+  "A15_A14_A12_A10_A8_preserved": true,
+  "native_sha256": "443186a6e9f7d7247c78d915ae81c75af548b6a3ff26facf24830f9e389f92d6",
+  "previous_sha256": "723de37962771133003e9a772394b3009a8f2f807d85eeae2e45011865eb41f8",
+  "published_at": "2026-10-11T06:18:00.751787+00:00"
+}

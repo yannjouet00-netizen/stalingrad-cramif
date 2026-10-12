@@ -1,0 +1,73 @@
+{
+  "success": true,
+  "tests": [
+    "panneau chantier 1440",
+    "panneau panneau 1440",
+    "panneau galerie 1440",
+    "panneau chantier 390",
+    "panneau panneau 390",
+    "panneau galerie 390",
+    "qualité légère réelle",
+    "qualité détaillée réelle",
+    "direction lumière 20/80",
+    "direction lumière 65/240",
+    "groupe maillage_v3 off/on",
+    "groupe eole_voies off/on",
+    "groupe eole_ballast off/on",
+    "groupe voirie_marquages off/on",
+    "groupe metro_v3 off/on",
+    "groupe passerelles_v3 off/on",
+    "groupe arbres off/on",
+    "groupe eau off/on",
+    "groupe bati_v3 off/on"
+  ],
+  "lights": [
+    {
+      "sol": "20",
+      "azi": "80",
+      "position": [
+        2838.24973519497,
+        653.5277334996047,
+        1076.0604299770062
+      ],
+      "target": [
+        61.99999999999999,
+        164,
+        49.99999999999999
+      ],
+      "color": [
+        1,
+        0.9205212085995401,
+        0.8010424171990802
+      ],
+      "intensity": 3.4946248380614495,
+      "environment": "26caaaf3-b7fb-479b-80dc-85bb7285f7fb",
+      "elevation_mesuree": 20.0,
+      "azimut_mesure": 80.0
+    },
+    {
+      "sol": "65",
+      "azi": "240",
+      "position": [
+        -1035.9944523120002,
+        -469.92739261104975,
+        2768.92336110995
+      ],
+      "target": [
+        61.99999999999999,
+        164,
+        49.99999999999999
+      ],
+      "color": [
+        1,
+        0.954378467222199,
+        0.8687569344443979
+      ],
+      "intensity": 3.5,
+      "environment": "c581d387-e607-40ec-a38b-7147c2c6af57",
+      "elevation_mesuree": 65.0,
+      "azimut_mesure": 239.99999999999994
+    }
+  ],
+  "portee": "Chrome headless SwiftShader, pas Safari ni tactile"
+}

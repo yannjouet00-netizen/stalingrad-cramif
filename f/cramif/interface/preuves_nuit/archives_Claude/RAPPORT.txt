@@ -1,0 +1,15 @@
+ARCHIVE IMAGES — COPIE VÉRIFIÉE
+Destination durable : /Users/yannjouet/Documents/01_VLAU/Stalingrad/ARCHIVE_RECHERCHE/CLAUDE_STALINGRAD
+Source conservée : /private/tmp/claude-501/-Users-yannjouet-Downloads-VLAU---charte-graphique/ad5ab4a8-aa3a-4d24-96fb-889ec4e3ba97
+
+947images,761890255octets (761,89Mo décimaux), arborescence relative intégralement conservée :907PNG,34JPG,4GIF,2WEBP.
+947fichiers nouvellement copiés, zéro fichier préexistant écrasé. Aucun script,JSON,tâche,fichier caché ni dépendance copié. Aucun lien symbolique.
+SHA-256 calculé sur chaque source AVANT, chaque destination APRÈS et chaque source APRÈS :947/947triplets identiques. Sources inchangées en taille et date de modification. Inventaire destination exactement égal à celui des947images sources, zéro fichier supplémentaire/manquant.
+Le script effectue un préflight de tous les conflits avant copie, puis une création sans écrasement atomique par lien vers un fichier temporaire vérifié. Les temporaires de copie ont été supprimés ; aucun fichier source supprimé.
+
+Dates de fichiers conservées via copy2 et consignées dans manifest_verifie.json : CE NE SONT PAS DES DATES D’ACQUISITION DES IMAGES. Aucune attribution d’auteur déduite du nom Claude ou du chemin de session.
+Aucune modification backend, serveur, métadonnées de la galerie ou fichier natif. Root doit encore faire pointer la galerie sur cette archive durable.
+
+Preuves : /private/tmp/archive_images_stalingrad/manifest_verifie.json (chaque chemin,taille,datesfichier,3SHA), controle_inventaire.json, preflight.json, archiver.py.
+ManifestSHA256 : f8c8ba01e5fa728b706cb8337b317cda75219801b26a7c02e5299b6bcee9687f
+VérificationterminéeUTC : 2026-10-11T06:41:05.707475+00:00

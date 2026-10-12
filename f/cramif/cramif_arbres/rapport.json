@@ -1,0 +1,207 @@
+{
+  "etat": "PREPARATION_INVENTAIRE_ET_LIAISON; NON_TESTE_ENSCAPE",
+  "resume": {
+    "nombre_buffer250": 1063,
+    "nombre_rayon_centre250": 630,
+    "priorites": {
+      "P0_25m": 26,
+      "P1_100m": 192,
+      "P2_250m": 845
+    },
+    "source": {
+      "INVENTAIRE_VILLE": 625,
+      "ESTIME": 268,
+      "MESURE_LIDAR": 170
+    },
+    "essence_status": {
+      "INVENTAIRE_VILLE": 893,
+      "INCONNUE": 146,
+      "ESTIME (voisinage)": 24
+    },
+    "genre": {
+      "Tilia": 334,
+      "INCONNU": 170,
+      "Olea": 2,
+      "Prunus": 29,
+      "Acer": 137,
+      "Catalpa": 21,
+      "Koelreuteria": 3,
+      "Ostrya": 3,
+      "Carpinus": 23,
+      "Platanus": 61,
+      "Liquidambar": 2,
+      "Malus": 25,
+      "Parrotia": 3,
+      "Nothofagus": 4,
+      "Liriodendron": 3,
+      "Populus": 96,
+      "Maclura": 2,
+      "Aesculus": 29,
+      "Sequoiadendron": 6,
+      "Ligustrum": 12,
+      "Paulownia": 3,
+      "Pyrus": 19,
+      "Cercis": 1,
+      "Quercus": 11,
+      "Gleditsia": 7,
+      "Fraxinus": 14,
+      "Zelkova": 7,
+      "Lagerstroemia": 5,
+      "Gymnocladus": 6,
+      "Magnolia": 1,
+      "Celtis": 6,
+      "Morus": 2,
+      "Corylus": 3,
+      "Picea": 2,
+      "Acacia": 1,
+      "Sambucus": 1,
+      "Ailanthus": 1,
+      "Salix": 1,
+      "Cydonia": 1,
+      "Ficus": 1,
+      "Castanea": 1,
+      "Fagus": 2,
+      "Amelanchier": 1,
+      "Diospyros": 1
+    },
+    "taxon_groups": 90,
+    "flags": {
+      "HOUPPIER_NON_LIDAR": 268,
+      "ELANCEMENT_H_D_HORS_FILTRE_M17": 44,
+      "ESSENCE_NON_CONFIRMEE": 170,
+      "ecretage": 57,
+      "HOUPPIER_ASYMETRIQUE_ECRETE_A_CONSERVER": 57,
+      "ecretage_fort": 1,
+      "PIED_DEPLACE_VS_INVENTAIRE": 3,
+      "appariement_douteux": 11,
+      "conflit_volume": 3,
+      "conflit_volume_lidar": 1,
+      "haut_du_tronc_hors_du_houppier": 2,
+      "houppier_absorbe_par": 2
+    },
+    "delta_pied_inventaire_max_m": 0.4673,
+    "hauteur_minmax_m": [
+      1.0,
+      28.55
+    ],
+    "source_sha256": "14aeecac03bc4264d9665948b78a06623958bca89c9455310d7811cabab015fd",
+    "ready_enscape": 0,
+    "not_tested_enscape": 1063
+  },
+  "priorite_immediate": {
+    "count": 26,
+    "taxons": {
+      "Tilia tomentosa": 23,
+      "Olea europaea": 1,
+      "Prunus espece indeterminee": 1,
+      "inconnu": 1
+    },
+    "strategie": "Commencer par3variantes deTilia tomentosa de5–15m avec houppiers1.19–5.36m rayon; selectionner selon dimension du sujet, taille/port et circonference. Ne pas substituer Tilia platyphyllos comme exact. Olivier source compatible à rechercher dans Cosmos, 2indetermines restent sans attribution specifique."
+  },
+  "m17_audit": {
+    "source_code": "scripts/v3/m17_arbre_realiste.py",
+    "observations": [
+      "Le chargeur utilise cache phase6/ARB3/arbres_v3.json plutôt que livraison actuelle.4fiches de zone_tronc diffèrent ; coordonnées identiques. Forcer records livraison pour préservercorrectifs.",
+      "Familles botaniques génériques; absence de genre remplacée par majorité voisinage30m puis famille/défaut. Une forme plausible n est pas identification.",
+      "Circonférences avec H/Dhors15–80 remplacées par loi hauteur+dispersion;44sujets du périmètre déclencheraient ce filtre. Préserver circonference brute et étiqueter diamètre généré estimé.",
+      "record_plausible peut abaisser basehouppier à0.6H, recadrer centrehouppier à0.65R, imposer profil conique auxconifères. Modifications conventionnelles à dissocier mesures.",
+      "Mode défaut heros; standard cible<20000triangles, nécessite comptage géométrie évaluée avant chaque export.",
+      "Textures écorce albedo/normal/rugosité existent ; Cycles procédural et déplacement ne sont pas automatiquement transférables. Matériaux export Principled+textures disponibles mais renduEnscape non testé."
+    ]
+  },
+  "controle_donnees": {
+    "source_taxonomy_mismatches": 0,
+    "trunks_moved_over_10cm": [
+      10720,
+      11709,
+      11811
+    ],
+    "notes": [
+      "Les dimensions sont aux dates sources: LiDAR mars2023 et inventaire octobre2026. Pas une mesure simultanée2026.",
+      "Hauteur cible=z_sommet−z pied actuel, distincte de hauteur référencée au solLiDAR.",
+      "57houppiers écrêtés/asymétriques demandent variante dédiée ou proxy de contrôle conservé. Rotation partagée ARB3 n est pas orientation botanique mesurée."
+    ]
+  },
+  "estimation_duree": {
+    "statut": "ordre_de_grandeur_de_production_non_engagement",
+    "preparation_inventaire": "faite",
+    "lot26_proches_si_assets_exactement_adaptes_et_Enscape_accessible": "2–4heures: sélection3–5assets(45–90min),calage26placements(30–60min),contrôles rendu/échelle/matières(45–90min).",
+    "lot1063_catalogue_suffisant": "2–5jours de travail:90groupes à examiner, variantes de tailles/ports,268houppiers estimés,170essences nonconfirmées,57formes écrêtées. Placement script quelquesminutes après liaison; validation visuelle domine.",
+    "si_espece_absente_ou_asset_non_licencie": "temps supplémentaire acquisition/productionLOD etvalidation non chiffrable sansasset; ne pas promettre prêtEnscape.",
+    "si_Enscape_absent": "validation import,rendu,licences non réalisable localement; paquet reste préparation non testée."
+  },
+  "criteres_pret_enscape": [
+    "Asset réellement importé via bibliothèque compatible produit/abonnement",
+    "Taxon source et port stade documentés",
+    "Pied x/y/z et hauteur recalés; largeurhouppier compatible, pas de simple squash anisotrope",
+    "Matériaux feuilles transparence,doubleface,normales et écorce vérifiés dansEnscape",
+    "Rendu test et réouverture sans missingasset; chemins bibliothèque conservés",
+    "Comptageinstances et arbres exclus documenté"
+  ],
+  "sources_officielles": [
+    {
+      "id": "custom_assets",
+      "url": "https://docs-chaos.atlassian.net/wiki/spaces/EREVIT/pages/127965753/Custom%2BAsset%2BLibrary",
+      "faits": "Formats glTF, OBJ, FBX; recommandation moins de20000triangles, textures/UV et miniature pour export bibliothèque. Un fichier Blender ne constitue pas un asset Enscape."
+    },
+    {
+      "id": "mac_support",
+      "url": "https://forums.chaos.com/t/enscape-for-mac-4-21-0-released/191619",
+      "faits": "Annonce officielle Chaos 1octobre2026; Custom Asset Editor existe surMac. Absence locale de test ne signifie pas absence supportMac."
+    },
+    {
+      "id": "cosmos_support",
+      "url": "https://support.chaos.com/hc/en-us/articles/4403292839313-Which-Chaos-products-support-the-Chaos-Cosmos-asset-library",
+      "faits": "Cosmos pour Enscape4.11 etsupérieur; catalogue filtrable par produit/abonnement."
+    },
+    {
+      "id": "scaling",
+      "url": "https://blog.chaos.com/best-practices-asset-library",
+      "faits": "Assets déplacés, tournés et redimensionnés dans Enscape. Cela ne prouve pas identité botanique ni la conformité aux dimensions d un individu."
+    },
+    {
+      "id": "brush",
+      "url": "https://docs-chaos.atlassian.net/wiki/spaces/enscape/pages/840990726/Asset%2BBrush%2BPlacement%2BTool",
+      "faits": "Placement multiassets distribué et aléatoire disponible. Inadapté à la position exacte des arbres existants; table x/y/z conservée."
+    },
+    {
+      "id": "cosmos_olive",
+      "url": "https://cosmos.chaos.com/assets/mediterranean/",
+      "faits": "Catalogue primaire consulté: Olea europaea001–006 et Platanus racemosa. Le second ne correspond pas à Platanus x hispanica, aucun remplacement automatique."
+    },
+    {
+      "id": "tree_source",
+      "url": "https://opendata.paris.fr/explore/dataset/les-arbres/",
+      "faits": "Inventaire Ville de Paris; snapshot du9octobre2026 utilisé par projet."
+    },
+    {
+      "id": "sketchup_api",
+      "url": "https://ruby.sketchup.com/Sketchup/Entities.html#add_instance-instance_method",
+      "faits": "Instanciation definition existante via API publique SketchUp. Aucun attribut privé Enscape fabriqué."
+    }
+  ],
+  "pistes_assets": [
+    {
+      "taxon": "Tilia tomentosa",
+      "nom": "Tilia tomentosa – Silver linden",
+      "auteur": "3DGardenPlants",
+      "url": "https://www.artstation.com/marketplace/p/AD0oa/tilia-tomentosa-silver-linden",
+      "source": "fiche primaire publiée par créateur du modèle",
+      "compatibilite_declaree_vendeur": "SketchUp Enscape, Blender, FBX",
+      "etat": "NON_ACQUIS_NON_TESTE; candidat exact taxon mais highpoly",
+      "limite": "100000–1500000polygones annoncés, très au-dessus cible customasset20k: achat et optimisation/LOD et test requis. Pas recommandation immédiate ni promesse prêtEnscape."
+    },
+    {
+      "taxon": "Olea europaea",
+      "nom": "Olea europaea001–006",
+      "url": "https://cosmos.chaos.com/assets/mediterranean/",
+      "etat": "CATALOGUE_CHAOS_VERIFIE; dimensions/produit/plan/port non vérifiés, pas acquis"
+    },
+    {
+      "taxon": "Tilia platyphyllos",
+      "nom": "Tilia platyphyllos001",
+      "url": "https://cosmos.chaos.com/",
+      "etat": "TAXON_INADAPTE_AUX23TILIA_TOMENTOSA; ne pas utiliser comme exact"
+    }
+  ]
+}

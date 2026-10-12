@@ -1,0 +1,32 @@
+ACTIVITÉ VISIBLE — LIVRAISON DU 11 OCTOBRE 2026, 12:22 PARIS
+
+Modifications publiées
+Le bloc « En cours maintenant » est placé directement dans Vue 3D, Brain et Suivi. Chaque carte donne l’agent, son état, sa tâche, l’étape quand elle existe, le dernier résultat, la suite et l’heure du retour. Les cartes ne sont plus enfermées dans un panneau replié. Le Suivi actualise ces retours toutes les 3 secondes.
+États distincts : Travail, Calcul, Contrôle, Intégration, À intégrer, En attente, Livré et État à actualiser. Le seuil de fraîcheur reste 3 minutes. Seul un agent actif avec retour frais anime son anneau ; aucun pourcentage ni activité ne sont inventés. Le mouvement réduit désactive les animations.
+
+Fichiers modifiés
+suivi/pro_cramif.html ; suivi/hub.html ; suivi/index_cramif.html ; documentation/v3/cramif/interface/brain.html.
+Les différences éditoriales préexistantes entre hub.html et index_cramif.html ont été conservées. /suivi sert index_cramif.html, /carnet sert hub.html. Aucun backend, état de chantier, modèle natif ou géométrie modifié par ce lot.
+
+Contrôles effectués
+13 cas de fraîcheur et d’état passent : actif frais, intégration, calcul, contrôle, attente, à intégrer, livré, actif périmé, date absente, date future, seuil exact de 180 s, priorité de la date individuelle. Les quatre scripts passent la vérification syntaxique.
+HTTP final : /pro, /brain, /suivi et /carnet répondent 200 et correspondent exactement à leurs fichiers publiés (SHA dans http_final.json).
+Chrome headless isolé, rendu SwiftShader réel : bloc présent avec quatre cartes dans les trois pages à 1440 px, zéro débordement horizontal. Suivi à 390 × 844 : zéro débordement, cartes accessibles par défilement. Aucune exception JavaScript recueillie lors de cette recette.
+À 12:16:18, deux agents Contrôle animent, deux agents Livré n’animent pas. À 12:18:11, les quatre agents passent réellement à Contrôle dans les données publiées ; la Vue 3D affiche ces quatre états. L’animation est démontrée par deux matrices CSS différentes à 260 ms d’intervalle, pas seulement par une classe présente.
+
+Preuves à utiliser
+brain_final.png ; suivi_final.png ; suivi_mobile_final.png ; pro_A18_activite_final.png.
+recette_finale.json contient la recette des trois pages et du mobile. A18_final.json contient le dernier état Pro, le modèle chargé à 12:18:41 et la mesure de rotation réelle. fixtures.json et http_final.json complètent ces preuves.
+brain_avant.png, suivi_avant.png et pro_avant.png sont des rendus réels des sauvegardes HTML avant modification, reconstruits dans le navigateur avec l’API actuelle : ils comparent les dispositions, pas des états historiques d’agents.
+Les captures intermédiaires *_apres.png et pro_final.png sont supersédées et ne doivent pas servir de preuve finale de fraîcheur.
+
+Cour A18
+cour_sud_A18_rapprochee.png montre le viewer actuellement publié et chargé après A18. Le cadrage navigateur temporaire ne modifie aucun préréglage ni natif. Les volumes masquent une partie du sol : cette capture ne démontre pas à elle seule le correctif local des six sommets. Le contrôle exact des trois couches API est réalisé séparément par root.
+
+Étude des rues / Carnet
+La correction HTML et les preuves mobiles sont consignées dans /private/tmp/reprise_UI_A18/RAPPORT.txt : fermeture manquante du bandeau réparée, contenu de l’étude replacé dans la page, mobile et bureau examinés. Carnet mobile : recherche, lecture et fermeture par Échap vérifiées.
+
+Limites explicites
+Safari n’est pas certifié : l’initialisation CUA de Safari a expiré sans interaction réussie. Aucun test tactile natif ni validation Blender visible revendiqué. La recette présente porte sur Chrome headless et des dimensions de fenêtre mobiles.
+L’ancien 100 % de progression Interface et son libellé Safari ne certifient ni Safari ni l’achèvement de tous les chantiers. Root a identifié ces métadonnées historiques et prend leur correction. Ce lot n’a pas écrit progression_interface.json.
+Notre navigateur isolé CDP 9228 a été fermé par Browser.close ; son processus est terminé avec code 0. Le navigateur de root n’a pas été manipulé.

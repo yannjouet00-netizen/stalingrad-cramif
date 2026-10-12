@@ -1,0 +1,21 @@
+RECETTE CIBLÉE A ET E — 11 octobre 2026, 08:56 Paris
+Chrome headless / WebGL SwiftShader, CDP 9227 réservé par le coordinateur pendant ce lot. Vue Cour. Aucun fichier du site, natif, backend ou état de chantier modifié.
+
+A — SUCCESSION DES TROIS PANNEAUX
+Boutons Chantier → Réglages et sources → Conception activés successivement dans la vraie page, à 1440×1000 puis 390×844. Les six états ont exactement un panneau visible, aria-expanded=true pour sa commande, aucun débordement horizontal et toutes les bornes du panneau dans la fenêtre. Les panneaux mobiles occupent la même zone, alternativement, sans superposition. Captures Réglages bureau et Conception mobile inspectées.
+
+E — EFFETS RÉELS DES RÉGLAGES
+Qualité : Léger désactive renderer.shadowMap.enabled et DirectionalLight.castShadow. Pendant la demande de rendu, aucun appel au composer, un appel direct au renderer. Détaillé réactive les deux ombres ; un appel effectif au composer et six rendus de passes sont observés. Le ratio pixel reste1 dans cette session à deviceScaleFactor1 : ce n’est pas une preuve d’échec ni un benchmark Retina. Les méthodes de rendu ont été comptées temporairement dans la page puis restaurées sans modification de source.
+Lumière : les valeurs20°/80° puis65°/240° produisent exactement ces élévations/azimuts calculés à partir de la direction réelle position−cible de la lumière. Couleur, intensité et texture d’environnement changent également. Capture du second réglage inspectée ; les ombres dans la cour changent effectivement.
+Couches : neuf groupes actuels testés off/on — sol et rues, voies Éole, assise des voies, marquages, métro, passerelles, arbres, eau, bâtiments. Tous passent à visible=false et zéro mesh effectivement visible en tenant compte des parents ; puis retrouvent leurs meshes, sans changement de nombre :9/1/1/1/1/1/8/2/5. Le raccourci Arbres du chantier suit aussi la case principale. Aucune simple lecture de checked n’a servi de critère unique.
+
+RÉSULTAT
+19 contrôles ciblés réussis : six panneaux, deux qualités, deux directions solaires et neuf groupes. Aucune exception JavaScript reçue pendant la session. Instrumentation retirée et réglages initiaux restaurés : Détaillé, soleil40°, azimut200°, neuf couches visibles. Navigateur laissé ouvert puis CDP libéré.
+
+LIMITES
+Les gestes tactiles et Safari ne sont pas testés ;390×844 est une émulation de viewport. La visibilité des groupes ne constitue pas un contrôle de chaque triangle ni de la géométrie native. Les couches historiques non actives n’ont pas été téléchargées pour cette recette. Les outils d’analyse secondaires n’ont pas été rejoués. Aucun nouveau défaut applicatif démontré, donc aucune correction du site nécessaire.
+
+PREUVES
+resultats.json : états réels du navigateur ; validation.json : assertions indépendantes et angles calculés ; recette.mjs : procédure ciblée.
+panneau_panneau_1440.png ; panneau_galerie_390.png ; lumiere_65_240.png : captures réelles inspectées.
+La matrice A–I est actualisée dans MATRICE_A_I_APRES_A_E.json ; seules A et E changent de portée de validation.

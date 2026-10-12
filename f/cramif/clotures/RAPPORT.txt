@@ -1,0 +1,19 @@
+CLOTURES ET MURETS — PREMIER LOT DE FRONTS RUE
+
+Livraison constructive : axes_fronts_rue_xyz.json. Le fichier axes_clotures_xyz.json conserve audit complet et candidats non validés ; ne pas intégrer ses retours rentrants.
+
+4 fronts :
+- Flandre_muret_face : 54.43m ; Z supports 51.084m, 50.635m
+- Flandre_front_nord : 26.96m ; Z supports 50.570m, 50.391m, 50.026m, 49.894m
+- Maroc_front_long : 49.44m ; Z supports 49.117m, 49.674m
+- Maroc_front_entree : 7.23m ; Z supports 49.809m, 49.760m
+
+Implantation : faces PVP SOURCE_DOCUMENTAIRE ; axe médian dérivé ESTIME ; Z projetés depuis mesures classe2 côté rue ESTIME. Données brutes LiDAR MESURE_LIDAR. Hauteur, épaisseur et pas des barreaux : CONVENTION/ESTIME selon constructeur, aucune hauteur relevée ici.
+
+La surface native renvoie parfois le niveau inférieur des cours (Maroc environ4m sous le trottoir), inadapté à la base visible de la clôture côté rue. Cette différence ne prouve pas que le relief inférieur soit un artefact ; conserver les cours et leurs niveaux. Aucun terrain ni modèle modifié. Échantillons publics : bande0,8–3,5m côté rue, tangente±1,5m ; plans robustes aux extrémités, contrôle RMSE <3cm aux supports retenus. Ce RMSE local ne vaut pas précision globale ni relevé de construction. Profil constructif interpolé linéairement, pas relief détaillé certifié.
+
+Ouvertures à préserver : portail candidat Maroc5,034m entre2242579 (108,889;191,020) et2483971 (112,844;187,905), attribution photoESTIME. Autre interruption3,238m entre front long et retour entrée, non attribuée. Accès Flandre6,060m intervalle entre axes avec détail de bâti à contrôler ; aucun portail ajouté automatiquement.
+
+Référence : PVP Murs Ville de Paris, https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; traitement12/09/2026 ≠ date terrain. Export lib_classe=null ne distingue pas mur/grille/soutènement. Charte p21 indique largeur32cm possible si épaisseur inconnue ; p22 indique porte représentée symboleGRI. Ne pas prendre largeur double trait pour épaisseur mesurée. Photos utilisateurs23.11.15 et23.11.59, acquisitionoctobre2025.
+
+Aperçu : axes_sur_ortho.png, orthophotographie20cm locale date acquisition inconnue. Télécharger/traiter seulementROI125×155m ; source fichiers et manifeste SHA256 conservés.

@@ -1,0 +1,31 @@
+{
+  "views": {
+    "SEINE": [
+      [
+        500,
+        70,
+        330
+      ],
+      [
+        305,
+        235,
+        53
+      ],
+      280
+    ],
+    "LOIRE": [
+      [
+        470,
+        -210,
+        370
+      ],
+      [
+        382,
+        10,
+        53
+      ],
+      390
+    ]
+  },
+  "scope": "CLI sans save; arbres masqu\u00e9s; vues sol avec b\u00e2timents masqu\u00e9s"
+}

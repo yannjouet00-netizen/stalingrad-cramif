@@ -1,0 +1,69 @@
+RECETTE UI — ÉTAT CONSOLIDÉ AU 11 OCTOBRE 2026, 06:10 PARIS
+
+Périmètre de cette liste
+Les preuves API et les tests de code sont acquis aux versions et heures indiquées. Ils ne certifient pas le rendu graphique. La dernière observation CUA partielle date de 04:42 : navigation et annonce du modèle chargé. Les appels Safari suivants ont expiré ; aucune nouvelle observation graphique n’a été effectuée. Ne pas cocher les étapes ci-dessous sur la seule base de ce document.
+Utiliser une surface navigateur autorisée lorsqu’elle redevient disponible. Après chaque petite série d’actions : relire l’état et conserver une capture datée. Si une nouvelle expiration se produit, conserver les vérifications acquises et différer la suite ; ne pas boucler sur des appels bloquants.
+
+1. Introduction — priorité haute, NON OBSERVÉE APRÈS CORRECTION
+Action : ouvrir /pro en premier chargement ; observer l’image et le compteur ; utiliser « Passer l’introduction » sur un autre chargement.
+Attendu : fond clair continu, aucune bordure rectangulaire visible autour de l’image ; apparition lente et sortie fluide ; compteur lié aux couches réellement construites ; bouton utilisable même si le chargement continue.
+Preuves code : cession hors écran avec MessageChannel, repli rAF à80ms, traitement202/erreur/réessai/finalisation, statut indépendant de l’animation. Tests dans /private/tmp/nuit_interface_0440/test_chargement.cjs et test_reprise.cjs.
+Capture attendue : introduction pendant chargement et état final, datés. L’animation demande observation réelle, pas une image fixe unique.
+
+2. Navigation et panneaux — INTERACTIONS À RECETTER
+Action : tester / et /index.html puis logo, Vue3D/Suivi/Brain/Carnet/Images ; alterner Chantier, Réglages et sources, Conception.
+Attendu : arrivée sur /pro depuis les anciennes entrées ; aucun panneau superposé involontairement ; bandeau lisible, contrôles atteignables sur téléphone.
+Preuves : routes HTTP contrôlées ; pages actuelles servies. Apparence Fracktif/carbone et dimensions des panneaux non certifiées graphiquement.
+Correction appliquée à06:12 : le lien « Étude des rues » a été ramené de #286269 à #1d1e1c. HTTP200 et couleur servie vérifiés ; apparence graphique toujours à observer.
+
+3. Caméras — NON OBSERVÉES
+Action : CRAMIF, Rue de Flandre, Rue du Maroc, Rotonde, Cour, Bassin, Plan, Ensemble.
+Attendu : arrivée utile pour chaque lieu, sans mur masquant le sujet ; Cour vue d’en haut ; trajectoires cohérentes entre lieux ; retour au modèle après les panneaux.
+Preuve actuelle : paramètres de code seulement. Aucune certification des cadrages par capture.
+
+4. Périmètres et fermetures — GÉOMÉTRIE TESTÉE, RENDU À OBSERVER
+Action : Bâtiment, Quartier, Ensemble ; tourner la caméra près des quatre côtés, particulièrement les voies Éole.
+Attendu : couches découpées ensemble ; faces latérales des volumes fermés ; chemins et sols ouverts non refermés artificiellement ; absence de triangles parasites ou doublons.
+Forme réelle : rectangle autour du CRAMIF avec quatre plans, pas disque radial.
+Preuves fortes : huit plans des bâtiments corrigés sans graphe ouvert ; dix contours de ballast fermés ; repères aux coins alignés avec le rectangle. Doublons Éole/ballast éliminés de bati_v3 et toute autre géométrie conservée strictement.
+Dossiers : /private/tmp/nuit_coupes_0550 et /private/tmp/nuit_coupes_0556, notamment RESULTAT_FINAL.txt, coupes_chargeur_apres.json et conservation_stricte.json.
+Limite : triangulation complète affichée, ombres et coutures aux intersections non observées dans le navigateur.
+
+5. Réglages et couches — ÉTATS RENDUS À OBSERVER
+Action : activer/désactiver Éole, assise des voies, marquages, arbres et sol ; tester Détaillé/Léger et curseurs du soleil.
+Attendu : chaque contrôle agit sur la bonne couche ; aucun menu natif visible pour les filtres ; anciennes couches distinctes ; proportions réelles maintenues.
+Preuves : ordre/défaut/libellé/clipping présents pour les couches nouvelles ; API binaires contrôlées. La case affichée doit encore être confrontée à l’effet visuel.
+
+6. Chantier, compteurs et repères — CODE/CONTENU TESTÉS, LECTURE À OBSERVER
+Action : ouvrir détails des lots, des tokens et des agents ; masquer/réafficher les repères ; comparer attente/activité sur des états réellement publiés.
+Attendu : aucune transformation de trois jalons en75% ; aucune jauge pour compteur incohérent ; historique interface clos distinct de coordination_nuit ; sous-agents exclus explicitement ; repères compacts, aucunⅡ, pas d’animation quand l’activité n’est pas récente.
+Preuves : conservation des intervalles de tokens, tests de fraîcheur, 12cas Suivi ; exactitude des sources API aux heures des rapports.
+Attention : certaines annonces historiques de Voirie/Rotonde ont été signalées au coordinateur. Relire /api/chantier au moment de la recette ; ne pas attribuer à des données actualisées l’état ancien du rapport.
+Dossiers : /private/tmp/nuit_tokens_0509 et /private/tmp/nuit_interface_0520.
+
+7. Brain — CALCULS TESTÉS, INTERACTIONS ET ESTHÉTIQUE NON OBSERVÉES
+Action bureau : glisser pour orbiter, zoomer, recentrer, pause/reprise ; sélectionner un lot puis un agent ; chercher « ecluse » et un mot d’étape ; Entrée puis Échap.
+Action téléphone : largeur390px environ ; navigation, recherche, sélection, défilement vers détail ; tourner la galaxie.
+Attendu : noyau clair et lisible ; labels sans collision ; sélection cohérente avec détail ; aucun saut causé par une simple variation des tokens ; commande tactile utilisable.
+Preuves : dimensions d’étiquettes prises en compte ; interpolation avant résolution ; disposition compacte de secours testée sur16configurations270–550px/10–24labels sans chevauchement calculé ; tokens ne reconstruisent plus la galaxie ; sélection équipe synchronisée.
+Dossier : /private/tmp/nuit_interface_0520.
+Limite : le calcul sans collision ne garantit pas la qualité esthétique de la disposition compacte ni le confort tactile.
+
+8. Carnet et étude des rues — CONTENU TESTÉ, PARCOURS À OBSERVER
+Action : catégories décisions/observations/sources, recherche d’une rue, affichage des fichiers techniques, lecture d’un document et retour ; ouvrir Étude des rues sur téléphone.
+Attendu : utilité comprise, documents techniques masqués par défaut, extrait court lisible, lien source fonctionnel, navigation commune ; un ancien plan de préparation ne passe pas pour un état actuel.
+Preuves : inventaire et extraits textuels contrôlés, lectures limitées/cache/concurrence testés. Mise en page et reader non observés après modifications.
+Dossier : /private/tmp/nuit_interface_0440.
+
+9. Images et provenance — INVENTAIRE TESTÉ, PARCOURS À OBSERVER
+Action : filtre domaine/type, recherche, réinitialisation,48images supplémentaires, agrandissement puis fermeture ; ouvrir une image Claude et une image à provenance inconnue.
+Attendu : image et légende concordantes ; description courte ; source/producteur/licence lorsqu’ils existent ; acquisition distincte de la date de fichier ; origine inconnue explicite ; historique conservé sans doublon accidentel de navigation.
+Preuves datées : inventaire8091images à05:01,15liens200 dont7imagesClaude, absence de fichiers vides/manquants dans ce relevé. Ce nombre peut évoluer avec les nouveaux livrables.
+Dossiers : /private/tmp/nuit_interface_0440/api_finale.json et contenu_liens.json.
+
+Dernière preuve terrain
+A8 contrôlé à06:12 : HTTP200,29 175 910octets, neuf parties correspondant aux NPZ actifs. Sol_apres_A7_raccord_NE :171543triangles, coordonnées et six couleurs par face exactes ; normales finies/unitaires/non nulles. Preuve /private/tmp/nuit_interface_0614/terrain_a8_api.json.
+Les preuves A5/A6/A7 restent historiques. Recontrôler l’API après chaque nouveau jalon publié.
+
+Décision de livraison
+La recette graphique reste ouverte. Aucune rubrique ci-dessus n’est déclarée achevée visuellement. Le modèle natif n’a pas été modifié par ce lot ; les contrôles CUA sont différés jusqu’à une surface fonctionnelle.

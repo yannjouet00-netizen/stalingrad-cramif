@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-11T07:07:19.854847+00:00",
+  "matrices": [
+    {
+      "matrix": "bilan_dix_lots_A17/matrice_10_lots.json",
+      "references": 29,
+      "missing": []
+    },
+    {
+      "matrix": "bilan_eole/synthese.json",
+      "references": 17,
+      "missing": []
+    },
+    {
+      "matrix": "recette_A_E/MATRICE_A_I_APRES_A_E.json",
+      "references": 32,
+      "missing": []
+    }
+  ],
+  "consolidated_manifest_sha256": "all_match",
+  "scope": "Présence des fichiers et intégrité documentaire, pas nouvelle validation géométrique"
+}

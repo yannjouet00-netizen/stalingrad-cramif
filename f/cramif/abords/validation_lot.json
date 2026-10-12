@@ -1,0 +1,17 @@
+{
+  "source_group": "PVP_BARRIERE_5004955",
+  "source_primitives": 24,
+  "objects": 57,
+  "vertices": 1824,
+  "triangles": 3420,
+  "all_solids_closed": true,
+  "all_signed_volumes_positive": true,
+  "base_z_range_m": [
+    49.44002850018104,
+    49.510904602830415
+  ],
+  "implanted_sources": 1,
+  "excluded_borne_groups": 45,
+  "excluded_ramp": "Contours/largeur insuffisants, niveau superposé à préserver",
+  "blender_live_test": false
+}

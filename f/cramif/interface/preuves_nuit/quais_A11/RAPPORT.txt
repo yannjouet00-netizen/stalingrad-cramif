@@ -1,0 +1,52 @@
+CONTRÔLE LIMITÉ DES SOLS SEINE / LOIRE — NATIF A11
+11 octobre 2026, contrôle achevé vers 07:07 Paris.
+Natif lu : /Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend
+SHA256 vérifié : 20599d22a7bb38f433ffc15fb0a7f7595fdb0fc8d51f762d8121c6f257848dc9
+Aucune sauvegarde, aucun import, aucune modification du projet. Calculs Blender CLI en mémoire seulement. Aucun correctif géométrique proposé sur ce lot : pas de défaut nouveau confirmé.
+
+PÉRIMÈTRE EXACT
+SEINE : îlot bâti de 19 373,246 m² ; bbox locale [185,734 ;129,356 ;421,570 ;332,654].
+LOIRE : îlot bâti de 34 043,666 m² ; bbox [166,816 ;-126,287 ;591,982 ;148,296].
+Ce sont les deux îlots du chantier de simplification, non les emprises des squares publics portant le nom des quais. Les domaines sont issus des limites PVP de voirie, avec bâtiments remplis pour le domaine analytique. Fichier de référence : /private/tmp/cramif_simplification_sol/domaines.geojson.
+
+IDENTITÉ GÉOMÉTRIQUE ET CONTACTS EXISTANTS
+Lecture des six couches de sol dans la scène 06_Sol_et_voirie_V3, après mise à jour de la vue. Un seul objet actif par Id_source, pas de double objet Sol_lisse/Amenagements/Trottoirs.
+Comparaison des trois couches modifiées à la livraison persistante R/donnees/v3/cramif/simplification_quais, domaine + marge 3 m :
+SEINE : 2 884 sommets inspectés, 4 634 triangles de référence, zéro triangle ajouté/perdu.
+LOIRE : 5 231 sommets inspectés, 8 611 triangles de référence, zéro triangle ajouté/perdu.
+Écart maximal 0,000030669 m, compatible avec conversion Blender float32. Aucun écart >0,1 mm. Les raccords et contacts géométriques du paquet intégré restent donc inchangés. Ceci ne certifie pas indépendamment chaque pied de façade ni chaque raccord initial.
+Les six couches ont leurs faces lissées, conformément au lot angle 30 déjà intégré. Aucun remplacement de mesh effectué.
+
+SUPERPOSITIONS
+Zéro triangle 3D exactement coïncident à la tolérance de quantification 0,1 mm, sur les trois couches simplifiées dans les domaines.
+Contrôle distinct des SIX couches : sélection des triangles dont le centroïde est dans le domaine et dont l'aire projetée est non nulle. SEINE 3 208 triangles, LOIRE 6 814. Aucun chevauchement projeté entre deux triangles d'aire >0,00001 m² ; donc aucun recouvrement coplanaire détecté par ce test.
+Limites : le test exclut faces verticales et triangles dont seul un bord traverse le domaine. Il ne certifie pas tout le quartier ni une surface globalement fermée.
+
+RELIEFS CONSERVÉS
+Recomparaison 3D directe au maillage AVANT simplification dans les polygones protégés :
+SEINE : 1 597,596 m² protégés, 604 sommets Sol +120 Amenagements.
+LOIRE : 1 624,246 m² protégés, 648 sommets Sol +155 Amenagements.
+Tous ont un correspondant natif à moins de 0,031 mm ; écart Z maximal 0,000001908 m. Les niveaux multiples sont comparés en XYZ, jamais par seul XY, afin de ne pas confondre deux altitudes superposées.
+Aucune dépression protégée aplatie. Les pentes et transitions sont volontairement présentes. Les constructions et zones sans points restent des interpolations estimées, pas des levés exhaustifs.
+
+CONTRÔLE LIDAR ACTUALISÉ
+Même masque conservateur que la livraison : cours suffisamment documentées, retrait 1 m ; domaine retrait 3 m ; exclusion des reliefs protégés +3 m ; un point sur deux. Ce masque cible seulement des surfaces à un niveau fiable.
+SEINE : 2 633 points, RMSE 9,126 cm ; médiane absolue 3,113 cm ; P95 21,368 cm.
+LOIRE : 36 032 points, RMSE 8,864 cm ; médiane absolue 3,118 cm ; P95 16,930 cm.
+Valeurs équivalentes à la livraison simplifiée. Avant simplification, RMSE 6,91 et 6,72 cm : simplifier a réduit les irrégularités visuelles, pas amélioré la fidélité ponctuelle au nuage. Ces valeurs ne doivent pas être présentées comme une précision sur l'ensemble des deux îlots.
+
+TOPOLOGIE — LIMITE HÉRITÉE
+La validation initiale relevait, dans domaine retrait 3 m, zéro arête ouverte pour SEINE et 58 pour LOIRE (78 avant simplification), zéro non-manifold. La comparaison des triangles confirme que la topologie de la livraison reste identique dans ces domaines. Ce contrôle ne transforme donc pas le terrain en solide étanche : les 58 limites ouvertes héritées de LOIRE subsistent. Elles n'ont pas été rebouchées sans attribution documentaire.
+
+INSPECTION VISUELLE EFFECTUÉE
+SEINE_contexte.png et LOIRE_contexte.png : vues natives avec bâtiments, arbres masqués en mémoire pour lire les cours ; surfaces continues visibles, pas de fente nouvelle manifeste ni doublage visible. Les arbres ne sont pas supprimés du projet.
+SEINE_sol.png et LOIRE_sol.png : mêmes caméras avec bâtiments également masqués pour exposer les supports ; reliefs ponctuels hérités encore visibles, notamment dépressions et transitions sous/près des emprises bâties. Leur aspect seul ne prouve pas un artefact. Pas d'aplanissement proposé.
+Les lignes d'ombre traversant les vues ne sont pas interprétées comme des fissures du sol. Les surfaces vertes hors domaine ne relèvent pas de ce lot. Ce sont des rendus ponctuels CLI, pas une vue GUI synchronisée.
+
+PIÈCES REPRODUCTIBLES
+lire_native.py : export en mémoire + quatre vues ; aucun save.
+verifier.py : appariement XYZ/triangles et recalcul LiDAR.
+controle_complement.py : protection reliefs et doublons 3D.
+chevauchements.py : recouvrements projetés des six couches.
+manifest_native.json, comparaison_geometrie.json, controle_complement.json, validation_lidar.json, chevauchements.json, vues.json.
+Les NPZ de ce dossier sont des exports de contrôle complets A11 : ne PAS les appliquer comme patch, afin de préserver toute intégration ultérieure.

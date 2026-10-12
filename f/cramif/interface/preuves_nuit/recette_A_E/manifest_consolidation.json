@@ -1,0 +1,41 @@
+{
+  "copied_at": "2026-10-11T07:00:01.050207+00:00",
+  "files": [
+    {
+      "file": "RAPPORT.txt",
+      "sha256": "25fa33d948625d52284ed4ab9f0115fbca11dc74c8e63944884da4e386cd3545"
+    },
+    {
+      "file": "resultats.json",
+      "sha256": "451f3c476a4ebf7c7b67f16e58d49f75ca3d194f153cb741910b25f0f85fc7a4"
+    },
+    {
+      "file": "validation.json",
+      "sha256": "ebfa25b04f004beaf4ad7d36310e66b3a50513aefc75e309f3849f03a2b948cf"
+    },
+    {
+      "file": "MATRICE_A_I_APRES_A_E.json",
+      "sha256": "9173080394cecb7cbe67d97882462c00a6a2eca53b5c66a7448279d5d1009313",
+      "original_source_sha256": "b7e79366fa0367e9f789cdbe4d36626d4b56d113bf56bc6a5b0f89b66fd7b841",
+      "change": "Références complémentaires remplacées par leurs chemins durables, sans changement des résultats ni limites."
+    },
+    {
+      "file": "panneau_panneau_1440.png",
+      "sha256": "ea5b12a83092013fd2335b818835865363be38746478e49c6859edb01e33f86e"
+    },
+    {
+      "file": "panneau_galerie_390.png",
+      "sha256": "b47fe4205fa2e0d5885e843a60fd337e2402cd9cdd2bfb04073d181904dc7bc8"
+    },
+    {
+      "file": "lumiere_65_240.png",
+      "sha256": "1839aa9c10d49ea386245b6c80c6b4e41b14ccd82501e8901a745c3826d06770"
+    },
+    {
+      "file": "recette.mjs",
+      "sha256": "a9fd909daa10dac8079ea495d01d405a62b54fa9bc1f845a34561c4f844f96e2"
+    }
+  ],
+  "source": "/private/tmp/recette_A_E_0854",
+  "updated_at": "2026-10-11T07:07:19.854847+00:00"
+}

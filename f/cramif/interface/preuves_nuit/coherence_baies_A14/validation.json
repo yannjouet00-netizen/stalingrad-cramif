@@ -1,0 +1,100 @@
+{
+  "date_utc": "2026-10-11T05:51:09Z",
+  "native_sha256": "b5d4542a8bd8b4caee5fa171cf048e374c1a13e9fdcd675ea64976be9371d2ee",
+  "cache_sha256": "17d61794b28af4811e5fd44c4f03746709dec38ffc9a0f3f43b4638d7953c9fa",
+  "api_sha256": "5076c778957ef48192a0c8a82ae050b625d6612c206c2ede08c8e55ff0270812",
+  "objects": [
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_BAIE_HAUTE",
+      "vertices": 72,
+      "triangles": 108,
+      "collections": [
+        "CRAMIF_TOUR_BAIES_PHOTO_ESTIMEES"
+      ],
+      "scene": "06_Sol_et_voirie_V3",
+      "hidden_viewport": false,
+      "hidden_render": false,
+      "modifiers": 0,
+      "native_float64_to_float32_max_m": 0.0,
+      "missing_cache_triangles": 0,
+      "bounds_min": [
+        147.4233856201172,
+        204.23744201660156,
+        76.76000213623047
+      ],
+      "bounds_max": [
+        149.25155639648438,
+        205.6954345703125,
+        79.63999938964844
+      ]
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_BAIE_SECONDE",
+      "vertices": 72,
+      "triangles": 108,
+      "collections": [
+        "CRAMIF_TOUR_BAIES_PHOTO_ESTIMEES"
+      ],
+      "scene": "06_Sol_et_voirie_V3",
+      "hidden_viewport": false,
+      "hidden_render": false,
+      "modifiers": 0,
+      "native_float64_to_float32_max_m": 0.0,
+      "missing_cache_triangles": 0,
+      "bounds_min": [
+        147.4233856201172,
+        204.23744201660156,
+        72.45999908447266
+      ],
+      "bounds_max": [
+        149.25155639648438,
+        205.6954345703125,
+        75.33999633789062
+      ]
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_RETOUR_VITRE_SUPERIEUR",
+      "vertices": 72,
+      "triangles": 108,
+      "collections": [
+        "CRAMIF_TOUR_BAIES_PHOTO_ESTIMEES"
+      ],
+      "scene": "06_Sol_et_voirie_V3",
+      "hidden_viewport": false,
+      "hidden_render": false,
+      "modifiers": 0,
+      "native_float64_to_float32_max_m": 0.0,
+      "missing_cache_triangles": 0,
+      "bounds_min": [
+        144.5885772705078,
+        204.1160430908203,
+        81.11000061035156
+      ],
+      "bounds_max": [
+        146.85250854492188,
+        206.9642791748047,
+        86.58999633789062
+      ]
+    }
+  ],
+  "total_new_triangles": 324,
+  "new_unique_oriented_keys": 324,
+  "cache_total_triangles": 295539,
+  "matched_cache_triangles": 324,
+  "triangle_multiplicities_equal": true,
+  "triangle_indices_min_max": [
+    295215,
+    295538
+  ],
+  "cache_categories": {
+    "0": 324
+  },
+  "api_total_triangles": 295539,
+  "api_cache_positions_float32_exact": true,
+  "native_cache_float32_canonical_exact": true,
+  "max_native_rounding_m": 0.0,
+  "native_cache_sha_unchanged_after": true,
+  "tolerance_requested_m": 2e-05,
+  "native_save_called": false,
+  "scope": "Three A14 bay objects compared with exact oriented triangle multiplicity; API all building positions equal cache; no native GUI or rendering claim."
+}

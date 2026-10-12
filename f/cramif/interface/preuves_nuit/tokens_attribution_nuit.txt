@@ -1,0 +1,26 @@
+ATTRIBUTION DES TOKENS — LIVRAISON 2026-10-11T03:13:28.947992+00:00
+
+Modifications installées :
+/Users/yannjouet/Documents/01_VLAU/Stalingrad/suivi/consommation_codex.py
+/Users/yannjouet/Documents/01_VLAU/Stalingrad/suivi/consommation_tokens.json
+Aucun changement au serveur, aux pages ou au modèle natif dans ce lot.
+
+Borne source : 2026-10-11T03:12:56.454Z.
+Source exacte : event_msg/token_count/info/total_token_usage du journal root indiqué dans la configuration.
+Historique interface clos : 24114597 tokens. Ce libellé historique peut inclure d’autres activités root ; aucune reconstitution fictive par action.
+Coordination nocturne : compteur futur uniquement depuis la même borne, 146864 tokens au dernier événement 2026-10-11T03:13:18.479Z.
+La somme des deux intervalles = compteur actuel moins baseline d’origine : 24261461. Conservation exacte vérifiée pour toutes les clés par le module.
+Sous-agents exclus. Entrées en cache incluses dans les entrées, raisonnements inclus dans les sorties : ne pas additionner ces sous-compteurs au total.
+Le zéro de coordination à la migration était un delta réellement nul, pas une valeur de progression inventée.
+
+Tests : 10/10 réussis (test_tokens.py) : conservation, historique clos invariant, zéro à la borne, compatibilité v1, trou/recouvrement refusés, compteur en retrait refusé, IDs dupliqués refusés, intervalle actif requis et unique, lecture append/ligne partielle/rotation.
+Compilation Python en mémoire réussie. Vérification après installation : compteur disponible ; historique inchangé ; somme exacte.
+Redémarrage serveur à la charge du parent, déjà prévenu. Recette HTTP du nouveau module à effectuer après ce redémarrage. Aucun contrôle graphique revendiqué pour ce lot.
+
+Précaution : l’attribution est chronologique au niveau du root et n’analyse pas le contenu des actions. Une régression de compteur rend la mesure indisponible ; aucun max(0) ne masque l’anomalie.
+Sources de vérification : verification_installation.json, verification_apres.json. Copies avant mutation : *.avant, conservées dans ce dossier temporaire.
+
+05:17 Paris — complément voirie et compteurs : pro_cramif.html ajoute voirie_marquages dans ordre, visibilité initiale, périmètre continu/coupe et libellé Marquages · Tanger et Maroc. La ligne coordination_nuit apparaît depuis les compteurs même si le backend n’a pas encore de lot correspondant, sans pourcentage ni activité inventée. Intervalle clos et note d’attribution désormais lisibles dans le détail des tokens.
+HTTP après restart : /api/chantier 200, les deux attributions sont disponibles, interface inchangée, coordination 1 043 725 tokens au relevé. /api/etat 200 avec voirie_marquages disponible ; /pro 200 et code actualisé. Syntaxe du script module validée par node --check. L’importmap a été reconnu comme JSON et non JavaScript. Aucun contrôle graphique revendiqué. Preuve http_apres_restart.json.
+
+Maillage HTTP vérifié comme binaire avec en-tête JSON (format du chargeur) : 22500 octets ; status200. Première tentative JSON brut écartée car le format de route est binaire. Voir http_marquages.json.

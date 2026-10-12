@@ -1,0 +1,15 @@
+{
+  "images_examinees": [
+    "/private/tmp/nuit_controles_visuels/tour.png",
+    "/private/tmp/nuit_controles_visuels/contacts_maroc.png",
+    "/private/tmp/nuit_controles_visuels/contacts_flandre.png",
+    "/private/tmp/nuit_controles_visuels/contacts_angle_nord.png",
+    "/private/tmp/nuit_controles_visuels/rotonde_gradins.png",
+    "/private/tmp/nuit_controles_visuels/terrasse_nord_laterale.png",
+    "/private/tmp/nuit_controles_visuels/ecluse_detail.png",
+    "/private/tmp/nuit_controles_visuels/ecluse_banquettes.png"
+  ],
+  "rapport": "/private/tmp/nuit_controles_visuels/RAPPORT.txt",
+  "geometry_changed": false,
+  "native_saved": false
+}

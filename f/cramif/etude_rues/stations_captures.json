@@ -1,0 +1,174 @@
+[
+  {
+    "id": "CAP_TV_750599103",
+    "troncon": "TV_750599103",
+    "rue": "Avenue de Flandre",
+    "camera_xy_local_m": [
+      85.43807872328267,
+      98.65073526799934
+    ],
+    "z_sol_interpole_m": 51.09716324356502,
+    "camera_z_m": 52.74716324356502,
+    "hauteur_camera_m": 1.65,
+    "hauteur_camera_statut": "CONVENTION",
+    "xy_station_statut": "CONVENTION proposition suraxe municipal",
+    "cibles_xy_indicatives": [
+      [
+        77,
+        160
+      ],
+      [
+        83,
+        120
+      ]
+    ],
+    "consigne": "documenter lesdeuxtrottoirs,piedsfaçades,ruptures,mobiliers,arbres ; noterdateimage,adresseexacte,pasdecopyrightcommedate"
+  },
+  {
+    "id": "CAP_TV_750598733",
+    "troncon": "TV_750598733",
+    "rue": "Avenue de Flandre",
+    "camera_xy_local_m": [
+      202.6086298359916,
+      237.94213746747883
+    ],
+    "z_sol_interpole_m": 49.572307928118704,
+    "camera_z_m": 51.2223079281187,
+    "hauteur_camera_m": 1.65,
+    "hauteur_camera_statut": "CONVENTION",
+    "xy_station_statut": "CONVENTION proposition suraxe municipal",
+    "cibles_xy_indicatives": [
+      [
+        135,
+        207
+      ]
+    ],
+    "consigne": "tour27–31 : vuefrontale etretourslatéraux,balcons/RDC/liaisonssol ; acquisitiondateànoter"
+  },
+  {
+    "id": "CAP_TV_750598734",
+    "troncon": "TV_750598734",
+    "rue": "Rue du Maroc",
+    "camera_xy_local_m": [
+      101.38716359608043,
+      209.3024511488413
+    ],
+    "z_sol_interpole_m": 49.55622364229576,
+    "camera_z_m": 51.20622364229576,
+    "hauteur_camera_m": 1.65,
+    "hauteur_camera_statut": "CONVENTION",
+    "xy_station_statut": "CONVENTION proposition suraxe municipal",
+    "cibles_xy_indicatives": [
+      [
+        95,
+        195
+      ]
+    ],
+    "consigne": "Maroc1–3 : grille,muret,portail,jardin et stationnement ; comparerjuillet2026àoct2025 ; relevé actuelnécessairepourfintravaux"
+  },
+  {
+    "id": "CAP_TV_750598771",
+    "troncon": "TV_750598771",
+    "rue": "Rue de Tanger",
+    "camera_xy_local_m": [
+      10.53912854587189,
+      202.52254566376456
+    ],
+    "z_sol_interpole_m": 49.04354282442546,
+    "camera_z_m": 50.69354282442546,
+    "hauteur_camera_m": 1.65,
+    "hauteur_camera_statut": "CONVENTION",
+    "xy_station_statut": "CONVENTION proposition suraxe municipal",
+    "cibles_xy_indicatives": [
+      [
+        43,
+        202
+      ],
+      [
+        17,
+        125
+      ]
+    ],
+    "consigne": "Tanger CRAMIF et accèscourSud : vuesversdeuxniveaux,entrée/sortierampe ; éviterocclusiondalle ; paslargeurdepuisprofilseul"
+  },
+  {
+    "id": "CAP_TV_750598894",
+    "troncon": "TV_750598894",
+    "rue": "Rue de Tanger",
+    "camera_xy_local_m": [
+      -41.175248105177296,
+      130.12236062447855
+    ],
+    "z_sol_interpole_m": 49.85444529396197,
+    "camera_z_m": 51.50444529396197,
+    "hauteur_camera_m": 1.65,
+    "hauteur_camera_statut": "CONVENTION",
+    "xy_station_statut": "CONVENTION proposition suraxe municipal",
+    "cibles_xy_indicatives": null,
+    "consigne": "Tanger CRAMIF et accèscourSud : vuesversdeuxniveaux,entrée/sortierampe ; éviterocclusiondalle ; paslargeurdepuisprofilseul"
+  },
+  {
+    "id": "CAP_TV_750598983",
+    "troncon": "TV_750598983",
+    "rue": "Rue du Département",
+    "camera_xy_local_m": [
+      -119.87675412793678,
+      88.90865241993693
+    ],
+    "z_sol_interpole_m": 50.654200915374,
+    "camera_z_m": 52.304200915374,
+    "hauteur_camera_m": 1.65,
+    "hauteur_camera_statut": "CONVENTION",
+    "xy_station_statut": "CONVENTION proposition suraxe municipal",
+    "cibles_xy_indicatives": null,
+    "consigne": "documenter lesdeuxtrottoirs,piedsfaçades,ruptures,mobiliers,arbres ; noterdateimage,adresseexacte,pasdecopyrightcommedate"
+  },
+  {
+    "id": "CAP_TV_750598880",
+    "troncon": "TV_750598880",
+    "rue": "Rue du Département",
+    "camera_xy_local_m": [
+      -178.04642213844457,
+      127.9706710421962
+    ],
+    "z_sol_interpole_m": 50.31289145846118,
+    "camera_z_m": 51.96289145846118,
+    "hauteur_camera_m": 1.65,
+    "hauteur_camera_statut": "CONVENTION",
+    "xy_station_statut": "CONVENTION proposition suraxe municipal",
+    "cibles_xy_indicatives": null,
+    "consigne": "documenter lesdeuxtrottoirs,piedsfaçades,ruptures,mobiliers,arbres ; noterdateimage,adresseexacte,pasdecopyrightcommedate"
+  },
+  {
+    "id": "CAP_TV_750598806",
+    "troncon": "TV_750598806",
+    "rue": "Rue du Département",
+    "camera_xy_local_m": [
+      -226.5311594865711,
+      153.30338047264726
+    ],
+    "z_sol_interpole_m": 50.36221166648817,
+    "camera_z_m": 52.01221166648817,
+    "hauteur_camera_m": 1.65,
+    "hauteur_camera_statut": "CONVENTION",
+    "xy_station_statut": "CONVENTION proposition suraxe municipal",
+    "cibles_xy_indicatives": null,
+    "consigne": "documenter lesdeuxtrottoirs,piedsfaçades,ruptures,mobiliers,arbres ; noterdateimage,adresseexacte,pasdecopyrightcommedate"
+  },
+  {
+    "id": "CAP_TV_750598486",
+    "troncon": "TV_750598486",
+    "rue": "Rue de Tanger",
+    "camera_xy_local_m": [
+      91.06861406124835,
+      318.6109139398777
+    ],
+    "z_sol_interpole_m": 48.82899152027639,
+    "camera_z_m": 50.47899152027639,
+    "hauteur_camera_m": 1.65,
+    "hauteur_camera_statut": "CONVENTION",
+    "xy_station_statut": "CONVENTION proposition suraxe municipal",
+    "cibles_xy_indicatives": null,
+    "consigne": "documenter lesdeuxtrottoirs,piedsfaçades,ruptures,mobiliers,arbres ; noterdateimage,adresseexacte,pasdecopyrightcommedate"
+  }
+]

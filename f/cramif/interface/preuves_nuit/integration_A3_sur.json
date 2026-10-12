@@ -1,0 +1,17 @@
+{
+  "verified_reopen": true,
+  "marquages": [
+    "NUIT_PASSAGE_TANGER_MAROC_01",
+    "NUIT_PASSAGE_ECLUSE_AVAL_01"
+  ],
+  "triangles": 546,
+  "ombrage_idempotent": {
+    "etat": "DEJA_APPLIQUE",
+    "objets": [],
+    "geometrie_modifiee": false,
+    "angle_deg": 30
+  },
+  "native": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend",
+  "sha256": "7b00085dd08db2e73484e34da5c737e36c24413debec0d9e0323751a1ffec3a5",
+  "saved_at": "2026-10-11T03:32:35.609169+00:00"
+}

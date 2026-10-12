@@ -1,0 +1,12 @@
+BERGES — SIX HOUPPIERS HISTORIQUES INTÉGRÉS
+Notice d’intervention — 11 octobre 2026
+
+Six enveloppes individuelles ont été intégrées pour des arbres existants des quais de Valmy et de Jemmapes. Elles sont construites sur les retours de végétation historiques retenus. Les pieds, troncs, essences et propriétés de hauteur existants sont conservés dans le paquet testé ; aucun arbre supplémentaire n’est inventé.
+
+Les points LiDAR sont documentés en mars 2023, sans feuilles. La segmentation et l’attribution des retours à chaque arbre restent ESTIME ; l’enveloppe convexe fermée et lissée est CONVENTION. Ni branches ni feuilles détaillées ne sont reconstituées. Le couvert réel de 2026 n’est pas affirmé. La date d’export de l’inventaire municipal ne date pas un relevé individuel.
+
+Seuls les individus satisfaisant les critères de support, d’isolement et de conservation des transformations ont été retenus. Le paquet ne représente pas un contrôle exhaustif de toute la végétation. Les individus incertains et les deux poiriers déjà signalés restent exclus.
+
+Les six houppiers sont intégrés au natif A17 ; sa sauvegarde et sa réouverture ont été contrôlées par la coordination. La figure préparatoire compare des enveloppes et des points ; elle n’est pas une photographie ni un nouveau rendu du fichier A17 rouvert.
+
+Rapport source à conserver dans le projet : donnees/v3/eole/canopies_berges_a17/RAPPORT.txt.

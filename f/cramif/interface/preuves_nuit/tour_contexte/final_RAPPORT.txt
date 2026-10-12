@@ -1,0 +1,29 @@
+TOUR — CONTRÔLE CIBLÉ FINAL, 11 OCTOBRE 2026, 13:04–13:07 PARIS
+
+Résultat
+Les trois volumes de CRAMIF_A20_TOIT_ARRIERE_ESTIME sont présents exactement dans la couche bâtiments servie. La tour reste monochrome comme le contexte. La vue haute montre la toiture inclinée et le profil rentrant avec sa cassure basse. Le pan est ESTIME ; cette recette ne transforme pas son niveau et son recul en mesures ni ne certifie une conformité photographique intégrale.
+
+Version et correspondance
+Natif lu en arrière-plan sans sauvegarde : SHA256 8dd55fa238f5dcc7b9b581cccf6f4ffd4a271a5be6ff73e272b1402fb83d86ec, conforme à la publication annoncée.
+API /api/couche/bati_v3 : HTTP200,294667 triangles. Trois objets :
+TOUR_A20_TOIT_ARRIERE_INCLINE_0 :28 triangles,0 absent.
+TOUR_A20_TOIT_ARRIERE_INCLINE_1 :76 triangles,0 absent.
+TOUR_A20_CORPS_RESTE_0 :156 triangles,0 absent.
+260 triangles au total. Correspondance exacte des XYZ convertis en float32, triangle canonique indépendant de l’ordre des sommets. Tous les260 triangles portent RGB140,147,153, catégorie4. Les trois objets natifs sont fermés selon incidence des arêtes triangulées (chaque arête apparaît deux fois). Propriété Contexte_tour=True et Pan_brise_statut=ESTIME présentes.
+Preuves : comparaison_exacte.json et native_3volumes.json. Ce contrôle est limité aux trois volumes, sans réaudit global des autres objets.
+
+Qualification des sources
+Les propriétés natives distinguent plan altimétrique LiDAR2023, contour arrière estimé et pan brisé estimé. Le pan indique coude et recul issus d’une interprétation photographique, pieds et toiture conservés. Les dates d’acquisition des photos restent inconnues. Les résultats1326inliers/RMSE2,33cm sont des métadonnées du lot géométrie, non une mesure recalculée par cette recette.
+
+Preuves graphiques retenues
+pan_vue_haute.png : meilleure vue actuelle du côté arrière, avec toiture inclinée, grand pan neutre et cassure basse, sans masquer le contexte. Caméra temporaire(91,177,116), cible(135,207,70), FOV45. Capture réelle Chrome headless SwiftShader1440×1000, inspectée.
+tour_contexte.png : ensemble vu depuis Flandre, tour et bâtiments voisins dans une palette sobre commune.
+tour_pan_et_toiture.png : complément montrant le toit, bas du corps partiellement masqué par CRAMIF.
+Les premiers tour_rapprochee.png et pan_rue_*.png sont des essais trop serrés ou occultés ; ne pas les retenir comme preuves principales. Aucun masquage artificiel de bâtiment pour obtenir la vue retenue.
+Les positions et FOV ont changé uniquement dans ce navigateur temporaire, sans modification de préréglage du site ou du natif.
+
+Activité
+Pro et Brain à13:04 : Coordination et Interface Contrôle, retours frais13:03:34, anneaux actifs. Géométrie et Sources Livré, aucune animation. Les tâches et résultats visibles sont ceux de l’API. Brain sans débordement horizontal. Captures pro_activite.png et brain_activite.png ; recette.json pour le relevé DOM.
+
+Limites et fermeture
+Recette Chrome headless ; aucune certification Safari, tactile ou Blender GUI. Aucun code, backend, modèle ou état du chantier modifié. Deux sessions temporaires Chrome isolées9228 ont été fermées après les prises ; processus finaux sortis code0. Lecture Blender terminée code0, aucune sauvegarde.

@@ -1,0 +1,34 @@
+SIMPLIFICATION DES SOLS DES DEUX ILOTS — PAQUET FINAL
+11 octobre 2026. Préparation en lecture seule du projet ; root réalise seul l'intégration/sauvegarde.
+
+FICHIERS
+Importeur sans save : importer_simplification.py
+Données : patch/Sol_lisse.npz, Amenagements.npz, Trottoirs.npz
+Manifeste : patch/manifest_patch.json
+Domaines exacts : domaines.geojson (repère E2154−653700,N2154−6865100,Z IGN69)
+Contrôles : patch/validation.json, validation_lidar.json, diagnostic_pentes.json
+Avant/après : patch/comparaison_sols.png
+Reliefs exclus de la simplification : patch/reliefs_preserves.geojson
+Sources végétation : sources/vegetation_documentee_local.geojson et jardinieres_documentees_local.geojson ; ces contours ne certifient pas une couverture en gazon.
+
+DOMAINE
+SEINE : îlot bâti identifié par les taches du viewer, bbox[185.734,129.356,421.570,332.654],19373 m².
+LOIRE : îlot long Cours Florent, bbox[166.816,−126.287,591.982,148.296],34044 m².
+Les domaines incluent le sol sous les bâtiments. Ils proviennent de l'union des zones sol+bâti issues des limites de voirie PVP. Ni rue/quai extérieur ni square public ne sont redessinés. Le rapprochement de la photographie Google côté Seine demeure moins précis que le repérage des blobs du viewer ; l'hypothèse d'un déplacement de la cible au NE a été retirée avant toute modification.
+
+GEOMETRIE
+4301 sommets corrigés dans les trois parts (3824/128/349). Aucun déplacement XY. Petites cours :13 plans Seine,9 plans Loire ajustés au LiDAR. Deux grandes cours Loire(zones557/641) utilisent des plans locaux lissés sur supports de1m, afin de conserver la pente réelle et éviter un unique plan trop approximatif. Raccords progressifs sur 3 m aux contours et reliefs protégés. Sous les bâtiments et dans les intervalles non mesurés, interpolation ESTIME entre les plans voisins.
+58 faces verticales devenues dégénérées par projection sont retirées. Aucun nouveau triangle/overlay ; les faces existantes reçoivent les niveaux simplifiés.1918 faces auparavant classées pelouse par segmentation automatique de l'orthophoto redeviennent le matériau de sol neutre. Les arbres ne sont pas modifiés. Aucune pelouse/jardinière inventée ; contours officiels livrés comme données documentaires séparées.
+
+PRESERVATION
+Tous sommets extérieurs aux deux domaines STRICTEMENT identiques. Tous sommets du secteur CRAMIF STRICTEMENT identiques. Les entrées sont les NPZ déjà corrigés de donnees/v3/cramif/reparation_sol, pas les anciennes sources de maillage. Les bâtiments, clôtures, murets, mobilier et quatre lots CRAMIF ne sont pas modifiés. 1624 m² de reliefs mesurés Loire et1598 m² Seine restent protégés (dépressions/niveaux multiples/cours dont un plan n'est pas justifié).
+
+CONTROLES ET LIMITES
+Import complet testé deux fois sans sauvegarde dans Blender 5.2 sur le natif actuel. Coordonnées/ordre des faces vérifiés avant toute mutation ; refus automatique si Yann a modifié le terrain entretemps. Objets/scènes/matériaux conservés ; anciennes datablocks gardées en mémoire pour réversibilité.
+SEINE : topologie intérieure0 arête ouverte/0 nonmanifold. LOIRE : arêtes ouvertes préexistantes78→58 sur les parts modifiées,0 nonmanifold ; ce terrain n'est donc pas un solide global étanche.
+Écart aux points classe2 contrôlés, hors reliefs protégés et raccords : SEINE2633 points RMS9,13 cm (avant6,91 cm),médiane absolue3,11 cm,p95=21,37 cm ; LOIRE36032 points RMS8,86 cm(avant6,72 cm),médiane3,12 cm,p95=16,93 cm. La simplification est une interprétation géométrique, pas une amélioration de la précision du relevé.
+Les pentes fortes réelles restent présentes. Aire des triangles>20°: SEINE168→63 m², LOIRE680→691 m² ; ce dernier indicateur inclut les raccords élargis et les dépressions protégées, il ne démontre pas une disparition générale du relief. Les zones complexes protégées peuvent conserver des facettes : elles ne sont pas artificiellement remplies.
+
+INTEGRATION
+Persister le paquet dans le projet sous donnees/v3/cramif/simplification_quais et l'importeur sous scripts/v3/cramif, sans écraser sources ou patch CRAMIF précédents. Configurer global ou env SIMPLIFICATION_PATCH_ROOT vers le paquet déplacé. Puis exécuter importer_simplification.py dans la copie Blender visible. Le script ne sauvegarde pas. Root contrôle les vues, sauvegarde et fait lire au viewer les3 nouveauxNPZ à la place des3 parts correspondantes. Les3 autresparts terrain restent identiques.
+Progression /private/tmp/cramif_simplification_progress.json=95%, statut prêt à intégrer ; passer100% après intégration et contrôle visible par root.

@@ -1,0 +1,11 @@
+BERGE BASSE — DISTINGUER LES NIVEAUX SOUS LE COURONNEMENT
+Diagnostic A19 du 11 octobre 2026, portant sur une lecture stable du natif A17.
+
+La berge basse et le trottoir supérieur correspondent à des niveaux distincts. Le contre-contrôle confirme cette superposition ; le point signalé n’établit pas une facette native cassée. Les empreintes du fichier A17 au début et à la fin de la lecture sont identiques.
+
+Le plan bas documentaire ne peut être prolongé automatiquement sous tout le couronnement. Sa petite extrémité incertaine se trouve surtout sous la projection de surfaces hautes ; aucun retour LiDAR n’y établit directement le dessous. L’absence de retour peut résulter de l’occlusion et ne prouve pas l’absence d’un sol bas.
+
+Aucun correctif géométrique n’est livré : le trottoir, l’eau et les niveaux bas existants sont préservés. Une coupe géoréférencée ou une vue oblique du pied du mur et du dessous du couronnement est nécessaire pour délimiter une éventuelle surface manquante. Les domaines colorés du diagnostic sont des résultats de comparaison, pas des contours de dalle à construire.
+
+Sources : retours LiDAR IGN historiques des 2–3 mars 2023 ; orthophoto IGN à 25 cm récupérée le 11 octobre 2026, dont la date d’acquisition n’est pas établie. Le plan ajusté et l’attribution des couches restent ESTIME ; les seuils de comparaison sont CONVENTION, et non une précision générale du relevé.
+Rapport détaillé : donnees/v3/eole/diagnostic_berge_a19/RAPPORT.txt.

@@ -1,0 +1,75 @@
+{
+  "images_exactes": [
+    {
+      "file": "donnees/v3/cramif/couverture_sud_a17/comparatif.png",
+      "statut": "DOCUMENTEE",
+      "titre": "Cour sud · orthophoto et proposition de couverture"
+    },
+    {
+      "file": "donnees/v3/cramif/couverture_sud_a17/apres_oblique.png",
+      "statut": "DOCUMENTEE",
+      "titre": "Cour sud · lecture oblique de la proposition"
+    },
+    {
+      "file": "donnees/v3/eole/canopies_berges_a17/preuve_canopies_avant_apres.png",
+      "statut": "DOCUMENTEE",
+      "titre": "Berges · six enveloppes historiques comparées"
+    },
+    {
+      "file": "donnees/v3/eole/diagnostic_lacunes_a16/ortho_lacunes.png",
+      "statut": "DOCUMENTEE",
+      "titre": "Éole · localisation des deux lacunes d’assise"
+    },
+    {
+      "file": "donnees/v3/eole/diagnostic_lacunes_a16/audit_altitudes.png",
+      "statut": "DOCUMENTEE",
+      "titre": "Éole · niveaux des secteurs laissés ouverts"
+    },
+    {
+      "file": "donnees/v3/eole/diagnostic_lacunes_a16/natif_audit_lacunes.png",
+      "statut": "DOCUMENTEE",
+      "titre": "Éole · lacunes visibles dans le modèle"
+    },
+    {
+      "file": "donnees/v3/cramif/rotonde_diagnostic_NE/NE_natif.png",
+      "statut": "DOCUMENTEE",
+      "titre": "Rotonde · porche nord-est dans le modèle audité"
+    },
+    {
+      "file": "donnees/v3/cramif/rotonde_diagnostic_NE/comparatif_NE.png",
+      "statut": "DOCUMENTEE",
+      "titre": "Rotonde · photo de référence et porche modélisé"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/cour_A17/cour_A17.png",
+      "statut": "DOCUMENTEE",
+      "titre": "Cour CRAMIF · couverture visible après intégration"
+    }
+  ],
+  "carnet_servi_exact": true,
+  "carnet_sha256": "03ca122145b2795b16fef9d24750569b240e4286ee48314c27b6692ca6c64b71",
+  "meta": {
+    "total": 8182,
+    "date_inventaire": 1791699885.034341,
+    "refresh_seconds": 30,
+    "racines": {
+      "cramif": 81,
+      "images_projet": 4139,
+      "images_calcul": 3955,
+      "images_claude": 0,
+      "cr_image": 7
+    },
+    "provenances_documentees": 311,
+    "sources_inconnues": 7871,
+    "non_previsualisables": 9,
+    "limites": [
+      "Inventaire des fichiers conservés et images embarquées du compte rendu Stalingrad. Les images perdues ou jamais enregistrées localement ne sont pas récupérables ici.",
+      "Les copies conservées dans plusieurs dossiers restent visibles avec leur emplacement ; pas de déduplication de contenu.",
+      "Auteur et date d’acquisition inconnus restent explicitement inconnus ; mtime sert au tri, pas à dater le terrain.",
+      "Références Google : accès interne conservant l’authentification du serveur."
+    ],
+    "racines_absentes": [
+      "images_claude"
+    ]
+  }
+}

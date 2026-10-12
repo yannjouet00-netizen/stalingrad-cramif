@@ -1,0 +1,41 @@
+TOUR 27–31 AVENUE DE FLANDRE — COMPARAISON PRÉCISE DES FAÇADES
+11 octobre 2026, lot 06:37–06:48 Paris. Aucun natif modifié ni sauvegardé.
+
+Conclusion : deux omissions sont attestées par les photos : les baies carrées composées de neuf carreaux sur la masse sombre et le vitrage du retour supérieur. Leur implantation métrique n'est pas suffisamment établie pour livrer une géométrie sans hypothèse supplémentaire. Le présent paquet est un comparatif avec faces candidates, pas un patch approuvé.
+
+ÉTAT RELU
+Natif courant, SHA 76c1b1b0ce1fe4c18f37d72c03cef7e4490ca3595e81db4d4c9f03216161e32f, incluant les intégrations précédentes A10. Lecture seule de 71 objets liés à la tour. L'objet source du noyau est 2506371 ; le couronnement droit est 2506373. La tour est le bâtiment voisin de la CRAMIF, et non une aile de celle-ci.
+Trois vues CLI isolées : front.png, trois_quarts.png, cote_droit.png. Les autres objets sont masqués en mémoire uniquement. Les positions, faces, matériaux et propriétés sont enregistrés dans native_tour.json pour traçabilité. Les images ont été examinées.
+
+PHOTOS UTILISÉES
+Capture utilisateur 2026-10-10 à 23.11.37 et 2026-10-11 à 00.51.35, dans /Users/yannjouet/Desktop/captures mod.
+Les dates de capture écran ne sont pas les dates de photographie. Date de prise de vue non attestée ici. La seconde photo fournit une vue plus dégagée des deux baies hautes et du retour vitré. La capture00.56.57 concerne l'autre bâtiment vitré près de la crèche ; elle a été exclue de ce comparatif de tour.
+
+COMPARAISON PAR ÉLÉMENT
+A — Pile de balcons : présente dans le natif, avec dalles et garde-corps séparés. Le fond vitré est présent, sur quatre travées conventionnelles. Les photos attestent la présence des balcons et du vitrage ; les subdivisions exactes partiellement occultées ne sont pas certifiées.
+B — Voile opaque : présent. Les écarts de largeur apparente entre vue orthographique et photo ne sont pas des preuves d'une erreur d'emprise : angles, profondeur du voile et perspective sont différents. Aucune correction de volume sur cette seule comparaison.
+C — Bande centrale en retrait : présente, contrairement à une lecture trop rapide du premier rendu. Le natif comporte trois travées régulières. Les traverses sont programmées aux niveaux des balcons et à niveau+1,05m ; cette dernière valeur est une CONVENTION, pas une cote photographique. La photo montre une alternance vitrée/opaque plus spécifique. Le rythme exact et les allèges restent à recaler.
+D — Masse sombre : deux baies 3×3 sont entièrement lisibles dans00.51.35 ; une troisième apparaît en partie sous la végétation, et d'autres au-dessous sont occultées. Le natif ne contient aucun de ces groupes : le parement est plein. La présence et la trame 3×3 sont SOURCE_PHOTO ; largeur, hauteur, allèges et répétition totale restent ESTIMÉES/INCONNUES. Ne pas recopier arbitrairement les deux baies visibles jusqu'au sol.
+E — Retour du couronnement : vitrage visible sur la face de retour de la saillie sombre dans les deux photos. Le solide2506373 actuel est intégralement opaque. Présence attestée ; face à confirmer par recalage, subdivision et marges non métriquement établies.
+F — Socle commercial : visible dans les photos, mais largement occulté par arbres et mobilier. Le modèle reste un socle simplifié ; les enseignes ne sont pas des cotes ni des preuves d'emprise intérieure.
+
+COORDONNÉES ET LIMITES D'IMPLANTATION
+Le fond de balcon reprend l'arête source15 : (138,180 ;190,759)→(141,998 ;195,464), longueur6,059m, décalée en profondeur par le lot existant de 1,075 m pour le vitrage. Ce retrait est une estimation explicite du lot antérieur.
+La bande centrale reprend l'arête19 : (138,670 ;202,559)→(144,537 ;207,154), longueur7,452m, Z50,50→79,20m. Ces altitudes sont celles de la modélisation actuelle, pas de nouvelles mesures de façade.
+Faces du retour et de la masse sombre à recaler :
+20 : (144,537 ;207,154)→(147,014 ;204,013), longueur4,000m.
+21 : (147,014 ;204,013)→(150,062 ;206,414), longueur3,880m.
+22 : (150,062 ;206,414)→(146,744 ;210,604), longueur5,345m.
+Ces arêtes proviennent du polygone source. Leur affectation à une face précise de la photographie n'est pas certifiée métriquement ; elles sont des candidats identifiés, pas des positions de fenêtres approuvées.
+Couronnement 2506373 : bboxXY147,014..150,650 /203,264..206,414 ; Z80,567..87,130m.
+
+SUITE TECHNIQUE CONCRÈTE
+Avant insertion de baies : recaler une photographie sur au moins quatre points coplanaires identifiés de la face candidate, contrôler le résultat avec la seconde photo, puis comparer les niveaux obtenus aux dalles sources. Un simple alignement en pixels entre ces images n'est pas métrique. Les contours et la répétition des parties cachées ne doivent pas être complétés à l'aveugle.
+Une fois ces données disponibles, un lot limité aux baies attestées peut remplacer localement le parement, avec menuiseries 3×3 et propriétés ESTIME/SOURCE_PHOTO séparées ; le noyau, les balcons, les pieds et les intégrations A10 restent inchangés.
+
+LIVRABLES
+comparatif_annote.png : photo et natif, avec omissions précisément fléchées ; perspective différente signalée.
+plan_faces.png + faces_source.json : arêtes du noyau utilisables au recalage, sans fenêtres inventées.
+native_tour.json : état lu, empreinte native et géométrie des 71 objets.
+front.png / trois_quarts.png / cote_droit.png : vues isolées examinées.
+Aucun importeur livré, aucune mutation recommandée sur la seule base des dimensions apparentes.

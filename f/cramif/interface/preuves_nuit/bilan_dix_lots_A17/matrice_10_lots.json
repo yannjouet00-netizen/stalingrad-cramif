@@ -1,0 +1,157 @@
+{
+  "reference": "Dix lots explicitement inclus dans MISSION_NUIT.txt, capture04:43:48",
+  "native_A17": "443186a6e9f7d7247c78d915ae81c75af548b6a3ff26facf24830f9e389f92d6",
+  "native_path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend",
+  "compiled_at": "2026-10-11T06:51:31.452901+00:00",
+  "no_new_checks": true,
+  "no_native_write": true,
+  "night_start": "2026-10-11T04:38:00+02:00",
+  "scope_excludes_Eole_parallel_synthesis": true,
+  "rows": [
+    {
+      "numero": 1,
+      "lot": "Interface · introduction et suivi",
+      "etat": "RECETTE CIBLÉE ACQUISE",
+      "deja_present_avant_0438": "Interface, modèle web et premières corrections déjà présents.",
+      "changements_et_controles_nuit": "Introduction : fond continu et chargement réel ; états et compteurs qualifiés ; coupes bâtiments testées ; vues Rotonde/Bassin associées au bon périmètre ; Brain orbite/recherche/recentrage corrigés et neuf gestes testés ; Carnet/galerie recettés. 947 images historiques archivées durablement, SHA identiques, galerie pointe sur copie durable.",
+      "preuves": [
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/hierarchie_Pro/RAPPORT.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/archives_Claude/publication_durable.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/galerie_recette/RAPPORT.txt"
+      ],
+      "limites": "Recette Chrome headless/SwiftShader et dimensions bureau/téléphone ; pas certification Safari/tactile/performance GPU. 10/10 désigne checklist interface, jamais fidélité du modèle. Dates fichier ≠ acquisition ; auteur inconnu reste inconnu.",
+      "prochaine_operation_utile": "Consolider les notices/états restants ; contrôle rapide des parcours de livraison, sans annoncer recette tactile non faite."
+    },
+    {
+      "numero": 2,
+      "lot": "Sols · îlots Seine et Loire",
+      "etat": "SIMPLIFICATION ANTÉRIEURE CONTRÔLÉE",
+      "deja_present_avant_0438": "Deux îlots simplifiés avant la mission : superficies analytiques 19 373 et34 044m², reliefs protégés.",
+      "changements_et_controles_nuit": "Contrôle A11 sans nouvelle correction : trois couches conformes à la livraison à0,031mm ; aucun recouvrement projeté >1e−5m² sur le domaine testé ; 1 598/1 624m² de reliefs conservés ; quatre vues natives inspectées.",
+      "preuves": [
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/quais_A11/RAPPORT.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/quais_A11/comparaison_geometrie.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/quais_A11/chevauchements.json"
+      ],
+      "limites": "Ce sont les îlots bâtis, pas les squares publics homonymes. RMSE du masque contrôlé9,13/8,86cm ; simplification n’améliore pas la fidélité ponctuelle. Loire58arêtes ouvertes héritées, pas solide étanche certifié.",
+      "prochaine_operation_utile": "Conserver les domaines protégés ; qualifier individuellement les58limites Loire avant tout rebouchage. Pas de nouveau défaut confirmé nécessitant remplacement."
+    },
+    {
+      "numero": 3,
+      "lot": "Tour voisine · balcons, retrait et baies",
+      "etat": "REPRISE CIBLÉE INTÉGRÉE",
+      "deja_present_avant_0438": "23bandes parasites remplacées par46éléments de balcons ;24pièces de parement et couronnement repris auparavant.",
+      "changements_et_controles_nuit": "Contrôles analytiques et vues natives ; A14 ajoute deux baies visibles3×3 et un retour vitré, trois assemblages fermés, dimensions ESTIME. Réouverture et cohérence web/native attestées ; A17 conserve ces objets.",
+      "preuves": [
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/tour_A14/RAPPORT.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/coherence_baies_A14/validation.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A14.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A17.json"
+      ],
+      "limites": "Tour27–31Flandre distincte de CRAMIF. Photos utilisées de date d’acquisition non établie ; trame de retour CONVENTION, baies estimées. Aucun intérieur ou baie masquée inventé ; aucune certification métrique globale.",
+      "prochaine_operation_utile": "Pour plus de détail : photographies rectifiables/levé des seules travées manquantes. Conserver les baies ciblées et le retrait dégagé."
+    },
+    {
+      "numero": 4,
+      "lot": "Sols · cour centrale, Maroc et cour sud",
+      "etat": "PARTIEL — RUPTURES EN ATTENTE",
+      "deja_present_avant_0438": "Cour centrale à deux rampes opposées, deux bandes d’entrée Maroc et premiers raccords déjà intégrés avant la mission.",
+      "changements_et_controles_nuit": "Ombrage angle30 sans changement de coordonnées. A6 raccord ponctuel avec triangulation contrainte et trois ancrages ;140observations améliorées,7aggravées≤2,85cm. A8 raccordNE15,30m² :91/100améliorées,aucune aggravée≥1mm. A17 ajoute couverture seule174,27m²,34sommets/64triangles, altitude LiDAR et contour ESTIME ; aucun sol déplacé par cette couverture. Audit final :8corps et6parts locales conservés,270retours résiduels localisés en15foyers.",
+      "preuves": [
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A6.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/cour_sud_a6/rebase_A5_validation.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/raccord_NE_a8/RAPPORT.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A17.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/diagnostic_cours_a17/RAPPORT.txt"
+      ],
+      "limites": "Cour sud reste facettée. Niveaux source50,1–50,3/51,5–51,9m et passagebas≈46m réellement séparés. 40points sous couverture,11en projection autre bâti ; limite inférieure de dalle et rupture à préciser. Premier candidat sous couverture rejeté ; couverture ne résout pas son sol. Extrémités centrales non qualifiées et masque vert spectral restent limites.",
+      "prochaine_operation_utile": "Priorité : délimiter rupture S9–S14/S6 et nappes S7–S11 par source géoréférencée ; préparer raccord local conservant chaque niveau et bord. Ne pas lisser globalement ni réactiver le candidat rejeté."
+    },
+    {
+      "numero": 5,
+      "lot": "Murets · quatre contacts",
+      "etat": "CONTACTS CONTRÔLÉS",
+      "deja_present_avant_0438": "Quatre bases adaptatives descendues sous le sol auparavant ; couronnements/grilles/ouvertures conservés.",
+      "changements_et_controles_nuit": "Contrôle géométrique des4corps et vues natives Maroc/Flandre/angle nord ; aucun vide continu dans les portions observées. Aucun nouveau muret inventé ni rehaussement de couronnement.",
+      "preuves": [
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/details_natifs_A8/RAPPORT.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/reparation_murets/RAPPORT.txt"
+      ],
+      "limites": "Axes sourcés, formes et dimensions fines ESTIME/CONVENTION. Terrain haut masque localement le couronnement au front nord ; vues ne certifient pas tous les contacts cachés au millimètre.",
+      "prochaine_operation_utile": "Conserver les bases ; reprendre uniquement un contact local si nouveau défaut visible et terrain adjacent prouvé, sans combler cour basse."
+    },
+    {
+      "numero": 6,
+      "lot": "Eau · aperçu",
+      "etat": "RENDU UNIQUEMENT",
+      "deja_present_avant_0438": "Surface d’eau et réglage de rides déjà signalés dans le suivi.",
+      "changements_et_controles_nuit": "Contrôle d’aperçu signalé par suivi ; vue Bassin corrigée pour contenir le bassin entier en périmètre Ensemble. Aucun changement de géométrie ou de cote d’eau durant la mission établi par les preuves relues.",
+      "preuves": [
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/suivi/chantier_cramif.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_headless/vues/RAPPORT.txt"
+      ],
+      "limites": "Rides visibles ne constituent ni nouvelle mesure du niveau d’eau ni rendu final. Nappes ouvertes volontairement ; ne pas les fermer comme des bâtiments.",
+      "prochaine_operation_utile": "Vérifier l’aperçu final avec les couches de berge ; conserver les cotes et contours existants tant qu’aucune nouvelle source ne justifie une mutation."
+    },
+    {
+      "numero": 7,
+      "lot": "Voirie et marquages",
+      "etat": "PARTIEL — 19 BANDES LIVRÉES",
+      "deja_present_avant_0438": "Chaussées et géométrie principale déjà présentes.",
+      "changements_et_controles_nuit": "Dix bandes passageTanger/Maroc puis neuf bandes à l’aval de l’écluse, drapées sur les chaussées natives ; deux lots sauvegardés et couche web contrôlée. Implantations estimées depuis ortho, surélévation8mm convention anticoplanarité.",
+      "preuves": [
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A2.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/marquages_A3_HTTP.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/suivi/chantier_cramif.json"
+      ],
+      "limites": "Ce sont19bandes sur2passages, pas toute la voirie. Largeur/XY estimés depuis images20–25cm ; date acquisition orthoécluse inconnue. Peinture ouverte volontaire, aucun nouvel ouvrage sous-jacent.",
+      "prochaine_operation_utile": "Inventorier les autres marquages réellement visibles et datés ; ajouter uniquement ceux dont l’implantation et la surface porteuse sont établies."
+    },
+    {
+      "numero": 8,
+      "lot": "Rotonde · abords et gradins",
+      "etat": "CONTACT NO CORRIGÉ ; NE EN ATTENTE",
+      "deja_present_avant_0438": "Monument71objets et terrasses/gradinsM8 présents avant la mission.",
+      "changements_et_controles_nuit": "A1 abaisse un point partagé Sol/Trottoirs de3,8002cm, supprimant une pénétration maximale3,5169cm au porcheNO ; monument inchangé. Audit71objets/53936triangles fermés et vues inspectées. Nouveau diagnosticNE : photo2016 suggère≈7contremarches contre4conventionnelles natives.",
+      "preuves": [
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A1.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/controle_geometrie_A1.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/rotonde_diagnostic_NE/RAPPORT.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/details_natifs_A8/RAPPORT.txt"
+      ],
+      "limites": "NE : zéro retourLiDAR dans la volée centrale ; hauteur du seuil et girons non établis. 7marches à hauteur constante déplaceraient le seuil+48,75cm ; à seuil inchangé elles feraient9,29cm. Pas de correction admise sur ce seul compte photographique. TerrassesM8 ne signifient pas escaliers réguliers.",
+      "prochaine_operation_utile": "Relever seuilNE, pied/longueur de volée et marches visibles par vue rapprochée rectifiable ; préserver les71objets jusqu’à ce dimensionnement."
+    },
+    {
+      "numero": 9,
+      "lot": "Écluse · passerelle et berges",
+      "etat": "EXISTANT CONTRÔLÉ ; LIMITE LOCALISÉE",
+      "deja_present_avant_0438": "Escaliers, passerelle, banquettes, portes et niveaux du canal existants.",
+      "changements_et_controles_nuit": "Neuf solidesM8 fermés/conformes,20plans recoupés sur19768échantillons ; vues de volées/paliers/banquettes inspectées. Diagnostic stableA17 du point(80,20;−221,9186) : trottoir52,152m au-dessus du planbas46,693m ; pas de facette cassée démontrée.",
+      "preuves": [
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/details_natifs_A8/RAPPORT.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/controle_geometrie_A1.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/diagnostic_berge_a19/RAPPORT.txt"
+      ],
+      "limites": "Reste du domaine de test≈0,435m²,94,28% sous projection haute et aucun retourclasse2direct ; ne prouve pas omission physique. Appuis et garde-corps non documentés ne sont pas inventés. Aucun nouveau maillage de berge intégré cette nuit.",
+      "prochaine_operation_utile": "Obtenir coupe ou vue oblique du dessous du couronnement/pied de mur pour attribuer le petit domaine bas ; garder eau et niveauhaut tant que limite non confirmée."
+    },
+    {
+      "numero": 10,
+      "lot": "Arbres · écluse et berges",
+      "etat": "PARTIEL — SIX HOUPPIERS A17",
+      "deja_present_avant_0438": "Arbres inventoriés et proxies existants ;341pieds du secteur déjà contrôlés sans déplacement.",
+      "changements_et_controles_nuit": "Six houppiers IDs225,211,195,194,134,153 remplacés sur1906retours historiques :256sommets/488triangles fermés. Pieds,troncs,essences,transformations et propriétés de hauteur préservés. A17 réouvert ; cumul web31comprend25Éole +6berges, pas31arbres du seul secteurécluse.",
+      "preuves": [
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/canopies_berges_a17/RAPPORT.txt",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A17.json",
+        "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/canopies_berges/RAPPORT.txt"
+      ],
+      "limites": "Segmentation ESTIME, enveloppe convexe CONVENTION, LiDAR2023sansfeuilles ; pas couvert2026 affirmé. Deux poiriers10735/11153 en conflit historique non redimensionnés, couronnes scindées/partagées écartées. Pas d’assets Enscape détaillés ou d’essences nouvelles.",
+      "prochaine_operation_utile": "Résoudre les dates/tailles des poiriers et poursuivre seulement les houppiers isolés avec attribution de points solide ; traiter Enscape comme livraison distincte non testée actuellement."
+    }
+  ]
+}

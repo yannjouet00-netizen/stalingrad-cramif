@@ -1,0 +1,61 @@
+{
+  "scope": "maillages, transformations sauvegardees, proprietes objets, materiaux et memberships scenes ; cameras et cadrage exclus",
+  "scenes": {
+    "00_Cadrage": {
+      "added": [],
+      "removed": [],
+      "changed_geometry_materials_properties_transforms": {}
+    },
+    "01_Terrain_IGN": {
+      "added": [],
+      "removed": [],
+      "changed_geometry_materials_properties_transforms": {}
+    },
+    "02_Surface_LiDAR_reference": {
+      "added": [],
+      "removed": [],
+      "changed_geometry_materials_properties_transforms": {}
+    },
+    "03_Enveloppes_documentees": {
+      "added": [],
+      "removed": [],
+      "changed_geometry_materials_properties_transforms": {}
+    },
+    "04_Controles_et_lacunes": {
+      "added": [],
+      "removed": [],
+      "changed_geometry_materials_properties_transforms": {}
+    },
+    "05_Volumes_simples_voirie": {
+      "added": [],
+      "removed": [],
+      "changed_geometry_materials_properties_transforms": {}
+    },
+    "06_Sol_et_voirie_V3": {
+      "added": [
+        "CRAMIF_TOIT_2505947_1",
+        "CRAMIF_TOIT_2505950_4",
+        "CRAMIF_TOIT_2505950_5"
+      ],
+      "removed": [],
+      "changed_geometry_materials_properties_transforms": {}
+    }
+  },
+  "sha256": {
+    "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad.blend": "7fea375e19cd25b24971df21d4c1d8015ca3781c7bc4e063eda602d4e7305b6e",
+    "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend": "47147d4728bb4c0dd7cc275a3542f7f4e8476f8694583373232294b5b688e461"
+  },
+  "original_sha256_identical": true,
+  "saved_transforms": {
+    "initial_mesh_objects": 12988,
+    "final_mesh_objects": 12991,
+    "changed_saved_transforms": {},
+    "added": [
+      "CRAMIF_TOIT_2505947_1",
+      "CRAMIF_TOIT_2505950_4",
+      "CRAMIF_TOIT_2505950_5"
+    ],
+    "removed": []
+  },
+  "note": "matrix_world initiale des objets hors scene active non evaluee ; remplacée par comparaison directe des transformations sauvegardees et parentage."
+}

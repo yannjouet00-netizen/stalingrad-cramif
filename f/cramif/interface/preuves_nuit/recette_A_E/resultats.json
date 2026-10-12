@@ -1,0 +1,348 @@
+{
+  "panels": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "button": "btnJournal",
+      "panel": "chantier",
+      "visible": [
+        "chantier"
+      ],
+      "aria": "true",
+      "bounds": {
+        "x": 12,
+        "y": 131,
+        "width": 300,
+        "height": 793,
+        "right": 312,
+        "bottom": 924
+      },
+      "overflow": 0,
+      "inside": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "button": "btnCouches",
+      "panel": "panneau",
+      "visible": [
+        "panneau"
+      ],
+      "aria": "true",
+      "bounds": {
+        "x": 12,
+        "y": 131,
+        "width": 280,
+        "height": 659.5,
+        "right": 292,
+        "bottom": 790.5
+      },
+      "overflow": 0,
+      "inside": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "button": "btnImages2",
+      "panel": "galerie",
+      "visible": [
+        "galerie"
+      ],
+      "aria": "true",
+      "bounds": {
+        "x": 1198,
+        "y": 131,
+        "width": 230,
+        "height": 793,
+        "right": 1428,
+        "bottom": 924
+      },
+      "overflow": 0,
+      "inside": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "button": "btnJournal",
+      "panel": "chantier",
+      "visible": [
+        "chantier"
+      ],
+      "aria": "true",
+      "bounds": {
+        "x": 12,
+        "y": 391.765625,
+        "width": 366,
+        "height": 388.234375,
+        "right": 378,
+        "bottom": 780
+      },
+      "overflow": 0,
+      "inside": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "button": "btnCouches",
+      "panel": "panneau",
+      "visible": [
+        "panneau"
+      ],
+      "aria": "true",
+      "bounds": {
+        "x": 12,
+        "y": 391.765625,
+        "width": 366,
+        "height": 388.234375,
+        "right": 378,
+        "bottom": 780
+      },
+      "overflow": 0,
+      "inside": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "button": "btnImages2",
+      "panel": "galerie",
+      "visible": [
+        "galerie"
+      ],
+      "aria": "true",
+      "bounds": {
+        "x": 12,
+        "y": 391.765625,
+        "width": 366,
+        "height": 388.234375,
+        "right": 378,
+        "bottom": 780
+      },
+      "overflow": 0,
+      "inside": true
+    }
+  ],
+  "quality": [
+    {
+      "q": "standard",
+      "shadowMap": false,
+      "castShadow": false,
+      "pixelRatio": 1,
+      "calls": {
+        "composer": 0,
+        "renderer": 1
+      },
+      "pressed": "true"
+    },
+    {
+      "q": "haute",
+      "shadowMap": true,
+      "castShadow": true,
+      "pixelRatio": 1,
+      "calls": {
+        "composer": 1,
+        "renderer": 6
+      },
+      "pressed": "true"
+    }
+  ],
+  "lights": [
+    {
+      "sol": "20",
+      "azi": "80",
+      "position": [
+        2838.24973519497,
+        653.5277334996047,
+        1076.0604299770062
+      ],
+      "target": [
+        61.99999999999999,
+        164,
+        49.99999999999999
+      ],
+      "color": [
+        1,
+        0.9205212085995401,
+        0.8010424171990802
+      ],
+      "intensity": 3.4946248380614495,
+      "environment": "26caaaf3-b7fb-479b-80dc-85bb7285f7fb"
+    },
+    {
+      "sol": "65",
+      "azi": "240",
+      "position": [
+        -1035.9944523120002,
+        -469.92739261104975,
+        2768.92336110995
+      ],
+      "target": [
+        61.99999999999999,
+        164,
+        49.99999999999999
+      ],
+      "color": [
+        1,
+        0.954378467222199,
+        0.8687569344443979
+      ],
+      "intensity": 3.5,
+      "environment": "c581d387-e607-40ec-a38b-7147c2c6af57"
+    }
+  ],
+  "layers": [
+    {
+      "name": "maillage_v3",
+      "off": {
+        "groupVisible": false,
+        "meshes": 9,
+        "effectivelyVisible": 0,
+        "checked": false,
+        "treeShortcut": null
+      },
+      "on": {
+        "groupVisible": true,
+        "meshes": 9,
+        "effectivelyVisible": 9,
+        "checked": true,
+        "treeShortcut": null
+      }
+    },
+    {
+      "name": "eole_voies",
+      "off": {
+        "groupVisible": false,
+        "meshes": 1,
+        "effectivelyVisible": 0,
+        "checked": false,
+        "treeShortcut": null
+      },
+      "on": {
+        "groupVisible": true,
+        "meshes": 1,
+        "effectivelyVisible": 1,
+        "checked": true,
+        "treeShortcut": null
+      }
+    },
+    {
+      "name": "eole_ballast",
+      "off": {
+        "groupVisible": false,
+        "meshes": 1,
+        "effectivelyVisible": 0,
+        "checked": false,
+        "treeShortcut": null
+      },
+      "on": {
+        "groupVisible": true,
+        "meshes": 1,
+        "effectivelyVisible": 1,
+        "checked": true,
+        "treeShortcut": null
+      }
+    },
+    {
+      "name": "voirie_marquages",
+      "off": {
+        "groupVisible": false,
+        "meshes": 1,
+        "effectivelyVisible": 0,
+        "checked": false,
+        "treeShortcut": null
+      },
+      "on": {
+        "groupVisible": true,
+        "meshes": 1,
+        "effectivelyVisible": 1,
+        "checked": true,
+        "treeShortcut": null
+      }
+    },
+    {
+      "name": "metro_v3",
+      "off": {
+        "groupVisible": false,
+        "meshes": 1,
+        "effectivelyVisible": 0,
+        "checked": false,
+        "treeShortcut": null
+      },
+      "on": {
+        "groupVisible": true,
+        "meshes": 1,
+        "effectivelyVisible": 1,
+        "checked": true,
+        "treeShortcut": null
+      }
+    },
+    {
+      "name": "passerelles_v3",
+      "off": {
+        "groupVisible": false,
+        "meshes": 1,
+        "effectivelyVisible": 0,
+        "checked": false,
+        "treeShortcut": null
+      },
+      "on": {
+        "groupVisible": true,
+        "meshes": 1,
+        "effectivelyVisible": 1,
+        "checked": true,
+        "treeShortcut": null
+      }
+    },
+    {
+      "name": "arbres",
+      "off": {
+        "groupVisible": false,
+        "meshes": 8,
+        "effectivelyVisible": 0,
+        "checked": false,
+        "treeShortcut": false
+      },
+      "on": {
+        "groupVisible": true,
+        "meshes": 8,
+        "effectivelyVisible": 8,
+        "checked": true,
+        "treeShortcut": true
+      }
+    },
+    {
+      "name": "eau",
+      "off": {
+        "groupVisible": false,
+        "meshes": 2,
+        "effectivelyVisible": 0,
+        "checked": false,
+        "treeShortcut": null
+      },
+      "on": {
+        "groupVisible": true,
+        "meshes": 2,
+        "effectivelyVisible": 2,
+        "checked": true,
+        "treeShortcut": null
+      }
+    },
+    {
+      "name": "bati_v3",
+      "off": {
+        "groupVisible": false,
+        "meshes": 5,
+        "effectivelyVisible": 0,
+        "checked": false,
+        "treeShortcut": null
+      },
+      "on": {
+        "groupVisible": true,
+        "meshes": 5,
+        "effectivelyVisible": 5,
+        "checked": true,
+        "treeShortcut": null
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,11 @@
+Livraison A18 — 11 octobre 2026
+Natif : modele/Stalingrad_CRAMIF_travail.blend
+SHA256 : 05b662aedbb5da36b19af634b79765b474c5b72d9301d40094f94902530c1b82
+
+Appliqué : rupture locale cour sud S9/S14 (six sommets XY et sept triangles de liaison, altitudes conservées) ; jonction de rail OSM109860094 station21 et fermeture locale de ballast. Imports idempotents ; fichier sauvegardé et réouvert. Trois couches HTTP égales aux exports natifs ; toutes les autres couches cumulées préservées.
+
+UI : Étude des rues réparée (fermeture de bandeau manquante). Affichage En cours maintenant dans Vue 3D, Brain et Suivi : agent, tâche, étape, dernier résultat, prochaine action et date. Animation uniquement pendant activité récente ; ancien état explicitement signalé. Recette finale en cours.
+
+Limites : contour et liaison de cour ESTIME ; une interface hors domaine reste ouverte. Raccord de ballast CONVENTION, autres voies et secteurs non terminés par cette livraison. Le site recharge les jalons sauvegardés, pas les éditions Blender non enregistrées.
+
+Recettes closes : reprise ciblée Tour (74 objets,24 572triangles natif/web exacts) ; quatre bases de murets (25 074contacts sans flottement,5 584triangles web exacts). Réserve terrain haut nord jusqu’à89cm séparée. Activité UI bureau/mobile et13cas contrôlés ; tous les agents affichés Livré en fin de lot, sans animation persistante.

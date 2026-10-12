@@ -1,0 +1,44 @@
+{
+  "approved": false,
+  "candidats": [
+    {
+      "id": 10735,
+      "xyz_pied_ne_pas_modifier": [
+        146.76600646972656,
+        -204.24400329589844,
+        51.87872314453125
+      ],
+      "z_sommet_actuel": 56.9370002746582,
+      "z_sommet_candidat_q99_2023": 59.766600000000004,
+      "hauteur_candidat_2023_m": 7.829600274658212,
+      "diametre_support_q05_95_xy": [
+        2.919499999965751,
+        2.6549999996088616
+      ],
+      "statut": "CANDIDAT_SOURCE_LIDAR_2023_NON_APPROUVE",
+      "limite": "Support quantile, pas contour botanique exact. Mesure inventaire non dat\u00e9e; taille/remplacement depuis2023 non exclu.",
+      "z_reference_hauteur_table": 51.93699972534179,
+      "source_pied": "Contr\u00f4le native des341pieds; tronc enfoui5cm, ne pas confondre avec r\u00e9f\u00e9rence sol hauteur"
+    },
+    {
+      "id": 11153,
+      "xyz_pied_ne_pas_modifier": [
+        166.03199768066406,
+        -217.23399353027344,
+        52.07936096191406
+      ],
+      "z_sommet_actuel": 57.15299987792969,
+      "z_sommet_candidat_q99_2023": 59.8186,
+      "hauteur_candidat_2023_m": 7.665599877929694,
+      "diametre_support_q05_95_xy": [
+        1.6010000000707691,
+        1.2629999998025596
+      ],
+      "statut": "CANDIDAT_SOURCE_LIDAR_2023_NON_APPROUVE",
+      "limite": "Support quantile, pas contour botanique exact. Mesure inventaire non dat\u00e9e; taille/remplacement depuis2023 non exclu.",
+      "z_reference_hauteur_table": 52.15300012207031,
+      "source_pied": "Contr\u00f4le native des341pieds; tronc enfoui5cm, ne pas confondre avec r\u00e9f\u00e9rence sol hauteur"
+    }
+  ],
+  "foot_positions_unchanged": true
+}

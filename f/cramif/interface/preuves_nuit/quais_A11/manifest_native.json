@@ -1,0 +1,113 @@
+{
+  "sha256": "20599d22a7bb38f433ffc15fb0a7f7595fdb0fc8d51f762d8121c6f257848dc9",
+  "parts": [
+    {
+      "part": "Sol_lisse",
+      "object": "V3 Sol lisse",
+      "vertices": 100729,
+      "faces": 171543,
+      "all_smooth": true
+    },
+    {
+      "part": "Amenagements",
+      "object": "V3 Amenagements",
+      "vertices": 24920,
+      "faces": 37464,
+      "all_smooth": true
+    },
+    {
+      "part": "Trottoirs",
+      "object": "V3 Trottoirs",
+      "vertices": 48084,
+      "faces": 68278,
+      "all_smooth": true
+    },
+    {
+      "part": "Chaussees",
+      "object": "V3 Chaussees",
+      "vertices": 29779,
+      "faces": 46585,
+      "all_smooth": true
+    },
+    {
+      "part": "Accidents",
+      "object": "V3 Accidents de relief",
+      "vertices": 42,
+      "faces": 45,
+      "all_smooth": true
+    },
+    {
+      "part": "Bordures",
+      "object": "V3 Bordures",
+      "vertices": 20325,
+      "faces": 18980,
+      "all_smooth": true
+    }
+  ],
+  "soil_objects_overlapping_bbox": [
+    {
+      "name": "V3 Sol lisse",
+      "source": "Sol_lisse",
+      "bbox": [
+        [
+          -446.9018859863281,
+          -386.9398498535156,
+          42.168766021728516
+        ],
+        [
+          657.8037109375,
+          509.930908203125,
+          67.99827575683594
+        ]
+      ]
+    },
+    {
+      "name": "V3 Trottoirs",
+      "source": "Trottoirs",
+      "bbox": [
+        [
+          -446.9678649902344,
+          -387.0224609375,
+          46.1768684387207
+        ],
+        [
+          656.9597778320312,
+          510.25457763671875,
+          67.75897979736328
+        ]
+      ]
+    },
+    {
+      "name": "V3 Accidents de relief",
+      "source": "Accidents",
+      "bbox": [
+        [
+          99.8019790649414,
+          -227.69801330566406,
+          48.95800018310547
+        ],
+        [
+          486.6980285644531,
+          443.1980285644531,
+          55.02861404418945
+        ]
+      ]
+    },
+    {
+      "name": "V3 Amenagements",
+      "source": "Amenagements",
+      "bbox": [
+        [
+          -440.6619873046875,
+          -386.7200012207031,
+          42.11214065551758
+        ],
+        [
+          649.2039794921875,
+          504.25,
+          67.87293243408203
+        ]
+      ]
+    }
+  ]
+}

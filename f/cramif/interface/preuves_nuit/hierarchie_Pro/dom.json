@@ -1,0 +1,30 @@
+[
+  {
+    "width": 1440,
+    "height": 1000,
+    "overflow": 0,
+    "title": "Interface · introduction et suivi",
+    "metric": "100 % des contrôles",
+    "titleWidth": 266,
+    "titleHeight": 18.890625,
+    "metricTop": 220.640625,
+    "titleBottom": 216.640625,
+    "stacked": true,
+    "titleFont": "14px",
+    "metricFont": "11px"
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "title": "Interface · introduction et suivi",
+    "metric": "100 % des contrôles",
+    "titleWidth": 332,
+    "titleHeight": 18.890625,
+    "metricTop": 469.40625,
+    "titleBottom": 465.40625,
+    "stacked": true,
+    "titleFont": "14px",
+    "metricFont": "11px"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-11T19:29:45.778979+00:00",
+  "native_sha": "7c9503303a98096a0fd527a6f55d968cde1b9bacd1f96d01913671a64b6968e7",
+  "background": "Fond de présentation plat ; résidus ferroviaires masqués, parc conservé. Modification de vue réversible, natif conservé.",
+  "roads": "Sept bandes nord vérifiées sur chaussée ; total50traces. Largeurs .50mCONVENTION, implantation et longueurs ESTIME.",
+  "stairs": "PVP460 : marches/paliers exacts, sous-face allégée et sol restitué ESTIME/CONVENTION. Contrôle web côtécanal155,-88,70→178,-74,54, bâtiments actifs.",
+  "trees": "Douze arbres intégrés et réouverts. Groupes18/19/20 vérifiés,21vu depuiscanal. Pieds/enveloppes historiques, branches/texturesCONVENTION, jeune12319inventaireCONVENTION.",
+  "enscape": "DouzeOBJ/MTLréimportés Blender ; application Enscape non testée, guide import fourni.",
+  "native_gui": "Ouverture visible Blender non confirmée ; fichier natif vérifié horsGUI, vue site accessible."
+}

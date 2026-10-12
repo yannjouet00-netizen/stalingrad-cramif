@@ -1,0 +1,14 @@
+{
+  "verified_reopen": true,
+  "web_npz_exact_float32": true,
+  "idempotent": true,
+  "v_f": [
+    100295,
+    170779
+  ],
+  "source_A5_preserved": true,
+  "scope": "Cour sud : raccord ponctuel estimé, trois ancrages natifs, rampes réelles préservées",
+  "residuals": "140 points améliorés, sept légèrement dégradés, aggravation maximale 2,85 cm",
+  "native_sha256": "837b3e0d7328aaed74012c9ba68b4a91799c72c826c433bec0f564769fbd8813",
+  "published_at": "2026-10-11T03:58:28.434062+00:00"
+}

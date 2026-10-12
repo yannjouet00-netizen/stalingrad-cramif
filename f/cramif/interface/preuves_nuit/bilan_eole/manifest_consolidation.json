@@ -1,0 +1,14 @@
+{
+  "copied_at": "2026-10-11T07:00:01.050207+00:00",
+  "files": [
+    {
+      "file": "RAPPORT.txt",
+      "sha256": "a01fc4b00799525d8bb5eb867fb6275b2cd5b0de40ae74b1fe9e0da03aadea2e"
+    },
+    {
+      "file": "synthese.json",
+      "sha256": "5833bfa4d684b7e7e59b923ee258f40f2715f9666b75894f9a713d15ea249523"
+    }
+  ],
+  "source": "/private/tmp/nuit_synthese_eole"
+}

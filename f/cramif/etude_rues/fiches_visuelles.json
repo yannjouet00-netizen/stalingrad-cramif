@@ -1,0 +1,376 @@
+{
+  "repere": "Le cas échéant x=E2154-653700,y=N2154-6865100,zIGN69 ; aucunXYZ nouveau mesuré depuis ces captures",
+  "sources": {
+    "F": {
+      "path": "/Users/yannjouet/Desktop/Capture d’écran 2026-10-10 à 23.11.15.png",
+      "label": "Vue Flandre",
+      "image_date": "2025-10",
+      "date_status": "Affichée en bas de Google Earth / Street View",
+      "capture_date": "2026-10-10",
+      "header": "16 Av. de Flandre",
+      "dimensions_px": [
+        3024,
+        1964
+      ],
+      "address_caveat": "Adresse affichée du point de vue ; ne désigne pas nécessairement le bâtiment photographié.",
+      "url": "/documentation/v3/cramif/etude_rues/flandre_oct2025.png"
+    },
+    "M": {
+      "path": "/Users/yannjouet/Desktop/Capture d’écran 2026-10-10 à 23.11.59.png",
+      "label": "Vue Maroc",
+      "image_date": "2025-10",
+      "date_status": "Date sélectionnée visible et mention en bas",
+      "capture_date": "2026-10-10",
+      "header": "1 Rue du Maroc",
+      "dimensions_px": [
+        3024,
+        1964
+      ],
+      "address_caveat": "Adresse du point de vue, pas preuve de parcelle. Une vignette juillet 2026 est proposée mais non ouverte.",
+      "url": "/documentation/v3/cramif/etude_rues/maroc_oct2025.png"
+    },
+    "T": {
+      "path": "/Users/yannjouet/Desktop/Capture d’écran 2026-10-10 à 23.11.37.png",
+      "label": "Tour voisine Flandre",
+      "image_date": null,
+      "date_status": "Date acquisition non visible ; copyright Google 2026 ne date pas la prise de vue",
+      "capture_date": "2026-10-10",
+      "header": null,
+      "dimensions_px": [
+        1760,
+        1482
+      ],
+      "address_caveat": "Localisation fournie par le contexte utilisateur ; parcelle précise à recouper.",
+      "url": "/documentation/v3/cramif/etude_rues/tour_date_inconnue.png"
+    }
+  },
+  "fiches": [
+    {
+      "id": "F01",
+      "front": "CRAMIF Flandre",
+      "source_id": "F",
+      "zone_image": "Façade, partie supérieure et milieu",
+      "trait_observe": "Longue façade scandée par des montants verticaux clairs continus ; champs vitrés bleutés et panneaux opaques clairs alternent par niveau.",
+      "statut": "OBSERVE_IMAGE",
+      "dimensions": "Nombre total, pas, largeur et profondeur non mesurés ; reflets/stores ne sont pas une teinte uniforme fiable.",
+      "impact_modele": "La volumétrie unie ne restitue ni rythme ni hiérarchie ; une grille uniforme de fenêtres carrées serait incorrecte.",
+      "priorite": "P1",
+      "prochaine_action": "Caler les extrémités du plan de façade sur emprise ; rectifier image ; décompter travées/niveaux visibles, conserver masques sous arbres. Géométrie simple des montants seulement après calage métrique."
+    },
+    {
+      "id": "F02",
+      "front": "CRAMIF Flandre",
+      "source_id": "F",
+      "zone_image": "Bande RDC sous façade",
+      "trait_observe": "Façade supérieure portée au-dessus d’un socle en retrait ; appuis/poteaux sombres et grandes baies, grilles verticales en avant.",
+      "statut": "OBSERVE_IMAGE",
+      "dimensions": "Recul, hauteur libre, sections inconnus.",
+      "impact_modele": "Un volume plein descendant sans retrait gomme la profondeur du pied de façade.",
+      "priorite": "P1",
+      "prochaine_action": "Relever limite du retrait et alignement grille sur plan et photos latérales ; séparer peau supérieure, socle et clôture."
+    },
+    {
+      "id": "F03",
+      "front": "CRAMIF Flandre",
+      "source_id": "F",
+      "zone_image": "Entrée centre droit, porte sous panneau 17–19",
+      "trait_observe": "Porte d’entrée vitrée, accès légèrement surélevé ; plusieurs lignes de nez de marches visibles au seuil derrière la grille.",
+      "statut": "OBSERVE_IMAGE_PARTIEL",
+      "dimensions": "Nombre exact de marches, hauteur totale et largeur non validés ; zones masquées par mobiliers et personnes.",
+      "impact_modele": "Le contact terrain / façade ne doit pas effacer le perron ni induire une rampe imaginaire.",
+      "priorite": "P1",
+      "prochaine_action": "Recouper LiDAR et plan de seuil. Pas de nombre de marches ni pente réglementaire déduits de cette seule photo."
+    },
+    {
+      "id": "F04",
+      "front": "CRAMIF Flandre",
+      "source_id": "F",
+      "zone_image": "Faîte de la façade",
+      "trait_observe": "Bande de couronnement opaque claire, petit garde-corps léger visible sur certaines rives et équipements ponctuels masqués.",
+      "statut": "OBSERVE_IMAGE_PARTIEL",
+      "dimensions": "Hauteur et continuité non mesurées ; aucune preuve de contour arrière.",
+      "impact_modele": "Complément local possible aux émergences LiDAR ; ne pas propager garde-corps autour de toutes les toitures.",
+      "priorite": "P2",
+      "prochaine_action": "Comparer paires de vues et points hauts ; attribuer uniquement segments visibles."
+    },
+    {
+      "id": "F05",
+      "front": "CRAMIF Flandre",
+      "source_id": "F",
+      "zone_image": "Grille et muret bord rue",
+      "trait_observe": "Clôture verticale sombre à espacement serré, posée par endroits sur muret/enduit clair ; variations au droit des accès.",
+      "statut": "OBSERVE_IMAGE",
+      "dimensions": "Hauteur, diamètre/section, entraxe et longueurs non mesurés.",
+      "impact_modele": "Les deux lisses conventionnelles de la barrière Tanger ne correspondent pas à cette clôture Flandre.",
+      "priorite": "P1",
+      "prochaine_action": "Créer famille séparée grille barreaudée sur muret, implantation à recouper PVP. Ne jamais réutiliser l’ID BRO de Tanger."
+    },
+    {
+      "id": "M01",
+      "front": "CRAMIF côté Maroc",
+      "source_id": "M",
+      "zone_image": "Grand volume gauche et sa bande vitrée",
+      "trait_observe": "Grand pan clair quasi plein avec joints de panneaux ; étroite bande vitrée verticale entre deux pans opaques, avec panneaux bleus d’allège.",
+      "statut": "OBSERVE_IMAGE",
+      "dimensions": "Largeur bande, division des châssis et dimensions des panneaux inconnues.",
+      "impact_modele": "Une répétition du traitement Flandre sur ce pignon serait fausse.",
+      "priorite": "P1",
+      "prochaine_action": "Isoler trois zones : pan opaque / bande vitrée / pan opaque ; calage sur géométrie source puis modélisation sobre sans texture de salissure."
+    },
+    {
+      "id": "M02",
+      "front": "CRAMIF côté Maroc",
+      "source_id": "M",
+      "zone_image": "Retour long à droite",
+      "trait_observe": "Baies individualisées et ordonnées par rangées dans une façade claire ; joints du parement et retraits fins visibles.",
+      "statut": "OBSERVE_IMAGE_PARTIEL",
+      "dimensions": "Comptage global incomplet à droite hors champ, perspective fortement déformée.",
+      "impact_modele": "Les trames de Flandre et Maroc ne sont pas interchangeables.",
+      "priorite": "P1",
+      "prochaine_action": "Rectifier ce plan séparément du pignon ; ne pas copier un nombre de travées hors cadre."
+    },
+    {
+      "id": "M03",
+      "front": "CRAMIF côté Maroc",
+      "source_id": "M",
+      "zone_image": "Joint entre pignon et retour, bande étroite centrale",
+      "trait_observe": "Raccord vertical vitré en retrait, hauteur continue et quelques lignes horizontales.",
+      "statut": "OBSERVE_IMAGE",
+      "dimensions": "Largeur et recul non mesurés ; fonction interne non identifiée.",
+      "impact_modele": "Une arête opaque continue ferait disparaître l’articulation entre corps.",
+      "priorite": "P2",
+      "prochaine_action": "Conserver bande de raccord distincte ; aucune attribution de cage d’escalier sans plan."
+    },
+    {
+      "id": "M04",
+      "front": "CRAMIF côté Maroc",
+      "source_id": "M",
+      "zone_image": "Portail central bas",
+      "trait_observe": "Portail/grille sombre à barreaux verticaux ; angles supérieurs latéraux arrondis en éventail, parties droites centrales hautes ; panneaux d’information fixés.",
+      "statut": "OBSERVE_IMAGE",
+      "dimensions": "Ouverture utile, hauteur, nombre de vantaux et mécanisme non établis.",
+      "impact_modele": "Un portail rectangulaire générique à deux lisses serait visuellement trompeur.",
+      "priorite": "P1",
+      "prochaine_action": "Documenter silhouette depuis photo frontale, fixer position via plan. Ne pas décider coulissant/battant ; séparer panneaux temporaires de structure."
+    },
+    {
+      "id": "M05",
+      "front": "CRAMIF côté Maroc",
+      "source_id": "M",
+      "zone_image": "Bas de l’image, à gauche et droite du portail",
+      "trait_observe": "Muret clair continu/segmenté, grille sombre au-dessus ; jardin en arrière. Niveaux hauts et bas sont partiellement masqués.",
+      "statut": "OBSERVE_IMAGE_PARTIEL",
+      "dimensions": "Épaisseur et hauteur des murets, niveaux jardin/trottoir et ressauts non mesurés.",
+      "impact_modele": "Séparer clôture, muret et terrain pour éviter une dalle inclinée conjecturale.",
+      "priorite": "P1",
+      "prochaine_action": "Relever couronnement muret et seuils en coordonnées ; conserver plusieurs niveaux si données confirmées."
+    },
+    {
+      "id": "M06",
+      "front": "CRAMIF côté Maroc",
+      "source_id": "M",
+      "zone_image": "Jardin devant pignon gauche",
+      "trait_observe": "Un palmier à feuilles en éventail est nettement visible ; massifs arbustifs denses et arbre feuillu à gauche.",
+      "statut": "OBSERVE_IMAGE",
+      "dimensions": "Espèce, diamètre/tronc et hauteur exacts inconnus ; silhouettes se superposent.",
+      "impact_modele": "Une série uniforme d’arbres de rue ne restitue pas ce jardin privé.",
+      "priorite": "P2",
+      "prochaine_action": "Marquer un emplacement de palmier estimé dans le jardin après calage ; modèle botanique simple adapté, sans inventer une espèce ni distribuer des palmiers ailleurs."
+    },
+    {
+      "id": "M07",
+      "front": "CRAMIF côté Maroc",
+      "source_id": "M",
+      "zone_image": "Portail et extrême gauche",
+      "trait_observe": "Panneaux cartographiques devant la clôture et panneaux bleus sur le portail.",
+      "statut": "OBSERVE_IMAGE",
+      "dimensions": "Contenu illisible en partie, dimensions non mesurées, pérennité inconnue.",
+      "impact_modele": "Détails secondaires ; ne pas reproduire un texte approximatif ni leur attribuer une fonction structurelle.",
+      "priorite": "P3",
+      "prochaine_action": "Représenter au besoin des panneaux neutres, avec datation de la photo et sans fausse typographie."
+    },
+    {
+      "id": "T01",
+      "front": "Tour voisine Flandre",
+      "source_id": "T",
+      "zone_image": "Grand pan clair vertical central gauche",
+      "trait_observe": "Tour composée de volumes contrastés : grand pan vertical clair plein, aile gauche vitrée et balconée, partie droite sombre en redents.",
+      "statut": "OBSERVE_IMAGE",
+      "dimensions": "Hauteur métrique et emprise non établies depuis la photo ; identité parcellaire à confirmer.",
+      "impact_modele": "Un parallélépipède simple ignore une silhouette importante du contexte, mais il ne faut pas fusionner cette tour avec la CRAMIF.",
+      "priorite": "P1",
+      "prochaine_action": "Associer photo à une adresse et parcelle distinctes avant le détail ; traiter la silhouette et principaux retraits en priorité."
+    },
+    {
+      "id": "T02",
+      "front": "Tour voisine Flandre",
+      "source_id": "T",
+      "zone_image": "Colonne de balcons à gauche",
+      "trait_observe": "Balcons superposés en saillie, dalles visibles et garde-corps métalliques partiellement transparents ; baies en retrait derrière.",
+      "statut": "OBSERVE_IMAGE_PARTIEL",
+      "dimensions": "Saillie, sections, niveaux exacts et remplissage non mesurés ; végétation masque le bas.",
+      "impact_modele": "Une texture de façade plate ne reproduit pas les ombres/profondeurs.",
+      "priorite": "P1",
+      "prochaine_action": "Après calage, volumes de dalles réels et plans de garde-corps distincts ; nombre de balcons seulement sur zone non masquée."
+    },
+    {
+      "id": "T03",
+      "front": "Tour voisine Flandre",
+      "source_id": "T",
+      "zone_image": "Haut de la partie sombre et sommet",
+      "trait_observe": "Couronnement irrégulier avec terrasse, garde-corps, boîtes et ressauts en saillie ; toit non plan unique.",
+      "statut": "OBSERVE_IMAGE_PARTIEL",
+      "dimensions": "Profondeur et contours arrière invisibles.",
+      "impact_modele": "À comparer aux maxima LiDAR plutôt qu’ajouter un étage plein.",
+      "priorite": "P2",
+      "prochaine_action": "Croiser les hauteurs LiDAR et vues orthogonales ; surfaces invisibles laissées en estimation explicite."
+    },
+    {
+      "id": "T04",
+      "front": "Tour voisine Flandre",
+      "source_id": "T",
+      "zone_image": "RDC et enseigne de pharmacie",
+      "trait_observe": "Socle commercial en retrait/avancée locale, grandes vitrines et panneaux d’enseigne ; trottoir arboré.",
+      "statut": "OBSERVE_IMAGE_PARTIEL",
+      "dimensions": "Limites commerciales ne sont pas des limites foncières ; enseignes temporaires.",
+      "impact_modele": "Le détail du contexte peut rester simplifié, mais le retrait du socle influence la relation à la rue.",
+      "priorite": "P2",
+      "prochaine_action": "Conserver volume du socle et ouvertures principales ; éviter toute reconstitution de textes ou logos à partir d’une image insuffisante."
+    },
+    {
+      "id": "U01",
+      "front": "Terre-plein Flandre",
+      "source_id": "F",
+      "zone_image": "Lampadaire central au premier plan",
+      "trait_observe": "Candélabre historique sombre : socle mouluré, fût fin, collerettes, lanterne vitrée à couronnement ; silhouette distincte du luminaire contemporain.",
+      "statut": "OBSERVE_IMAGE",
+      "dimensions": "Dimensions non mesurées ; référence fabricant et matériau exacts non confirmés.",
+      "impact_modele": "Un simple poteau cylindrique coiffé d’un globe serait incorrect.",
+      "priorite": "P1",
+      "prochaine_action": "Localiser avec l’inventaire éclairage public ; produire un profil de révolution approché et une lanterne simple, statut ESTIME / CONVENTION selon le paramètre."
+    },
+    {
+      "id": "U02",
+      "front": "Terre-plein et trottoirs Flandre",
+      "source_id": "F",
+      "zone_image": "Gauche du terre-plein et arrière-plan",
+      "trait_observe": "Plusieurs types d’éclairage coexistent : lanternes historiques, supports avec bras latéral et luminaires hauts plus contemporains.",
+      "statut": "OBSERVE_IMAGE_PARTIEL",
+      "dimensions": "Comptage incomplet à cause des arbres ; positions relatives seulement.",
+      "impact_modele": "Ne pas instancier un seul lampadaire uniforme dans tout le quartier.",
+      "priorite": "P2",
+      "prochaine_action": "Classifier chaque candélabre depuis les plans et les photos ; garder les éléments non identifiés neutres et signalés."
+    },
+    {
+      "id": "U03",
+      "front": "Terre-plein Flandre",
+      "source_id": "F",
+      "zone_image": "Banc à gauche, devant la voie",
+      "trait_observe": "Banc à assise et dossier en longues lames, piétement métallique ouvragé sombre/vert. Silhouette compatible avec la famille historique Davioud.",
+      "statut": "OBSERVE_IMAGE+INTERPRETATION_TYPE",
+      "dimensions": "Dimensions locales et association aux cinq IDs PVP non établies ; modèle précis non confirmé.",
+      "impact_modele": "Les cinq bancs doubles en prismes gris actuels sont des substituts conventionnels, pas des copies exactes de ce mobilier.",
+      "priorite": "P1",
+      "prochaine_action": "Identifier chaque banc PVP par recoupement spatial. Remplacer la forme uniquement sur une correspondance fiable ; nomenclature Davioud probable, pas un modèle certain."
+    },
+    {
+      "id": "U04",
+      "front": "Terre-plein Flandre",
+      "source_id": "F",
+      "zone_image": "Premier plan en bas à gauche, autour des vélos",
+      "trait_observe": "Plusieurs arceaux métalliques en U renversé arrondi, certains avec barre transversale, vélos appuyés ; rangée orientée dans l’espace public.",
+      "statut": "OBSERVE_IMAGE_PARTIEL",
+      "dimensions": "Nombre réel sous les masques, diamètre, hauteur et entraxe inconnus.",
+      "impact_modele": "Ne pas substituer des potelets pleins aux arceaux ; les dix symboles BORNE allongés peuvent relever du stationnement deux-roues mais association non prouvée.",
+      "priorite": "P1",
+      "prochaine_action": "Confronter axes PVP aux ancrages photo et à l’orthophoto ; garder vélos/occupants hors géométrie pérenne."
+    },
+    {
+      "id": "U05",
+      "front": "Terre-plein Flandre",
+      "source_id": "F",
+      "zone_image": "Centre bas derrière le lampadaire",
+      "trait_observe": "Longs éléments horizontaux sombres empilés/décalés, extrémités à marquages contrastés ; caractère temporaire plausible.",
+      "statut": "OBSERVE_IMAGE+INTERPRETATION_INCERTAINE",
+      "dimensions": "Nature exacte (stockage, obstacle, chantier, dispositif) non établie.",
+      "impact_modele": "Risque élevé de fausse interprétation en banc permanent ou muret.",
+      "priorite": "P3",
+      "prochaine_action": "Ne pas modéliser comme mobilier pérenne sans seconde vue ou date ; conserver comme annotation photographique temporaire."
+    },
+    {
+      "id": "U06",
+      "front": "Terre-plein Flandre",
+      "source_id": "F",
+      "zone_image": "Pieds d’arbres et sol au premier plan",
+      "trait_observe": "Fosses d’arbres rectangulaires/bordées, sol asphalté et bandes pavées, transitions et bordures à la traversée piétonne.",
+      "statut": "OBSERVE_IMAGE_PARTIEL",
+      "dimensions": "Cotes de bordure et pentes non mesurées ; limites couvertes de feuilles et vélos.",
+      "impact_modele": "La voirie ne doit pas être un unique aplat si le détail des abords est visé ; en revanche la texture ne remplace pas les niveaux.",
+      "priorite": "P1",
+      "prochaine_action": "Croiser PVP trottoirs et classe 2, distinguer bordure réelle et simple changement de matériau ; matérialisation neutre sans pavage inventé."
+    },
+    {
+      "id": "U07",
+      "front": "Flandre, relation espaces publics",
+      "source_id": "F",
+      "zone_image": "Plans devant et derrière la voie",
+      "trait_observe": "La photo distingue terre-plein arboré, voie de circulation, trottoir devant la CRAMIF, clôture et socle ; passage piéton relie les espaces.",
+      "statut": "OBSERVE_IMAGE",
+      "dimensions": "Largeurs et profils transversaux non mesurés.",
+      "impact_modele": "Ordre spatial primordial ; risque de reporter le mobilier du terre-plein contre la façade.",
+      "priorite": "P1",
+      "prochaine_action": "Créer coupe de contrôle depuis PVP et terrain puis rattacher chaque objet au bon espace, sans dimensions déduites de perspective seule."
+    },
+    {
+      "id": "U08",
+      "front": "Flandre, mobilier signalétique",
+      "source_id": "F",
+      "zone_image": "Cadre vertical gauche et signalisation",
+      "trait_observe": "Panneau d’affichage autonome sombre, corbeille proche du banc et petits panneaux routiers ; équipements distincts des structures de bâtiment.",
+      "statut": "OBSERVE_IMAGE_PARTIEL",
+      "dimensions": "Sous-types, dimensions et géolocalisation exacte inconnus.",
+      "impact_modele": "Ne pas fusionner supports, corbeilles et potelets sous une même famille.",
+      "priorite": "P2",
+      "prochaine_action": "Rechercher primitives PVP propres et preuve photo individuelle ; texte graphique non reconstitué."
+    }
+  ],
+  "native_reference": "Dernier contrôle natif indépendant SHA7a3453df765eebf0fdf144b8947a0d383a8500ef1d8525fb9b2275b134987fdc ; cinq bancs BA2 etune barrière conventionnels,trois émergences mesurées ; présente étude lecture seule",
+  "primary_references": [
+    {
+      "url": "https://www.paris.fr/pages/bientot-des-bancs-davioud-a-hauteur-d-enfant-29679",
+      "date": "2025-06-12",
+      "use": "Famille de banc Davioud et longueur catalogue2,25 m; ne pas servir comme mesure du banc photographié"
+    },
+    {
+      "url": "https://cdn.paris.fr/paris/filer/35052_VDP_Manifeste_esthetique_Livre_3_BD.pdf",
+      "use": "Variantes du banc double historique; ne suffit pas à identifier chaque exemplaire"
+    },
+    {
+      "url": "https://opendata.paris.fr/explore/dataset/eclairage-public/",
+      "use": "Inventaire pour futur recoupement XY ; aucun appariement fait ici"
+    }
+  ],
+  "reperes_volumes_sources": {
+    "statut": "Repères transmis par agent géométrie, lecture des données originales ; association du pignon visuel encore à confirmer",
+    "flandre": {
+      "corps": "2512234",
+      "bande": "2512233",
+      "socle": "2505949",
+      "bbox_corps_local_xy": [
+        41.676,
+        95.585,
+        115.23,
+        180.19
+      ]
+    },
+    "retour_maroc": {
+      "corps": [
+        "2505948",
+        "2505950"
+      ],
+      "parent_apur": "750087099_0"
+    },
+    "pignon_maroc": "Extrémité nord-est de 2512234 probable ; non attribuée formellement",
+    "tour_voisine": "Parcelle distincte à établir ; aucune assimilation aux huit corps CRAMIF"
+  }
+}

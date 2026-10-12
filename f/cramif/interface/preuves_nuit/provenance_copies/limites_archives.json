@@ -1,0 +1,65 @@
+{
+  "archives_nouvelle_session": 947,
+  "correspondances_exactes_avec_graines": 0,
+  "exemples_non_attribues": [
+    {
+      "id": "1444b049965f878a86db",
+      "racine": "images_claude_travail",
+      "rel": "scratchpad/dl_commons/panneau_bas.jpg",
+      "path": "/private/tmp/claude-501/-Users-yannjouet-Downloads-VLAU---charte-graphique/ad5ab4a8-aa3a-4d24-96fb-889ec4e3ba97/scratchpad/dl_commons/panneau_bas.jpg",
+      "sha256": "33f0b083abcaee83391dc089f6a64cf7963b20f41b4420008aabafde2fb0afa7",
+      "taille": 1382976,
+      "statut": "INCONNUE"
+    },
+    {
+      "id": "656c2fa58d63d9010ab2",
+      "racine": "images_claude_travail",
+      "rel": "scratchpad/dl_commons/panneau_haut.jpg",
+      "path": "/private/tmp/claude-501/-Users-yannjouet-Downloads-VLAU---charte-graphique/ad5ab4a8-aa3a-4d24-96fb-889ec4e3ba97/scratchpad/dl_commons/panneau_haut.jpg",
+      "sha256": "08113f451b97541078ee9435c1e5087809704f4b357d85f99095eab4cd81ee58",
+      "taille": 1359485,
+      "statut": "INCONNUE"
+    },
+    {
+      "id": "12d2cf08658ab169bd92",
+      "racine": "images_claude_travail",
+      "rel": "scratchpad/dl_commons/panneau.jpg",
+      "path": "/private/tmp/claude-501/-Users-yannjouet-Downloads-VLAU---charte-graphique/ad5ab4a8-aa3a-4d24-96fb-889ec4e3ba97/scratchpad/dl_commons/panneau.jpg",
+      "sha256": "f7201cf28b921bb7ea00c1f1b3851ba0eb40fa16fab220531342e8e90888d54d",
+      "taille": 6638948,
+      "statut": "INCONNUE"
+    },
+    {
+      "id": "0062bd7c819d93be3897",
+      "racine": "images_claude_travail",
+      "rel": "scratchpad/dl_carnavalet/elev_D13864-46.jpg",
+      "path": "/private/tmp/claude-501/-Users-yannjouet-Downloads-VLAU---charte-graphique/ad5ab4a8-aa3a-4d24-96fb-889ec4e3ba97/scratchpad/dl_carnavalet/elev_D13864-46.jpg",
+      "sha256": "a6c3774a0a879722b7318eb45cf6ee8c088500f23d18e9a6c373efb3174b6618",
+      "taille": 514215,
+      "statut": "INCONNUE"
+    }
+  ],
+  "reference_h28_documentee": [
+    {
+      "id": "fb13fba3508621186d63",
+      "racine": "images_calcul",
+      "rel": "phase7/ROTONDE/references/images/H28_panneau.jpg",
+      "path": "/Users/yannjouet/Library/Caches/stalingrad_v3/phase7/ROTONDE/references/images/H28_panneau.jpg",
+      "sha256": "48b8dd0e6d9d3ce8b2ac67b1587b9d9d5f09aab5860d9219f9388b3a9e8e586f",
+      "taille": 748967,
+      "statut": "DOCUMENTEE"
+    },
+    {
+      "id": "4e7caba7052a906ac27d",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/phase7/ROTONDE/references/images/H28_panneau.jpg",
+      "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/ARCHIVE_RECHERCHE/phase7/ROTONDE/references/images/H28_panneau.jpg",
+      "sha256": "48b8dd0e6d9d3ce8b2ac67b1587b9d9d5f09aab5860d9219f9388b3a9e8e586f",
+      "taille": 748967,
+      "statut": "DOCUMENTEE"
+    }
+  ],
+  "manifeste_iiif_lecture_seule": "scratchpad/dl_carnavalet/manifest.json et scratchpad/pm/manifest46.json : identifiants IIIF conservés, sans empreinte liant les pixels locaux au manifeste.",
+  "script_lecture_seule": "scratchpad/commons_dl.py décrit le téléchargement et les métadonnées génériques ; il ne nomme pas les trois fichiers dl_commons/panneau*.jpg. Le tableau table.md nomme H28_panneau.jpg uniquement.",
+  "limite": "Un recadrage, une compression ou une vignette ne partage pas le SHA du fichier documenté. Aucune reconnaissance visuelle ni nom de fichier ne remplace cette preuve. Source et auteur des sorties de scripts non attestées restent inconnus."
+}

@@ -1,0 +1,47 @@
+CRAMIF Flandre — rapport documentaire, 10/10/2026
+
+Identification solide : siège 17-19 avenue de Flandre Paris 19e ; ensemble 17-25 Flandre / Maroc / Tanger. Anneau autour de cour identifié. L’aile supposée boulevard nécessite encore attribution parcellaire.
+
+DIMENSIONS — STATUT ET PORTÉE
+- surface utile brute ensemble Flandre : 39827 m² — SOURCE_DOCUMENTAIRE — CRAMIF_AMI_2025. ensemble bâtiment ; pas emprise.
+- surface terrain : 10575 m² — SOURCE_DOCUMENTAIRE — PARIS_PC_2010. terrain permis 2010.
+- hauteur historique générale bureaux : 33 m — SOURCE_DOCUMENTAIRE — APUR_PP_1987. non assignée par aile, ancienne, référence verticale non définie.
+- hauteur toit PSS : 38 m — ESTIME — PSS_CRAMIF. estimation secondaire non calage.
+- hauteur totale PSS : 40 m — ESTIME — PSS_CRAMIF. estimation secondaire non calage.
+
+TABLEAU EXPLOITATION / LIMITES
+Source | Exploitation | Limite | URL
+CRAMIF_AMI_2025 | Identification, histoire et surface globale. | Pas de plan ni cote de façade ; ne pas confondre surfaces/normes du futur siège avec Flandre existant. | https://www.cramif.fr/sites/default/files/inline-files/appel-manifestation-interet-acquisition-siege-social-cramif_0.pdf
+PARIS_PC_2010 | Périmètre administratif, détails extérieurs attestés et piste dossier de permis consultable. | Avis publié, plans du permis non obtenus ; aucune adresse boulevard dans cet avis. | https://cdn.paris.fr/paris/2021/04/19/1005c111ab23ea32a84b087b5c948f4e.pdf
+APUR_PP_1987 | Topologie historique anneau/cour, distinction avec voisins et comparaison hauteur globale. | Plan urbain indicatif ancien, pas plan exécution ; cote 33 m non définie par aile ni référence altimétrique ; photo 1987 ne représente pas état courant. | https://50ans.apur.org/data/b4s3_home/fiche/83/05_paris_projet_27_28_plan_est_7acd2.pdf
+ARCHI_LECAN_56_4 | Piste prioritaire plans/façades/coupes dans fonds André Leconte 409 IFA. | Ne pas affirmer que des plans cotés ou numérisés sont disponibles : inventaire non consulté. | https://archiwebture.citedelarchitecture.fr/ark:/43435/962615
+CITE_LECONTE | Confirme fonds à interroger. | Pas documentation directe CRAMIF vérifiée. | https://www.citedelarchitecture.fr/sites/default/files/documents/2023-03/frapn02_col_2010_026.pdf
+PSS_CRAMIF | Orientation documentaire ; pointer vers notice archive et photo. | Hauteurs expressément estimées, année ≈1966 incompatible date construction officielle 1963 ; ne pas substituer au LiDAR. Les étages ne sont pas assignés par aile. | https://www.pss-archi.eu/immeubles/FR-75056-11208.html
+PSS_PHOTO | Piste photo façade | Aucune baie comptée ni dimension déduite. Date upload ne prouve pas date prise de vue. | https://www.pss-archi.eu/photo-95355.html
+CRAMIF_CMS_2023 | Identifier accès et temporalité travaux. | Pas de façade cotée. | https://www.cramif.fr/actualites/travaux-au-centre-medical-stalingrad-nouveaux-acces-temporaires
+CRAMIF_CMS_2025 | Accès état récent. | Plan de situation simplifié, pas emprise métrique. | https://www.cramif.fr/sites/default/files/centre-medical-stalingrad-informations-pratiques-sept-2025cramif.pdf
+MARCHE_ASC_2026 | Piste nomenclature à confirmer, aucune valeur prescriptive. | Résumé explicitement IA ; ne pas traiter en preuve primaire. | https://www.marches-publics.gouv.fr/app.php/entreprise/consultation/3038019?orgAcronyme=s7h
+LEMONDE_1965 | Distinguer inauguration 1965 de construction 1963. | Accès partiel réservé abonnés ; aucune dimension. | https://www.lemonde.fr/archives/article/1965/10/12/les-reformes-respecteront-la-vocation-profonde-de-l-institution-declare-m-grandval_2194048_1819218.html
+ARCHIVES_CRAMIF_2010 | Piste brochure historique et archives CRAMIF. | Brochure originale non obtenue ; aucun plan/façade attesté dans recherche. | https://shs.cairn.info/article/RHPS_003_0114/pdf?lang=fr
+
+PREUVES PLANS / FAÇADES
+Le seul dessin réellement récupéré et inspecté est le plan masse APUR historique, PDF p.83/84 (imprimées 162-165). Il est indicatif. Rendus apur_page_83.png et apur_page_84.png. Aucun plan coté de baie ni d’élévation obtenu. Notice Archiwebture précise mais accès 403. Aucune fenêtre à inventer.
+
+LIMITES
+Aucune campagne de relevé nouvelle. Aucun résultat MESURE_LIDAR créé par cette mission.
+Aucun plan d’élévation/de coupe coté directement exploitable obtenu.
+Aucune photographie contemporaine de toute façade et cour inspectée.
+Aucune longueur cour/barre, épaisseur, trame ou baie inventée.
+Documents projet lus seulement ; sources et modèle non modifiés.
+
+RECOMMANDATIONS
+Faire correspondre chaque aile aux emprises APUR/cadastre et objets modèle ; identifier expressément voisins du boulevard.
+Caler emprises et toitures sur LiDAR conservé avec référence NGF, date acquisition et statistiques points.
+Conserver 33m APUR comme contrôle historique documentaire, ≈38/40m PSS comme estimation séparée.
+Obtenir inventaire/planches LECAN-J-56-4 auprès Centre archives architecture XXe, fonds 409 IFA, et dossier PC 2010 Ville Paris.
+Utiliser plans masse APUR uniquement pour topologie et histoire, pas pour détail façade contemporain.
+Relever photographies datées de chaque façade extérieure et cour avant modélisation des ouvertures ; zones masquées explicitement sans détails.
+
+PÉRIMÈTRE UTILISATEUR : épicentre CRAMIF ; voisin boulevard sans inclusion automatique. Aile limite à confirmer par sources.
+
+CAPTURE INSPECTÉE : axe planté à droite = avenue de Flandre. Capture montre anneau et barre Flandre prolongée au sud, cour logistique. Terme aile boulevard à éviter pour cette barre. Date vue Google non connue ; aucune dimension/baie extraite.

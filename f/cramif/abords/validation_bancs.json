@@ -1,0 +1,74 @@
+{
+  "elements": [
+    {
+      "id": "PVP_ENVIRONNEMENT_817095",
+      "composants": 5,
+      "vertices": 40,
+      "triangles": 60,
+      "volume_total_m3": 0.2121652840009044,
+      "aretes_ouvertes": 0,
+      "volumes_positifs": true,
+      "xy_centre": [
+        96.51191974596732,
+        131.99147070973663
+      ]
+    },
+    {
+      "id": "PVP_ENVIRONNEMENT_814921",
+      "composants": 5,
+      "vertices": 40,
+      "triangles": 60,
+      "volume_total_m3": 0.21090397265812957,
+      "aretes_ouvertes": 0,
+      "volumes_positifs": true,
+      "xy_centre": [
+        105.70972142549905,
+        133.60468578888566
+      ]
+    },
+    {
+      "id": "PVP_ENVIRONNEMENT_842319",
+      "composants": 5,
+      "vertices": 40,
+      "triangles": 60,
+      "volume_total_m3": 0.21168968786158202,
+      "aretes_ouvertes": 0,
+      "volumes_positifs": true,
+      "xy_centre": [
+        119.03756612360867,
+        158.6461102858332
+      ]
+    },
+    {
+      "id": "PVP_ENVIRONNEMENT_816471",
+      "composants": 5,
+      "vertices": 40,
+      "triangles": 60,
+      "volume_total_m3": 0.21260399985889422,
+      "aretes_ouvertes": 0,
+      "volumes_positifs": true,
+      "xy_centre": [
+        128.02687859859498,
+        160.113421497765
+      ]
+    },
+    {
+      "id": "PVP_ENVIRONNEMENT_816031",
+      "composants": 5,
+      "vertices": 40,
+      "triangles": 60,
+      "volume_total_m3": 0.21199373596334847,
+      "aretes_ouvertes": 0,
+      "volumes_positifs": true,
+      "xy_centre": [
+        70.92355388168012,
+        91.96860661029167
+      ]
+    }
+  ],
+  "objets": 25,
+  "vertices": 200,
+  "triangles": 300,
+  "sha256_lot": "dbe5d06e9c11e7994619c3082a39477cc551380b3315d561eacdae5f7951033d",
+  "limite": "Validation géométrique hors Blender; intégration et contrôle natif encore requis. Sol à l’axe interpolé, appui aux coins non contrôlé."
+}

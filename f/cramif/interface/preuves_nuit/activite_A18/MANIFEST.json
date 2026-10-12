@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-11T12:22:00+02:00",
+  "source": "Recette locale Chrome headless, SwiftShader, serveur Stalingrad localhost:8790",
+  "scope": "Interface uniquement ; aucune certification Safari ou Blender GUI",
+  "files": [
+    {
+      "file": "brain_final.png",
+      "bytes": 200046,
+      "sha256": "48381bcd6530e2e04c3f98fdf0dfab7ec1b63c90e134577351076b6cf3042229"
+    },
+    {
+      "file": "suivi_final.png",
+      "bytes": 192664,
+      "sha256": "74b9b21cd46334be1c637f1cc3f19f5ba25ffe723ed0edb81dc6b0bcb22e7a7c"
+    },
+    {
+      "file": "suivi_mobile_final.png",
+      "bytes": 65606,
+      "sha256": "daf90022f11dd35a1a81e0107530dc43b2d42ec7d0942b990589c216505e9a72"
+    },
+    {
+      "file": "pro_A18_activite_final.png",
+      "bytes": 712371,
+      "sha256": "6e722bed88b52a9a89eedd7187944e31e6ecca88d7411473fb4db0118447bca2"
+    },
+    {
+      "file": "cour_sud_A18_rapprochee.png",
+      "bytes": 422985,
+      "sha256": "57bf118575484dc3aac4752183abfe8e458b224233e44a90b081d9c37dff2517"
+    },
+    {
+      "file": "brain_avant.png",
+      "bytes": 190548,
+      "sha256": "d3a60d495e903e52470ade92757246c5770007f88144a09d6e656f25467e6af1"
+    },
+    {
+      "file": "suivi_avant.png",
+      "bytes": 208316,
+      "sha256": "979259b080b597a2efcf9c061180ba17efd26207f5439c36d771f148a36a1a88"
+    },
+    {
+      "file": "pro_avant.png",
+      "bytes": 728691,
+      "sha256": "a197ce947810f30337c4e7a6e6be64662b73cb680442cd1117ce31e4d1365c5d"
+    },
+    {
+      "file": "recette_finale.json",
+      "bytes": 4330,
+      "sha256": "b10218ff6e32b6eb44fdf7521d8af391c851fef52afc44bde1293945e93be6fc"
+    },
+    {
+      "file": "A18_final.json",
+      "bytes": 2020,
+      "sha256": "691bbf23d8aafbe95f526e99a80e806e1795fecac23e7208e18b48db088cef08"
+    },
+    {
+      "file": "fixtures.json",
+      "bytes": 237,
+      "sha256": "318f06bbb1084fb31fb1aee0322355110311625cf981bde53b3bd2261962cbba"
+    },
+    {
+      "file": "http_final.json",
+      "bytes": 601,
+      "sha256": "696f7082c246e7e86f4fab375eb2c807f723e114a11b9d31b17bac39e2abc379"
+    },
+    {
+      "file": "RAPPORT.txt",
+      "bytes": 4290,
+      "sha256": "b499a77d6e0e3cc1d0068c027133034c5aa126023f50130275bf44358e8af254"
+    }
+  ]
+}

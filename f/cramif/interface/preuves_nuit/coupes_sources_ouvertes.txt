@@ -1,0 +1,29 @@
+DIAGNOSTIC DES DEUX GRAPHES OUVERTS — 11 OCTOBRE 2026, 05:56–05:59 PARIS
+
+Conclusion
+Le calcul de coupe ne perd pas de segment dans ces deux cas. Les huit extrémités ouvertes calculées se trouvent exactement sur des arêtes ouvertes des triangles source : six pour ID196801, deux pour ID196876. Les surfaces ne doivent donc pas recevoir une fermeture arbitraire. Aucun code ni modèle n’a été modifié dans ce lot.
+
+Méthode indépendante
+1. Reprise du binaire HTTP bati_v3 utilisé dans le contrôle précédent : 415 372 triangles. Les IDs sont des identifiants temporaires du regroupement du chargeur, pas des IDs APUR ni des noms d’objets Blender.
+2. Exécution de la collecte des contours du code Pro, avec instrumentation des extrémités de degré impair.
+3. Extraction des deux composantes : 1 631 et 394 triangles.
+4. Calcul indépendant NumPy des arêtes à une seule face, puis intersection de ces arêtes avec les plans x=-246 et y=484.
+5. Comparaison directe des points : distance maximale 0 m dans les nombres float64 calculés à partir du binaire float32.
+6. Répétition sans soudure et avec arrondis à 0,1 mm, 1 mm et 20 mm : les mêmes six et deux intersections expliquent toutes les extrémités. Le problème ne vient pas du seuil d’accrochage des contours.
+
+Caractérisation géométrique, sans attribution fonctionnelle
+ID196801 : bounds x[-283,388 ; -127,962], y[156,088 ; 393,170], z[48,243 ; 50,127]. Aire totale 2 057,34 m² ; 99,985 % de l’aire a une normale verticale à moins d’environ 26 degrés. 1 233 arêtes ouvertes sans soudure, aucune arête à plus de deux faces.
+ID196876 : bounds x[-196,512 ; -141,029], y[388,549 ; 500], z[51,777 ; 52,918]. Aire 458,65 m² ; toute l’aire a |normale.z|>0,9. 320 arêtes ouvertes, aucune arête à plus de deux faces sans soudure.
+Ces résultats établissent des nappes source largement quasi horizontales. Ils ne prouvent ni leur fonction architecturale ni une lacune de relevé. La catégorie de couleur d’export est générique [170,160,140] ; elle ne permet pas d’identifier leur usage.
+
+Décision
+Conserver le comportement du capper : signaler ces graphes ouverts sans inventer de faces. Les volumes auxiliaires fermés, notamment le ballast, bénéficient du correctif du lot précédent. Pour changer ces deux surfaces, identifier d’abord l’objet natif et sa fonction sur une source de projet.
+Aucune validation de navigateur ou de rendu graphique revendiquée. Aucun natif ouvert, enregistré ou modifié dans ce lot ; aucun serveur modifié.
+
+Preuves reproductibles
+composantes.json : triangles et indices du binaire pour les deux composantes.
+diagnostic_independant.json : intersections et distances pour les huit extrémités.
+tolerances.json : contrôle sous quatre tolérances.
+caracterisation.json : bornes, aires et orientations.
+isoler.cjs, analyser.py, tolerances.py : scripts autonomes.
+Binaire de référence conservé dans /private/tmp/nuit_coupes_0550/bati_v3.bin.

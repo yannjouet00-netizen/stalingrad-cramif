@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-11T05:03:39.567Z",
+  "checks": [
+    {
+      "name": "Animation automatique mise en pause",
+      "pass": true,
+      "detail": "Reprendre"
+    },
+    {
+      "name": "Projection stable avant geste",
+      "pass": true,
+      "detail": {
+        "max": 0.21875,
+        "mean": 0.11808795680905086,
+        "nMoved20": 0
+      }
+    },
+    {
+      "name": "Glisser canvas modifie fortement la projection",
+      "pass": true,
+      "detail": {
+        "max": 651.336585909721,
+        "mean": 388.5561259626854,
+        "nMoved20": 17
+      }
+    },
+    {
+      "name": "Bouton zoom modifie la projection",
+      "pass": true,
+      "detail": {
+        "max": 130.6875,
+        "mean": 62.651906227389844,
+        "nMoved20": 16
+      }
+    },
+    {
+      "name": "Recentrage caméra réel aux coordonnées initiales",
+      "pass": true,
+      "detail": {
+        "position": [
+          0,
+          440.00000000000006,
+          740
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "autoRotate": false
+      }
+    },
+    {
+      "name": "Recherche sans accent trouve Écluse",
+      "pass": true,
+      "detail": [
+        "Passerelle et berges · En attente",
+        "Arbres des berges · En attente",
+        "Voirie et marquages · En attente"
+      ]
+    },
+    {
+      "name": "Entrée sélectionne le résultat",
+      "pass": true,
+      "detail": "Passerelle et berges"
+    },
+    {
+      "name": "Échap efface la recherche",
+      "pass": true
+    },
+    {
+      "name": "Aucune exception JavaScript",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "cameraApresReset": {
+    "position": [
+      0,
+      440.00000000000006,
+      740
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "autoRotate": false
+  },
+  "runtimeErrors": [],
+  "browserClosed": true
+}

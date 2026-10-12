@@ -1,0 +1,472 @@
+{
+  "file": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend",
+  "sha256": "81c15c1a39f27ba5f8b7b920287aabda70c98d80cd722649790eb5e34675ddad",
+  "baseline_sha256": "ba900ae04010ef1a83a292ea00a535530666aa25a17d64ad6e15722c9097e573",
+  "old_count": 13073,
+  "new_count": 13082,
+  "preexisting_changed": {},
+  "preexisting_removed": [],
+  "scenes": {
+    "00_Cadrage": {
+      "added": [],
+      "removed": []
+    },
+    "01_Terrain_IGN": {
+      "added": [],
+      "removed": []
+    },
+    "02_Surface_LiDAR_reference": {
+      "added": [],
+      "removed": []
+    },
+    "03_Enveloppes_documentees": {
+      "added": [],
+      "removed": []
+    },
+    "04_Controles_et_lacunes": {
+      "added": [],
+      "removed": []
+    },
+    "05_Volumes_simples_voirie": {
+      "added": [],
+      "removed": []
+    },
+    "06_Sol_et_voirie_V3": {
+      "added": [
+        "VLAU_STAL_OUVRAGES_Flandre_front_nord_grille",
+        "VLAU_STAL_OUVRAGES_Flandre_front_nord_muret",
+        "VLAU_STAL_OUVRAGES_Flandre_muret_face_grille",
+        "VLAU_STAL_OUVRAGES_Flandre_muret_face_muret",
+        "VLAU_STAL_OUVRAGES_Maroc_front_entree_grille",
+        "VLAU_STAL_OUVRAGES_Maroc_front_entree_muret",
+        "VLAU_STAL_OUVRAGES_Maroc_front_long_grille",
+        "VLAU_STAL_OUVRAGES_Maroc_front_long_muret",
+        "VLAU_STAL_OUVRAGES_Maroc_portail_photo_ESTIME"
+      ],
+      "removed": []
+    }
+  },
+  "added": {
+    "VLAU_STAL_OUVRAGES_Flandre_front_nord_grille": {
+      "vertices": 1656,
+      "triangles": 2484,
+      "components": 207,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "nonpositive_components": 0,
+      "min_component_volume_m3": 0.0005698547106871565,
+      "bbox_min": [
+        112.84110260009766,
+        166.92478942871094,
+        50.343936920166016
+      ],
+      "bbox_max": [
+        123.75369262695312,
+        187.65504455566406,
+        52.81954574584961
+      ],
+      "props": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; sol natif au pied incohérent localement et non modifié. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": "2.4756104761561204",
+        "Hauteur_definition": "Étendue verticale objet; dimensions paramétriques estimées, aucune conformité réglementaire affirmée.",
+        "Id_source": "Flandre_front_nord_grille",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Flandre_front_nord_grille",
+        "Type_element": "grille",
+        "Generateur": "CRAMIF_CLOTURES_V1",
+        "Signature_record": "5c8b14abcb3f99a0658c77f48b801cc3e4014552ba9d196f8d4d0231018043dc",
+        "Parametres": "{\"hauteur\": 1.8, \"socle_hauteur\": 0.45, \"section_lisse\": 0.03, \"section_poteau\": 0.05, \"section_barreau\": 0.018, \"entraxe_poteaux_max\": 2.4, \"entraxe_barreaux_max\": 0.14}",
+        "Dimensions_statuts": "{\"hauteur\": \"CONVENTION\", \"socle_hauteur\": \"CONVENTION\", \"section_lisse\": \"CONVENTION\", \"section_poteau\": \"CONVENTION\", \"section_barreau\": \"CONVENTION\", \"entraxe_poteaux_max\": \"CONVENTION\", \"entraxe_barreaux_max\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2483971]",
+        "Volume_composants_m3": "0.21424564839127733",
+        "Composants_fermes": "207"
+      },
+      "materials": [
+        "CRAMIF_Cloture_Metal_Sombre_ESTIME"
+      ],
+      "mesh_sha256": "5273a79f1bf7c351cd5a5cc2cb66d3ca398c1677bed00533a63cddd4105c1c37"
+    },
+    "VLAU_STAL_OUVRAGES_Flandre_front_nord_muret": {
+      "vertices": 24,
+      "triangles": 36,
+      "components": 3,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "nonpositive_components": 0,
+      "min_component_volume_m3": 0.8823931688396415,
+      "bbox_min": [
+        112.7651596069336,
+        166.8470001220703,
+        49.89393615722656
+      ],
+      "bbox_max": [
+        123.89791107177734,
+        187.7541961669922,
+        51.01954650878906
+      ],
+      "props": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; sol natif au pied incohérent localement et non modifié. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": "1.125610476156126",
+        "Hauteur_definition": "Étendue verticale objet; dimensions paramétriques estimées, aucune conformité réglementaire affirmée.",
+        "Id_source": "Flandre_front_nord_muret",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Flandre_front_nord_muret",
+        "Type_element": "muret",
+        "Generateur": "CRAMIF_CLOTURES_V1",
+        "Signature_record": "1d08677ff5ca6961c161a788169c5914e9d404a81a776325d02f8bad9da9a86d",
+        "Parametres": "{\"largeur\": 0.32, \"hauteur\": 0.45}",
+        "Dimensions_statuts": "{\"largeur\": \"CONVENTION\", \"hauteur\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2483971]",
+        "Volume_composants_m3": "3.881540612882929",
+        "Composants_fermes": "3"
+      },
+      "materials": [
+        "CRAMIF_Cloture_Muret_Clair_ESTIME"
+      ],
+      "mesh_sha256": "061a645eeeb663f8b585c17eacaeac92cdb973fe5a9f2dd039520c6b6a43ce51"
+    },
+    "VLAU_STAL_OUVRAGES_Flandre_muret_face_grille": {
+      "vertices": 3232,
+      "triangles": 4848,
+      "components": 404,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "nonpositive_components": 0,
+      "min_component_volume_m3": 0.0005698547106871565,
+      "bbox_min": [
+        81.18505096435547,
+        120.77904510498047,
+        51.08473587036133
+      ],
+      "bbox_max": [
+        116.15059661865234,
+        162.58815002441406,
+        53.33440399169922
+      ],
+      "props": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; sol natif au pied incohérent localement et non modifié. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": "2.249669441265276",
+        "Hauteur_definition": "Étendue verticale objet; dimensions paramétriques estimées, aucune conformité réglementaire affirmée.",
+        "Id_source": "Flandre_muret_face_grille",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Flandre_muret_face_grille",
+        "Type_element": "grille",
+        "Generateur": "CRAMIF_CLOTURES_V1",
+        "Signature_record": "62871fb26c1255101066d6782656e884fc473ea2c198b3815b4311369e7d7ad0",
+        "Parametres": "{\"hauteur\": 1.8, \"socle_hauteur\": 0.45, \"section_lisse\": 0.03, \"section_poteau\": 0.05, \"section_barreau\": 0.018, \"entraxe_poteaux_max\": 2.4, \"entraxe_barreaux_max\": 0.14}",
+        "Dimensions_statuts": "{\"hauteur\": \"CONVENTION\", \"socle_hauteur\": \"CONVENTION\", \"section_lisse\": \"CONVENTION\", \"section_poteau\": \"CONVENTION\", \"section_barreau\": \"CONVENTION\", \"entraxe_poteaux_max\": \"CONVENTION\", \"entraxe_barreaux_max\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2421660, 2346738]",
+        "Volume_composants_m3": "0.42153291055525993",
+        "Composants_fermes": "404"
+      },
+      "materials": [
+        "CRAMIF_Cloture_Metal_Sombre_ESTIME"
+      ],
+      "mesh_sha256": "d66a09b26ccb12cbec6ef512d7152e0235021d293e5fc0f343a47c74e2186fce"
+    },
+    "VLAU_STAL_OUVRAGES_Flandre_muret_face_muret": {
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "nonpositive_components": 0,
+      "min_component_volume_m3": 7.838244585147689,
+      "bbox_min": [
+        81.0873031616211,
+        120.701416015625,
+        50.634735107421875
+      ],
+      "bbox_max": [
+        116.24834442138672,
+        162.665771484375,
+        51.53440475463867
+      ],
+      "props": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; sol natif au pied incohérent localement et non modifié. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": "0.8996694412652815",
+        "Hauteur_definition": "Étendue verticale objet; dimensions paramétriques estimées, aucune conformité réglementaire affirmée.",
+        "Id_source": "Flandre_muret_face_muret",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Flandre_muret_face_muret",
+        "Type_element": "muret",
+        "Generateur": "CRAMIF_CLOTURES_V1",
+        "Signature_record": "44dfb4cbede54e8b89d8fc167f7c0d11e5dcc0a6727d8e9b41716d84e46a716b",
+        "Parametres": "{\"largeur\": 0.32, \"hauteur\": 0.45}",
+        "Dimensions_statuts": "{\"largeur\": \"CONVENTION\", \"hauteur\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2421660, 2346738]",
+        "Volume_composants_m3": "7.838307788642782",
+        "Composants_fermes": "1"
+      },
+      "materials": [
+        "CRAMIF_Cloture_Muret_Clair_ESTIME"
+      ],
+      "mesh_sha256": "6079886f338ea3a35439dac361817b8c9f15a55ed1f21e0f84e674e4685d7487"
+    },
+    "VLAU_STAL_OUVRAGES_Maroc_front_entree_grille": {
+      "vertices": 440,
+      "triangles": 660,
+      "components": 55,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "nonpositive_components": 0,
+      "min_component_volume_m3": 0.0005698547106871565,
+      "bbox_min": [
+        103.01905059814453,
+        190.97119140625,
+        50.31003189086914
+      ],
+      "bbox_max": [
+        108.67449951171875,
+        195.5858917236328,
+        52.15897750854492
+      ],
+      "props": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; sol natif au pied incohérent localement et non modifié. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": "1.8489462275019406",
+        "Hauteur_definition": "Étendue verticale objet; dimensions paramétriques estimées, aucune conformité réglementaire affirmée.",
+        "Id_source": "Maroc_front_entree_grille",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Maroc_front_entree_grille",
+        "Type_element": "grille",
+        "Generateur": "CRAMIF_CLOTURES_V1",
+        "Signature_record": "a5061900307b79060b40053b3536ccad1afb82602d4cdfb34fcf65e84ce9f0e4",
+        "Parametres": "{\"hauteur\": 1.8, \"socle_hauteur\": 0.55, \"section_lisse\": 0.03, \"section_poteau\": 0.05, \"section_barreau\": 0.018, \"entraxe_poteaux_max\": 2.4, \"entraxe_barreaux_max\": 0.14}",
+        "Dimensions_statuts": "{\"hauteur\": \"CONVENTION\", \"socle_hauteur\": \"CONVENTION\", \"section_lisse\": \"CONVENTION\", \"section_poteau\": \"CONVENTION\", \"section_barreau\": \"CONVENTION\", \"entraxe_poteaux_max\": \"CONVENTION\", \"entraxe_barreaux_max\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2403815, 2242579]",
+        "Volume_composants_m3": "0.06288390805267104",
+        "Composants_fermes": "55"
+      },
+      "materials": [
+        "CRAMIF_Cloture_Metal_Sombre_ESTIME"
+      ],
+      "mesh_sha256": "fdc773697fa4f4bb498b07ac49352aeda9a64bb0c3189e5f9865890cb6cd1ca3"
+    },
+    "VLAU_STAL_OUVRAGES_Maroc_front_entree_muret": {
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "nonpositive_components": 0,
+      "min_component_volume_m3": 1.27231752282885,
+      "bbox_min": [
+        102.9430160522461,
+        190.87213134765625,
+        49.76002883911133
+      ],
+      "bbox_max": [
+        108.75053405761719,
+        195.68496704101562,
+        50.358978271484375
+      ],
+      "props": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; sol natif au pied incohérent localement et non modifié. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": "0.5989462275019335",
+        "Hauteur_definition": "Étendue verticale objet; dimensions paramétriques estimées, aucune conformité réglementaire affirmée.",
+        "Id_source": "Maroc_front_entree_muret",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Maroc_front_entree_muret",
+        "Type_element": "muret",
+        "Generateur": "CRAMIF_CLOTURES_V1",
+        "Signature_record": "c22b27efdfb3e54cc043058ab5599aade262e50055a6f642d26b6f786328d949",
+        "Parametres": "{\"largeur\": 0.32, \"hauteur\": 0.55}",
+        "Dimensions_statuts": "{\"largeur\": \"CONVENTION\", \"hauteur\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2403815, 2242579]",
+        "Volume_composants_m3": "1.2722932237440254",
+        "Composants_fermes": "1"
+      },
+      "materials": [
+        "CRAMIF_Cloture_Muret_Clair_ESTIME"
+      ],
+      "mesh_sha256": "2278e3f9f2ce4d6571b6c59d9f9312b977298651d264fb9e36676ce2455c6614"
+    },
+    "VLAU_STAL_OUVRAGES_Maroc_front_long_grille": {
+      "vertices": 2952,
+      "triangles": 4428,
+      "components": 369,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "nonpositive_components": 0,
+      "min_component_volume_m3": 0.0005698547106871565,
+      "bbox_min": [
+        62.1875,
+        197.5966033935547,
+        49.666629791259766
+      ],
+      "bbox_max": [
+        100.57144927978516,
+        228.8647003173828,
+        52.02360153198242
+      ],
+      "props": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; sol natif au pied incohérent localement et non modifié. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": "2.3569727413275814",
+        "Hauteur_definition": "Étendue verticale objet; dimensions paramétriques estimées, aucune conformité réglementaire affirmée.",
+        "Id_source": "Maroc_front_long_grille",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Maroc_front_long_grille",
+        "Type_element": "grille",
+        "Generateur": "CRAMIF_CLOTURES_V1",
+        "Signature_record": "2403b26c31974dde031a04ff8369931742279947852d9f31149b317aa043218a",
+        "Parametres": "{\"hauteur\": 1.8, \"socle_hauteur\": 0.55, \"section_lisse\": 0.03, \"section_poteau\": 0.05, \"section_barreau\": 0.018, \"entraxe_poteaux_max\": 2.4, \"entraxe_barreaux_max\": 0.14}",
+        "Dimensions_statuts": "{\"hauteur\": \"CONVENTION\", \"socle_hauteur\": \"CONVENTION\", \"section_lisse\": \"CONVENTION\", \"section_poteau\": \"CONVENTION\", \"section_barreau\": \"CONVENTION\", \"entraxe_poteaux_max\": \"CONVENTION\", \"entraxe_barreaux_max\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2459192]",
+        "Volume_composants_m3": "0.3847258577980789",
+        "Composants_fermes": "369"
+      },
+      "materials": [
+        "CRAMIF_Cloture_Metal_Sombre_ESTIME"
+      ],
+      "mesh_sha256": "64d03a9c06ff36a7d2b206a7a71c68eff7e720d66f830b37742d5d5c7f53c67b"
+    },
+    "VLAU_STAL_OUVRAGES_Maroc_front_long_muret": {
+      "vertices": 8,
+      "triangles": 12,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "nonpositive_components": 0,
+      "min_component_volume_m3": 8.70103299613833,
+      "bbox_min": [
+        62.11146545410156,
+        197.49752807617188,
+        49.11663055419922
+      ],
+      "bbox_max": [
+        100.6474838256836,
+        228.96376037597656,
+        50.223602294921875
+      ],
+      "props": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; sol natif au pied incohérent localement et non modifié. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": "1.1069727413275743",
+        "Hauteur_definition": "Étendue verticale objet; dimensions paramétriques estimées, aucune conformité réglementaire affirmée.",
+        "Id_source": "Maroc_front_long_muret",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Maroc_front_long_muret",
+        "Type_element": "muret",
+        "Generateur": "CRAMIF_CLOTURES_V1",
+        "Signature_record": "15dc362af50e038a3159db6c514fe6c990042e0d2626648295d272313e587ad3",
+        "Parametres": "{\"largeur\": 0.32, \"hauteur\": 0.55}",
+        "Dimensions_statuts": "{\"largeur\": \"CONVENTION\", \"hauteur\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2459192]",
+        "Volume_composants_m3": "8.700991249125076",
+        "Composants_fermes": "1"
+      },
+      "materials": [
+        "CRAMIF_Cloture_Muret_Clair_ESTIME"
+      ],
+      "mesh_sha256": "fc31ed6feb7093a94c9e691847fcbeaaf66d61db4e839f036b876d3181606a69"
+    },
+    "VLAU_STAL_OUVRAGES_Maroc_portail_photo_ESTIME": {
+      "vertices": 848,
+      "triangles": 1272,
+      "components": 106,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "degenerate_triangles": 0,
+      "nonpositive_components": 0,
+      "min_component_volume_m3": 0.0002417465072922879,
+      "bbox_min": [
+        108.86149597167969,
+        187.8773956298828,
+        49.86748504638672
+      ],
+      "bbox_max": [
+        112.87149810791016,
+        191.0483856201172,
+        52.64224624633789
+      ],
+      "props": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Portail observé sur photo octobre2025; correspondance à cette interruption PVP de5,03m ESTIME par lecture photo/plan. Silhouette à épaules arrondies estimée, largeur suivant intervalle des faces PVP, toutes hauteurs/sections CONVENTION. Montant central indicatif; nombre de vantaux, charnières et mécanisme non attestés, pas de mécanisme représenté. Z ESTIME depuis classe2 côté rue, terrain natif inchangé. Autre interruption Maroc3,24m conservée ouverte.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photo utilisateur23.11.59 Maroc, imagerie octobre2025",
+        "Hauteur_m": "2.774759927147599",
+        "Hauteur_definition": "Étendue verticale objet; dimensions paramétriques estimées, aucune conformité réglementaire affirmée.",
+        "Id_source": "Maroc_portail_photo_ESTIME",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Maroc_portail_photo_ESTIME",
+        "Type_element": "portail",
+        "Generateur": "CRAMIF_CLOTURES_V1",
+        "Signature_record": "8219aa1617d6c002c20f0afe7d9c61e73cf423fa3db7681718f224626b0ce361",
+        "Parametres": "{\"hauteur\": 2.7, \"rayon_epaule\": 0.55, \"jeu_bas\": 0.05, \"section_cadre\": 0.055, \"section_barreau\": 0.018, \"entraxe_barreaux_max\": 0.13}",
+        "Dimensions_statuts": "{\"hauteur\": \"CONVENTION\", \"rayon_epaule\": \"CONVENTION\", \"jeu_bas\": \"CONVENTION\", \"section_cadre\": \"CONVENTION\", \"section_barreau\": \"CONVENTION\", \"entraxe_barreaux_max\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2242579, 2483971]",
+        "Volume_composants_m3": "0.10071877771835183",
+        "Composants_fermes": "106"
+      },
+      "materials": [
+        "CRAMIF_Cloture_Metal_Sombre_ESTIME"
+      ],
+      "mesh_sha256": "cfe1edecf3289265ae739161a264ef7bcc2e2e2926a69cd448893f5a165aa8a0"
+    }
+  },
+  "summary": {
+    "objects": 9,
+    "triangles": 13764,
+    "components": 1147,
+    "all_closed": true,
+    "all_oriented": true,
+    "all_positive_components": true,
+    "degenerate_triangles": 0,
+    "types": {
+      "grille": 4,
+      "muret": 4,
+      "portail": 1
+    }
+  },
+  "signature_mismatches": [],
+  "statuts_et_sources_valides": true
+}

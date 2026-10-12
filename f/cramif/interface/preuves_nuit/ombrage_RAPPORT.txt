@@ -1,0 +1,28 @@
+CORRECTIF D’OMBRAGE DES SOLS — 11 octobre 2026, 05:25 Paris
+STATUT : testé en mémoire et approuvé visuellement ; aucune sauvegarde native par cet agent.
+SOURCE : Stalingrad_CRAMIF_travail.blend SHA25681ae58ee0322e7f36eb34b6d043172b112d3f0c274b952dd3a36ab441366f9ac.
+
+FAIT CONSTATÉ
+Les trois objets de sol remplacés par from_pydata ont perdu les flags d’ombrage use_smooth : 0face lisse sur169821faces Sol lisse,68278faces Trottoirs,37464faces Amenagements. À titre de contrôle, Chaussées inchangé conserve46585/46585faces lisses. Le générateur m4_blender.py lignes147–172 lissait les faces et conservait les arêtes vives. Aucun ancien terrain caché dans viewport mais visible au render n’a été détecté dans la ROI cour.
+
+CORRECTION
+Restauration de l’ombrage lisse des275563faces, et arêtes vives séparant normales pour dièdre>30degrés ; frontières et arêtes nonmanifold marquées vives, marques préexistantes conservées. Seuil30°=CONVENTION d’affichage, pas mesure de site.80528arêtes marquées sur448238arêtes. Aucun sommet déplacé, aucun ajout/retrait de face/arête, aucun changement d’indice matériau. Ni subdivision ni modifier qui déforme.
+Les empreintes binaires vertices(float32),faces(int32),edges(int32),material_index(int32) sont identiques avant/après pour les trois objets. La correction ne prétend pas réparer la géométrie de la cour sud ou créer de nouveaux niveaux.
+
+PREUVES
+cour_avant.png et cour_angle30.png sont rendus du même natif, caméra perspective identique(position62,164,310,rotationZ−45°,fovvertical35°,1200×700), mêmes réglages Workbench studio/matériaux/cavité/ombres et même World. Examinés visuellement : petites facettes de dalle éliminées, interfaces de cour séparées, pas d’assombrissement en couronne de l’essai rejeté de lissage global. Les ruptures et creux irréguliers cour sud persistent : ce sont des formes de géométrie, pas corrigées ici.
+validation.json confirme identité ; test_import.json confirme APPLIQUE,DEJA_APPLIQUE,RESTAURE,APPLIQUE sans sauvegarde. Les données NPZ contiennent états avant/après des seules normales.
+
+INTÉGRATION ROOT
+Dans le natif courant ouvert :
+import runpy; om=runpy.run_path('/private/tmp/nuit_ombrage_angles/importer.py'); print(om['integrer']())
+Puis root seul sauvegarde/recharge après revue. L’importeur vérifie tous les objets et empreintes géométriques, les SHA256 des trois NPZ et les flags courants AVANT toute mutation. Il refuse une modification de géométrie ou d’ombrage non prévue pour préserver Yann. Relance sans effet. Retour réversible : om['integrer'](restaurer=True).
+Paquet déplaçable : importer.py résout son propre dossier ou variable environnement NUIT_OMBRAGE_ROOT. Conserver manifest.json et troisNPZ dans même dossier. Les figures ne sont pas nécessaires à l’import mais utiles comme preuves. Aucune écriture du modèle natif dans l’importeur.
+
+PORTÉE WEB
+Le viewer calcule déjà des normales interpolées. Aucun NPZ géométrique nouveau n’est requis : maillages strictement inchangés. L’export visuel web peut encore différer aux arêtes vives s’il ignore ce flag natif ; ne pas annoncer identité pixel à pixel.
+
+MÉTHODE OFFICIELLE
+https://docs.blender.org/manual/en/latest/scene_layout/object/editing/shading.html
+https://developer.blender.org/docs/release_notes/4.1/modeling/
+Ces références confirment normales de coins selon faces lisses/arêtes vives, sans modifier la forme. Implémentation explicite équivalente par attributs mesh, pas ajout de nodes/modifier.

@@ -1,0 +1,51 @@
+SYNTHÈSE ÉOLE / FAISCEAU / BERGES — BILAN DU 11 OCTOBRE 2026
+
+Synthèse de paquets livrés et intégrations confirmées par root, sans nouvel audit ni écriture du natif. Les rapports durables font foi pour les mesures et tests détaillés. Le checkpoint stable A17 contrôlé par A19 reste identifié dans synthese.json ; cette note ne prétend pas décrire une sauvegarde plus récente.
+
+LIVRAISONS EFFECTIVES
+A1 : 19 axes OSM et leurs rails/traverses simplifiés, 12 chemins Éole. A2 et A5 : simplification locale prairie sud puis plateau haut, avec raccords et pieds d’arbres conservés. A4 : ballast continu autour des axes acceptés. A7 : trois montées lisses et deux paliers ; aucun escalier détaillé inventé.
+A9, A11, A12 : 2 + 8 + 15 houppiers Éole individualisés ; A17 : six des berges, soit 31 formes au total. A10 : provenance des hauteurs corrigée pour 96 arbres / 192 objets, sans changement numérique. A13 : dix raccords de rails mitrés. A15 : raccord Z coordonné rails/traverses/ballast au nœud documenté.
+A3, A6, A8 et A14 sont des jalons combinés parent sur d’autres éléments : ombrage/marquages, cours CRAMIF et tour. Ne pas les compter comme corrections Éole supplémentaires. A16 est uniquement un diagnostic, sans géométrie importée. La matrice JSON distingue chaque jalon A1–A17.
+
+CE QUI EST MESURÉ ET CE QUI EST REPRÉSENTÉ
+Les retours LiDAR historiques sont MESURE_LIDAR. Les axes OSM et l’inventaire Ville sont SOURCE_DOCUMENTAIRE. Plans de sol, profils ferroviaires, limites interprétées et segmentation des houppiers sont ESTIME. Sections de rails, traverses régulières, profil de ballast, largeurs non cotées, teintes et enveloppes convexes lissées restent CONVENTION. Les gains portent sur la continuité et l’individualisation appuyées aux sources, pas sur une restitution exacte des appareils de voie, marches ou feuilles.
+Dates : nuage IGN de mars 2023 ; extraction OSM et export inventaire 2026 ne datent pas un relevé. La date d’acquisition d’une orthophoto GetMap reste inconnue si le service ne la fournit pas. Les critères de sélection n’ont pas été relâchés pour compléter un nombre annoncé.
+
+ATTENTES — PROCHAINE PREUVE UTILE
+Ballast EPI1 — deux segments restants — NON INTÉGRÉ. Axe 1334516391, segments 61 et 62 : dépression latérale attestée ; fonction et franchissement non identifiés. Une fondation uniforme masquerait le relief.
+Preuve suivante : Coupe géoréférencée ou plan SNCF de l’ouvrage et de l’assise à cet endroit ; photo oblique localisée pour identifier le mode de franchissement.
+Rapport : /Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/diagnostic_lacunes_a16/RAPPORT.txt
+
+Axes et autres raccords ferroviaires — DIFFÉRÉS. 19 axes initiaux sans profil admissible et 19 stations de raccord A13 sans support complet. Ils ne sont pas équivalents aux deux segments EPI1.
+Preuve suivante : Données rail / plateforme suffisamment supportées et vérification des contacts le long du domaine complet ; plan de voie coté pour les appareils d’aiguille.
+Rapport : /Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/rails_a13/RAPPORT.txt
+
+Portiques et caténaires — AUCUN PORTIQUE NOUVEAU. Six alignements hauts candidats ; pas de paire complète d’appuis avec implantation et niveaux suffisamment établis. Aucune section réelle cotée.
+Preuve suivante : Plan d’implantation caténaire ou vues obliques localisées montrant les deux appuis de chaque portique, avec cotes / retours identifiables.
+Rapport : /Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/diagnostic_suite_a18/RAPPORT.txt
+
+Parking visé dans les captures — NON LOCALISÉ AVEC CERTITUDE. Les captures conservées ne relient pas de façon certaine le parking visé à un périmètre XY ; le filtrage OSM ferroviaire ne prouve pas l’absence d’un parking.
+Preuve suivante : Capture avec repère cartographique, adresse ou point géoréférencé du parking ; ensuite contour et niveau documentés, avant toute place ou baie.
+Rapport : /Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/diagnostic_suite_a18/RAPPORT.txt
+
+Berge basse / dessous du couronnement — DIAGNOSTIC A19 — AUCUN IMPORT. Au point local (80,2 ; −221,9186), rupture réelle entre niveau bas et trottoir haut. Le résidu du plan bas est presque entièrement sous le niveau haut en projection ; facette cassée non démontrée.
+Preuve suivante : Coupe ou vue oblique géoréférencée du pied du mur et du dessous du couronnement. Préserver le trottoir haut et le niveau d’eau ; aucune dalle ajoutée par supposition.
+Rapport : /Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/diagnostic_berge_a19/RAPPORT.txt
+
+Accès Éole, jardins et promenade — REPRÉSENTATION PARTIELLE. Profils et paliers intégrés, mais largeur et nombre de marches ne sont pas cotés. Les domaines de sol corrigés ne certifient pas toutes les limites d’engazonnement ou terrains sportifs.
+Preuve suivante : Plan d’aménagement ou photos localisées permettant de coter largeur, marches, garde-corps et parcelles plantées ; ne pas extrapoler les anciennes taches vertes spectrales.
+Rapport : /Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/acces_paliers_a7/RAPPORT.txt
+
+Houppiers historiques et arbres récents — 31 FORMES LIVRÉES, SÉLECTION CONSERVATRICE. Le nuage 2023 n’atteste pas l’état foliaire 2026. Deux poiriers contradictoires datés (10735,11153), les scissions et plantations récentes incertaines ne sont pas redimensionnés.
+Preuve suivante : Relevé végétation récent identifiable individuellement, dates de plantation et correspondance certaine des individus pour les cas exclus.
+Rapport : /Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/canopies_berges_a17/RAPPORT.txt
+
+PROVENANCE DES IMAGES
+Snapshot 08:35 : 9 129 images, 311 documentées au départ ; 33 correspondances supplémentaires SHA strictes proposées, zéro contradiction. Les 947 images de la nouvelle archive restent sans correspondance documentée.
+Il s’agit du mapping livré, pas d’un décompte actuel de l’API ni d’une certification que toutes les propositions ont été appliquées. Aucun producteur Claude attribué par dossier.
+Rapport : /Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/provenance_copies/RAPPORT.txt
+
+PREUVES RÉUTILISABLES
+Chaque lot durable donne le rapport, le manifeste d’empreintes, les validations de contact / conservation et la preuve analytique. Réutiliser ces pièces, sans republier les snapshots natifs ou doublons de calcul. Pour les arbres : manifestes individuels et cumul web de 31, sans double houppier procédural sur ces IDs. Pour le rail : cumuls A13/A15 substituent les géométries corrigées ; ne pas réajouter l’ancien calque. Les deux segments ballast restants et le point de berge A19 sont des limites documentées, pas des corrections réalisées.
+
+Aucune opération sur backend, images_meta, état chantier ou natif pendant cette synthèse.

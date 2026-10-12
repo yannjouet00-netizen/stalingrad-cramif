@@ -1,0 +1,33 @@
+{
+  "total": 140,
+  "default": 32,
+  "technical": 108,
+  "prior129RowsPreservedExactly": true,
+  "newNotices": [
+    {
+      "rel": "couverture_sud/NOTICE.txt",
+      "title": "Cour sud · couverture supérieure intégrée",
+      "description": "Couverture intégrée au natif A17, réouverture contrôlée. Altitude appuyée sur le LiDAR historique de 2023 ; contour ESTIME, épaisseur CONVENTION. Aucun sol, mur ou poteau ajouté ; supports réels non établis.",
+      "category": "decisions",
+      "url": "/f/cramif/couverture_sud/NOTICE.txt"
+    },
+    {
+      "rel": "diagnostic_ferroviaire/NOTICE.txt",
+      "title": "Éole · deux manques d’assise restent à documenter",
+      "description": "Le creux latéral est corroboré par le LiDAR historique ; une assise uniforme serait injustifiée. La fonction de l’ouvrage visible reste inconnue. Diagnostic sans ajout de géométrie, lacune conservée explicitement.",
+      "category": "decisions",
+      "url": "/f/cramif/diagnostic_ferroviaire/NOTICE.txt"
+    },
+    {
+      "rel": "houppiers_berges/NOTICE.txt",
+      "title": "Berges · six houppiers historiques individualisés",
+      "description": "Six houppiers intégrés au natif A17, réouverture contrôlée, avec pieds et troncs conservés. Points LiDAR de 2023, attribution ESTIME et enveloppes CONVENTION ; le couvert réel de 2026 n’est pas affirmé.",
+      "category": "decisions",
+      "url": "/f/cramif/houppiers_berges/NOTICE.txt"
+    }
+  ],
+  "rotondeNoticeNotPublished": true,
+  "syntax": "pass",
+  "pagesEqual": true,
+  "unexplainedDefault": []
+}

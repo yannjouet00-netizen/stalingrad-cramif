@@ -1,0 +1,17 @@
+{
+  "http": 200,
+  "header": {
+    "type": "maillage",
+    "parts": [
+      {
+        "nom": "voirie_marquages",
+        "n": 1638,
+        "off": 0
+      }
+    ],
+    "titre": "Passages Tanger/Maroc et écluse · relevés sur orthophoto"
+  },
+  "triangles": 546,
+  "bandes": 19,
+  "passages": 2
+}

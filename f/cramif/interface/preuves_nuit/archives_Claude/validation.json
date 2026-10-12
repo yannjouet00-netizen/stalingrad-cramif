@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "total": 9129,
+    "date_inventaire": 1791700432.489224,
+    "refresh_seconds": 30,
+    "racines": {
+      "cramif": 81,
+      "images_projet": 4139,
+      "images_calcul": 3955,
+      "images_claude": 0,
+      "images_claude_travail": 947,
+      "cr_image": 7
+    },
+    "provenances_documentees": 311,
+    "sources_inconnues": 8818,
+    "non_previsualisables": 9,
+    "limites": [
+      "Inventaire des fichiers conservés et images embarquées du compte rendu Stalingrad. Les images perdues ou jamais enregistrées localement ne sont pas récupérables ici.",
+      "Les copies conservées dans plusieurs dossiers restent visibles avec leur emplacement ; pas de déduplication de contenu.",
+      "Auteur et date d’acquisition inconnus restent explicitement inconnus ; mtime sert au tri, pas à dater le terrain.",
+      "Références Google : accès interne conservant l’authentification du serveur."
+    ],
+    "racines_absentes": [
+      "images_claude"
+    ]
+  },
+  "new_session_images": 947,
+  "scoped_session_only": "/private/tmp/claude-501/-Users-yannjouet-Downloads-VLAU---charte-graphique/ad5ab4a8-aa3a-4d24-96fb-889ec4e3ba97",
+  "file_probes_exact": [
+    {
+      "file": "images/1.png",
+      "served_sha256": "51df107e791b5ed95cf328884e7d02fe006874acbe21ff41b9e49c40e35fdb8a",
+      "provenance": "INCONNUE"
+    },
+    {
+      "file": "scratchpad/v9.png",
+      "served_sha256": "40f7f7ef9509880527e274b8e339fb4eb182d0207a83cf0de13aab0a141fad37",
+      "provenance": "INCONNUE"
+    },
+    {
+      "file": "scratchpad/dl_commons/panneau.jpg",
+      "served_sha256": "f7201cf28b921bb7ea00c1f1b3851ba0eb40fa16fab220531342e8e90888d54d",
+      "provenance": "INCONNUE"
+    }
+  ],
+  "scripts_json_and_parent_escape_denied": true,
+  "source_attribution_not_inferred_from_folder": true
+}

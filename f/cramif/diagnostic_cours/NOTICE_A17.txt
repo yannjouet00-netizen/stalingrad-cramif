@@ -1,0 +1,11 @@
+COUR SUD — NIVEAUX SUPERPOSÉS ET RACCORDS À PRÉCISER
+Diagnostic du 11 octobre 2026, natif A17 relu.
+
+La couverture supérieure est présente. Des facettes et ressauts irréguliers restent visibles à ses côtés et près du passage bas : le chantier de la cour sud reste à poursuivre. Ce diagnostic n’ajoute aucune géométrie et ne modifie ni le sol ni les huit corps CRAMIF contrôlés.
+
+Les points LiDAR historiques de mars 2023 montrent plusieurs niveaux dans les mêmes voisinages. Un plateau haut peut surplomber une rampe ou un passage bas. Les écarts entre un point et une surface ne prouvent donc pas automatiquement une erreur de terrain. Quinze foyers sont distingués dans un inventaire de 270 points ; certains se trouvent sous la couverture ou en projection de bâtiments.
+
+Les contours exacts des ruptures et la nature des raccords restent à préciser. Un lissage commun ou une dalle pleine traversant la rampe serait injustifié. La suite consiste à séparer les nappes hautes et basses, établir leurs limites puis contrôler leurs raccords et les passages conservés. Aucun correctif géométrique n’est livré par ce diagnostic.
+
+Sources : LiDAR IGN historique de mars 2023 ; orthophoto locale de date d’acquisition non établie ; géométrie A17 relue. Le rendu de diagnostic est produit en ligne de commande, avec canopées masquées en mémoire ; il n’est pas la fenêtre Blender synchronisée.
+Rapport détaillé : donnees/v3/cramif/diagnostic_cours_a17/RAPPORT.txt.

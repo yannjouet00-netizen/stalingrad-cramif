@@ -1,0 +1,26 @@
+{
+  "copied_at": "2026-10-11T07:00:01.050207+00:00",
+  "files": [
+    {
+      "file": "SYNTHESE_10H.txt",
+      "sha256": "651fc276fac91608b54b00a4c9428969c7df0874ca9105854c724cdb82827b98"
+    },
+    {
+      "file": "matrice_10_lots.json",
+      "sha256": "99547f3c2102196f1030ab8fe4b1c3040fe8a5b8015def651dc718bdc89f8df5"
+    },
+    {
+      "file": "matrice_10_lots.html",
+      "sha256": "640fda687730c56d535933b26ec45ebed155f258a2cf918a0075cc1dbf7a93ff"
+    },
+    {
+      "file": "RAPPORT.txt",
+      "sha256": "76135d4f7736c7854647d9dcef01d9669bd134b0ccd482e93b18f392fa174702"
+    },
+    {
+      "file": "preuves_manifest.json",
+      "sha256": "46176009b992e28f3cb2a07351def507544665bd9f028f150b0923467287a0d4"
+    }
+  ],
+  "source": "/private/tmp/bilan_dix_lots_A17"
+}

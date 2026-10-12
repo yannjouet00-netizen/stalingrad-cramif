@@ -1,0 +1,50 @@
+{
+  "activity": {
+    "date": "2026-10-11T10:18:44.645Z",
+    "cards": [
+      {
+        "name": "Coordination",
+        "state": "Contrôle",
+        "text": "Coordination\nContrôle\n\nReprise : integration des correctifs vérifiables, priorité au résultat visible\n\nDernier résultat · A18 sauvegardé et réouvert ; couches publiées\n\nEnsuite · Vérification des couches servies et captures\n\nMise à jour · 12:18:11",
+        "animation": "activite-tour"
+      },
+      {
+        "name": "Interface",
+        "state": "Contrôle",
+        "text": "Interface\nContrôle\n\nÉtude des rues et Carnet mobile ; contrôle Safari si accessible\n\nDernier résultat · Activité publiée dans Brain, Suivi et Vue 3D\n\nEnsuite · Captures et contrôle de fraîcheur réel\n\nMise à jour · 12:18:11",
+        "animation": "activite-tour"
+      },
+      {
+        "name": "Géométrie",
+        "state": "Contrôle",
+        "text": "Géométrie\nContrôle\n\nQuatre murets · recette des contacts existants\n\nDernier résultat · Raccord cour sud A18 livré\n\nEnsuite · Confirmer les quatre raccords de murets et leurs preuves\n\nMise à jour · 12:18:11",
+        "animation": "activite-tour"
+      },
+      {
+        "name": "Sources",
+        "state": "Contrôle",
+        "text": "Sources\nContrôle\n\nTour voisine · recette des corrections intégrées\n\nDernier résultat · Raccord ferroviaire A18 livré\n\nEnsuite · Comparer la tour actuelle aux correctifs sauvegardés\n\nMise à jour · 12:18:11",
+        "animation": "activite-tour"
+      }
+    ],
+    "modelLoaded": true
+  },
+  "animation": {
+    "first": "matrix(0.889933, 0.456091, -0.456091, 0.889933, 0, 0)",
+    "second": "matrix(-0.413403, 0.910548, -0.910548, -0.413403, 0, 0)",
+    "changed": true
+  },
+  "camera": {
+    "position": [
+      75,
+      55.0000000000007,
+      107.99999999999926
+    ],
+    "target": [
+      27,
+      115.99999999999997,
+      47.99999999999999
+    ],
+    "dernier": "Modèle chargé · 12:18:41"
+  }
+}

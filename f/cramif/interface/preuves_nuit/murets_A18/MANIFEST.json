@@ -1,0 +1,21 @@
+{
+  "status": "LIVRE_CONTACTS_BAS_4_MURETS",
+  "checked_at": "2026-10-11T10:22:25.834626+00:00",
+  "native_sha256": "05b662aedbb5da36b19af634b79765b474c5b72d9301d40094f94902530c1b82",
+  "native_modified": false,
+  "web_triangles_exact": 5584,
+  "contact_samples": 25074,
+  "floating_samples_gt1mm": 0,
+  "crown_preserved": true,
+  "limite": "Front nord Flandre : niveau haut recouvre localement couronnement, jusqu’à0,890m. Réparation des bases livrée ; raccord haut non déclaré conforme.",
+  "files": {
+    "RAPPORT.txt": "b66601eddb636447a9fa4dfcf4a6ed9e6f89bcd91c66166df6e3c3cd9b28ab04",
+    "native.json": "96df8a096396e58a29ba2f43c01951c58aa3a01ea343dc3dbe6db90769c22651",
+    "controle_contacts_web.json": "51ab06d0cbc877c94627f58d2c9b02570466da00ebef88b8f39b018f79010231",
+    "planche_recette.png": "5a4074ffc5f03b138e711f4fc1582e8555e807139e270f61414b618de92645ec",
+    "Flandre_muret_face_muret.png": "bc2ce0fa4ac5fc4fc401f754498c56205185e6b28c393cb316671bc1428caa83",
+    "Flandre_front_nord_muret.png": "780930a297a5f21aa52e7d753425de4fbf36318ce605100e3d3babdfae293532",
+    "Maroc_front_long_muret.png": "d1245a87f180b3f2515c1375e05abdb24ba5219447f8f81d54c5f4523f0e0678",
+    "Maroc_front_entree_muret.png": "0e4bc54f535550014abca85ba10ae1d8b9ae51591a74ecbc331864a33b1391e8"
+  }
+}

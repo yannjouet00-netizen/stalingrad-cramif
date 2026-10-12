@@ -1,0 +1,19 @@
+GALERIE ÉTENDUE ET DIAGNOSTICS — 11 octobre 2026, 08:40 Paris
+
+RECETTE RÉELLE DE LA GALERIE
+Chrome headless, CDP 9227 réservé pendant le test puis libéré. Capture initiale inspectée : 48 cartes sur 9 129 images, aucun select natif, aucun débordement horizontal à 1440 × 1000. Chargement initial observé : environ 4,96 secondes dans cette session ; pas une garantie de performance générale. La pagination passe à 96 cartes. Le filtre « Aperçu daté » renvoie 34 cartes.
+Recherches : dl_commons = 3 résultats ; v9 = 3 ; panneau = 10. Aucune vignette « Image indisponible » dans ces résultats après la courte attente testée. L’original panneau_bas.jpg est réellement ouvert en dialogue, visible sur la capture, et récupérable en HTTP 200 (1 382 976 octets, image/jpeg). La provenance inconnue reste affichée. Ces observations ciblées ne certifient pas individuellement les 9 129 fichiers.
+
+DONNÉES HISTORIQUES
+API relue : 947 images dans images_claude_travail. Les 947 ont un titre et une explication ; 947 provenances INCONNUE au moment du relevé. Aucune attribution par nom de répertoire ou par date de fichier. L’agent sources travaille séparément sur des rapprochements SHA documentés. Aucune correction du code de galerie nécessaire après cette recette.
+
+PUBLICATION DOCUMENTAIRE
+Deux notices lisibles publiées :
+— diagnostic_cours/NOTICE_A17.txt : niveaux superposés de la cour sud, couverture présente et raccords encore à préciser ; sols et huit corps contrôlés conservés ; aucun patch dans le diagnostic.
+— diagnostic_berge/NOTICE_A19.txt : rupture de niveaux réelle, limite du plan bas sous couronnement encore masquée ; aucun défaut natif à réparer démontré et aucune dalle ajoutée.
+Elles figurent dans Observations. Le rapport technique de la hiérarchie Pro est derrière la case des fichiers techniques. Les deux pages hub/index restent identiques ; tous les autres classements préexistants sont préservés. Catalogue relu pendant ce lot : 153 documents, dont 37 notices et 116 fichiers techniques. Ces nombres peuvent évoluer avec les copies de preuves du coordinateur.
+
+Cinq images exactes des paquets sources durables ont reçu titre, explication, producteur local, date de production et référence à la notice. Identification par chemin + SHA : aucune attribution globale de dossier. Le LiDAR historique de mars 2023 est distingué des diagnostics produits aujourd’hui. La date d’acquisition des orthophotos reste inconnue. API réelle : les cinq images sont DOCUMENTEE avec leurs titres attendus.
+
+VÉRIFICATION
+Les deux notices répondent en HTTP 200. Syntaxe JavaScript des pages du Carnet valide ; classement par les fonctions réelles du catalogue testé. Captures : initial.png et historique_original.png, inspectées. Résultats : dom.json, api.json, meta.json, notices_validation.json, images_validation.json. Aucune nouvelle recette graphique globale, aucun fichier Blender, backend, suivi ou chantier modifié. Aucun redémarrage serveur.

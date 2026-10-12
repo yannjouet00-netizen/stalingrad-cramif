@@ -1,0 +1,9 @@
+{
+  "native_reopened": true,
+  "terrain_native_web_exact": true,
+  "rail_native_web_exact": true,
+  "both_importers_idempotent": true,
+  "sol_vertices": 100729,
+  "sol_triangles": 171550,
+  "candidate_sha256": "05b662aedbb5da36b19af634b79765b474c5b72d9301d40094f94902530c1b82"
+}

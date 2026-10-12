@@ -1,0 +1,5 @@
+{
+  "checks": 20,
+  "passed": true,
+  "scope": "Étapes, baux actifs/expirés, attente prête, import sauvegardé, livré"
+}

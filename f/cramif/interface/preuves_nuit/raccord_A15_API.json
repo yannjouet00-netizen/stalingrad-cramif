@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-11T05:55:27.222831+00:00",
+  "native": "A15",
+  "layers": [
+    {
+      "layer": "eole_voies",
+      "header": {
+        "type": "maillage",
+        "parts": [
+          {
+            "nom": "Eole_voies_apercu_A15",
+            "n": 218199,
+            "off": 0
+          }
+        ],
+        "titre": "Éole · rails et chemins documentés"
+      },
+      "triangles": 72733,
+      "positions_exact": true,
+      "colors_exact": true
+    },
+    {
+      "layer": "eole_ballast",
+      "header": {
+        "type": "maillage",
+        "parts": [
+          {
+            "nom": "Ballast_Eole_A15",
+            "n": 142452,
+            "off": 0
+          }
+        ],
+        "titre": "Éole · assise des voies, profil conventionnel"
+      },
+      "triangles": 47484,
+      "positions_exact": true,
+      "colors_exact": true
+    }
+  ]
+}

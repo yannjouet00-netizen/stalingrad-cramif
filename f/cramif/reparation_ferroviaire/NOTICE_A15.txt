@@ -1,0 +1,10 @@
+ÉOLE — CONTINUITÉ DES VOIES ET DE LEUR ASSISE
+Notice métier de l’intervention A15 — 11 octobre 2026
+
+Un raccord entre trois axes de voies présentait un décalage dans les profils du modèle. Les points LiDAR voisins et le sol existant concordaient avec le profil le plus bas, sans preuve d’une marche réelle. Les deux profils concernés ont été raccordés progressivement à ce niveau ; rails, traverses et assise ont été ajustés ensemble afin de préserver leurs contacts. Une petite assise complète deux segments concernés par ce raccord.
+
+L’intervention A15 a été intégrée au fichier de travail, sauvegardée et rouverte par la coordination. Elle est locale : les axes en plan et les sections existantes sont conservés. Les raccords encore différés et les autres secteurs du faisceau ne sont pas réputés corrigés par cette intervention.
+
+Les axes proviennent de données OpenStreetMap conservées dans le projet. Les supports altimétriques sont issus du LiDAR IGN historique de mars 2023 : ils ne constituent pas un relevé du site en 2026. Les niveaux reconstruits restent ESTIME ; la longueur de transition, les profils de rails, les traverses et la représentation du ballast sont CONVENTION. Aucune aiguille exacte, lame mobile, cœur, signal ou portique n’a été ajouté. Le contrôle local des contacts ne remplace pas une validation topographique générale.
+
+Document source conservé dans le projet : donnees/v3/eole/raccord_z_a15/RAPPORT.txt. Ce rapport décrit la préparation, les sources, les résultats des contrôles et les procédures d’intégration. La présente notice résume l’intervention publiée ; elle ne remplace pas les qualifications détaillées du rapport.

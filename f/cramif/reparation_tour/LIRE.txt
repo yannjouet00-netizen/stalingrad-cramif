@@ -1,0 +1,15 @@
+CORRECTION TOUR VOISINE — 27–31 avenue de Flandre
+
+Portée : 23 bandes APUR750113299_0 anciennement extrudées jusqu'au sol sont remplacées dans la scène06 uniquement par 23 dalles minces et 23 ensembles de garde-corps. Les 6 autres corps de la tour, ainsi que tous les maillages d'origine, sont préservés. Les collections sont dupliquées sur le chemin de la scène06 pour que les autres scènes restent identiques.
+
+Statuts : reconstruction ESTIME. Les 12 petites cellules Flandre donnent une emprise commune répétée sur les niveaux. Les 11 bandes nord sont réunies par niveau vers le noyau. Les niveaux proviennent de la séquence nord, avec interpolation n1 et extrapolation n11 ; leur attribution aux balcons reste ESTIME. Épaisseur0,18m, garde1,05m, sections et entraxes CONVENTION. Photo utilisateur23.11.37, date d'acquisition inconnue. Ce lot corrige les volumes parasites ; il ne constitue pas un relevé exact des balcons.
+
+Intégration par le responsable du fichier natif :
+1. Persister lot_tour.json dans donnees/v3/cramif/reparation_tour.
+2. Persister importer_tour.py dans scripts/v3/cramif/reparation_tour.
+3. Dans Blender ayant ouvert le fichier de travail courant, définir CRAMIF_TOUR_ROOT au dossier contenant lot_tour.json avant import du module, puis appeler importer_tour(). L'importeur ne sauvegarde jamais.
+   Exemple : os.environ['CRAMIF_TOUR_ROOT']=str(ROOT/'donnees/v3/cramif/reparation_tour'); sys.path.insert(0,str(ROOT/'scripts/v3/cramif/reparation_tour')); import importer_tour; importer_tour.importer_tour()
+4. Contrôler visuellement, enregistrer par le responsable, puis exporter exclusivement les objets de la scène06. Les originaux restent volontairement présents dans bpy.data pour les autres scènes ; un export global doublerait la tour.
+5. Retour arrière : importer_tour.restaurer_tour(), puis contrôle avant sauvegarde. La correction est déliée et conservée en données pour préserver d'éventuelles modifications. Relancer importer_tour() après ce retour ne réapplique pas automatiquement le lot : relier la collection existante exige un choix explicite.
+
+Test sans sauvegarde : test_import.py lit le natif, compare toutes les empreintes géométriques et appartenances aux scènes, vérifie chaque composante fermée/volume positif, puis rend deux vues isolées.

@@ -1,0 +1,28 @@
+LOT INTERFACE — 11 OCTOBRE 2026, 05:20–05:30 PARIS
+
+Terrain réellement servi
+L’API renvoie 29 036 428 octets, répartis en neuf parties. Les coordonnées float32 sont exactement égales aux neuf NPZ actifs. Positions et normales sont finies ; aucune normale nulle ou non unitaire au seuil 0,0001.
+Sol_lisse prairie A2 : 509 463 sommets, quatre couleurs ; le RGB par face correspond exactement au patch. Les couleurs d’Escaliers correspondent également à sa source. Voir terrain_api.json.
+
+Corrections installées
+Brain : les variations des compteurs tokens ne déclenchent plus de reconstruction géométrique. Les positions d’écran sont conservées lors des reconstructions nécessaires. Le masquage des étiquettes est prioritaire en CSS ; leurs limites verticales tiennent compte de leur hauteur réelle et des boutons. La sélection depuis la liste d’équipe mobile est synchronisée. Les détails de tokens précisent l’intervalle clos et les limites d’attribution.
+L’interpolation précède désormais la résolution des collisions, afin de ne pas réintroduire des chevauchements après cette résolution. Le test de placement a révélé des collisions résiduelles à 300/350 px. Une disposition compacte prend le relais sur téléphone lorsque nécessaire, sans supprimer de lot ni de trait vers les points 3D ; la hauteur s’adapte au contenu.
+Hub et index : un compteur completed supérieur au total est rejeté au lieu d’afficher 100 %.
+
+Vérifications
+16 dispositions compactes entre 270 et 550 px et de 10 à 24 étiquettes : zéro chevauchement ou débordement calculé.
+20 cas de bornage vertical, signatures de reconstruction, fraîcheur et sélection contrôlés.
+12 cas Suivi : seules les mesures qualifiées ou les fractions cohérentes produisent une jauge ; les jalons ne deviennent pas des pourcentages.
+Scripts JavaScript vérifiés par node --check. HTTP /brain, /suivi et /carnet : statut 200 et nouveau code présent.
+
+Contenu des lots
+Les 70 % d’interface proviennent de 7 opérations sur 10. Le percent 98 de sols_ilots, non qualifié comme mesuré, est masqué. Aucun 75 % n’est calculé depuis trois jalons.
+Les anciennes annonces Voirie/Rotonde « non lancé » contredisent les intégrations rapportées dans nuit_cramif. Le coordinateur a été prévenu pour corriger les données dont il a la charge. Voir lots_api.json, état à l’heure de lecture.
+
+Limites et suite utile
+Aucun rendu graphique n’a été observé dans ce lot. Les contrôles numériques ne certifient pas l’esthétique, le toucher réel, le cadrage des caméras ou les coupes rendues. La disposition compacte doit être observée dans le navigateur dès que l’accès CUA redevient fonctionnel.
+Priorité suivante : Brain mobile et bureau, puis coupes du vrai modèle, vue Cour et transition d’introduction Safari. Conserver la distinction entre preuve graphique et test de code.
+Aucun modèle natif ni serveur modifié dans ce lot.
+
+Preuves
+/private/tmp/nuit_interface_0520 : terrain_api.json, lots_api.json, collisions_synthetiques.json, http_pages.json, test_brain.cjs, test_suivi.cjs, test_compact.cjs.

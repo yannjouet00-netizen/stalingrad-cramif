@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-11T06:07:53.369Z",
+  "threshold_ms": 180000,
+  "cases": [
+    {
+      "name": "active_fresh",
+      "state": "active"
+    },
+    {
+      "name": "active_expired",
+      "state": "stale"
+    },
+    {
+      "name": "active_exact_limit",
+      "state": "stale"
+    },
+    {
+      "name": "done_old",
+      "state": "done"
+    },
+    {
+      "name": "waiting",
+      "state": "waiting"
+    },
+    {
+      "name": "active_unknown_time",
+      "state": "stale"
+    }
+  ],
+  "summaries": [
+    {
+      "name": "fresh",
+      "text": "Agents · 1 en activité"
+    },
+    {
+      "name": "expired",
+      "text": "Agents · état à actualiser"
+    },
+    {
+      "name": "done",
+      "text": "Agents · aucun en activité dans le dernier état"
+    },
+    {
+      "name": "known_zero",
+      "text": "Agents · aucun en activité dans le dernier état"
+    },
+    {
+      "name": "no_data",
+      "text": "Agents · état non renseigné"
+    },
+    {
+      "name": "mixed",
+      "text": "Agents · 1 en activité · 1 état à actualiser"
+    }
+  ],
+  "individualTimestampPrecedesGroup": true,
+  "groupFallbackPreserved": true,
+  "suiviCases": 4,
+  "proActualListStaleText": true,
+  "proStaleAnimationClassAbsent": true,
+  "brainStaleStateWired": true,
+  "brainStreamsOnlyActive": true,
+  "suiviExpiryUpdatesWithoutNewData": true,
+  "syntax": "all pass",
+  "pagesEqual": true
+}

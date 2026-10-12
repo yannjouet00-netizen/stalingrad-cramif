@@ -1,0 +1,13 @@
+ROTONDE — LES MARCHES DU PORCHE NORD-EST RESTENT À RELEVER
+Notice de diagnostic — 11 octobre 2026
+
+Une photographie de G. Vellut prise le 13 août 2016 suggère environ sept contremarches dans la travée centrale du porche nord-est, partiellement masquées par des jardinières. Le modèle audité comporte quatre marches conventionnelles. Cette différence mérite un relevé ; elle n’établit pas sept hauteurs mesurées.
+
+Le LiDAR historique soutient les niveaux du dallage et de la place, mais sa couverture sous le toit est insuffisante pour établir le profil de cette volée. La marche extérieure entre place et dallage ne doit pas être confondue avec la montée vers les portes. L’absence de points sous le porche ne signifie pas absence d’escalier.
+
+Modifier le nombre de marches imposerait de choisir une nouvelle hauteur de contremarche ou de déplacer le seuil. La photographie partiellement occultée ne permet pas de trancher. Aucun escalier, seuil ou massif n’a donc été modifié dans ce diagnostic. Un relevé du seuil et de la longueur des volées, ou une vue rapprochée rectifiable, est nécessaire avant une reprise géométrique.
+
+Source photographique : G. Vellut, 13 août 2016, CC BY 2.0, https://commons.wikimedia.org/wiki/File:La_Rotonde,_Place_Stalingrad,_Paris_13_August_2016_002.jpg
+Sources altimétriques : LiDAR IGN historique de 2023. L’inventaire et le rendu natifs de ce diagnostic portent sur A15 ; ils ne constituent pas une nouvelle recette exhaustive de l’état A17.
+
+Rapport durable conservé : donnees/v3/cramif/rotonde_diagnostic_NE/RAPPORT.txt.

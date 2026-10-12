@@ -1,0 +1,39 @@
+CONTRÔLES VISUELS NATIFS — TOUR, MURETS, ROTONDE, ÉCLUSE
+11 octobre 2026, 06:24 Paris. Lot terminé, aucun correctif géométrique supplémentaire proposé.
+
+Les rendus ont été calculés en Blender CLI WORKBENCH et réellement examinés. Aucun fichier natif partagé n'a été sauvegardé. Il ne s'agit pas d'une vue synchronisée de l'application.
+Source des vues : natif A8, SHA 4b87cfbc8ba4a744f10acd5808ee64b78f77d1d941e478f1e3ebc83825a1b994. A9 Éole a ensuite été publié par root ; les secteurs examinés sont hors de ce correctif, mais ces images restent identifiées A8.
+Les manifestes enregistrent les caméras et les masquages temporaires. Les canopées ont été masquées pour examiner la géométrie. Les vues contacts_* et ecluse_detail/banquettes masquent aussi les bâtiments qui occultaient l'ouvrage. Dans contacts_angle_nord, les accessoires de la tour et les troncs sont également masqués, afin de ne pas laisser des garde-corps sans leur bâtiment. Ces masquages n'ont pas été enregistrés dans le natif.
+
+VUES UTILES ET CONCLUSIONS
+
+1. tour.png
+Balcons séparés et garde-corps lisibles sur la pile visible ; le retrait vitré est dégagé. Les anciens volumes parasites n'apparaissent pas sur cet angle. Pas de nouveau trou ou recouvrement évident dans cette vue.
+Comparaison effectuée avec la capture fournie 23.11.37 (Espace Fleurs / pharmacie). La silhouette des voiles, les balcons superposés et le retrait central sont cohérents à ce niveau de représentation. La photo comporte des alternances opaques/vitrées et des subdivisions de fenêtres plus spécifiques que le modèle : la trame actuelle reste simplifiée. Cet écart documentaire ne suffit pas à redécouper des façades sans recalage supplémentaire. Aucune dimension n'a été déduite des pixels.
+Le contrôle analytique antérieur des 46 pièces de dalles/garde-corps figure dans /private/tmp/nuit_cramif_geometrie/controle_tour.json ; ce n'est pas un nouveau comptage exhaustif depuis cette image.
+
+2. contacts_maroc.png, contacts_flandre.png, contacts_angle_nord.png
+Les longs murets et le retour nord présentent des bases continues au terrain dans les portions visibles, sans le vide continu signalé auparavant. Les ouvertures et le portail sont conservés. Le raccord d'angle ne montre pas de dislocation.
+Comparaison avec la capture 23.11.59 datée octobre 2025 : présence d'une grille verticale, de son soubassement et d'un portail arrondi/angularisé cohérente. Forme et dimensions restent celles des estimations documentées du lot clôtures, pas des mesures photographiques certifiées.
+Les facettes apparaissant derrière les clôtures dans les vues sans bâtiments correspondent à la surface de terrain rendue visible par le masquage ; elles ne justifient pas à elles seules un aplanissement, notamment aux interfaces avec les cours basses.
+Contrôle quantifié de la réparation de base : /private/tmp/cramif_reparation_murets/validation.json ; couronnements conservés, base échantillonnée sous terrain. Ce document est cité comme preuve antérieure, pas comme un nouvel échantillonnage millimétrique depuis ces images.
+
+3. rotonde_gradins.png, terrasse_nord_laterale.png
+Socle et portique de la Rotonde lisibles ; aucun jour manifeste au raccord de dallage sur cette vue. Les terrasses se lisent en grands plateaux et talus continus, avec les passages déjà modélisés. Il ne faut pas interpréter leur absence de petites marches comme un défaut : m8_amenagements.py définit explicitement les terrasses T1/T2 comme plateaux, talus et plates-formes ajustés sur le MNT/LiDAR, et non comme des escaliers réguliers.
+Référence relue : scripts/v3/m8_amenagements.py, construction des terrasses et des plates-formes d'hémicycle. Les profils natifs avaient déjà été comparés aux surfaces sources dans /private/tmp/nuit_cramif_geometrie/gradins_plans_natifs.json. Les quelques retours sous passerelle signalés alors n'ont pas été comblés.
+La vue terrasse_nord_laterale.png permet de lire les façades de soutènement ; elle ne certifie pas leurs contours au centimètre.
+
+4. ecluse_detail.png, ecluse_banquettes.png
+La double volée côté est rejoint le palier et la passerelle ; les marches sont distinctes et aucun jour manifeste n'apparaît au raccord visible. Les banquettes et les portes du sas aval restent continues dans la vue oblique ; les niveaux d'eau sont séparés. Les trois escaliers de banquette restent présents.
+Le modèle M8 et le natif avaient déjà été comparés, avec neuf solides de portes/escaliers fermés et concordants : /private/tmp/nuit_cramif_geometrie/ecluse_solides_controle.json. L'escalier PVP460 relève du lot M10 ; sa silhouette visible est contrôlée ici, sans prétendre recertifier les 40 marches par photo.
+Pas de nouveau garde-corps inventé sur les volées où la preuve disponible ne permet pas d'en fixer l'implantation.
+
+FICHIERS À PRÉSENTER
+Les huit vues citées ci-dessus sont les preuves utiles. Les premières vues murets_maroc.png, murets_flandre.png et ecluse_est.png étaient partiellement occultées par les bâtiments ; elles ne doivent pas servir de validation de contact. Les manifestes et scripts les conservent comme étapes de cadrage.
+
+SOURCES PHOTO RELUES
+/Users/yannjouet/Desktop/captures mod/Capture d’écran 2026-10-10 à 23.11.37.png
+/Users/yannjouet/Desktop/captures mod/Capture d’écran 2026-10-10 à 23.11.59.png
+La seconde affiche octobre 2025. La date de prise de vue de la première n'est pas attestée dans l'image utilisée.
+
+Aucun défaut nouveau à la fois visible, localisé et suffisamment prouvé n'a été identifié pour justifier une mutation dans ce lot. La façade tour reste le principal écart de niveau de détail ; il est explicitement conservé comme limite, sans ajout de volumes hypothétiques.

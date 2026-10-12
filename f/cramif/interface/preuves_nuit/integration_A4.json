@@ -1,0 +1,12 @@
+{
+  "verified_reopen": true,
+  "collection": "NUIT_EOLE_BALLAST_DOCUMENTE",
+  "object": "NUIT Eole ballast sobre",
+  "vertices": 23716,
+  "triangles": 47424,
+  "closed_edges": true,
+  "idempotent": true,
+  "native": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend",
+  "sha256": "46e20e7855845e22e3691b639c2bde67b9f0b408aefb34cbf04d23928c98ce83",
+  "saved_at": "2026-10-11T03:42:50.552214+00:00"
+}

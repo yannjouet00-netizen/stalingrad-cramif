@@ -1,0 +1,93 @@
+[
+  {
+    "edge_source_index": 15,
+    "p": [
+      138.17999267578125,
+      190.75900268554688
+    ],
+    "q": [
+      141.9980010986328,
+      195.46400451660156
+    ],
+    "length_m": 6.059226893523087,
+    "status": "EMPRISE_SOURCE; affectation photo non m\u00e9triquement recal\u00e9e"
+  },
+  {
+    "edge_source_index": 17,
+    "p": [
+      142.93299865722656,
+      194.71200561523438
+    ],
+    "q": [
+      145.0760040283203,
+      197.34500122070312
+    ],
+    "length_m": 3.3948693463746746,
+    "status": "EMPRISE_SOURCE; affectation photo non m\u00e9triquement recal\u00e9e"
+  },
+  {
+    "edge_source_index": 18,
+    "p": [
+      145.0760040283203,
+      197.34500122070312
+    ],
+    "q": [
+      138.6699981689453,
+      202.5590057373047
+    ],
+    "length_m": 8.259706663646616,
+    "status": "EMPRISE_SOURCE; affectation photo non m\u00e9triquement recal\u00e9e"
+  },
+  {
+    "edge_source_index": 19,
+    "p": [
+      138.6699981689453,
+      202.5590057373047
+    ],
+    "q": [
+      144.53700256347656,
+      207.1540069580078
+    ],
+    "length_m": 7.452233006536511,
+    "status": "EMPRISE_SOURCE; affectation photo non m\u00e9triquement recal\u00e9e"
+  },
+  {
+    "edge_source_index": 20,
+    "p": [
+      144.53700256347656,
+      207.1540069580078
+    ],
+    "q": [
+      147.01400756835938,
+      204.01300048828125
+    ],
+    "length_m": 4.000184425383238,
+    "status": "EMPRISE_SOURCE; affectation photo non m\u00e9triquement recal\u00e9e"
+  },
+  {
+    "edge_source_index": 21,
+    "p": [
+      147.01400756835938,
+      204.01300048828125
+    ],
+    "q": [
+      150.06199645996094,
+      206.41400146484375
+    ],
+    "length_m": 3.8800827275691687,
+    "status": "EMPRISE_SOURCE; affectation photo non m\u00e9triquement recal\u00e9e"
+  },
+  {
+    "edge_source_index": 22,
+    "p": [
+      150.06199645996094,
+      206.41400146484375
+    ],
+    "q": [
+      146.74400329589844,
+      210.60400390625
+    ],
+    "length_m": 5.344642092390829,
+    "status": "EMPRISE_SOURCE; affectation photo non m\u00e9triquement recal\u00e9e"
+  }
+]

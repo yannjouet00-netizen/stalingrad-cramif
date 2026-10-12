@@ -1,0 +1,18 @@
+CARNET — NOTICES TOUR A14 ET RACCORD FERROVIAIRE A15
+11 octobre 2026, 08:04 Paris
+
+Deux notices métier ajoutées en tête des choix et vérifications :
+- Tour de Flandre · deux baies et retour vitré. Texte de la coordination sur le natif A14 rouvert, conservant dimensions et implantation ESTIME, trame du retour CONVENTION, aucune extrapolation aux fenêtres masquées.
+- Éole · continuité des voies et de leur assise. Raccord local fondé sur les supports LiDAR historiques de 2023 ; profils reconstruits ESTIME, représentation des rails/traverses/ballast CONVENTION, appareils de voie détaillés et raccords différés hors du lot.
+
+Le rapport ferroviaire source est conservé dans donnees/v3/eole/raccord_z_a15/RAPPORT.txt. Cette racine n’expose que les images dans le catalogue existant. Une courte notice de lecture a donc été créée dans documentation/v3/cramif/reparation_ferroviaire/NOTICE_A15.txt, avec référence explicite au rapport durable. Elle résume l’intervention publiée et ses limites, sans recopier ses procédures d’import. Le rapport source n’a pas été modifié.
+
+Éditions UI : suivi/hub.html et suivi/index_cramif.html, identiques. Les rapports de palette A15, cohérence cache A14 et procédures des corrections Carnet/Vues sont classés techniques. Le checkpoint interne 07:45, repéré pendant le test, est également derrière la case dédiée ; les futurs noms commençant par CHECKPOINT suivent cette règle.
+
+Tests sur le catalogue HTTP réellement reçu : 129 documents, 29 notices par défaut, 100 techniques. Les deux nouvelles notices figurent en tête avec description métier et statut d’estimation. Aucun chemin de script, empreinte ou chiffre de test dans leur titre/résumé. Toutes les notices non PDF visibles disposent d’une description. Les 129 liens restent uniques et accessibles selon le filtre. Syntaxe JS et égalité des deux pages vérifiées.
+
+HTTP : /carnet correspond au fichier corrigé. /f/cramif/reparation_ferroviaire/NOTICE_A15.txt sert exactement la notice créée, compatible avec le lecteur existant.
+
+Aucun backend, natif ou donnée géométrique modifié. Aucun redémarrage et aucune manipulation du navigateur partagé. Vérification visuelle de ce lot non revendiquée.
+
+Preuves : validation.json, documents.json, test.cjs, http.json et différences des deux pages.

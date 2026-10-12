@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-11T05:25:26.559Z",
+  "cases": [
+    {
+      "name": "rotonde",
+      "initial": "proche",
+      "expected": "projet",
+      "actual": "projet"
+    },
+    {
+      "name": "rotonde",
+      "initial": "projet",
+      "expected": "projet",
+      "actual": "projet"
+    },
+    {
+      "name": "rotonde",
+      "initial": "complet",
+      "expected": "complet",
+      "actual": "complet"
+    },
+    {
+      "name": "canal",
+      "initial": "proche",
+      "expected": "complet",
+      "actual": "complet"
+    },
+    {
+      "name": "canal",
+      "initial": "projet",
+      "expected": "complet",
+      "actual": "complet"
+    },
+    {
+      "name": "plan_cramif",
+      "initial": "proche",
+      "expected": "proche",
+      "actual": "proche"
+    },
+    {
+      "name": "plan_cramif",
+      "initial": "projet",
+      "expected": "projet",
+      "actual": "projet"
+    },
+    {
+      "name": "plan",
+      "initial": "proche",
+      "expected": "complet",
+      "actual": "complet"
+    },
+    {
+      "name": "ensemble",
+      "initial": "proche",
+      "expected": "complet",
+      "actual": "complet"
+    },
+    {
+      "name": "cour",
+      "initial": "proche",
+      "expected": "proche",
+      "actual": "proche"
+    },
+    {
+      "name": "flandre",
+      "initial": "projet",
+      "expected": "projet",
+      "actual": "projet"
+    },
+    {
+      "name": "maroc",
+      "initial": "complet",
+      "expected": "complet",
+      "actual": "complet"
+    }
+  ],
+  "sourceBasinBounds": [
+    165.8833,
+    -26.3264,
+    656.1038,
+    393.5233
+  ],
+  "framing": [
+    {
+      "aspect": 1.44,
+      "camera": [
+        829.6229596992123,
+        -454.31303144641885,
+        466.64246294017227
+      ],
+      "target": [
+        410.99354999999997,
+        183.59845,
+        52
+      ],
+      "maxNormalizedX": 0.7794219942543236,
+      "maxNormalizedY": 0.12015721097209472,
+      "verticesTested": 141
+    },
+    {
+      "aspect": 0.46208530805687204,
+      "camera": [
+        1673.6434953839505,
+        -1740.439562013639,
+        1302.6247078088654
+      ],
+      "target": [
+        410.99354999999997,
+        183.59845,
+        52
+      ],
+      "maxNormalizedX": 0.8274060642297365,
+      "maxNormalizedY": 0.03807725052875139,
+      "verticesTested": 141
+    },
+    {
+      "aspect": 1.7777777777777777,
+      "camera": [
+        820.2689675925222,
+        -440.0593291886053,
+        457.3775564725935
+      ],
+      "target": [
+        410.99354999999997,
+        183.59845,
+        52
+      ],
+      "maxNormalizedX": 0.6451716514551797,
+      "maxNormalizedY": 0.12309801852367817,
+      "verticesTested": 141
+    }
+  ],
+  "originalViewsUnchanged": true,
+  "initialHashNoPrematureUI": true,
+  "actualViewInvokesPerimeter": true
+}

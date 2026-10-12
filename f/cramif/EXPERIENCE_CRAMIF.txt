@@ -1,0 +1,38 @@
+CRAMIF — journal de modélisation, 10 octobre 2026
+
+Fichier natif : modele/Stalingrad_CRAMIF_travail.blend, copie de Stalingrad.blend.
+Repère conservé : x=E-653700, y=N-6865100, altitude IGN69, unités mètres.
+
+État vérifié
+Huit corps CRAMIF identifiés par données Ville/APUR. Trois émergences de toiture ajoutées sur mesure LiDAR ; deux candidats écartés afin de ne pas combler des creux possibles. Contrôle : solides fermés, normales cohérentes ; aucune transformation enregistrée ni géométrie ni matériau modifiés sur les 12988 objets antérieurs. Original préservé.
+Interface : proportions réelles sans exagération verticale ; fausses fenêtres et textures de façades supprimées. Les matériaux de végétation restent une convention de représentation. Terrain continu même dans le périmètre proche ; contexte bâti filtré de façon réversible.
+
+Nouveau lot prioritaire demandé par Yann
+Abords CRAMIF : cours, trottoirs et contacts des façades ; jeux de niveaux, rampes et escaliers ; murets, rambardes et mains courantes ; mobilier urbain effectivement attesté. Contrôle des niveaux par LiDAR et nivellement PVP. Aucun talus fortement incliné ne sera assimilé automatiquement à une rampe ou lissé sans preuve.
+Le statut de position, altitude, dimension et typologie est enregistré séparément. Une hauteur conventionnelle de rambarde ne constitue pas une mesure de l’existant.
+
+Arbres
+Inventaire des 1063 arbres dans la bande de 250m ; 26 sujets à moins de25m des corps CRAMIF :23 Tilia tomentosa,1 olivier,1 Prunus indéterminé,1 inconnu. Aucun asset exact livré ni vérifié dans Enscape à cette étape. Conservation de la taxonomie source, signalement des houppiers estimés et circonférences douteuses.
+
+Organisation et visibilité
+Agent sources : terrain et raccords ; agent contrôle : preuves et implantation mobilier ; agent géométrie : construction des éléments modifiables. Intégration et revue par agent principal.
+La page /pro présente le journal et les étapes enregistrées ; le calcul hors Blender est chargé par étapes. Il ne s’agit pas d’une synchronisation continue de l’application.
+Toute modification de Yann prime sur une intégration automatique : relire et préserver l’état avant nouvelle sauvegarde.
+
+Limites
+Aucune façade détaillée mesurée à ce stade ; vues aériennes insuffisantes pour dimensions fines des rambardes. Les données de2023 et photographies datées décrivent un état à confronter à l’existant. Imports Revit, SketchUp et Enscape non validés dans les applications cibles.
+
+Étape mobilier réalisée : 1 barrière roulante probable et 5 bancs doubles probables, 82 composants modifiables. Formes et dimensions conventionnelles, implantation PVP et niveaux du terrain recoupés au LiDAR. 45 bornes et 11 symboles circulaires ambigus exclus. Rampe sous dalle conservée, reconstruction en attente de contours fiables.
+Incident corrigé : Blender en arrière-plan doit actualiser le view layer après changement de scène et avant ajout ; sinon les nouveaux objets peuvent ne pas persister. Relecture indépendante du fichier obligatoire après sauvegarde.
+Relancer le suivi : ~/Library/Caches/stalingrad_v3/venv/bin/python suivi/serveur_cramif.py depuis le projet Stalingrad. Page locale http://localhost:8790/pro ; cache externe dans Library/Caches/stalingrad_v3/suivi_cramif.
+
+
+ETUDE DES RUES — 10 OCTOBRE 2026
+Trois agents spécialisés ont conduit observation photographique, audit des 37 corps natifs en lecture seule et croisement des quatre rues avec les axes municipaux, PVP, inventaire arbres et LiDAR. Résultats : 24 fiches, 22 tronçons, 2032 stations, 230 arbres associés par proximité (distinct de leur adresse), 2878 primitives mobilier (distinct des objets physiques). Deux photos datées octobre2025, une sans acquisition visible. Arrêté2026 T15510 établit chantier prévu Maroc1–3, pas réalisation certifiée.
+Le contrôle géométrique confirme transfert source/native, pas fidélité architecturale : socles et retraits manquent, certaines projections de balcons tourvoisine sont des pleins extrudés. Aucun changement natif effectué lors de cette étude. Nouveau diagnostic conservé dans documentation/v3/cramif/etude_rues et accessible dans le journal par /etude-rues.
+Méthode : chaque fiche sépare observation, mesure/source, estimation et convention. Les résidus LiDAR sur axes retiennent couche de surface±50cm ; ils ne certifient pas niveaux sous dalle. Photos calées métriquement et plans de seuil nécessaires pour corriger marches, profondeur des retraits et portail. Détailler d’abord géométrie/pied de façade, ensuite mobilier et textures documentées.
+
+
+11 OCTOBRE — LOT CLOTURES INTEGRE
+9 objets (4 murets, 4 grilles, 1 portail), 13 764 triangles, 1 147 solides fermés. Méthode : axes médians PVP, bases depuis plans locaux LiDAR côté rue, dimensions conventionnelles. Retours incertains exclus et passages préservés. Contrôle indépendant : 75 stations, max7,83cm au plan recalculé; 7coupes de contacts montrant niveaux intérieurs distincts et accord côté rue à5,71cmmax. Aucun lissage du terrain. Raccord exact surlargeur32cm non certifié. Tous les13073objetsmaillés antérieurs préservés.
+Interface : suppression du conflit entre serveur initial relancé par lancer.sh et serveur CRAMIF. Le lanceur pointe désormais sur serveur_cramif.py ; accèsLAN existant et jeton conservés. VueMaroc cadrée horsdesvolumesvoisins, extractioncatégoriesmuretclair/grillesombre. Aperçu vérifié etaucune erreurJS détectée. Macverrouillé empêche encore rechargement de la fenêtreBlender ; seul le fichier de travail disque est actualisé.

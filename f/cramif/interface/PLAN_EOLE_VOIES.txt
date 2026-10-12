@@ -1,0 +1,51 @@
+PLAN DE CHANTIER — JARDINS D’ÉOLE ET FAISCEAU FERROVIAIRE
+Préparé le11octobre2026. ÉTAT : PLAN SEULEMENT, aucun chantier de modélisation lancé, aucun natif modifié.
+
+OBJECTIF DE LA PREMIÈRE VERSION
+Rendre lisibles les jardins, leurs niveaux et leurs circulations, ainsi que les voies, ballast et principaux portiques ferroviaires, dans le contexte Stalingrad. Corriger les grands manques visibles avant de multiplier les détails. Fichier de travail à poursuivre : /Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend, relu au début. Collections distinctes pour Éole et ferroviaire, aucune modification concurrente du fichier partagé.
+
+CONSTAT SUR LES4CAPTURES FOURNIES
+•02.05.12 : promenade haute en bordure ferroviaire, grande pelouse, chemins transversaux, arbres en groupes et alignements, plateforme/escalier et terrain de sport visibles. La surbrillance bleue est une interface StreetView, pas un ouvrage.
+•02.05.19 : vue d’ensemble des voies et de leurs courbes/branchements, plusieurs portiques de caténaire, différence de niveau parc/faisceau et pont au sud. Les textures GoogleEarth déformées ne fournissent pas des dimensions.
+•02.05.33 : partie nord du parc, terrains sportifs en longueur, espaces plantés plus denses, allées et grande terrasse. L’interface affiche16/10/2023 : à conserver comme date d’imagerie affichée pour cette vue seulement, sans l’attribuer automatiquement à toutes les surfaces 3D.
+•02.05.53 : modèle actuel ; emprise ferroviaire colorée mais rails/traverses/portiques absents, végétation du parc trop dispersée et homogène, allées et surfaces peu lisibles. La promenade existante est déjà présente : éviter de la doubler.
+Captures sources : /Users/yannjouet/Desktop/Capture d’écran 2026-10-11 à02.05.12/19/33/53.png (les vrais noms comportent une espace après«à»).
+
+SOURCES LOCALES EXPLOITABLES
+R=/Users/yannjouet/Documents/01_VLAU/Stalingrad ; T=/Users/yannjouet/Library/Caches/stalingrad_v3.
+1. LiDARHD IGN, mission22LHDKE février–mars2023 selon les rapports existants : T/points/classe_2.npy(sol), classes3/4/5(végétation),6(bâti),17(ponts),1(retours non classés). Recadrer seulement le secteur. Pas de classe10«rail» disponible dans ce cache : ne pas promettre une extraction automatique des rails. Les retours de caténaires peuvent nécessiter classes1/64/65/67 et validation visuelle ; leur interprétation reste à vérifier.
+2. PVP emprises ferroviaires : R/sources/web/plan-de-voirie-emprises-ferroviaires.geojson,22polygones locaux. Métadonnées du jeu modifiées10septembre2026 ; date de mise à jour du catalogue, pas date du relevé terrain. Cette couche décrit les EMPRISES, pas les axes de chaque voie.
+3. R/donnees/v3/zones/zones.geojson, terrain et maillages V3 : limites et surface initiales. Les anciens audits ont signalé des raccords abusivement inclinés près des voies/ponts et des classificationsferroviaire incluant des zones plantées ; vérifier leur état courant au lieu de relancer un audit global.
+4. Orthophoto générale R/sources/web/ortho_ign.png, décrite été2024 dans les missions. Reconfirmer son géoréférencement/date dans le manifeste avant calage. L’ortho agence20cm locale ne couvre QUE x−110..210,y40..300 : elle ne remplace pas une orthophoto détaillée d’Éole et du faisceau. Son téléchargement29septembre2026 n’est pas une date de prise de vue.
+5. R/donnees/v3/passerelles/Passerelles.npz et passerelles.json : ouvrage Éole déjà reconstruit, rapport10octobre2026 ; tablier annoncé52,77mIGN69,9661retours, dispersion2,5cm ; garde-corps1,10m, axes≈3,23m ; plateforme nord52,73m. Ces résultats sont des mesures rapportées, à comparer au natif courant, pas à reprendre aveuglément. OSM Éole extrait9octobre2026 : osm_eole.json, way111349001 et chemins/murs voisins. Conserver l’ouvrage et vérifier ses raccords.
+6. Végétation R/donnees/v3/vegetation/arbres_v3.json et arbres.json : inventaire Ville/OSM extraits9octobre2026, sommets issus du LiDAR2023, positions de tronc et centres de houppier séparés. arbres_a_confirmer.csv signale les incertitudes. Ne pas semer de nouveaux arbres pour combler visuellement un vide.
+7. Compléments au lancement seulement : orthophoto IGN de meilleure résolution sur le secteur, axes ferroviaires de sources officielles/OSM disponibles, plans Ville/gestionnaire du parc. Conserver URL, date de récupération, date terrain quand connue et extrait brut. Les captures GoogleEarth servent au contrôle visuel ; elles ne deviennent pas des textures du modèle.
+
+SÉQUENCE PROPOSÉE
+0 — Socle commun et état initial,30–45min.
+Relire le natif, figer son empreinte et vérifier que CRAMIF/tour/cours sont présents. Fixer l’emprise Éole+voies et trois vues de référence(sud,nord,vue générale). Recouper zones/PVP/ortho/LiDAR, établir les niveaux parc/promenade/voies et les ouvrages à conserver. Ouvrir le fichier de travail visible et annoncer sa version. Sortie : plan local annoté et liste précise d’objets à remplacer/compléter.
+
+A — Branche jardins,90–150min pour première version.
+A1. Reconstituer grandes surfaces : pelouses, allées principales/transversales, terrasses, terrains sportifs, zones plantées. Contours issus du plan/ortho, épaisseurs minimales conventionnelles. Retirer ou remplacer les surfaces contradictoires dans le domaine ; pas de doublure flottante.
+A2. Rétablir les différences de niveau : murs et soutènements où attestés, escaliers/rampes documentés, raccords à la promenade existante. Ne pas transformer une rupture verticale en longue rampe.
+A3. Végétation : conserver positions inventoriées et hauteurs mesurées, distinguer arbres isolés/alignements/groupes, compléter par masses arbustives simples seulement aux emprises visibles. Quelques formes de houppier compatibles avec les mesures ; pas de feuilles texturées ni d’essences prétendument certaines sans inventaire.
+A4. Mobilier d’abord limité aux éléments clairement implantables : bancs, clôtures et poteaux principaux. Jeux et peintures sportives détaillés dans une passe suivante ; première lecture par géométrie et couleurs unies sobres.
+
+B — Branche ferroviaire,90–150min pour première version.
+B1. Tracer les axes réellement lisibles et leurs branchements depuis des lignes géoréférencées ou une orthophoto suffisamment résolue. Si la preuve ne distingue pas deux voies, signaler le segment à confirmer au lieu d’inventer un faisceau régulier.
+B2. Poser les altitudes par profils locaux au niveau de la plateforme. Conserver ponts, tabliers, murs, talus et voies sous ouvrage comme couches distinctes. Les emprises administratives PVP ne définissent pas le sommet du ballast.
+B3. Rails : deux profils simplifiés par voie, sections et écartement marquésCONVENTION si non mesurés. Traverses instanciées à faible coût ; ballast en rubans continus sobres, sans pierres individuelles ni fausse texture photographique. Raccords d’aiguillage lisibles à faible détail ; pas de mécanismes inventés.
+B4. Caténaires : uniquement principaux poteaux/portiques repérables ; câbles simples sur les travées confirmées, hauteur/sections estimées indiquées. Pas d’équipement de signalisation ou d’alimentation non localisé. Première version peut omettre un segment incertain plutôt que dupliquer un portique à entraxe arbitraire.
+
+C — Intégration et contre-contrôle,45–60min.
+Un intégrateur unique relit le fichier courant puis importe A et B successivement. Contrôler contacts au terrain, absence de surfaces superposées et d’arbres sur les voies, continuité des rails aux limites, absence d’obstruction des ponts, empreintes des objets conservés, topologie des solides ajoutés. Comparer les3vues fixes aux captures sans qualifier les dimensions estimées de mesures. Contrôler le poids des instances et la navigation du viewer à échelle1. Sauvegarder puis rouvrir le même natif, extraire la scène active, vérifier le numéro de version et les compteurs dans le viewer.
+
+PARALLÉLISME RÉEL ET ESTIMATION DE DÉLAI
+Après le socle commun, A(jardins) et B(ferroviaire) peuvent être préparés en parallèle dans deux paquets séparés. Le contrôle des sources peut avancer en parallèle, mais les corrections de limites communes et l’intégration au natif restent séquentielles. Aucun agent ne sauvegarde le fichier partagé.
+Ordre de grandeur première version :3–4h30 de temps écoulé avec deux branches actives et intégrateur disponible ;5–7h si traité par une seule personne/séquence. Ce sont des estimations de charge, pas un résultat déjà lancé. Si les axes des voies ne sont pas disponibles avec une résolution suffisante, produire d’abord le parc et les plateformes et réserver une passe supplémentaire au tracé ferroviaire. Une restitution fine de tous les aiguillages, jardins thématiques et mobiliers dépasse cette première version.
+
+JALONS VISIBLES
+J0 plan et vues de départ ; J1 sols/chemins/niveaux du parc ; J2 axes+ballast+rails ; J3 végétation et portiques ; J4 vue consolidée contrôlée. Préparer hors application quand utile, puis charger chaque jalon dans la copie native visible. Une capture est datée/versionnée et ne doit pas être présentée comme une synchronisation continue.
+
+RÈGLE DE LIVRAISON
+Présence observée, implantation estimée et dimensions conventionnelles sont séparées dans les propriétés. Dépendances et dates figurent dans un bref rapport par lot. Conservés dans le projet : sources nécessaires, natif courant, scripts utiles, rapport et quelques aperçus datés. Calculs et versions intermédiaires en cache/temp. Pas d’export de fabrication ou de diffusion supplémentaire dans ce chantier préparatoire.

@@ -1,0 +1,17 @@
+CLÔTURES CRAMIF — LOT RÉVERSIBLE, 11 OCTOBRE 2026
+
+9 objets dans CRAMIF_04_CLOTURES_ESTIMEES : 4 murets, 4 grilles, 1 portail. 1 147 composants fermés, 13 764 triangles. Le générateur conserve chaque muret/grille/portail comme un objet éditable ; les paramètres et statuts sont inscrits dans ses propriétés.
+
+Importer dans Blender avec importer_clotures.py. Variables facultatives CLOTURES_SCRIPT_ROOT et CLOTURES_DATA_ROOT pour séparer scripts et données. L'importeur ne sauvegarde aucun fichier. Une relance identique préserve les objets présents ; une signature différente arrête avant modification, afin de préserver les retouches de Yann.
+
+Sources : PVP Murs Ville de Paris, traits référencés individuellement dans le lot ; photographies utilisateur Flandre et Maroc datées octobre 2025 ; LiDAR IGN classe2 de mars2023. source canonique : sources/axes_fronts_rue_xyz.json. Le fichier axes_clotures_xyz.json est un audit complet contenant des retours incertains, à ne pas importer directement.
+
+XY : axes médians dérivés des faces PVP, ESTIME. Z : plans locaux robustes sur points classe2 côté espace public, projetés sur l'axe, puis interpolation linéaire entre sommets ; ESTIME. Le sol natif présente des creux au pied de ces murs et n'a pas été modifié : suivre ses altitudes y aurait enterré les clôtures. Le futur raccord de terrain doit conserver les niveaux de cour, pas aplanir tout l'îlot.
+
+Hauteurs, sections et entraxes : CONVENTION explicite. Muret Flandre0,45m, Maroc0,55m, largeur0,32m ; grille1,80m sur socle, barreaux18mm, entraxe maximal14cm ; portail2,70m, épaules arrondies de rayon0,55m et largeur d'intervalle PVP5,03m. Teintes claires/sombres estimées d'après photos, sans référence de peinture ou matériau précis.
+
+Portail : présence observée et correspondance à l'ouverture proche du raccord pignon/retour estimée par lecture photo/plan. Silhouette simplifiée, montant central conventionnel. Nombre de vantaux et mécanisme non attestés ; aucun moteur, charnière ou roulette inventé.
+
+Ouvertures conservées : interruption Maroc3,24m non attribuée, accès Flandre NE et SW. Ligne intérieure2605835 exclue pour éviter doublon. Retours rentrants aux altitudes incertaines et marches/perrons exclus du premier lot. Aucune modification du bâtiment, du sol ni de la barrière BRO Tanger.
+
+Validation : contrôles géométriques pure Python de chaque composant fermé et volume positif. Contrôle indépendant dans le natif après intégration requis. Collection séparée et conservation de toutes les sources pour révision ultérieure.

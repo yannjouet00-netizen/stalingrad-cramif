@@ -1,0 +1,29 @@
+RECETTE DES QUATRE MURETS — A18
+Conclusion : la réparation des quatre bases flottantes est livrée et vérifiée dans le natif et la couche web. Cette conclusion porte sur les contacts bas, pas sur la justesse complète de tous les niveaux environnants.
+
+Natif contrôlé en lecture seule : Stalingrad_CRAMIF_travail.blend, SHA05b662aedbb5da36b19af634b79765b474c5b72d9301d40094f94902530c1b82. Aucune sauvegarde ou import effectué. Quatre vues rapprochées produites dans Blender CLI et réellement inspectées. Les houppiers sont masqués pour ces preuves uniquement ; la session visible n’a pas été touchée.
+
+GÉOMÉTRIE
+Quatre objets,2804sommets,5584triangles. Tous les sommets correspondent au paquet de réparation déjà intégré à moins de0,01mm (conversion float32). Leurs couronnements sont donc conservés ; aucune nouvelle rehausse. Chaque objet est fermé : aucune arête ouverte/nonmanifold. Largeur0,32m et anciennes hauteurs0,45/0,55m restent CONVENTION ; implantation et extension de contact ESTIME. Les extensions jusqu’au terrain bas ne constituent pas des profondeurs de fondation mesurées.
+
+CONTACTS A18
+Terrain réellement exporté du natif courant : Sol_lisse, Chaussees, Trottoirs, Bordures, Accidents, Amenagements. Contrôle de l’enveloppe haute projetée, stations longitudinales environ5cm et neuf échantillons transversaux sur32cm,25074points au total. Aucun échantillon sans support ni bas de muret au-dessus du terrain de plus de1mm.
+Flandre principal :9837points, enfoncement minimal2,00cm.
+Flandre nord :4959points, enfoncement minimal15,99cm.
+Maroc long :8937points, enfoncement minimal2,00cm.
+Maroc entrée :1341points, enfoncement minimal10,59cm.
+Il s’agit d’une recette numérique dense, pas d’une preuve analytique continue entre chaque point.
+
+WEB
+La réponse réelle de /api/couche/bati_v3 a été lue sur le serveur local courant. Comparaison des triangles après conversion float32, indépendante de l’ordre d’indexation :2188/2188,1108/1108,1988/1988 et300/300triangles présents exactement. Aucune géométrie de muret manquante dans la couche servie. Cette vérification porte sur les données servies ; aucune capture du navigateur ni manipulation GUI n’est prétendue.
+
+LIMITE À CONSERVER
+Le front nord Flandre garde le conflit de niveau haut déjà signalé avant cette recette : l’enveloppe du terrain dépasse localement le couronnement, jusqu’à0,890m au pointXY(122,710;179,420), terrainZ51,364/couronnementZ50,474, rive intérieure−0,16m.4080/4959échantillons sous cette emprise ont un terrain haut plus de1cm au-dessus du couronnement. La vue Flandre_front_nord_muret.png montre bien la nappe montante devant/derrière la grille ; le pied reste en contact mais la forme du couronnement apparent est partiellement masquée. Ne pas classer «tous niveaux nord conformes». Il faut qualifier ce raccord haut séparément avant de toucher au terrain ou aux hauteurs des murets. Aucun nouveau correctif conjectural n’est proposé dans ce lot.
+Les trois autres murets ne présentent pas de recouvrement du couronnement dans les échantillons de cette recette. Les couronnements, grilles et passages ne sont pas déplacés par ce contrôle.
+
+FICHIERS
+native.json : objets, propriétés, état natif et contrôles de fermeture.
+controle_contacts_web.json : chiffres des contacts et correspondance exacte avec la couche servie.
+planche_recette.png : quatre vues rapprochées réellement inspectées.
+MANIFEST.json : classement livré limité, empreintes et réserve nord.
+Aucun script d’import nécessaire : la géométrie est déjà intégrée.

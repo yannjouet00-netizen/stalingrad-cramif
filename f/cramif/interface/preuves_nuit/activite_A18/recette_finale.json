@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-11T10:16:25.205Z",
+  "results": [
+    {
+      "route": "/pro#vue=cour",
+      "width": 1440,
+      "overflow": 0,
+      "blocks": [
+        {
+          "top": 180.5,
+          "bottom": 597.375,
+          "cards": 4,
+          "animated": 2,
+          "text": "EN COURS MAINTENANT\n\nDerniers retours des agents · activité récente : moins de 3 min.\n\nCoordination\nContrôle\n\nReprise : integration des correctifs vérifiables, priorité au résultat visible\n\nDernier résultat · A18 sauvegardé et réouvert ; couches publiées\n\nEnsuite · Vérification des couches servies et captures\n\nMise à jour · 12:16:18\n\nInterface\nContrôle\n\nÉtude des rues et Carnet mobile ; contrôle Safari si accessible\n\nDernier résultat · Activité publiée dans Brain, Suivi et Vue 3D\n\nEnsuite · Captures et contrôle de fraîcheur réel\n\nMise à jour · 12:16:18\n\nGéométrie\nLivré\n\nCour sud : rupture existante S9/S14, candidat de déplacement limité\n\nDernier résultat · Correctif local intégré A18\n\nEnsuite · Lot borné livré ; autres secteurs en attente\n\nMise à jour · 12:16:18\n\nSources\nLivré\n\nÉole : raccord local avec support admissible\n\nDernier résultat · Correctif local intégré A18\n\nEnsuite · Lot borné livré ; autres secteurs en attente\n\nMise à jour · 12:16:18"
+        }
+      ]
+    },
+    {
+      "route": "/brain",
+      "width": 1440,
+      "overflow": 0,
+      "blocks": [
+        {
+          "top": 212.5,
+          "bottom": 470.078125,
+          "cards": 4,
+          "animated": 2,
+          "text": "En cours maintenant\n\nDerniers retours des agents · activité récente : moins de 3 min.\n\nCoordination\nContrôle\n\nReprise : integration des correctifs vérifiables, priorité au résultat visible\n\nDernier résultat · A18 sauvegardé et réouvert ; couches publiées\n\nEnsuite · Vérification des couches servies et captures\n\nMise à jour · 12:16:18\n\nInterface\nContrôle\n\nÉtude des rues et Carnet mobile ; contrôle Safari si accessible\n\nDernier résultat · Activité publiée dans Brain, Suivi et Vue 3D\n\nEnsuite · Captures et contrôle de fraîcheur réel\n\nMise à jour · 12:16:18\n\nGéométrie\nLivré\n\nCour sud : rupture existante S9/S14, candidat de déplacement limité\n\nDernier résultat · Correctif local intégré A18\n\nEnsuite · Lot borné livré ; autres secteurs en attente\n\nMise à jour · 12:16:18\n\nSources\nLivré\n\nÉole : raccord local avec support admissible\n\nDernier résultat · Correctif local intégré A18\n\nEnsuite · Lot borné livré ; autres secteurs en attente\n\nMise à jour · 12:16:18"
+        }
+      ]
+    },
+    {
+      "route": "/suivi",
+      "width": 1440,
+      "overflow": 0,
+      "blocks": [
+        {
+          "top": 286.6875,
+          "bottom": 544.265625,
+          "cards": 4,
+          "animated": 2,
+          "text": "En cours maintenant\n\nDerniers retours des agents · activité récente : moins de 3 min.\n\nCoordination\nContrôle\n\nReprise : integration des correctifs vérifiables, priorité au résultat visible\n\nDernier résultat · A18 sauvegardé et réouvert ; couches publiées\n\nEnsuite · Vérification des couches servies et captures\n\nMise à jour · 12:16:18\n\nInterface\nContrôle\n\nÉtude des rues et Carnet mobile ; contrôle Safari si accessible\n\nDernier résultat · Activité publiée dans Brain, Suivi et Vue 3D\n\nEnsuite · Captures et contrôle de fraîcheur réel\n\nMise à jour · 12:16:18\n\nGéométrie\nLivré\n\nCour sud : rupture existante S9/S14, candidat de déplacement limité\n\nDernier résultat · Correctif local intégré A18\n\nEnsuite · Lot borné livré ; autres secteurs en attente\n\nMise à jour · 12:16:18\n\nSources\nLivré\n\nÉole : raccord local avec support admissible\n\nDernier résultat · Correctif local intégré A18\n\nEnsuite · Lot borné livré ; autres secteurs en attente\n\nMise à jour · 12:16:18"
+        }
+      ]
+    },
+    {
+      "route": "/suivi",
+      "mobile": true,
+      "width": 390,
+      "overflow": 0,
+      "block": {
+        "x": 19.5,
+        "y": 363.4375,
+        "width": 351,
+        "height": 444.875,
+        "top": 363.4375,
+        "right": 370.5,
+        "bottom": 808.3125,
+        "left": 19.5
+      }
+    }
+  ],
+  "errors": []
+}

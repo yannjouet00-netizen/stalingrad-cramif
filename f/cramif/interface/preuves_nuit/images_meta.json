@@ -1,0 +1,788 @@
+{
+  "schema": "preuves_locales_v1",
+  "date_documentation": "2026-10-11",
+  "portee": "Uniquement les images listées et leur empreinte exacte. Aucune attribution par dossier ni par date de fichier.",
+  "images": [
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_brain_desktop.png",
+      "sha256": "4605729288702cef892114af3335243d20548f613ac0a5127cc9690c11bfd318",
+      "origine": "production_locale",
+      "titre": "Brain · disposition sur ordinateur",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+      "description": "Capture réelle de Brain sur ordinateur. Répartition des lots et agents ; elle ne valide pas à elle seule les gestes d’orbite.",
+      "note": "Capture du navigateur par la coordination ; écran natif verrouillé. Ne constitue pas une capture de Blender ni une mesure de performance GPU.",
+      "date_note": "Image produite le 11 octobre 2026. La date du fichier ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_brain_mobile_verifie.png",
+      "sha256": "e72f76eddbb033fbef8930492fa7be5e8ff93ea1b0e0b8fdb41ff7d6dc4bab5a",
+      "origine": "production_locale",
+      "titre": "Brain · disposition sur téléphone",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+      "description": "Capture réelle au viewport mobile de 390 px. Cartes compactes en colonnes ; absence de débordement horizontal contrôlée.",
+      "note": "Capture du navigateur par la coordination ; écran natif verrouillé. Ne constitue pas une capture de Blender ni une mesure de performance GPU.",
+      "date_note": "Image produite le 11 octobre 2026. La date du fichier ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_cour_desktop_verifie.png",
+      "sha256": "df31dde9645b4ad1de897b6e1c25a36c0e07f9f4f2ce33d7e3b04e27430b1da2",
+      "origine": "production_locale",
+      "titre": "CRAMIF · caméra Cour",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+      "description": "Capture réelle de la caméra Cour dans le navigateur. Point de vue aérien contrôlé ; aucune nouvelle mesure géométrique.",
+      "note": "Capture du navigateur par la coordination ; écran natif verrouillé. Ne constitue pas une capture de Blender ni une mesure de performance GPU.",
+      "date_note": "Image produite le 11 octobre 2026. La date du fichier ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_intro_cdp.png",
+      "sha256": "6ae9b444c874782eefe5088b5c7b2f7d184c0dbe2254b57a77b9dcaff6bc4ada",
+      "origine": "production_locale",
+      "titre": "Introduction · rectangle avant correction",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+      "description": "Capture réelle avant correction : le fond gris de l’image reste visible sur le fond ivoire. Preuve d’un défaut ensuite corrigé.",
+      "note": "Capture du navigateur par la coordination ; écran natif verrouillé. Ne constitue pas une capture de Blender ni une mesure de performance GPU.",
+      "date_note": "Image produite le 11 octobre 2026. La date du fichier ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_intro_corrigee.png",
+      "sha256": "07346dc041d7e49395dc312ae5705e26151a75cedc262f5ae6380f61c0b8cc23",
+      "origine": "production_locale",
+      "titre": "Introduction · fond continu corrigé",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+      "description": "Capture réelle après correction CSS. Disparition du rectangle et continuité du fond clair confirmées par inspection.",
+      "note": "Capture du navigateur par la coordination ; écran natif verrouillé. Ne constitue pas une capture de Blender ni une mesure de performance GPU.",
+      "date_note": "Image produite le 11 octobre 2026. La date du fichier ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_lumiere_desktop.png",
+      "sha256": "1e4323b4f7561b0b80b6d257cf357cbce52748417bc8d6102e24e3bdba6e364d",
+      "origine": "production_locale",
+      "titre": "Vue 3D · panneau Lumière",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+      "description": "Capture réelle du panneau Lumière ouvert. Contrôle de l’interface et des réglages accessibles.",
+      "note": "Capture du navigateur par la coordination ; écran natif verrouillé. Ne constitue pas une capture de Blender ni une mesure de performance GPU.",
+      "date_note": "Image produite le 11 octobre 2026. La date du fichier ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_pro_mobile_reel.png",
+      "sha256": "ad3814bac0638b74c81f61c3183f6ca7d5978375c57d5961ca3ac29ff8f34fda",
+      "origine": "production_locale",
+      "titre": "Vue 3D · affichage sur téléphone",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+      "description": "Capture réelle de la vue 3D au viewport mobile. Absence de débordement horizontal contrôlée ; le rendu logiciel ne mesure pas la fluidité d’un téléphone.",
+      "note": "Capture du navigateur par la coordination ; écran natif verrouillé. Ne constitue pas une capture de Blender ni une mesure de performance GPU.",
+      "date_note": "Image produite le 11 octobre 2026. La date du fichier ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_pro_statuts_corriges.png",
+      "sha256": "5393732f3bf9929ee3b45e8ca60eb79d9cb3770c889aefc94845c9ca112a3fe8",
+      "origine": "production_locale",
+      "titre": "Chantier · statuts et comptages corrigés",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+      "description": "Capture réelle après correction des statuts d’étapes. Les comptages du DOM ont été comparés à l’API du chantier.",
+      "note": "Capture du navigateur par la coordination ; écran natif verrouillé. Ne constitue pas une capture de Blender ni une mesure de performance GPU.",
+      "date_note": "Image produite le 11 octobre 2026. La date du fichier ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/tour_trame/comparatif_annote.png",
+      "sha256": "883c5c9a2238ccb5913376f16894a9bb1e35f0677b94bfd34b31f70ace8642e2",
+      "origine": "production_locale",
+      "titre": "Tour de Flandre · comparaison des façades",
+      "producteur": "Chantier Stalingrad · comparaison analytique du natif A10 et de captures utilisateur",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "Natif A10 relu le 11 octobre 2026 ; dates des photographies inconnues",
+      "role": "Preuve / analyse",
+      "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+      "description": "Comparatif annoté du natif A10 avec les captures utilisateur du 10 octobre à 23:11:37 et du 11 octobre à 00:51:35. Baies de la masse sombre et vitrage du retour à préciser ; implantation métrique non établie.",
+      "note": "Les dates citées sont les dates des captures écran, pas celles des photographies. Aucun patch géométrique approuvé par ce comparatif.",
+      "date_note": "Image produite le 11 octobre 2026. Données représentées : Natif A10 relu le 11 octobre 2026 ; dates des photographies inconnues. La date du fichier ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/tour_trame/RAPPORT.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/tour_trame/plan_faces.png",
+      "sha256": "84d94c9f4e4ed1975bca39c21b5edd74cea68b85752b6da99009d9520e4166b2",
+      "origine": "production_locale",
+      "titre": "Tour de Flandre · faces candidates au recalage",
+      "producteur": "Chantier Stalingrad · analyse du noyau natif A10",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "Natif A10 relu le 11 octobre 2026",
+      "role": "Preuve / analyse",
+      "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+      "description": "Plan des arêtes du noyau source 2506371 et des faces candidates. Sert au recalage des photographies ; ne fixe ni position ni dimension de fenêtres.",
+      "note": "Comparaison en lecture seule ; affectation des faces à la photographie non certifiée métriquement.",
+      "date_note": "Image produite le 11 octobre 2026. Données représentées : Natif A10 relu le 11 octobre 2026. La date du fichier ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/tour_trame/RAPPORT.txt"
+    },
+    {
+      "file": "donnees/v3/eole/canopies_a11/preuve_canopies_avant_apres.png",
+      "sha256": "12f876e245ab5a9d549d71202e4209b29790031b54c38e584f840eefdd99fda4",
+      "origine": "production_locale",
+      "titre": "Éole · huit houppiers, comparaison A11",
+      "producteur": "Chantier Stalingrad · analyse des retours IGN LiDAR HD / segmentation ARB3",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "Mars 2023 selon la documentation du nuage IGN HD, sans feuilles",
+      "role": "Preuve / analyse",
+      "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+      "description": "Comparaison analytique de huit anciennes formes et des enveloppes construites sur 2 704 retours de végétation. Les troncs et les pieds sont conservés ; les enveloppes convexes restent conventionnelles.",
+      "note": "Figure produite le 11 octobre 2026. Attribution individuelle des retours estimée ; fermeture convexe conventionnelle. Aucun couvert d’été 2026 ni détail de branches revendiqué.",
+      "date_note": "Image produite le 11 octobre 2026. Données représentées : Mars 2023 selon la documentation du nuage IGN HD, sans feuilles. La date du fichier ne date pas le terrain.",
+      "reference_document": "donnees/v3/eole/canopies_a11/RAPPORT.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/01_avant_orbite.png",
+      "sha256": "ad43c8211c7a85435e90f8e2dfb3094d2c6cf2ea9b57ff02b0a66cbc9cd549de",
+      "origine": "production_locale",
+      "titre": "Brain · avant rotation",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "role": "Preuve / analyse",
+      "contexte": "Brain · recette réelle du 11 octobre 2026",
+      "description": "Vue réelle de départ, animation automatique arrêtée avant le geste.",
+      "note": "Capture produite par la recette indépendante sur le port 9228. Test de fonctionnement ; ne mesure pas la performance GPU du poste.",
+      "date_note": "Image produite le 11 octobre 2026. Elle ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/02_apres_orbite.png",
+      "sha256": "b65aa4eec29cef11d85d805783a72b21d380fc0060d8408dd19c2ff2bdae84d3",
+      "origine": "production_locale",
+      "titre": "Brain · rotation contrôlée",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "role": "Preuve / analyse",
+      "contexte": "Brain · recette réelle du 11 octobre 2026",
+      "description": "Vue réelle après glissement sur le canvas ; variation de projection contrôlée sur dix-sept labels.",
+      "note": "Capture produite par la recette indépendante sur le port 9228. Test de fonctionnement ; ne mesure pas la performance GPU du poste.",
+      "date_note": "Image produite le 11 octobre 2026. Elle ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/03_apres_zoom.png",
+      "sha256": "8154fb112549398010cd6e06e8a8ed7a10ceabc7d32cedb09100ea9d4e3cd746",
+      "origine": "production_locale",
+      "titre": "Brain · zoom contrôlé",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "role": "Preuve / analyse",
+      "contexte": "Brain · recette réelle du 11 octobre 2026",
+      "description": "Vue réelle après activation du bouton Zoomer ; changement de projection contrôlé.",
+      "note": "Capture produite par la recette indépendante sur le port 9228. Test de fonctionnement ; ne mesure pas la performance GPU du poste.",
+      "date_note": "Image produite le 11 octobre 2026. Elle ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/04_recherche_selection.png",
+      "sha256": "3d21e429a8f32755a479f8d81886a1cfc2122edf1dfaaab6ff3dececf43a68dd",
+      "origine": "production_locale",
+      "titre": "Brain · recherche et sélection corrigées",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "role": "Preuve / analyse",
+      "contexte": "Brain · recette réelle du 11 octobre 2026",
+      "description": "Recherche sans accent «ecluse», classement par pertinence du titre, puis sélection clavier du lot Passerelle et berges.",
+      "note": "Capture produite par la recette indépendante sur le port 9228. Test de fonctionnement ; ne mesure pas la performance GPU du poste.",
+      "date_note": "Image produite le 11 octobre 2026. Elle ne date pas le terrain.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt"
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_carnet_final.png",
+      "sha256": "fe7591d5a97e1913ec13873b1171908cc729cb53a6d50a08c12e69010b46292c",
+      "origine": "production_locale",
+      "titre": "Carnet · notices métier en premier",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Recette de nuit du 11 octobre2026",
+      "description": "27 notices métier visibles par défaut, fichiers techniques accessibles séparément ; largeur1440px sans débordement.",
+      "note": "Capture réelle de navigateur ; aucune validation Safari ou interface native sous verrouillage."
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_rotonde_corrigee.png",
+      "sha256": "2d81a06b955beff3294c9e335711ddd1f7413d1b6b78a7f96912dd8becdfc92c",
+      "origine": "production_locale",
+      "titre": "Rotonde · cadrage et périmètre adaptés",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Recette de nuit du 11 octobre2026",
+      "description": "Depuis Bâtiment, le bouton Rotonde élargit vers Quartier ; le monument est cadré.",
+      "note": "Capture réelle de navigateur ; aucune validation Safari ou interface native sous verrouillage."
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_bassin_corrige.png",
+      "sha256": "f8ac001f3104402885a58b6e6da58c7cddc2e9ca427709375cd5e1b8ea651db3",
+      "origine": "production_locale",
+      "titre": "Bassin · cadrage complet",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Recette de nuit du 11 octobre2026",
+      "description": "La vue Bassin élargit vers Ensemble et adapte sa caméra au format.",
+      "note": "Capture réelle de navigateur ; aucune validation Safari ou interface native sous verrouillage."
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_plan_final.png",
+      "sha256": "c1d492a798bb7591409c3fea9a30ab3eaf177b5ee9516b4a33456a56b03db8e4",
+      "origine": "production_locale",
+      "titre": "Plan CRAMIF · vue verticale",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Recette de nuit du 11 octobre2026",
+      "description": "Commande Plan CRAMIF vérifiée après Bassin.",
+      "note": "Capture réelle de navigateur ; aucune validation Safari ou interface native sous verrouillage."
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_perimetre_quartier_final.png",
+      "sha256": "3db9e3284924dc1fe0a91e41467672d8f3a951bdb2745112d3a909cc31c5dba2",
+      "origine": "production_locale",
+      "titre": "Périmètre Quartier · contours recoupés",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Recette de nuit du 11 octobre2026",
+      "description": "Volumes coupés fermés ; contours des travaux contenus dans le sol de projet.",
+      "note": "Capture réelle de navigateur ; aucune validation Safari ou interface native sous verrouillage."
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_perimetre_proche_final.png",
+      "sha256": "b712c4cd735250e03928ff768f9ee52e16b1b5b8c18b3d2a42b32ff427710ab5",
+      "origine": "production_locale",
+      "titre": "Périmètre Bâtiment · sol et contours",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Recette de nuit du 11 octobre2026",
+      "description": "Sol et bâtiments recoupés ensemble ; contours contrôlés dans les limites.",
+      "note": "Capture réelle de navigateur ; aucune validation Safari ou interface native sous verrouillage."
+    },
+    {
+      "origine": "production_locale",
+      "date_production": "2026-10-11",
+      "role": "Aperçu daté",
+      "contexte": "Chantier Stalingrad · préparation des lots A13 / A14",
+      "date_note": "Rendu produit le 11 octobre 2026. Les dates des données et des photographies sont distinctes ; la date du fichier ne date pas le terrain.",
+      "file": "donnees/v3/cramif/tour_baies_a14/comparatif.png",
+      "sha256": "8a48c6d5c269be2885229433884afdcae4004a2283f525ffbf00edd219edf1be",
+      "titre": "Tour de Flandre · préparation des deux baies et du retour vitré",
+      "description": "Comparatif de préparation sur A12 : état avant, deux baies estimées, puis retour vitré vu du bas. La variante a ensuite été intégrée dans le lot A14 ; cette image ne représente pas une nouvelle capture du natif A14 réouvert.",
+      "producteur": "Chantier Stalingrad · Blender, rendu en ligne de commande",
+      "date_donnees_source": "Contexte LiDAR historique 2023 ; photographies de la tour : date de prise de vue inconnue.",
+      "reference_document": "donnees/v3/cramif/tour_baies_a14/RAPPORT.txt",
+      "note": "La date des captures utilisateur (10–11 octobre 2026) ne date pas les photographies affichées. Présence et trame visible observées ; implantation et dimensions ESTIME, profils et teintes CONVENTION. Rendu ponctuel de préparation sur A12, distinct du fichier natif A14 intégré ultérieurement.",
+      "sources": [
+        {
+          "reference": "Captures utilisateur 23.11.37 et 00.51.35 citées dans RAPPORT.txt",
+          "date_acquisition": null,
+          "qualification": "Observation de présence ; aucune mesure photogrammétrique calibrée."
+        },
+        {
+          "reference": "Géométrie native A12 conservée et contexte LiDAR historique du projet",
+          "date_lidar": "2023",
+          "qualification": "La date LiDAR ne date pas les photographies et ne certifie pas les baies."
+        }
+      ]
+    },
+    {
+      "origine": "production_locale",
+      "date_production": "2026-10-11",
+      "role": "Aperçu daté",
+      "contexte": "Chantier Stalingrad · préparation des lots A13 / A14",
+      "date_note": "Rendu produit le 11 octobre 2026. Les dates des données et des photographies sont distinctes ; la date du fichier ne date pas le terrain.",
+      "file": "donnees/v3/cramif/tour_baies_a14/retour_vue_basse.png",
+      "sha256": "7fb72d55b24397fe1158b51db3a4ec246ad5ab719277b83d3c368a888b0b8d74",
+      "titre": "Tour de Flandre · retour vitré, vue de préparation",
+      "description": "Rendu de préparation montrant le retour vitré, les deux baies et les volumes conservés. Présence du vitrage appuyée par les photos ; position et dimensions ESTIME, subdivision du retour CONVENTION. Aucun intérieur modélisé.",
+      "producteur": "Chantier Stalingrad · Blender, rendu en ligne de commande",
+      "date_donnees_source": "Contexte LiDAR historique 2023 ; photographies de la tour : date de prise de vue inconnue.",
+      "reference_document": "donnees/v3/cramif/tour_baies_a14/RAPPORT.txt",
+      "note": "La date des captures utilisateur (10–11 octobre 2026) ne date pas les photographies affichées. Présence et trame visible observées ; implantation et dimensions ESTIME, profils et teintes CONVENTION. Rendu ponctuel de préparation sur A12, distinct du fichier natif A14 intégré ultérieurement.",
+      "sources": [
+        {
+          "reference": "Captures utilisateur 23.11.37 et 00.51.35 citées dans RAPPORT.txt",
+          "date_acquisition": null,
+          "qualification": "Observation de présence ; aucune mesure photogrammétrique calibrée."
+        },
+        {
+          "reference": "Géométrie native A12 conservée et contexte LiDAR historique du projet",
+          "date_lidar": "2023",
+          "qualification": "La date LiDAR ne date pas les photographies et ne certifie pas les baies."
+        }
+      ]
+    },
+    {
+      "origine": "production_locale",
+      "date_production": "2026-10-11",
+      "role": "Aperçu daté",
+      "contexte": "Chantier Stalingrad · préparation des lots A13 / A14",
+      "date_note": "Rendu produit le 11 octobre 2026. Les dates des données et des photographies sont distinctes ; la date du fichier ne date pas le terrain.",
+      "file": "donnees/v3/eole/rails_a13/raccord_natif_avant.png",
+      "sha256": "9770418c1cd7e532f4e42870a8a45d1af25c11a844c2412caa0deda570bda68b",
+      "titre": "Rails Éole · raccord avant correction",
+      "description": "Détail natif avant la correction A13, rendu Workbench avec une partie du contexte masquée. Cette vue de contrôle montre les sections de rail avant leur raccord en plan.",
+      "producteur": "Chantier Stalingrad · Blender Workbench, rendu en ligne de commande",
+      "date_donnees_source": "LiDAR IGN HD mars 2023 ; base OSM horodatée 2026-10-09T21:02:51Z (date de base, pas date terrain).",
+      "reference_document": "donnees/v3/eole/rails_a13/RAPPORT.txt",
+      "note": "Rendus ponctuels de test avant publication native du lot A13, avec contexte temporairement masqué. Axes SOURCE_DOCUMENTAIRE OSM ; profils Z ESTIME sur LiDAR 2023 ; profils de rail et traverses CONVENTION. Acquisition de l’orthophoto IGN complémentaire non déterminée.",
+      "sources": [
+        {
+          "reference": "OSM osm_rail_parcs_20261009_2304.json, cité dans RAPPORT.txt",
+          "timestamp_base": "2026-10-09T21:02:51Z",
+          "date_acquisition": null,
+          "qualification": "Axes documentaires ; cet horodatage ne date pas le terrain."
+        },
+        {
+          "reference": "LiDAR IGN HD, classe 2, cité dans RAPPORT.txt",
+          "date_acquisition": "mars 2023",
+          "qualification": "Niveaux Z ESTIME par ajustement longitudinal."
+        },
+        {
+          "reference": "Orthophoto IGN HR 25 cm, complément cité dans RAPPORT.txt",
+          "date_acquisition": null,
+          "qualification": "Aucune pièce d’aiguille exacte déduite de cette image."
+        }
+      ]
+    },
+    {
+      "origine": "production_locale",
+      "date_production": "2026-10-11",
+      "role": "Aperçu daté",
+      "contexte": "Chantier Stalingrad · préparation des lots A13 / A14",
+      "date_note": "Rendu produit le 11 octobre 2026. Les dates des données et des photographies sont distinctes ; la date du fichier ne date pas le terrain.",
+      "file": "donnees/v3/eole/rails_a13/raccord_natif_apres.png",
+      "sha256": "35ffe0cb1d8dde3a92bc2f9ad3e34fdece63f1c9949c0b5b1247782d78f0b18e",
+      "titre": "Rails Éole · raccord après correction ciblée",
+      "description": "Détail natif après correction de dix raccords dont le support a été contrôlé. Les niveaux Z restent inchangés ; les sections rectangulaires et traverses sont conventionnelles. Cette vue ne certifie pas les aiguilles ni les dix-neuf raccords différés.",
+      "producteur": "Chantier Stalingrad · Blender Workbench, rendu en ligne de commande",
+      "date_donnees_source": "LiDAR IGN HD mars 2023 ; base OSM horodatée 2026-10-09T21:02:51Z (date de base, pas date terrain).",
+      "reference_document": "donnees/v3/eole/rails_a13/RAPPORT.txt",
+      "note": "Rendus ponctuels de test avant publication native du lot A13, avec contexte temporairement masqué. Axes SOURCE_DOCUMENTAIRE OSM ; profils Z ESTIME sur LiDAR 2023 ; profils de rail et traverses CONVENTION. Acquisition de l’orthophoto IGN complémentaire non déterminée.",
+      "sources": [
+        {
+          "reference": "OSM osm_rail_parcs_20261009_2304.json, cité dans RAPPORT.txt",
+          "timestamp_base": "2026-10-09T21:02:51Z",
+          "date_acquisition": null,
+          "qualification": "Axes documentaires ; cet horodatage ne date pas le terrain."
+        },
+        {
+          "reference": "LiDAR IGN HD, classe 2, cité dans RAPPORT.txt",
+          "date_acquisition": "mars 2023",
+          "qualification": "Niveaux Z ESTIME par ajustement longitudinal."
+        },
+        {
+          "reference": "Orthophoto IGN HR 25 cm, complément cité dans RAPPORT.txt",
+          "date_acquisition": null,
+          "qualification": "Aucune pièce d’aiguille exacte déduite de cette image."
+        }
+      ]
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/tour_A14/tour_A14_front.png",
+      "sha256": "f1bcb6db1868f0957b31c9e35100faa2f77b84b622bd04726a5221ef5d1c259a",
+      "origine": "production_locale",
+      "titre": "Tour A14 · deux baies intégrées",
+      "producteur": "Chantier Stalingrad · Blender Workbench en arrière-plan",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "Photographies fournies : acquisition inconnue ; volumes APUR et LiDAR IGN mars2023",
+      "role": "Preuve / analyse",
+      "contexte": "Natif A14 réouvert SHA b5d4542a8bd8b4caee5fa171cf048e374c1a13e9fdcd675ea64976be9371d2ee",
+      "description": "Rendu réel du natif publié. Présence des vitrages attestée par photographies ; implantation et dimensions ESTIME, sections et teintes CONVENTION. Pas de sauvegarde de cette caméra de preuve.",
+      "note": "Autres secteurs temporairement masqués pour lire la façade ; ni synchronisation continue ni certification métrique."
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/tour_A14/tour_A14_retour.png",
+      "sha256": "b839cc00432adebdaa13996429f87b292c10f3819119acb23e0a606601ab8e72",
+      "origine": "production_locale",
+      "titre": "Tour A14 · retour vitré intégré",
+      "producteur": "Chantier Stalingrad · Blender Workbench en arrière-plan",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "Photographies fournies : acquisition inconnue ; volumes APUR et LiDAR IGN mars2023",
+      "role": "Preuve / analyse",
+      "contexte": "Natif A14 réouvert SHA b5d4542a8bd8b4caee5fa171cf048e374c1a13e9fdcd675ea64976be9371d2ee",
+      "description": "Rendu réel du natif publié. Présence des vitrages attestée par photographies ; implantation et dimensions ESTIME, sections et teintes CONVENTION. Pas de sauvegarde de cette caméra de preuve.",
+      "note": "Autres secteurs temporairement masqués pour lire la façade ; ni synchronisation continue ni certification métrique."
+    },
+    {
+      "file": "donnees/v3/eole/raccord_z_a15/jonction_natif_avant.png",
+      "sha256": "673fc5aafdb31a4946bc45aa61807b823cb882c915cf16983433744cc08094cd",
+      "origine": "production_locale",
+      "titre": "Rails Éole · avant le raccord Z",
+      "producteur": "Chantier Stalingrad · analyse source et Blender en arrière-plan",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "LiDAR IGN HD mars2023 ; axesOSM et ortho IGN acquisition inconnue",
+      "role": "Preuve / analyse",
+      "contexte": "Préparation A15 depuis natifA14 ; variante ensuite intégrée et réouverte",
+      "description": "Raccord altimétrique local ESTIME appuyé surclasse2, rails/traverses/ballast CONVENTION. Deux assises restaurées uniquement dans les lacunes attestées. Contrôles complets des traverses voisines ; aucune aiguille exacte inventée.",
+      "note": "Ces rendus précèdent la publication A15 et ne sont pas une synchronisation continue du natif."
+    },
+    {
+      "file": "donnees/v3/eole/raccord_z_a15/jonction_natif_apres.png",
+      "sha256": "1b7b25dbefffd0117560d7e074ddd441dd259e909f393149b1c5515d8b3b47c8",
+      "origine": "production_locale",
+      "titre": "Rails Éole · variante du raccord Z validée",
+      "producteur": "Chantier Stalingrad · analyse source et Blender en arrière-plan",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "LiDAR IGN HD mars2023 ; axesOSM et ortho IGN acquisition inconnue",
+      "role": "Preuve / analyse",
+      "contexte": "Préparation A15 depuis natifA14 ; variante ensuite intégrée et réouverte",
+      "description": "Raccord altimétrique local ESTIME appuyé surclasse2, rails/traverses/ballast CONVENTION. Deux assises restaurées uniquement dans les lacunes attestées. Contrôles complets des traverses voisines ; aucune aiguille exacte inventée.",
+      "note": "Ces rendus précèdent la publication A15 et ne sont pas une synchronisation continue du natif."
+    },
+    {
+      "file": "donnees/v3/eole/raccord_z_a15/profils_avant_apres.png",
+      "sha256": "d299dccbc7860fcd082435263392a4358243d7da256322652694c3f3a6210642",
+      "origine": "production_locale",
+      "titre": "Rails Éole · comparaison des profils LiDAR",
+      "producteur": "Chantier Stalingrad · analyse source et Blender en arrière-plan",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "LiDAR IGN HD mars2023 ; axesOSM et ortho IGN acquisition inconnue",
+      "role": "Preuve / analyse",
+      "contexte": "Préparation A15 depuis natifA14 ; variante ensuite intégrée et réouverte",
+      "description": "Raccord altimétrique local ESTIME appuyé surclasse2, rails/traverses/ballast CONVENTION. Deux assises restaurées uniquement dans les lacunes attestées. Contrôles complets des traverses voisines ; aucune aiguille exacte inventée.",
+      "note": "Ces rendus précèdent la publication A15 et ne sont pas une synchronisation continue du natif."
+    },
+    {
+      "file": "donnees/v3/cramif/couverture_sud_a17/comparatif.png",
+      "sha256": "1cac2540fea38f3af9321db1c54b18da0dad5f0eabc8197fd807487510cd83d0",
+      "origine": "production_locale",
+      "titre": "Cour sud · orthophoto et proposition de couverture",
+      "producteur": "Chantier Stalingrad · analyse et rendus Blender en ligne de commande",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "LiDAR IGN mars 2023 ; orthophoto du comparatif : acquisition non déterminée.",
+      "role": "Aperçu daté",
+      "contexte": "Préparation et diagnostics Stalingrad · 11 octobre 2026",
+      "description": "Montage du support orthophotographique, du natif A15 avant et de la variante testée. Le grand bord est simplifié ; l’encoche est conservée. Date d’acquisition de l’orthophoto non déterminée.",
+      "note": "Variante préparatoire sur A15, puis intégré au natif A17, dont la réouverture est contrôlée. Altitude issue du plan ajusté aux retours classe 6 ; contour ESTIME, épaisseur et matériau CONVENTION. Aucun support inférieur réel certifié. La figure ne constitue pas un relevé architectural. Cette image reste une preuve de préparation ; ce n’est pas une nouvelle capture du natif A17 rouvert.",
+      "date_note": "Image produite le 11 octobre 2026. Dates des sources terrain distinctes ; la date du fichier ne date pas le terrain.",
+      "reference_document": "donnees/v3/cramif/couverture_sud_a17/RAPPORT.txt",
+      "statut_publication": "LOT_INTEGRE_A17_IMAGE_PREPARATOIRE",
+      "sources": [
+        {
+          "reference": "LiDAR IGN HD classe 6, plan ajusté documenté dans RAPPORT.txt",
+          "date_acquisition": "mars 2023"
+        },
+        {
+          "reference": "sources/web/ortho_agence_20cm.png",
+          "sha256": "6ff88027620cf7d3712b8ea43b92581fb90bf8fdd6ed33ac0d695081b278da53",
+          "producteur": null,
+          "date_acquisition": null,
+          "note": "Fichier utilisé confirmé par le producteur de la figure ; origine du fond non certifiée par un manifeste dans ce contrôle."
+        }
+      ]
+    },
+    {
+      "file": "donnees/v3/cramif/couverture_sud_a17/apres_oblique.png",
+      "sha256": "a1f1051f854fb5bd9d4023665f84bc2e06c2f20b0faf9d4a8e121012c5236e07",
+      "origine": "production_locale",
+      "titre": "Cour sud · lecture oblique de la proposition",
+      "producteur": "Chantier Stalingrad · analyse et rendus Blender en ligne de commande",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "LiDAR IGN mars 2023 ; orthophoto du comparatif : acquisition non déterminée.",
+      "role": "Aperçu daté",
+      "contexte": "Préparation et diagnostics Stalingrad · 11 octobre 2026",
+      "description": "Vue oblique de la couverture proposée, distincte des niveaux de sol conservés. Aucun mur ou poteau supposé ajouté ; les supports inférieurs réels restent inconnus.",
+      "note": "Variante préparatoire sur A15, puis intégré au natif A17, dont la réouverture est contrôlée. Altitude issue du plan ajusté aux retours classe 6 ; contour ESTIME, épaisseur et matériau CONVENTION. Aucun support inférieur réel certifié. La figure ne constitue pas un relevé architectural. Cette image reste une preuve de préparation ; ce n’est pas une nouvelle capture du natif A17 rouvert.",
+      "date_note": "Image produite le 11 octobre 2026. Dates des sources terrain distinctes ; la date du fichier ne date pas le terrain.",
+      "reference_document": "donnees/v3/cramif/couverture_sud_a17/RAPPORT.txt",
+      "statut_publication": "LOT_INTEGRE_A17_IMAGE_PREPARATOIRE"
+    },
+    {
+      "file": "donnees/v3/eole/canopies_berges_a17/preuve_canopies_avant_apres.png",
+      "sha256": "7e177369bed509e39425fd43203cea0929a5568f3a90cc08b2ffe5e0363ffcb0",
+      "origine": "production_locale",
+      "titre": "Berges · six enveloppes historiques comparées",
+      "producteur": "Chantier Stalingrad · analyse géométrique des retours LiDAR",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "IGN HD mars 2023, sans feuilles ; inventaire Ville exporté le 9 octobre 2026, date distincte du relevé individuel.",
+      "role": "Preuve / analyse",
+      "contexte": "Préparation et diagnostics Stalingrad · 11 octobre 2026",
+      "description": "Figure analytique comparant les anciennes enveloppes, les points LiDAR retenus et les troncs fixes de six arbres. Elle documente une proposition de volumes, pas le feuillage actuel.",
+      "note": "Points MESURE_LIDAR, attribution individuelle ESTIME, enveloppes convexes CONVENTION. IDs 225, 211, 195, 194, 134, 153. Lot intégré au natif A17, réouverture contrôlée ; aucune croissance ni essence déduite du LiDAR. Cette image reste une preuve de préparation ; ce n’est pas une nouvelle capture du natif A17 rouvert.",
+      "date_note": "Image produite le 11 octobre 2026. Dates des sources terrain distinctes ; la date du fichier ne date pas le terrain.",
+      "reference_document": "donnees/v3/eole/canopies_berges_a17/RAPPORT.txt",
+      "statut_publication": "LOT_INTEGRE_A17_IMAGE_PREPARATOIRE",
+      "sources": [
+        {
+          "reference": "IGN HD, cache ARB3 et correspondance ID → label documentés dans sources.json",
+          "date_acquisition": "mars 2023"
+        },
+        {
+          "reference": "Ville de Paris, les-arbres, export paris_les_arbres_20261009_2301.geojson",
+          "date_export": "2026-10-09",
+          "date_releve_individuel": null
+        }
+      ]
+    },
+    {
+      "file": "donnees/v3/eole/diagnostic_lacunes_a16/ortho_lacunes.png",
+      "sha256": "3391d6cd9578760312ff77f0530fca7ffa0d3851182c6489f6c313c1e1eaaae5",
+      "origine": "production_locale",
+      "titre": "Éole · localisation des deux lacunes d’assise",
+      "producteur": "Chantier Stalingrad · annotation sur fond IGN Géoplateforme",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "LiDAR IGN historique mars 2023 ; orthophoto IGN récupérée le 11 octobre 2026, acquisition non déterminée.",
+      "role": "Preuve / analyse",
+      "contexte": "Préparation et diagnostics Stalingrad · 11 octobre 2026",
+      "description": "Orthophoto IGN annotée avec les stations documentaires des voies et les segments examinés. Un ouvrage carré apparaît près de la dépression documentée au LiDAR ; fonction de l’ouvrage et acquisition de l’image inconnues.",
+      "note": "Diagnostic A16 sans modification géométrique. Deux lacunes d’assise explicitement conservées ; fonction de l’ouvrage carré non déterminée. Les limites dessinées sont des emprises de diagnostic conventionnelles.",
+      "date_note": "Image produite le 11 octobre 2026. Dates des sources terrain distinctes ; la date du fichier ne date pas le terrain.",
+      "reference_document": "donnees/v3/eole/diagnostic_lacunes_a16/RAPPORT.txt",
+      "statut_publication": "DIAGNOSTIC_SANS_IMPORT_GEOMETRIQUE",
+      "sources": [
+        {
+          "reference": "IGN Géoplateforme HR.ORTHOIMAGERY.ORTHOPHOTOS",
+          "url": "https://data.geopf.fr/wms-r?service=WMS&version=1.3.0&request=GetMap&layers=HR.ORTHOIMAGERY.ORTHOPHOTOS&styles=&crs=EPSG%3A2154&bbox=653250%2C6865260%2C653550%2C6865620&width=1200&height=1440&format=image%2Fpng",
+          "date_recuperation": "2026-10-11T03:13:38.682811+00:00",
+          "date_acquisition": null
+        },
+        {
+          "reference": "IGN HD classe 2, source historique documentée dans RAPPORT.txt",
+          "date_acquisition": "mars 2023"
+        }
+      ]
+    },
+    {
+      "file": "donnees/v3/eole/diagnostic_lacunes_a16/audit_altitudes.png",
+      "sha256": "b14508372d7d50f75e16df9049e434efd627d833f0c45d4fede08a1f9e6b2f4e",
+      "origine": "production_locale",
+      "titre": "Éole · niveaux des secteurs laissés ouverts",
+      "producteur": "Chantier Stalingrad · analyse des altitudes LiDAR",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "LiDAR IGN historique mars 2023 ; orthophoto IGN récupérée le 11 octobre 2026, acquisition non déterminée.",
+      "role": "Preuve / analyse",
+      "contexte": "Préparation et diagnostics Stalingrad · 11 octobre 2026",
+      "description": "Figure de diagnostic des altitudes et appuis : les points historiques corroborent une dépression latérale. Elle explique pourquoi une assise uniforme n’a pas été ajoutée.",
+      "note": "Diagnostic A16 sans modification géométrique. Deux lacunes d’assise explicitement conservées ; fonction de l’ouvrage carré non déterminée. Les limites dessinées sont des emprises de diagnostic conventionnelles.",
+      "date_note": "Image produite le 11 octobre 2026. Dates des sources terrain distinctes ; la date du fichier ne date pas le terrain.",
+      "reference_document": "donnees/v3/eole/diagnostic_lacunes_a16/RAPPORT.txt",
+      "statut_publication": "DIAGNOSTIC_SANS_IMPORT_GEOMETRIQUE",
+      "sources": [
+        {
+          "reference": "IGN Géoplateforme HR.ORTHOIMAGERY.ORTHOPHOTOS",
+          "url": "https://data.geopf.fr/wms-r?service=WMS&version=1.3.0&request=GetMap&layers=HR.ORTHOIMAGERY.ORTHOPHOTOS&styles=&crs=EPSG%3A2154&bbox=653250%2C6865260%2C653550%2C6865620&width=1200&height=1440&format=image%2Fpng",
+          "date_recuperation": "2026-10-11T03:13:38.682811+00:00",
+          "date_acquisition": null
+        },
+        {
+          "reference": "IGN HD classe 2, source historique documentée dans RAPPORT.txt",
+          "date_acquisition": "mars 2023"
+        }
+      ]
+    },
+    {
+      "file": "donnees/v3/eole/diagnostic_lacunes_a16/natif_audit_lacunes.png",
+      "sha256": "20b2a1a4b018f3c92b10a875bfeef7bf671ce2baafc932527d9c52ce3453628a",
+      "origine": "production_locale",
+      "titre": "Éole · lacunes visibles dans le modèle",
+      "producteur": "Chantier Stalingrad · rendu Blender de diagnostic",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "LiDAR IGN historique mars 2023 ; orthophoto IGN récupérée le 11 octobre 2026, acquisition non déterminée.",
+      "role": "Preuve / analyse",
+      "contexte": "Préparation et diagnostics Stalingrad · 11 octobre 2026",
+      "description": "Rendu natif de diagnostic des deux segments laissés sans nouvelle assise. Le manque reste provisoire et explicite ; aucune reconstruction d’un ouvrage inconnu n’est revendiquée.",
+      "note": "Diagnostic A16 sans modification géométrique. Deux lacunes d’assise explicitement conservées ; fonction de l’ouvrage carré non déterminée. Les limites dessinées sont des emprises de diagnostic conventionnelles.",
+      "date_note": "Image produite le 11 octobre 2026. Dates des sources terrain distinctes ; la date du fichier ne date pas le terrain.",
+      "reference_document": "donnees/v3/eole/diagnostic_lacunes_a16/RAPPORT.txt",
+      "statut_publication": "DIAGNOSTIC_SANS_IMPORT_GEOMETRIQUE",
+      "sources": [
+        {
+          "reference": "IGN Géoplateforme HR.ORTHOIMAGERY.ORTHOPHOTOS",
+          "url": "https://data.geopf.fr/wms-r?service=WMS&version=1.3.0&request=GetMap&layers=HR.ORTHOIMAGERY.ORTHOPHOTOS&styles=&crs=EPSG%3A2154&bbox=653250%2C6865260%2C653550%2C6865620&width=1200&height=1440&format=image%2Fpng",
+          "date_recuperation": "2026-10-11T03:13:38.682811+00:00",
+          "date_acquisition": null
+        },
+        {
+          "reference": "IGN HD classe 2, source historique documentée dans RAPPORT.txt",
+          "date_acquisition": "mars 2023"
+        }
+      ]
+    },
+    {
+      "file": "donnees/v3/cramif/rotonde_diagnostic_NE/NE_natif.png",
+      "sha256": "6d17a081d96209886208d9e51b3b5c8e22ec111831e986e2a1c846c50f8a36b5",
+      "origine": "production_locale",
+      "titre": "Rotonde · porche nord-est dans le modèle audité",
+      "producteur": "Chantier Stalingrad · rendu Blender en ligne de commande",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "Photo G. Vellut : 13 août 2016 ; LiDAR IGN historique : 2023.",
+      "role": "Preuve / analyse",
+      "contexte": "Diagnostic du porche NE de la Rotonde ; aucune géométrie modifiée",
+      "description": "Vue de diagnostic du natif A15 montrant le porche et ses marches conventionnelles. Aucun ajout ou déplacement de seuil n’a été effectué ; elle ne constitue pas un relevé terrain.",
+      "note": "Photographie G. Vellut, licence CC BY 2.0. La présence approximative des marches est observée ; leurs dimensions et le seuil restent à relever. Le natif audité est A15, pas une nouvelle recette A17.",
+      "date_note": "Montage/rendu produit le 11 octobre 2026, distinct de la prise de vue du 13 août 2016 et du LiDAR 2023.",
+      "reference_document": "donnees/v3/cramif/rotonde_diagnostic_NE/RAPPORT.txt",
+      "statut_publication": "DIAGNOSTIC_DOCUMENTE_SANS_PATCH",
+      "sources": [
+        {
+          "reference": "G. Vellut, La Rotonde, Place Stalingrad, Paris 13 August 2016 002",
+          "url": "https://commons.wikimedia.org/wiki/File:La_Rotonde,_Place_Stalingrad,_Paris_13_August_2016_002.jpg",
+          "producteur": "G. Vellut",
+          "licence": "CC BY 2.0",
+          "date_acquisition": "2016-08-13"
+        }
+      ]
+    },
+    {
+      "file": "donnees/v3/cramif/rotonde_diagnostic_NE/comparatif_NE.png",
+      "sha256": "23eb51f56471a3c8f8b997699189b6687dd2568341bf68cb957ef25f656bee5e",
+      "origine": "production_locale",
+      "titre": "Rotonde · photo de référence et porche modélisé",
+      "producteur": "Chantier Stalingrad · montage ; photographie G. Vellut, 13 août 2016, CC BY 2.0",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "Photo G. Vellut : 13 août 2016 ; LiDAR IGN historique : 2023.",
+      "role": "Preuve / analyse",
+      "contexte": "Diagnostic du porche NE de la Rotonde ; aucune géométrie modifiée",
+      "description": "Comparatif entre la photo et un ancien calage, puis le natif A15. Environ sept contremarches paraissent visibles sur la photo, partiellement occultées ; leur hauteur n’est pas mesurée. Aucun nouveau recalage photographique.",
+      "note": "Photographie G. Vellut, licence CC BY 2.0. La présence approximative des marches est observée ; leurs dimensions et le seuil restent à relever. Le natif audité est A15, pas une nouvelle recette A17.",
+      "date_note": "Montage/rendu produit le 11 octobre 2026, distinct de la prise de vue du 13 août 2016 et du LiDAR 2023.",
+      "reference_document": "donnees/v3/cramif/rotonde_diagnostic_NE/RAPPORT.txt",
+      "statut_publication": "DIAGNOSTIC_DOCUMENTE_SANS_PATCH",
+      "sources": [
+        {
+          "reference": "G. Vellut, La Rotonde, Place Stalingrad, Paris 13 August 2016 002",
+          "url": "https://commons.wikimedia.org/wiki/File:La_Rotonde,_Place_Stalingrad,_Paris_13_August_2016_002.jpg",
+          "producteur": "G. Vellut",
+          "licence": "CC BY 2.0",
+          "date_acquisition": "2016-08-13"
+        }
+      ]
+    },
+    {
+      "file": "documentation/v3/cramif/interface/preuves_nuit/cour_A17/cour_A17.png",
+      "sha256": "6d46d33458b8a5c29b72db0cd142bec27869edcb1abb39722f8b0cd16671656e",
+      "origine": "production_locale",
+      "titre": "Cour CRAMIF · couverture visible après intégration",
+      "producteur": "Chantier Stalingrad · Chrome headless / WebGL SwiftShader",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "Géométrie A17 publiée ; couverture fondée sur le LiDAR historique mars 2023, contour ESTIME.",
+      "role": "Preuve / analyse",
+      "contexte": "Recette Chrome headless du 11 octobre 2026 à 08:20 Paris",
+      "description": "Capture réelle de la vue Cour après intégration A17, en 1440 × 1000 : la couverture est visible en partie sud. Clic de caméra contrôlé par la coordination ; aucune certification Safari ou tactile.",
+      "note": "Preuve du site local /pro, pas une capture de Blender ni une synchronisation continue. Natif A17 identifié dans le rapport de recette. Dimensions estimées et supports non établis de la couverture conservent leurs qualifications.",
+      "date_note": "Capture produite le 11 octobre 2026 à 08:20 Paris, distincte de la date des données LiDAR de 2023.",
+      "reference_document": "documentation/v3/cramif/interface/preuves_nuit/cour_A17/RAPPORT.txt",
+      "statut_publication": "CAPTURE_WEB_APRES_INTEGRATION_A17"
+    },
+    {
+      "file": "donnees/v3/cramif/diagnostic_cours_a17/profils_niveaux.png",
+      "sha256": "b7b369e22c3bdf4cfab062025e49b7ed8ce8fefcbe5273f16eddf5261dd3488f",
+      "origine": "production_locale",
+      "titre": "Cour sud · profils de niveaux superposés",
+      "producteur": "Chantier Stalingrad · diagnostic géométrique et sources IGN historiques",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "2023-03",
+      "role": "Preuve / analyse",
+      "contexte": "Diagnostic sans correctif géométrique · natif A17",
+      "description": "Coupes des retours LiDAR historiques : niveaux hauts et passages bas doivent être distingués. Le contour des ruptures reste à établir ; aucun nouveau raccord modélisé.",
+      "note": "Aucun patch livré. Mesures LiDAR historiques distinctes des contours et plans estimés.",
+      "date_note": "Image de diagnostic produite le 11 octobre 2026 ; elle ne date pas le terrain. Orthophoto : date d’acquisition non établie.",
+      "reference_document": "documentation/v3/cramif/diagnostic_cours/NOTICE_A17.txt"
+    },
+    {
+      "file": "donnees/v3/cramif/diagnostic_cours_a17/carte_foyers_sud.png",
+      "sha256": "e648090632d98fc3c6dc3cb670b35bdf78ef60c308abb44b5771d4fcb34edbc9",
+      "origine": "production_locale",
+      "titre": "Cour sud · foyers restant à préciser",
+      "producteur": "Chantier Stalingrad · diagnostic géométrique et sources IGN historiques",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "2023-03",
+      "role": "Preuve / analyse",
+      "contexte": "Diagnostic sans correctif géométrique · natif A17",
+      "description": "Localisation des quinze foyers étudiés parmi 270 points. Ces domaines de diagnostic ne sont pas des emprises de correction certifiées.",
+      "note": "Aucun patch livré. Mesures LiDAR historiques distinctes des contours et plans estimés.",
+      "date_note": "Image de diagnostic produite le 11 octobre 2026 ; elle ne date pas le terrain. Orthophoto : date d’acquisition non établie.",
+      "reference_document": "documentation/v3/cramif/diagnostic_cours/NOTICE_A17.txt"
+    },
+    {
+      "file": "donnees/v3/cramif/diagnostic_cours_a17/sud_native.png",
+      "sha256": "592c6c8c8de3d68c3dadd621384036a2d069026119245b4a1291b7b6827cde1c",
+      "origine": "production_locale",
+      "titre": "Cour sud · état A17 et raccords visibles",
+      "producteur": "Chantier Stalingrad · diagnostic géométrique et sources IGN historiques",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "2023-03",
+      "role": "Preuve / analyse",
+      "contexte": "Diagnostic sans correctif géométrique · natif A17",
+      "description": "Rendu du natif A17 : couverture présente, facettes et ressauts restant à examiner. Canopées masquées en mémoire pour la lecture ; aucun sol modifié et aucune synchronisation de la fenêtre Blender affirmée.",
+      "note": "Aucun patch livré. Mesures LiDAR historiques distinctes des contours et plans estimés.",
+      "date_note": "Image de diagnostic produite le 11 octobre 2026 ; elle ne date pas le terrain. Orthophoto : date d’acquisition non établie.",
+      "reference_document": "documentation/v3/cramif/diagnostic_cours/NOTICE_A17.txt"
+    },
+    {
+      "file": "donnees/v3/eole/diagnostic_berge_a19/audit_limite_niveaux.png",
+      "sha256": "65d948fd29c83f6f29857ff9cb4f5f349df1062bb8ece48c870fad42ea3f2b22",
+      "origine": "production_locale",
+      "titre": "Berge basse · limite du plan documentaire",
+      "producteur": "Chantier Stalingrad · diagnostic géométrique et sources IGN historiques",
+      "date_production": "2026-10-11",
+      "date_donnees_source": "2023-03",
+      "role": "Preuve / analyse",
+      "contexte": "Diagnostic sans correctif géométrique · natif A17",
+      "description": "Comparaison de niveaux sur une lecture stable du natif A17. Les domaines résiduels du test ne sont pas des contours de dalle ; aucun artefact natif à réparer démontré.",
+      "note": "Aucun patch livré. Mesures LiDAR historiques distinctes des contours et plans estimés.",
+      "date_note": "Image de diagnostic produite le 11 octobre 2026 ; elle ne date pas le terrain. Orthophoto : date d’acquisition non établie.",
+      "reference_document": "documentation/v3/cramif/diagnostic_berge/NOTICE_A19.txt"
+    },
+    {
+      "file": "donnees/v3/eole/diagnostic_berge_a19/ortho_berge_point.png",
+      "sha256": "f38c904948b19a74438379b6576e1fac165c9edcdfa30aeccda1bc60ed376d00",
+      "origine": "production_locale",
+      "titre": "Berge basse · point sous le bord du couronnement",
+      "producteur": "Chantier Stalingrad · diagnostic géométrique et sources IGN historiques",
+      "date_production": "2026-10-11",
+      "date_donnees_source": null,
+      "role": "Preuve / analyse",
+      "contexte": "Diagnostic sans correctif géométrique · natif A17",
+      "description": "Recadrage géoréférencé de l’orthophoto IGN à 25 cm. La vue du dessus masque la face basse ; elle n’établit pas le dessous de dalle ni une nouvelle surface à ajouter. Date d’acquisition inconnue.",
+      "note": "Aucun patch livré. Mesures LiDAR historiques distinctes des contours et plans estimés.",
+      "date_note": "Image de diagnostic produite le 11 octobre 2026 ; elle ne date pas le terrain. Orthophoto : date d’acquisition non établie.",
+      "reference_document": "documentation/v3/cramif/diagnostic_berge/NOTICE_A19.txt"
+    }
+  ]
+}

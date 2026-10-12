@@ -1,0 +1,22 @@
+VUES RAPIDES — SUJETS ET PÉRIMÈTRE
+11 octobre 2026, 07:26 Paris
+
+Défaut reproduit dans le code : vueVers déplaçait uniquement la caméra. Après la vue Maroc limitée au Bâtiment, la Rotonde restait découpée hors du terrain visible.
+
+Correction appliquée uniquement à suivi/pro_cramif.html :
+- Rotonde : si nécessaire, passage de Bâtiment à Quartier avant le déplacement. Caméra inchangée.
+- Bassin : l’emprise entière du polygone eau_185_0 impose Ensemble. La visée est centrée sur son emprise ; le recul conserve la direction de vue et tient compte du champ de 35° et du format d’écran. Marge de cadrage de 20 m, sans création de géométrie.
+- Plan CRAMIF : son sujet est déjà contenu dans Bâtiment ; caméra et orientation inchangées.
+- Plan général et Ensemble : contexte complet systématique.
+- Un périmètre plus large déjà choisi est conservé lorsque le sujet y est entièrement contenu. Aucun rétrécissement implicite.
+- Cour, Flandre et Maroc ne changent ni de caméra ni de périmètre.
+
+Le démarrage par #vue=rotonde fixe le périmètre en attente avant l’initialisation complète des panneaux. Les fonctions UI ne sont appelées qu’une fois leurs variables initialisées.
+
+Preuves déterministes : douze transitions contrôlées ; toutes les positions de la table VUES demeurent identiques à l’original ; aucun appel prématuré de l’UI au démarrage ; appel effectif du changement de périmètre après initialisation. Les 141 sommets triangulés du bassin source sont dans le champ pour 1440×1000, 390×844 et 1920×1080. Les bornes du sujet correspondent exactement à eau_v3.json : [165.8833, -26.3264, 656.1038, 393.5233]. Syntaxe complète du module validée par node --check.
+
+HTTP /pro sert exactement le fichier modifié : SHA256 7ab193eb6cff7233915c1a5620fc6a0cbed800aaac592b38d866bddf1ca2dff3.
+
+Rapport graphique : contrôle demandé au parent dans son navigateur CDP. Aucun accès à ce navigateur ni aucune nouvelle certification visuelle dans ce lot. Ces calculs de champ ne vérifient pas une éventuelle occultation par les panneaux.
+
+Fichiers de preuve : validation.json, test.cjs, http.json, modifications.diff. Aucun backend, modèle natif, donnée géométrique ou source modifiés.

@@ -1,0 +1,26 @@
+[
+  {
+    "route": "/pro",
+    "status": 200,
+    "same": true,
+    "sha256": "40200bc008f2d197fca95d580aa596be3995d403cb68af662360eaeccf78a073"
+  },
+  {
+    "route": "/suivi",
+    "status": 200,
+    "same": true,
+    "sha256": "3b1455a9c9b12e834e25fa595ca9ba52c415033cb972680f7b9d2b213365702c"
+  },
+  {
+    "route": "/carnet",
+    "status": 200,
+    "same": true,
+    "sha256": "3149fd6a154fb89a4aa8c6988d694a227db521164d565eeedcdab92476a302b1"
+  },
+  {
+    "route": "/brain",
+    "status": 200,
+    "same": true,
+    "sha256": "d1cf821b304ef29bb4cfc15e8e0091761ce1f727ce9625172382e8a97aa00d63"
+  }
+]

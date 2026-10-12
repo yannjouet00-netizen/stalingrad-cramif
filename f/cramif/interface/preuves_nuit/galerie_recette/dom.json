@@ -1,0 +1,66 @@
+{
+  "initial": {
+    "cards": 48,
+    "count": "48 sur 9129 images",
+    "status": "Inventaire relu à 08:36:20",
+    "overflow": 0,
+    "selects": 0,
+    "loadMs": 4956
+  },
+  "searches": [
+    {
+      "count": "3 sur 3 images",
+      "cards": 3,
+      "titles": [
+        "panneau bas",
+        "panneau haut",
+        "panneau"
+      ],
+      "unavailable": 0,
+      "query": "dl_commons",
+      "renderMs": 633
+    },
+    {
+      "count": "3 sur 3 images",
+      "cards": 3,
+      "titles": [
+        "B zoom V9 bdtopo 240768463",
+        "B zoom V9 bdtopo 240768463",
+        "v9"
+      ],
+      "unavailable": 0,
+      "query": "v9",
+      "renderMs": 626
+    },
+    {
+      "count": "10 sur 10 images",
+      "cards": 10,
+      "titles": [
+        "Vue 3D · panneau Lumière",
+        "panneau bas",
+        "panneau haut"
+      ],
+      "unavailable": 0,
+      "query": "panneau",
+      "renderMs": 645
+    }
+  ],
+  "original": {
+    "dialog": true,
+    "title": "panneau bas",
+    "url": "http://localhost:8790/f/images_claude_travail/scratchpad/dl_commons/panneau_bas.jpg",
+    "status": 200,
+    "bytes": 1382976,
+    "mime": "image/jpeg",
+    "caption": "Archive · scratchpad\n\nImage conservée dans archives de session claude · stalingrad : « panneau bas ». Sa portée doit être relue dans le document associé.\n\nProvenance : Source d’origine inconnue ; fichier conservé dans le projet.\nFichier : 10 oct. 2026, 00:45\nDate du fichier ; ne prouve ni la date d’acquisition ni la version actuelle du modèle."
+  },
+  "filter": {
+    "filter": "Aperçu daté",
+    "count": "34 sur 34 images",
+    "cards": 34
+  },
+  "more": {
+    "cards": 96,
+    "count": "96 sur 9129 images"
+  }
+}

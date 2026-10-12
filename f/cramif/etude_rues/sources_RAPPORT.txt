@@ -1,0 +1,55 @@
+ÉTUDE DES RUES AUTOUR DE LA CRAMIF — 10 octobre 2026
+
+Aucun modèle modifié. Sources du projet lues uniquement ; résultats et copies publiques ciblées enregistrés dans ce dossier.
+Périmètre : boîte CRAMIF x=4..121 m, y=94..234 m, augmentée de 250 m avec coins arrondis. Repère local : x=E(L93)−653700, y=N−6865100, z=IGN69.
+
+Rue                 Tronçons  Axes cumulés  Stations  Z min–max     Arbres proches / adresse exacte  Primitives PVP
+Flandre              8        1001,6 m      1006      48,87–52,35   190 / 185                        882
+Tanger               6         528,5 m       531      48,56–51,41    24 / 13                        1452
+Maroc                5         307,6 m       311      48,51–50,36     8 / 0                          334
+Département          3         182,0 m       184      50,10–50,84     8 / 0                          210
+
+Les deux chaussées de Flandre sont comptées séparément : 1001,6 m ne signifie pas 1 km de rue dans le périmètre. Les 2032 stations ne montrent aucun saut supérieur à 30 cm par mètre sur les axes. Ce contrôle ne couvre pas les pieds des façades, les cours anglaises ni les niveaux superposés.
+
+Méthode et limites
+
+Les noms exacts et n_sq_vo du filaire municipal ont été joints aux tronçons municipaux, puis découpés au périmètre. Les homonymes Place, Impasse et Passage n'ont pas été confondus avec les quatre rues. Ces axes restent schématiques.
+
+Chaque profil échantillonne le sol solide tous les mètres par interpolation barycentrique de la surface haute : statut ESTIME. Le contrôle utilise 2 398 712 points LiDAR classe 2 dans le périmètre. À chaque station, on prend la médiane des points à moins de 1 m en plan et dans la couche à ±50 cm de la surface. Le 95e percentile des écarts absolus est de 4,0 à 4,6 cm selon la rue. Cette cohérence conditionnelle ne constitue pas une précision globale. Elle ne valide pas la géométrie d'une rampe sous une dalle ni les deux niveaux à la fois.
+
+Les largeurs sont tirées des contours PVP par sections perpendiculaires tous les 5 m, hors 12 m aux extrémités. Seul le morceau de chaussée contenant l'axe est retenu : statut SOURCE_DOCUMENTAIRE. Sections courantes de Flandre : environ 8,94–8,98 m par chaussée. Les petits tronçons près de Stalingrad atteignent 32–34 m, car ils traversent le carrefour. Tanger contre la CRAMIF, TV_750598771 : médiane 14,54 m ; Maroc contre la CRAMIF, TV_750598734 : 11,93 m ; Département, TV_750598983 : 7,76 m. Les distributions et coordonnées figurent dans audit_rues.json.
+
+Les arbres et le mobilier sont associés à la rue la plus proche parmi ces quatre, à moins de 25 m : association ESTIME. Seuls 185 arbres d'alignement ont exactement l'adresse Avenue de Flandre et 13 l'adresse Rue de Tanger. Les huit arbres proches de Maroc et les huit proches de Département portent d'autres adresses ou appartiennent à des jardins. Zéro à l'adresse exacte ne signifie donc pas absence d'arbres. L'inventaire municipal est partiel ; il peut omettre les plantes privées de la CRAMIF. Les 230 arbres proches possèdent un candidat dans le modèle à moins de 3 m, sans certification automatique de cette correspondance.
+
+Le mobilier comporte 2878 primitives PVP, et non 2878 objets physiques. Les groupes graphiques joints à 3 cm servent à préparer les fiches de relevé. Les dimensions d'un symbole ne certifient ni la forme ni la taille du mobilier réel.
+
+Dates et changements attestés
+
+Les captures 23.11.15 et 23.11.59 indiquent respectivement 16 Avenue de Flandre et 1 Rue du Maroc, avec une image d'octobre 2025. La capture 23.11.37 n'affiche pas de date d'acquisition. Son copyright 2026 ne permet pas de dater l'image.
+
+La tour de cette dernière capture se situe très probablement au 27–31 Avenue de Flandre. Le site officiel de la Grande Pharmacie de Stalingrad donne cette adresse. Le géocode IGN/BAN situe le 27 au point local (141,31 ; 194,45), score 0,983. L'empreinte APUR candidate 750113299, OBJECTID 54117, indique une construction en 1996, une hauteur médiane de 36,20 m et maximale de 39,44 m : SOURCE_DOCUMENTAIRE. Le 108 Flandre correspond à un autre établissement/siège de l'enseigne Espace Fleurs et ne doit pas être retenu pour cette tour. L'attribution photographique reste une inférence fortement étayée.
+
+L'arrêté municipal 2026 T 15510 atteste une emprise de réhabilitation au 1–3 rue du Maroc, prévue du 2 juin au 30 septembre 2026. Il prévoit notamment une fermeture de circulation le 15 juin et des adaptations temporaires du stationnement. La fin des travaux au 10 octobre n'est pas démontrée. La photographie d'octobre 2025 représente donc un état antérieur.
+Source : https://bovp.apps.paris.fr/index.php?id=50762&lvl=notice_display
+
+Le projet de rénovation des écoles 15–17 Tanger est lauréat du Budget participatif 2025 : rénovation intérieure, énergie et jardin pédagogique. L'indexation de la page officielle indique une phase de réalisation démarrée en mars 2026 ; le HTML conservé ne fournit pas directement cette phase. Aucun plan extérieur réalisé n'est attesté ici.
+Source : https://mairie19.paris.fr/pages/budget-participatif-2025-les-resultats-32698
+
+La reprise de chaussée d'Aubervilliers 21–31, les 26–27 août 2025, a entraîné des restrictions sur Maroc et vers Département. Elles ne décrivent pas un nouvel état permanent de ces quatre rues. La lettre municipale de février 2025 annonce également une rue aux écoles devant l'école de Maroc : projet annoncé, réalisation non confirmée par cette pièce.
+Sources : travaux_aubervilliers_2025.pdf et lettre_EVQ_stalingrad_2025.pdf.
+
+Traitement des données : PVP mobilier 12/14 septembre 2026 ; tronçons 5 octobre 2026 ; arbres 9 octobre 2026. Ces dates ne sont pas celles des relevés terrain. Le LiDAR du projet date de mars 2023. Ces sources ne représentent pas un même instant.
+
+Fichiers exploitables
+
+audit_rues.json : quantités par rue et segment, largeurs, IDs, limites.
+segments_local.geojson et plan_segments.png : 22 tronçons localisés.
+profils_rues.json : 2032 stations, altitude et contrôle LiDAR.
+arbres_associes_local.geojson : genre, espèce, hauteur documentaire, adresse et candidat du modèle.
+mobilier_primitives_associees_local.geojson : primitives, IDs et association géographique.
+mobilier_groupes_symboles_local.geojson : regroupements graphiques, type physique non résolu.
+matrice_faits_preuves.json : 16 faits, preuves, incertitudes et actions.
+stations_captures.json : 9 stations proposées pour compléter Tanger et Département, les retours de la tour et l'état de Maroc en 2026. Position et hauteur de caméra de 1,65 m : CONVENTION, pas relevé.
+manifest.json : URLs, empreintes et date de collecte des pièces publiques conservées.
+
+Ces données servent à préparer des relevés ciblés. Aucune correction géométrique ne doit être appliquée directement à partir des seuls comptages, symboles ou annonces de travaux.

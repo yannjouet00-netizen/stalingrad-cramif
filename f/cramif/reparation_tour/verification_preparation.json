@@ -1,0 +1,283 @@
+{
+  "n_replaced": 23,
+  "n_meshes": 46,
+  "triangles": 22912,
+  "checks": [
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505966",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.2052560292232386
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505966",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.02369494018750265
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506355",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.2052560292232386
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506355",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.02369494018750265
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505965",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.2052560292232386
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505965",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.02369494018750265
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505964",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.2052560292232386
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505964",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.02369494018750265
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505963",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.2052560292232386
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505963",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.023694940187504863
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505904",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.205256029223286
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505904",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.023694940187504683
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505962",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.205256029223286
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505962",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.023694940187504683
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506356",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.205256029223286
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506356",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.023694940187504683
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505961",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.205256029223286
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505961",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.023694940187504683
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505960",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.205256029223286
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505960",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.023694940187504683
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505959",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.205256029223286
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505959",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.023694940187504683
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505958",
+      "triangles": 12,
+      "closed": true,
+      "volume_m3": 1.205256029223286
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505958",
+      "triangles": 588,
+      "closed": true,
+      "volume_m3": 0.023694940187504683
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506366",
+      "triangles": 16,
+      "closed": true,
+      "volume_m3": 7.798964243129164
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506366",
+      "triangles": 1560,
+      "closed": true,
+      "volume_m3": 0.06317973501019303
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506360",
+      "triangles": 24,
+      "closed": true,
+      "volume_m3": 7.241025037616352
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506360",
+      "triangles": 1644,
+      "closed": true,
+      "volume_m3": 0.06735547323685227
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506361",
+      "triangles": 16,
+      "closed": true,
+      "volume_m3": 6.394969238669185
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506361",
+      "triangles": 1512,
+      "closed": true,
+      "volume_m3": 0.06162556557577768
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506362",
+      "triangles": 16,
+      "closed": true,
+      "volume_m3": 5.675917364549181
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506362",
+      "triangles": 1464,
+      "closed": true,
+      "volume_m3": 0.05944175152025664
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506363",
+      "triangles": 16,
+      "closed": true,
+      "volume_m3": 4.9243433755491735
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506363",
+      "triangles": 1440,
+      "closed": true,
+      "volume_m3": 0.05848430023931307
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506364",
+      "triangles": 16,
+      "closed": true,
+      "volume_m3": 4.221032317109338
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506364",
+      "triangles": 1404,
+      "closed": true,
+      "volume_m3": 0.05743268321015277
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506365",
+      "triangles": 16,
+      "closed": true,
+      "volume_m3": 3.494188157849342
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506365",
+      "triangles": 1368,
+      "closed": true,
+      "volume_m3": 0.055442230670832815
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506358",
+      "triangles": 16,
+      "closed": true,
+      "volume_m3": 2.758668181289301
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506358",
+      "triangles": 1332,
+      "closed": true,
+      "volume_m3": 0.05432117246553292
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506359",
+      "triangles": 16,
+      "closed": true,
+      "volume_m3": 2.069535895289277
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506359",
+      "triangles": 1308,
+      "closed": true,
+      "volume_m3": 0.05344474914484883
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506369",
+      "triangles": 16,
+      "closed": true,
+      "volume_m3": 1.3561765190092312
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506369",
+      "triangles": 1260,
+      "closed": true,
+      "volume_m3": 0.05127662238888832
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506368",
+      "triangles": 16,
+      "closed": true,
+      "volume_m3": 0.6112011344997005
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506368",
+      "triangles": 1236,
+      "closed": true,
+      "volume_m3": 0.05033203009125589
+    }
+  ]
+}

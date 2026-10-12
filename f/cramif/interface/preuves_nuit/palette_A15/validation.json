@@ -1,0 +1,1491 @@
+{
+  "date_utc": "2026-10-11T05:56:37Z",
+  "native_A14_sha256": "b5d4542a8bd8b4caee5fa171cf048e374c1a13e9fdcd675ea64976be9371d2ee",
+  "native_A15_sha256": "723de37962771133003e9a772394b3009a8f2f807d85eeae2e45011865eb41f8",
+  "cache_sha256": "8766e13cd81ce1e0f518221d01287f8178fe9286015129871cbc9df8699b2614",
+  "api_A15_sha256": "6da48a9d1124244fa2cfb8c06268f21f08b55115bf951b7797fd2d45cac1b865",
+  "native_materials_A14_A15_identical": true,
+  "native_bay_geometry_A14_A15_exact": true,
+  "bay_triangles": 324,
+  "glass_k10": 36,
+  "frames_k6": 288,
+  "bay_positions_native_cache_API_exact": true,
+  "full_API_positions_A14_A15_exact": true,
+  "full_API_normals_A14_A15_exact": true,
+  "outside_bays_triangles": 295215,
+  "outside_categories_A14_A15_exact": true,
+  "outside_RGB_A14_A15_exact": true,
+  "old_categories_source": "Recovered unambiguously from saved actual A14 API RGB using its unique 12-category palette, not an old NPZ snapshot.",
+  "hashes_unchanged_after": true,
+  "no_save": true,
+  "material_comparison_scope": "Both bay material slots: names, diffuse RGBA, metallic, roughness, node types/default inputs and links, supported surface flags; triangle material assignments and geometry.",
+  "objects": {
+    "VLAU_STAL_VOLUMES_TOUR_BAIE_HAUTE": {
+      "materials": [
+        {
+          "name": "BAIES_ESTIMEES_VITRAGE",
+          "diffuse_color": [
+            0.17000000178813934,
+            0.2800000011920929,
+            0.3400000035762787,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4000000059604645,
+          "use_nodes": true,
+          "surface_render_method": "DITHERED",
+          "use_transparent_shadow": true,
+          "use_backface_culling": false,
+          "use_transparency_overlap": true,
+          "displacement_method": "BUMP",
+          "nodes": [
+            {
+              "name": "BSDF guidée",
+              "type": "ShaderNodeBsdfPrincipled",
+              "inputs": [
+                {
+                  "Base Color": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ]
+                },
+                {
+                  "Metallic": 0.0
+                },
+                {
+                  "Roughness": 0.5
+                },
+                {
+                  "IOR": 1.5
+                },
+                {
+                  "Alpha": 1.0
+                },
+                {
+                  "Thin Wall": false
+                },
+                {
+                  "Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Weight": 0.0
+                },
+                {
+                  "Diffuse Roughness": 0.0
+                },
+                {
+                  "Subsurface Weight": 0.0
+                },
+                {
+                  "Subsurface Radius": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ]
+                },
+                {
+                  "Subsurface Scale": 0.004999999888241291
+                },
+                {
+                  "Subsurface IOR": 1.399999976158142
+                },
+                {
+                  "Subsurface Anisotropy": 0.0
+                },
+                {
+                  "Specular IOR Level": 0.5
+                },
+                {
+                  "Specular Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Anisotropic": 0.0
+                },
+                {
+                  "Anisotropic Rotation": 0.0
+                },
+                {
+                  "Tangent": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Transmission Weight": 0.0
+                },
+                {
+                  "Coat Weight": 0.0
+                },
+                {
+                  "Coat Roughness": 0.029999999329447746
+                },
+                {
+                  "Coat IOR": 1.5
+                },
+                {
+                  "Coat Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Coat Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Sheen Weight": 0.0
+                },
+                {
+                  "Sheen Roughness": 0.5
+                },
+                {
+                  "Sheen Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Strength": 0.0
+                },
+                {
+                  "Thin Film Thickness": 0.0
+                },
+                {
+                  "Thin Film IOR": 1.3300000429153442
+                }
+              ]
+            },
+            {
+              "name": "Sortie matériau",
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": [
+                {
+                  "Displacement": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Thickness": 0.0
+                }
+              ]
+            }
+          ],
+          "links": [
+            [
+              "BSDF guidée",
+              "BSDF",
+              "Sortie matériau",
+              "Surface"
+            ]
+          ]
+        },
+        {
+          "name": "BAIES_ESTIMEES_MENUISERIE",
+          "diffuse_color": [
+            0.04500000178813934,
+            0.054999999701976776,
+            0.05999999865889549,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4000000059604645,
+          "use_nodes": true,
+          "surface_render_method": "DITHERED",
+          "use_transparent_shadow": true,
+          "use_backface_culling": false,
+          "use_transparency_overlap": true,
+          "displacement_method": "BUMP",
+          "nodes": [
+            {
+              "name": "BSDF guidée",
+              "type": "ShaderNodeBsdfPrincipled",
+              "inputs": [
+                {
+                  "Base Color": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ]
+                },
+                {
+                  "Metallic": 0.0
+                },
+                {
+                  "Roughness": 0.5
+                },
+                {
+                  "IOR": 1.5
+                },
+                {
+                  "Alpha": 1.0
+                },
+                {
+                  "Thin Wall": false
+                },
+                {
+                  "Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Weight": 0.0
+                },
+                {
+                  "Diffuse Roughness": 0.0
+                },
+                {
+                  "Subsurface Weight": 0.0
+                },
+                {
+                  "Subsurface Radius": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ]
+                },
+                {
+                  "Subsurface Scale": 0.004999999888241291
+                },
+                {
+                  "Subsurface IOR": 1.399999976158142
+                },
+                {
+                  "Subsurface Anisotropy": 0.0
+                },
+                {
+                  "Specular IOR Level": 0.5
+                },
+                {
+                  "Specular Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Anisotropic": 0.0
+                },
+                {
+                  "Anisotropic Rotation": 0.0
+                },
+                {
+                  "Tangent": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Transmission Weight": 0.0
+                },
+                {
+                  "Coat Weight": 0.0
+                },
+                {
+                  "Coat Roughness": 0.029999999329447746
+                },
+                {
+                  "Coat IOR": 1.5
+                },
+                {
+                  "Coat Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Coat Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Sheen Weight": 0.0
+                },
+                {
+                  "Sheen Roughness": 0.5
+                },
+                {
+                  "Sheen Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Strength": 0.0
+                },
+                {
+                  "Thin Film Thickness": 0.0
+                },
+                {
+                  "Thin Film IOR": 1.3300000429153442
+                }
+              ]
+            },
+            {
+              "name": "Sortie matériau",
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": [
+                {
+                  "Displacement": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Thickness": 0.0
+                }
+              ]
+            }
+          ],
+          "links": [
+            [
+              "BSDF guidée",
+              "BSDF",
+              "Sortie matériau",
+              "Surface"
+            ]
+          ]
+        }
+      ],
+      "looptriangle_material_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "triangles_sha256": "f17609e8fc9bf864e3e10520b00ad840d9777593b790a78af1904032cd83470f",
+      "mission": "CRAMIF_TOUR_BAIES_PHOTO_ESTIMEES",
+      "object_mesh_name": "VLAU_STAL_VOLUMES_TOUR_BAIE_HAUTE"
+    },
+    "VLAU_STAL_VOLUMES_TOUR_BAIE_SECONDE": {
+      "materials": [
+        {
+          "name": "BAIES_ESTIMEES_VITRAGE",
+          "diffuse_color": [
+            0.17000000178813934,
+            0.2800000011920929,
+            0.3400000035762787,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4000000059604645,
+          "use_nodes": true,
+          "surface_render_method": "DITHERED",
+          "use_transparent_shadow": true,
+          "use_backface_culling": false,
+          "use_transparency_overlap": true,
+          "displacement_method": "BUMP",
+          "nodes": [
+            {
+              "name": "BSDF guidée",
+              "type": "ShaderNodeBsdfPrincipled",
+              "inputs": [
+                {
+                  "Base Color": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ]
+                },
+                {
+                  "Metallic": 0.0
+                },
+                {
+                  "Roughness": 0.5
+                },
+                {
+                  "IOR": 1.5
+                },
+                {
+                  "Alpha": 1.0
+                },
+                {
+                  "Thin Wall": false
+                },
+                {
+                  "Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Weight": 0.0
+                },
+                {
+                  "Diffuse Roughness": 0.0
+                },
+                {
+                  "Subsurface Weight": 0.0
+                },
+                {
+                  "Subsurface Radius": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ]
+                },
+                {
+                  "Subsurface Scale": 0.004999999888241291
+                },
+                {
+                  "Subsurface IOR": 1.399999976158142
+                },
+                {
+                  "Subsurface Anisotropy": 0.0
+                },
+                {
+                  "Specular IOR Level": 0.5
+                },
+                {
+                  "Specular Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Anisotropic": 0.0
+                },
+                {
+                  "Anisotropic Rotation": 0.0
+                },
+                {
+                  "Tangent": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Transmission Weight": 0.0
+                },
+                {
+                  "Coat Weight": 0.0
+                },
+                {
+                  "Coat Roughness": 0.029999999329447746
+                },
+                {
+                  "Coat IOR": 1.5
+                },
+                {
+                  "Coat Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Coat Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Sheen Weight": 0.0
+                },
+                {
+                  "Sheen Roughness": 0.5
+                },
+                {
+                  "Sheen Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Strength": 0.0
+                },
+                {
+                  "Thin Film Thickness": 0.0
+                },
+                {
+                  "Thin Film IOR": 1.3300000429153442
+                }
+              ]
+            },
+            {
+              "name": "Sortie matériau",
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": [
+                {
+                  "Displacement": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Thickness": 0.0
+                }
+              ]
+            }
+          ],
+          "links": [
+            [
+              "BSDF guidée",
+              "BSDF",
+              "Sortie matériau",
+              "Surface"
+            ]
+          ]
+        },
+        {
+          "name": "BAIES_ESTIMEES_MENUISERIE",
+          "diffuse_color": [
+            0.04500000178813934,
+            0.054999999701976776,
+            0.05999999865889549,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4000000059604645,
+          "use_nodes": true,
+          "surface_render_method": "DITHERED",
+          "use_transparent_shadow": true,
+          "use_backface_culling": false,
+          "use_transparency_overlap": true,
+          "displacement_method": "BUMP",
+          "nodes": [
+            {
+              "name": "BSDF guidée",
+              "type": "ShaderNodeBsdfPrincipled",
+              "inputs": [
+                {
+                  "Base Color": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ]
+                },
+                {
+                  "Metallic": 0.0
+                },
+                {
+                  "Roughness": 0.5
+                },
+                {
+                  "IOR": 1.5
+                },
+                {
+                  "Alpha": 1.0
+                },
+                {
+                  "Thin Wall": false
+                },
+                {
+                  "Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Weight": 0.0
+                },
+                {
+                  "Diffuse Roughness": 0.0
+                },
+                {
+                  "Subsurface Weight": 0.0
+                },
+                {
+                  "Subsurface Radius": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ]
+                },
+                {
+                  "Subsurface Scale": 0.004999999888241291
+                },
+                {
+                  "Subsurface IOR": 1.399999976158142
+                },
+                {
+                  "Subsurface Anisotropy": 0.0
+                },
+                {
+                  "Specular IOR Level": 0.5
+                },
+                {
+                  "Specular Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Anisotropic": 0.0
+                },
+                {
+                  "Anisotropic Rotation": 0.0
+                },
+                {
+                  "Tangent": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Transmission Weight": 0.0
+                },
+                {
+                  "Coat Weight": 0.0
+                },
+                {
+                  "Coat Roughness": 0.029999999329447746
+                },
+                {
+                  "Coat IOR": 1.5
+                },
+                {
+                  "Coat Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Coat Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Sheen Weight": 0.0
+                },
+                {
+                  "Sheen Roughness": 0.5
+                },
+                {
+                  "Sheen Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Strength": 0.0
+                },
+                {
+                  "Thin Film Thickness": 0.0
+                },
+                {
+                  "Thin Film IOR": 1.3300000429153442
+                }
+              ]
+            },
+            {
+              "name": "Sortie matériau",
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": [
+                {
+                  "Displacement": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Thickness": 0.0
+                }
+              ]
+            }
+          ],
+          "links": [
+            [
+              "BSDF guidée",
+              "BSDF",
+              "Sortie matériau",
+              "Surface"
+            ]
+          ]
+        }
+      ],
+      "looptriangle_material_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "triangles_sha256": "1a6be95f4950d1f82621b157098689167012d56414348d831da921275899a90e",
+      "mission": "CRAMIF_TOUR_BAIES_PHOTO_ESTIMEES",
+      "object_mesh_name": "VLAU_STAL_VOLUMES_TOUR_BAIE_SECONDE"
+    },
+    "VLAU_STAL_VOLUMES_TOUR_RETOUR_VITRE_SUPERIEUR": {
+      "materials": [
+        {
+          "name": "BAIES_ESTIMEES_VITRAGE",
+          "diffuse_color": [
+            0.17000000178813934,
+            0.2800000011920929,
+            0.3400000035762787,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4000000059604645,
+          "use_nodes": true,
+          "surface_render_method": "DITHERED",
+          "use_transparent_shadow": true,
+          "use_backface_culling": false,
+          "use_transparency_overlap": true,
+          "displacement_method": "BUMP",
+          "nodes": [
+            {
+              "name": "BSDF guidée",
+              "type": "ShaderNodeBsdfPrincipled",
+              "inputs": [
+                {
+                  "Base Color": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ]
+                },
+                {
+                  "Metallic": 0.0
+                },
+                {
+                  "Roughness": 0.5
+                },
+                {
+                  "IOR": 1.5
+                },
+                {
+                  "Alpha": 1.0
+                },
+                {
+                  "Thin Wall": false
+                },
+                {
+                  "Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Weight": 0.0
+                },
+                {
+                  "Diffuse Roughness": 0.0
+                },
+                {
+                  "Subsurface Weight": 0.0
+                },
+                {
+                  "Subsurface Radius": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ]
+                },
+                {
+                  "Subsurface Scale": 0.004999999888241291
+                },
+                {
+                  "Subsurface IOR": 1.399999976158142
+                },
+                {
+                  "Subsurface Anisotropy": 0.0
+                },
+                {
+                  "Specular IOR Level": 0.5
+                },
+                {
+                  "Specular Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Anisotropic": 0.0
+                },
+                {
+                  "Anisotropic Rotation": 0.0
+                },
+                {
+                  "Tangent": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Transmission Weight": 0.0
+                },
+                {
+                  "Coat Weight": 0.0
+                },
+                {
+                  "Coat Roughness": 0.029999999329447746
+                },
+                {
+                  "Coat IOR": 1.5
+                },
+                {
+                  "Coat Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Coat Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Sheen Weight": 0.0
+                },
+                {
+                  "Sheen Roughness": 0.5
+                },
+                {
+                  "Sheen Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Strength": 0.0
+                },
+                {
+                  "Thin Film Thickness": 0.0
+                },
+                {
+                  "Thin Film IOR": 1.3300000429153442
+                }
+              ]
+            },
+            {
+              "name": "Sortie matériau",
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": [
+                {
+                  "Displacement": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Thickness": 0.0
+                }
+              ]
+            }
+          ],
+          "links": [
+            [
+              "BSDF guidée",
+              "BSDF",
+              "Sortie matériau",
+              "Surface"
+            ]
+          ]
+        },
+        {
+          "name": "BAIES_ESTIMEES_MENUISERIE",
+          "diffuse_color": [
+            0.04500000178813934,
+            0.054999999701976776,
+            0.05999999865889549,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4000000059604645,
+          "use_nodes": true,
+          "surface_render_method": "DITHERED",
+          "use_transparent_shadow": true,
+          "use_backface_culling": false,
+          "use_transparency_overlap": true,
+          "displacement_method": "BUMP",
+          "nodes": [
+            {
+              "name": "BSDF guidée",
+              "type": "ShaderNodeBsdfPrincipled",
+              "inputs": [
+                {
+                  "Base Color": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ]
+                },
+                {
+                  "Metallic": 0.0
+                },
+                {
+                  "Roughness": 0.5
+                },
+                {
+                  "IOR": 1.5
+                },
+                {
+                  "Alpha": 1.0
+                },
+                {
+                  "Thin Wall": false
+                },
+                {
+                  "Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Weight": 0.0
+                },
+                {
+                  "Diffuse Roughness": 0.0
+                },
+                {
+                  "Subsurface Weight": 0.0
+                },
+                {
+                  "Subsurface Radius": [
+                    1.0,
+                    0.20000000298023224,
+                    0.10000000149011612
+                  ]
+                },
+                {
+                  "Subsurface Scale": 0.004999999888241291
+                },
+                {
+                  "Subsurface IOR": 1.399999976158142
+                },
+                {
+                  "Subsurface Anisotropy": 0.0
+                },
+                {
+                  "Specular IOR Level": 0.5
+                },
+                {
+                  "Specular Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Anisotropic": 0.0
+                },
+                {
+                  "Anisotropic Rotation": 0.0
+                },
+                {
+                  "Tangent": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Transmission Weight": 0.0
+                },
+                {
+                  "Coat Weight": 0.0
+                },
+                {
+                  "Coat Roughness": 0.029999999329447746
+                },
+                {
+                  "Coat IOR": 1.5
+                },
+                {
+                  "Coat Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Coat Normal": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Sheen Weight": 0.0
+                },
+                {
+                  "Sheen Roughness": 0.5
+                },
+                {
+                  "Sheen Tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                },
+                {
+                  "Emission Strength": 0.0
+                },
+                {
+                  "Thin Film Thickness": 0.0
+                },
+                {
+                  "Thin Film IOR": 1.3300000429153442
+                }
+              ]
+            },
+            {
+              "name": "Sortie matériau",
+              "type": "ShaderNodeOutputMaterial",
+              "inputs": [
+                {
+                  "Displacement": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "Thickness": 0.0
+                }
+              ]
+            }
+          ],
+          "links": [
+            [
+              "BSDF guidée",
+              "BSDF",
+              "Sortie matériau",
+              "Surface"
+            ]
+          ]
+        }
+      ],
+      "looptriangle_material_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "triangles_sha256": "9143d1ac8a247232e7a51d43ffc17eab75680acacd917762290c02f90d41f982",
+      "mission": "CRAMIF_TOUR_BAIES_PHOTO_ESTIMEES",
+      "object_mesh_name": "VLAU_STAL_VOLUMES_TOUR_RETOUR_VITRE_SUPERIEUR"
+    }
+  }
+}

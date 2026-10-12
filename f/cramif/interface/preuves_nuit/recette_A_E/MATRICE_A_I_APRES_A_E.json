@@ -1,0 +1,131 @@
+[
+  {
+    "id": "A",
+    "demande": "Navigation et panneaux",
+    "etat": "Livré ; succession des trois panneaux réellement contrôlée à 1440 et 390 px",
+    "changements": "Anciennes entrées vers /pro, vues simplifiées, Rotonde et Conception, filtres en boutons ; bandeau commun. Panneaux exclusifs dans le code.",
+    "preuves": [
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_pro_mobile_reel.png",
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_lumiere_desktop.png"
+    ],
+    "limites": "Six ouvertures successives passent : un panneau visible et intégralement dans la fenêtre, zéro débordement. Émulation de viewport mobile ; pas de Safari ni gestes tactiles.",
+    "preuves_complementaires": [
+      "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_A_E/RAPPORT.txt",
+      "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_A_E/resultats.json",
+      "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_A_E/panneau_panneau_1440.png",
+      "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_A_E/panneau_galerie_390.png"
+    ]
+  },
+  {
+    "id": "B",
+    "demande": "Chantier, progression et agents",
+    "etat": "Livré ; contrôles réels et déterministes",
+    "changements": "Comptages réels, états done reconnus, aucune extrapolation des jalons. Attribution tokens coordination/historique séparée ; agents périmés distingués du vrai zéro. Cartouche titre14px et valeur11px.",
+    "preuves": [
+      "documentation/v3/cramif/interface/preuves_nuit/hierarchie_Pro/RAPPORT.txt",
+      "documentation/v3/cramif/interface/preuves_nuit/hierarchie_Pro/pro_1440.png",
+      "documentation/v3/cramif/interface/preuves_nuit/hierarchie_Pro/pro_390.png",
+      "documentation/v3/cramif/interface/preuves_nuit/fraicheur_agents/validation.json"
+    ],
+    "limites": "Rendu du compteur Interface contrôlé dans Chrome aux deux tailles ; fraîcheur et états limites vérifiés par fixtures. Les tokens ne couvrent pas tous les sous-agents. Aucun suivi natif continu annoncé.",
+    "preuves_complementaires": []
+  },
+  {
+    "id": "C",
+    "demande": "Caméras et arrivée",
+    "etat": "Livré ; principales vues observées",
+    "changements": "Cour aérienne conservée. Rotonde élargit au besoin le périmètre, Bassin contient son sujet, Plan cadré. Trajectoires aériennes présentes.",
+    "preuves": [
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_cour_desktop_verifie.png",
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_rotonde_corrigee.png",
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_bassin_corrige.png",
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_plan_final.png",
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/vues/validation.json"
+    ],
+    "limites": "La conformité Cour/Rotonde/Bassin/Plan a été observée. Les arrivées Flandre/Maroc/CRAMIF ont des rendus natifs conservés, sans recette de toutes les transitions ni de chaque arrivée tactile/mobile.",
+    "preuves_complementaires": []
+  },
+  {
+    "id": "D",
+    "demande": "Périmètres et faces de coupe",
+    "etat": "Corrigé ; tests géométriques et vues ciblées",
+    "changements": "Clipping rectangulaire commun ; caps des volumes auxiliaires fermés, surfaces ouvertes non refermées arbitrairement. Doublons Éole/ballast retirés du bâti. Repères limités à l’intersection du périmètre.",
+    "preuves": [
+      "documentation/v3/cramif/interface/preuves_nuit/coupes_chargeur_apres.json",
+      "documentation/v3/cramif/interface/preuves_nuit/verification_export_corrige.json",
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_perimetre_proche_final.png",
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_perimetre_quartier_final.png"
+    ],
+    "limites": "Huit plans bâtiment sans graphe ouvert au contrôle ; dix contours ballast fermés. Cela ne certifie pas toutes les coutures sous tous les angles, ni la fermeture de surfaces sources volontairement ouvertes.",
+    "preuves_complementaires": []
+  },
+  {
+    "id": "E",
+    "demande": "Réglages et couches",
+    "etat": "Livré ; qualité, soleil et neuf groupes actifs réellement contrôlés",
+    "changements": "Libellés usuels, historiques séparés, confort et lumière, analyse secondaire. Couches nouvelles branchées sur chargement/toggle/clipping.",
+    "preuves": [
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_lumiere_desktop.png",
+      "documentation/v3/cramif/interface/preuves_nuit/API_A17.json"
+    ],
+    "limites": "Ombres et chemin de rendu instrumentés, directions solaires mesurées, neuf groupes off/on contrôlés avec visibilité héritée. Couches historiques non actives et outils secondaires non rejoués ; aucune recette Safari/tactile ou performance GPU physique.",
+    "preuves_complementaires": [
+      "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_A_E/RAPPORT.txt",
+      "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_A_E/resultats.json",
+      "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_A_E/validation.json",
+      "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_A_E/lumiere_65_240.png"
+    ]
+  },
+  {
+    "id": "F",
+    "demande": "Carnet, rues et images",
+    "etat": "Livré ; contenu et galerie réellement testés",
+    "changements": "Identité commune, notices métier prioritaires, fichiers techniques optionnels. Galerie historique durable ; provenance/date/explication séparées. 947 archives récupérées, 33 copies documentées par SHA.",
+    "preuves": [
+      "documentation/v3/cramif/interface/preuves_nuit/galerie_recette/RAPPORT.txt",
+      "documentation/v3/cramif/interface/preuves_nuit/galerie_recette/historique_original.png",
+      "documentation/v3/cramif/interface/preuves_nuit/archives_Claude/publication_durable.json",
+      "documentation/v3/cramif/interface/preuves_nuit/provenance_copies/verification.json",
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_carnet_final.png"
+    ],
+    "limites": "48/9129, recherche, filtre, pagination96 et original contrôlés dans Chrome ; pas de certification individuelle des9129 images. Lecture mobile de chaque document/Étude des rues non entièrement recettée. Provenances inconnues conservées.",
+    "preuves_complementaires": []
+  },
+  {
+    "id": "G",
+    "demande": "Introduction",
+    "etat": "Corrigé ; rendu réel et tests de chargement",
+    "changements": "Fond clair continu, disparition du rectangle confirmée. Cession hors écran/rAF de repli, passage/clavier, réduit-motion, chargement et réessai protégés.",
+    "preuves": [
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_intro_corrigee.png",
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    ],
+    "limites": "Capture réelle confirme le fond et la sortie observée par coordination. Le caractère fluide du mouvement ne se certifie pas sur image fixe. Erreur/retry/reduced-motion testés en fixtures ; Safari et réseau dégradé réel restent non certifiés.",
+    "preuves_complementaires": []
+  },
+  {
+    "id": "H",
+    "demande": "Repères de modélisation",
+    "etat": "Corrigé ; apparence et clipping observés",
+    "changements": "Repères compacts, symboleⅡ retiré des repères ; activité réelle/fraîcheur distinguée de l’attente. Contours et ancres arrêtés au périmètre.",
+    "preuves": [
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_perimetre_quartier_final.png",
+      "documentation/v3/cramif/interface/preuves_nuit/hierarchie_Pro/pro_390.png"
+    ],
+    "limites": "Lisibilité aux vues capturées ; aucun engagement d’absence de collision dans toutes les vues. Le symbole de pause conservé dans certains badges d’attente est distinct des repères demandés.",
+    "preuves_complementaires": []
+  },
+  {
+    "id": "I",
+    "demande": "Brain 3D",
+    "etat": "Livré ; neuf interactions réelles réussies",
+    "changements": "Orbite WebGL, pause, zoom bouton, recentrage exact après correction d’inertie, recherche sans accent, Entrée/Échap et détail. Noyau clair, mobile compact ; liens de regroupement non causaux.",
+    "preuves": [
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt",
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/CONTROLES.json",
+      "documentation/v3/cramif/interface/preuves_nuit/recette_headless/stalingrad_brain_mobile_verifie.png"
+    ],
+    "limites": "Orbite démontrée avec animation arrêtée, capture avant/après et caméra contrôlée. Mobile testé en viewport ; gestes tactiles, pincement, molette, Safari et performances GPU physiques non certifiés.",
+    "preuves_complementaires": []
+  }
+]

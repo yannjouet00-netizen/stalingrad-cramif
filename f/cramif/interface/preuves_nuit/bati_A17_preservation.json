@@ -1,0 +1,9 @@
+{
+  "old_positions_exact": true,
+  "old_normals_exact": true,
+  "old_RGB_exact": true,
+  "added_triangles": 64,
+  "old_triangles": 295539,
+  "source_A15_api_sha256": "6da48a9d1124244fa2cfb8c06268f21f08b55115bf951b7797fd2d45cac1b865",
+  "current_A17_api_sha256": "3dc74b750426606db59eae437461675ec4bbb857cdcb6793bdf5bdf90d123720"
+}

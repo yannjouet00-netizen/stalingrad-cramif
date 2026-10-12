@@ -1,0 +1,119 @@
+{
+  "contacts": [
+    {
+      "id": "Flandre_muret_face_muret",
+      "samples": 9837,
+      "missing_support_samples": 0,
+      "max_bottom_above_current_surface_m": -0.01999840823847876,
+      "floating_samples_gt1mm": 0,
+      "minimum_embed_m": 0.01999840823847876,
+      "surface_above_crown_samples": 0,
+      "max_surface_above_crown_m": -0.493846004972589,
+      "highest_overlap_locator": {
+        "excess_m": -0.493846004972589,
+        "xy": [
+          82.0720585700354,
+          121.772652609704
+        ],
+        "terrain_z": 51.02985215860273,
+        "crown_z": 51.52369816357532,
+        "side_offset_m": 0.04000000000000001
+      }
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "samples": 4959,
+      "missing_support_samples": 0,
+      "max_bottom_above_current_surface_m": -0.1598692316318946,
+      "floating_samples_gt1mm": 0,
+      "minimum_embed_m": 0.1598692316318946,
+      "surface_above_crown_samples": 4080,
+      "max_surface_above_crown_m": 0.8900139163992549,
+      "highest_overlap_locator": {
+        "excess_m": 0.8900139163992549,
+        "xy": [
+          122.71026179009345,
+          179.42004895128244
+        ],
+        "terrain_z": 51.3635725140493,
+        "crown_z": 50.47355859765005,
+        "side_offset_m": -0.16
+      }
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "samples": 8937,
+      "missing_support_samples": 0,
+      "max_bottom_above_current_surface_m": -0.01999892105335732,
+      "floating_samples_gt1mm": 0,
+      "minimum_embed_m": 0.01999892105335732,
+      "surface_above_crown_samples": 0,
+      "max_surface_above_crown_m": -0.5789500405882961,
+      "highest_overlap_locator": {
+        "excess_m": -0.5789500405882961,
+        "xy": [
+          100.6474838317784,
+          197.74566059379885
+        ],
+        "terrain_z": 49.644652862427,
+        "crown_z": 50.2236029030153,
+        "side_offset_m": 0.16
+      }
+    },
+    {
+      "id": "Maroc_front_entree_muret",
+      "samples": 1341,
+      "missing_support_samples": 0,
+      "max_bottom_above_current_surface_m": -0.10594156715151826,
+      "floating_samples_gt1mm": 0,
+      "minimum_embed_m": 0.10594156715151826,
+      "surface_above_crown_samples": 0,
+      "max_surface_above_crown_m": -0.549998473046891,
+      "highest_overlap_locator": {
+        "excess_m": -0.549998473046891,
+        "xy": [
+          104.33181213798862,
+          194.66698411221125
+        ],
+        "terrain_z": 49.770615017686055,
+        "crown_z": 50.320613490732946,
+        "side_offset_m": 0.12000000000000002
+      }
+    }
+  ],
+  "web": [
+    {
+      "id": "Flandre_muret_face_muret",
+      "native_triangles": 2188,
+      "missing_exact_float32_triangles_in_served_web": 0
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "native_triangles": 1108,
+      "missing_exact_float32_triangles_in_served_web": 0
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "native_triangles": 1988,
+      "missing_exact_float32_triangles_in_served_web": 0
+    },
+    {
+      "id": "Maroc_front_entree_muret",
+      "native_triangles": 300,
+      "missing_exact_float32_triangles_in_served_web": 0
+    }
+  ],
+  "web_sha256": "3dc74b750426606db59eae437461675ec4bbb857cdcb6793bdf5bdf90d123720",
+  "web_header": {
+    "type": "maillage",
+    "parts": [
+      {
+        "nom": "batiments",
+        "n": 886809,
+        "off": 0
+      }
+    ],
+    "titre": "Bâtiments V3 (recalés)"
+  },
+  "scope": "Current native six terrain parts. Top-envelope support, stations each5cm and9samples across32cm. Shape dimensions remain ESTIME/CONVENTION."
+}

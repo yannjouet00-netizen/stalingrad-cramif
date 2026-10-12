@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-11T06:50:33.253669+00:00",
+  "scope": "Synthèse de livraisons et preuves existantes ; aucun nouveau contrôle géométrique ni import.",
+  "dernier_checkpoint_berge_verifie": {
+    "jalon": "A17 stable / diagnostic A19",
+    "sha256": "443186a6e9f7d7247c78d915ae81c75af548b6a3ff26facf24830f9e389f92d6",
+    "note": "Empreinte du checkpoint effectivement audité ; ne prétend pas identifier un éventuel état plus récent."
+  },
+  "lots": [
+    {
+      "jalon": "A1",
+      "etat": "INTÉGRÉ",
+      "resultat": "19 axes ferroviaires documentés, rails et traverses simplifiés ; 12 chemins Éole drapés. Aucun arbre dupliqué.",
+      "statuts": "XY SOURCE_DOCUMENTAIRE OSM ; retours Z MESURE_LIDAR ; profil Z ESTIME ; sections, traverses et largeurs sans cote CONVENTION.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/nuit_a1/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A2",
+      "etat": "INTÉGRÉ",
+      "resultat": "Prairie sud : remplacement local de terrain, raccords et dix pieds d’arbres préservés.",
+      "statuts": "Retours MESURE_LIDAR ; domaine et plan ESTIME ; teinte CONVENTION.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/prairie_sud_a2/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A3",
+      "etat": "INTÉGRÉ HORS PÉRIMÈTRE ÉOLE",
+      "resultat": "Checkpoint parent : ombrage angle 30° et neuf bandes de marquage écluse. Le ballast brut n’a pas été intégré à ce jalon.",
+      "statuts": "Ne pas confondre le nom du paquet ballast_a3 avec le jalon natif A3.",
+      "rapport": null,
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A4",
+      "etat": "INTÉGRÉ",
+      "resultat": "Assise de ballast continue autour des axes acceptés ; quatre segments initialement différés, sans comblement des ouvrages.",
+      "statuts": "Axes SOURCE_DOCUMENTAIRE ; plateforme ESTIME appuyée au LiDAR ; profil, largeur et couleur CONVENTION.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/ballast_a3/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A5",
+      "etat": "INTÉGRÉ",
+      "resultat": "Correction conservatrice du plateau haut Éole ; niveaux bas et transition conservés, neuf pieds d’arbres préservés.",
+      "statuts": "Classe 2 MESURE_LIDAR ; plan et domaine ESTIME ; teinte CONVENTION, pas nouveau contour de pelouse.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/plateau_haut_a5/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A6",
+      "etat": "INTÉGRÉ HORS PÉRIMÈTRE ÉOLE",
+      "resultat": "Checkpoint parent de correction de cour CRAMIF, conservé lors des lots Éole suivants.",
+      "statuts": "Lot coordonné avec l’agent géométrie ; aucune réévaluation dans cette synthèse.",
+      "rapport": null,
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A7",
+      "etat": "INTÉGRÉ",
+      "resultat": "Accès nord Éole : trois montées lisses et deux paliers, remplacement local sans double surface.",
+      "statuts": "Escalier attesté OSM SOURCE_DOCUMENTAIRE ; profils classe 2 MESURE_LIDAR/ESTIME ; largeur et forme simplifiée CONVENTION. Nombre de marches inconnu.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/acces_paliers_a7/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A8",
+      "etat": "INTÉGRÉ HORS PÉRIMÈTRE ÉOLE",
+      "resultat": "Checkpoint parent du raccord nord-est de cour CRAMIF, préservé ensuite.",
+      "statuts": "Aucune correction Éole attribuée à ce jalon.",
+      "rapport": null,
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A9",
+      "etat": "INTÉGRÉ",
+      "resultat": "Deux houppiers Éole individualisés.",
+      "statuts": "Points historiques MESURE_LIDAR ; segmentation ESTIME ; fermeture convexe et lissage CONVENTION.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/canopies_a9/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A10",
+      "etat": "INTÉGRÉ — MÉTADONNÉES",
+      "resultat": "Correction de provenance des hauteurs de 96 arbres / 192 objets. Aucune hauteur numérique ni géométrie changée.",
+      "statuts": "93 hauteurs déclarées dans l’inventaire Ville ; trois ESTIME sous couvert. Export 2026 distinct de date de relevé.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/hauteurs_sources_a10/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A11",
+      "etat": "INTÉGRÉ",
+      "resultat": "Huit houppiers Éole supplémentaires ; cumul Éole de dix.",
+      "statuts": "Même distinction points / segmentation / représentation que A9.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/canopies_a11/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A12",
+      "etat": "INTÉGRÉ",
+      "resultat": "Quinze houppiers Éole supplémentaires ; cumul Éole de 25. Pieds, troncs et essences conservés.",
+      "statuts": "Enveloppes propres appuyées au nuage historique, aucune extrapolation de croissance.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/canopies_a12/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A13",
+      "etat": "INTÉGRÉ",
+      "resultat": "Dix raccords de rails corrigés par coupes d’onglet, sur support vérifié. Dix-neuf autres raccords restent différés.",
+      "statuts": "Correction locale de la représentation CONVENTION ; axes et Z conservés. Pas d’appareil d’aiguillage exact.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/rails_a13/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A14",
+      "etat": "INTÉGRÉ HORS PÉRIMÈTRE ÉOLE",
+      "resultat": "Checkpoint combiné parent : A13 ferroviaire et trois baies ESTIME de la tour voisine.",
+      "statuts": "La tour est un lot distinct ; aucun gain ferroviaire supplémentaire attribué.",
+      "rapport": null,
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A15",
+      "etat": "INTÉGRÉ",
+      "resultat": "Raccord Z coordonné de deux profils longs vers un nœud commun ; rails, traverses et ballast ajustés ensemble. Deux domaines de support locaux ajoutés.",
+      "statuts": "Contrôle classe 2 MESURE_LIDAR ; continuité reconstruite ESTIME ; transition géométrique CONVENTION.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/raccord_z_a15/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A16",
+      "etat": "DIAGNOSTIC — AUCUN IMPORT",
+      "resultat": "Les deux segments de ballast restants de la voie EPI1 restent différés : relief bas réel, fonction de l’ouvrage inconnue.",
+      "statuts": "Ne pas compléter une assise uniforme à travers ce relief.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/diagnostic_lacunes_a16/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    },
+    {
+      "jalon": "A17",
+      "etat": "INTÉGRÉ",
+      "resultat": "Six houppiers des berges : cinq quai de Valmy, un quai de Jemmapes ; total de 31 houppiers individualisés avec les 25 Éole.",
+      "statuts": "Enveloppes historiques mesurées par points, convexité CONVENTION ; aucune plantation récente ou canopée scindée ambiguë forcée.",
+      "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/canopies_berges_a17/RAPPORT.txt",
+      "preuve_integration": "Confirmation d’intégration / réouverture communiquée par root dans le journal de coordination ; rapport durable du paquet. Cette synthèse ne rouvre pas le natif."
+    }
+  ],
+  "attentes": [
+    {
+      "bloc": "Ballast EPI1 — deux segments restants",
+      "etat": "NON INTÉGRÉ",
+      "limite": "Axe 1334516391, segments 61 et 62 : dépression latérale attestée ; fonction et franchissement non identifiés. Une fondation uniforme masquerait le relief.",
+      "preuve": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/diagnostic_lacunes_a16/RAPPORT.txt",
+      "prochaine_preuve": "Coupe géoréférencée ou plan SNCF de l’ouvrage et de l’assise à cet endroit ; photo oblique localisée pour identifier le mode de franchissement."
+    },
+    {
+      "bloc": "Axes et autres raccords ferroviaires",
+      "etat": "DIFFÉRÉS",
+      "limite": "19 axes initiaux sans profil admissible et 19 stations de raccord A13 sans support complet. Ils ne sont pas équivalents aux deux segments EPI1.",
+      "preuve": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/rails_a13/RAPPORT.txt",
+      "prochaine_preuve": "Données rail / plateforme suffisamment supportées et vérification des contacts le long du domaine complet ; plan de voie coté pour les appareils d’aiguille."
+    },
+    {
+      "bloc": "Portiques et caténaires",
+      "etat": "AUCUN PORTIQUE NOUVEAU",
+      "limite": "Six alignements hauts candidats ; pas de paire complète d’appuis avec implantation et niveaux suffisamment établis. Aucune section réelle cotée.",
+      "preuve": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/diagnostic_suite_a18/RAPPORT.txt",
+      "prochaine_preuve": "Plan d’implantation caténaire ou vues obliques localisées montrant les deux appuis de chaque portique, avec cotes / retours identifiables."
+    },
+    {
+      "bloc": "Parking visé dans les captures",
+      "etat": "NON LOCALISÉ AVEC CERTITUDE",
+      "limite": "Les captures conservées ne relient pas de façon certaine le parking visé à un périmètre XY ; le filtrage OSM ferroviaire ne prouve pas l’absence d’un parking.",
+      "preuve": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/diagnostic_suite_a18/RAPPORT.txt",
+      "prochaine_preuve": "Capture avec repère cartographique, adresse ou point géoréférencé du parking ; ensuite contour et niveau documentés, avant toute place ou baie."
+    },
+    {
+      "bloc": "Berge basse / dessous du couronnement",
+      "etat": "DIAGNOSTIC A19 — AUCUN IMPORT",
+      "limite": "Au point local (80,2 ; −221,9186), rupture réelle entre niveau bas et trottoir haut. Le résidu du plan bas est presque entièrement sous le niveau haut en projection ; facette cassée non démontrée.",
+      "preuve": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/diagnostic_berge_a19/RAPPORT.txt",
+      "prochaine_preuve": "Coupe ou vue oblique géoréférencée du pied du mur et du dessous du couronnement. Préserver le trottoir haut et le niveau d’eau ; aucune dalle ajoutée par supposition."
+    },
+    {
+      "bloc": "Accès Éole, jardins et promenade",
+      "etat": "REPRÉSENTATION PARTIELLE",
+      "limite": "Profils et paliers intégrés, mais largeur et nombre de marches ne sont pas cotés. Les domaines de sol corrigés ne certifient pas toutes les limites d’engazonnement ou terrains sportifs.",
+      "preuve": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/acces_paliers_a7/RAPPORT.txt",
+      "prochaine_preuve": "Plan d’aménagement ou photos localisées permettant de coter largeur, marches, garde-corps et parcelles plantées ; ne pas extrapoler les anciennes taches vertes spectrales."
+    },
+    {
+      "bloc": "Houppiers historiques et arbres récents",
+      "etat": "31 FORMES LIVRÉES, SÉLECTION CONSERVATRICE",
+      "limite": "Le nuage 2023 n’atteste pas l’état foliaire 2026. Deux poiriers contradictoires datés (10735,11153), les scissions et plantations récentes incertaines ne sont pas redimensionnés.",
+      "preuve": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/canopies_berges_a17/RAPPORT.txt",
+      "prochaine_preuve": "Relevé végétation récent identifiable individuellement, dates de plantation et correspondance certaine des individus pour les cas exclus."
+    }
+  ],
+  "provenance": {
+    "mapping": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/provenance_copies/mapping_sha256.json",
+    "rapport": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/provenance_copies/RAPPORT.txt",
+    "resultat": "Snapshot 08:35 : 9 129 images, 311 documentées au départ ; 33 correspondances supplémentaires SHA strictes proposées, zéro contradiction. Les 947 images de la nouvelle archive restent sans correspondance documentée.",
+    "limite": "Il s’agit du mapping livré, pas d’un décompte actuel de l’API ni d’une certification que toutes les propositions ont été appliquées. Aucun producteur Claude attribué par dossier."
+  },
+  "dates": "Points IGN historiques mars 2023 ; timestamps OSM et export inventaire 2026 ≠ relevé terrain ; acquisition des GetMap 25 cm inconnue quand non fournie."
+}

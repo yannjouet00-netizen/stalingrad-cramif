@@ -1,0 +1,18 @@
+{
+  "before": {
+    "triangles": 415372,
+    "triangles_eole_dupliques": 72733,
+    "triangles_ballast_dupliques": 47424,
+    "cramif_triangles": 20682,
+    "cramif_geometrie_sha256": "fa88142d8f7ec69ac7d183813efb046ac0c7a52c96a54408cc37895323877d51"
+  },
+  "after": {
+    "triangles": 295215,
+    "triangles_eole_dupliques": 0,
+    "triangles_ballast_dupliques": 0,
+    "cramif_triangles": 20682,
+    "cramif_geometrie_sha256": "fa88142d8f7ec69ac7d183813efb046ac0c7a52c96a54408cc37895323877d51"
+  },
+  "cramif_preserve": true,
+  "eole_plus_ballast_exclus": true
+}

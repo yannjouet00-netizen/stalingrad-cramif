@@ -1,0 +1,56 @@
+{
+  "model": {
+    "loaded": true,
+    "camera": [
+      220,
+      120.00000000000026,
+      125.99999999999972
+    ],
+    "target": [
+      139,
+      193.99999999999997,
+      71
+    ],
+    "last": "Modèle chargé · 12:49:33"
+  },
+  "pro": [
+    {
+      "text": "Coordination\nÉtat à actualiser\n\nTour · traitement sobre de bâtiment de contexte\n\nDernier état reçu : travail. Aucun retour récent.\n\nDernier résultat · Vos deux nouvelles références reçues\n\nEnsuite · Uniformiser les matériaux natif et web\n\nMise à jour · 12:42:30",
+      "animation": "none"
+    },
+    {
+      "text": "Géométrie\nÉtat à actualiser\n\nTour · silhouette, pans inclinés et retraits de toiture\n\nDernier état reçu : travail. Aucun retour récent.\n\nDernier résultat · Photos recoupées : faces distinctes et hauteur uniforme incorrecte\n\nEnsuite · Construire le profil de contexte avec emprise conservée\n\nMise à jour · 12:42:30",
+      "animation": "none"
+    },
+    {
+      "text": "Interface\nLivré\n\nÉtude des rues et Carnet mobile ; contrôle Safari si accessible\n\nDernier résultat · Étude des rues et activité Brain/Suivi/Vue 3D vérifiées ; animations réelles\n\nEnsuite · Aucune tâche active ; Safari non certifié\n\nMise à jour · 12:26:57",
+      "animation": "none"
+    },
+    {
+      "text": "Sources\nLivré\n\nTour voisine · recette des corrections intégrées\n\nDernier résultat · Tour ciblée : 74 objets et 24 572 triangles natif/web contrôlés\n\nEnsuite · Autres façades et supports Éole restent en attente\n\nMise à jour · 12:26:57",
+      "animation": "none"
+    }
+  ],
+  "brain": {
+    "date": "2026-10-11T10:49:43.452Z",
+    "cards": [
+      {
+        "text": "Coordination\nÉtat à actualiser\n\nTour · traitement sobre de bâtiment de contexte\n\nDernier état reçu : travail. Aucun retour récent.\n\nDernier résultat · Vos deux nouvelles références reçues\n\nEnsuite · Uniformiser les matériaux natif et web\n\nMise à jour · 12:42:30",
+        "animation": "none"
+      },
+      {
+        "text": "Géométrie\nÉtat à actualiser\n\nTour · silhouette, pans inclinés et retraits de toiture\n\nDernier état reçu : travail. Aucun retour récent.\n\nDernier résultat · Photos recoupées : faces distinctes et hauteur uniforme incorrecte\n\nEnsuite · Construire le profil de contexte avec emprise conservée\n\nMise à jour · 12:42:30",
+        "animation": "none"
+      },
+      {
+        "text": "Interface\nLivré\n\nÉtude des rues et Carnet mobile ; contrôle Safari si accessible\n\nDernier résultat · Étude des rues et activité Brain/Suivi/Vue 3D vérifiées ; animations réelles\n\nEnsuite · Aucune tâche active ; Safari non certifié\n\nMise à jour · 12:26:57",
+        "animation": "none"
+      },
+      {
+        "text": "Sources\nLivré\n\nTour voisine · recette des corrections intégrées\n\nDernier résultat · Tour ciblée : 74 objets et 24 572 triangles natif/web contrôlés\n\nEnsuite · Autres façades et supports Éole restent en attente\n\nMise à jour · 12:26:57",
+        "animation": "none"
+      }
+    ],
+    "overflow": 0
+  }
+}

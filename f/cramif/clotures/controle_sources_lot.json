@@ -1,0 +1,1455 @@
+{
+  "xy_source_checks": [
+    {
+      "id": "Flandre_muret_face_muret",
+      "source_ids": [
+        2421660,
+        2346738
+      ],
+      "max_vertex_dist_to_raw_lines_m": 0.19985231686306915,
+      "implementation_status": "ESTIME",
+      "dimensions_all_convention": true,
+      "xy_length_m": 54.43269297668688
+    },
+    {
+      "id": "Flandre_muret_face_grille",
+      "source_ids": [
+        2421660,
+        2346738
+      ],
+      "max_vertex_dist_to_raw_lines_m": 0.19985231686306915,
+      "implementation_status": "ESTIME",
+      "dimensions_all_convention": true,
+      "xy_length_m": 54.43269297668688
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "source_ids": [
+        2483971
+      ],
+      "max_vertex_dist_to_raw_lines_m": 0.19978650550983426,
+      "implementation_status": "ESTIME",
+      "dimensions_all_convention": true,
+      "xy_length_m": 26.95514314501957
+    },
+    {
+      "id": "Flandre_front_nord_grille",
+      "source_ids": [
+        2483971
+      ],
+      "max_vertex_dist_to_raw_lines_m": 0.19978650550983426,
+      "implementation_status": "ESTIME",
+      "dimensions_all_convention": true,
+      "xy_length_m": 26.95514314501957
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "source_ids": [
+        2459192
+      ],
+      "max_vertex_dist_to_raw_lines_m": 0.14976763824209477,
+      "implementation_status": "ESTIME",
+      "dimensions_all_convention": true,
+      "xy_length_m": 49.43745027912055
+    },
+    {
+      "id": "Maroc_front_long_grille",
+      "source_ids": [
+        2459192
+      ],
+      "max_vertex_dist_to_raw_lines_m": 0.14976763824209477,
+      "implementation_status": "ESTIME",
+      "dimensions_all_convention": true,
+      "xy_length_m": 49.43745027912055
+    },
+    {
+      "id": "Maroc_front_entree_muret",
+      "source_ids": [
+        2403815,
+        2242579
+      ],
+      "max_vertex_dist_to_raw_lines_m": 0.16991703878622133,
+      "implementation_status": "ESTIME",
+      "dimensions_all_convention": true,
+      "xy_length_m": 7.228938771273078
+    },
+    {
+      "id": "Maroc_front_entree_grille",
+      "source_ids": [
+        2403815,
+        2242579
+      ],
+      "max_vertex_dist_to_raw_lines_m": 0.16991703878622133,
+      "implementation_status": "ESTIME",
+      "dimensions_all_convention": true,
+      "xy_length_m": 7.228938771273078
+    },
+    {
+      "id": "Maroc_portail_photo_ESTIME",
+      "source_ids": [
+        2242579,
+        2483971
+      ],
+      "max_vertex_dist_to_raw_lines_m": 0.0,
+      "implementation_status": "ESTIME",
+      "dimensions_all_convention": true,
+      "xy_length_m": 5.0342828697720465
+    }
+  ],
+  "independent_lidar_stations": [
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        81.2100491723977,
+        120.80404610279948,
+        51.08440457884354
+      ],
+      "n": 58,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 51.04,
+      "z_projected_linear": 51.084404578843554,
+      "delta_to_projected_m": -1.4210854715202004e-14,
+      "delta_to_public_median_m": 0.04440457884354032
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        82.50321769083988,
+        122.3506794362329,
+        51.06775015509297
+      ],
+      "n": 50,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 51.0,
+      "z_projected_linear": 51.060216822781406,
+      "delta_to_projected_m": 0.007533332311567165,
+      "delta_to_public_median_m": 0.06775015509297333
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        83.79638620928206,
+        123.89731276966631,
+        51.05109573134241
+      ],
+      "n": 58,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.97,
+      "z_projected_linear": 51.0247277861358,
+      "delta_to_projected_m": 0.026367945206608567,
+      "delta_to_public_median_m": 0.08109573134240833
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        85.08955472772422,
+        125.44394610309972,
+        51.03444130759184
+      ],
+      "n": 77,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.93,
+      "z_projected_linear": 50.99229292348753,
+      "delta_to_projected_m": 0.042148384104308434,
+      "delta_to_public_median_m": 0.10444130759184134
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        86.38272324616642,
+        126.99057943653315,
+        51.017786883841275
+      ],
+      "n": 83,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.92,
+      "z_projected_linear": 50.98616147615612,
+      "delta_to_projected_m": 0.03162540768515498,
+      "delta_to_public_median_m": 0.09778688384127321
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        87.6758917646086,
+        128.53721276996657,
+        51.00113246009071
+      ],
+      "n": 75,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.94,
+      "z_projected_linear": 50.98255332992591,
+      "delta_to_projected_m": 0.018579130164795288,
+      "delta_to_public_median_m": 0.06113246009071105
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        88.96906028305077,
+        130.0838461034,
+        50.98447803634014
+      ],
+      "n": 75,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.92,
+      "z_projected_linear": 50.97469790884863,
+      "delta_to_projected_m": 0.009780127491509916,
+      "delta_to_public_median_m": 0.06447803634014093
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        90.26222880149294,
+        131.6304794368334,
+        50.96782361258957
+      ],
+      "n": 75,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.910000000000004,
+      "z_projected_linear": 50.97382649372252,
+      "delta_to_projected_m": -0.006002881132950222,
+      "delta_to_public_median_m": 0.0578236125895657
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        91.55539731993512,
+        133.17711277026683,
+        50.95116918883902
+      ],
+      "n": 67,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.9,
+      "z_projected_linear": 50.95213772590786,
+      "delta_to_projected_m": -0.0009685370688430339,
+      "delta_to_public_median_m": 0.051169188839018886
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        92.84856583837731,
+        134.72374610370025,
+        50.93451476508845
+      ],
+      "n": 67,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.870000000000005,
+      "z_projected_linear": 50.92943121655422,
+      "delta_to_projected_m": 0.005083548534230431,
+      "delta_to_public_median_m": 0.06451476508844678
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        94.14173435681948,
+        136.27037943713367,
+        50.917860341337885
+      ],
+      "n": 75,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.86,
+      "z_projected_linear": 50.902751010352446,
+      "delta_to_projected_m": 0.015109330985438874,
+      "delta_to_public_median_m": 0.05786034133788576
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        95.43490287526166,
+        137.8170127705671,
+        50.90120591758731
+      ],
+      "n": 84,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.84,
+      "z_projected_linear": 50.88727059532931,
+      "delta_to_projected_m": 0.013935322257999871,
+      "delta_to_public_median_m": 0.061205917587308534
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        96.72807139370383,
+        139.3636461040005,
+        50.884551493836746
+      ],
+      "n": 82,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.82,
+      "z_projected_linear": 50.87578886557288,
+      "delta_to_projected_m": 0.008762628263866645,
+      "delta_to_public_median_m": 0.06455149383674552
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        98.02123991214602,
+        140.91027943743393,
+        50.86789707008619
+      ],
+      "n": 79,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.82,
+      "z_projected_linear": 50.84685696072493,
+      "delta_to_projected_m": 0.021040109361258885,
+      "delta_to_public_median_m": 0.04789707008618649
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        99.31440843058819,
+        142.45691277086735,
+        50.85124264633562
+      ],
+      "n": 78,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.80500000000001,
+      "z_projected_linear": 50.87122521707067,
+      "delta_to_projected_m": -0.019982570735052718,
+      "delta_to_public_median_m": 0.04624264633561381
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        100.60757694903037,
+        144.00354610430077,
+        50.834588222585054
+      ],
+      "n": 84,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.77,
+      "z_projected_linear": 50.83567977241147,
+      "delta_to_projected_m": -0.0010915498264125745,
+      "delta_to_public_median_m": 0.06458822258505137
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        101.90074546747255,
+        145.5501794377342,
+        50.81793379883449
+      ],
+      "n": 78,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.74,
+      "z_projected_linear": 50.8118234828246,
+      "delta_to_projected_m": 0.006110316009888095,
+      "delta_to_public_median_m": 0.07793379883448637
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        103.19391398591472,
+        147.0968127711676,
+        50.80127937508392
+      ],
+      "n": 80,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.74,
+      "z_projected_linear": 50.760747773442326,
+      "delta_to_projected_m": 0.04053160164159664,
+      "delta_to_public_median_m": 0.06127937508392023
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        104.4870825043569,
+        148.64344610460103,
+        50.784624951333356
+      ],
+      "n": 81,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.72,
+      "z_projected_linear": 50.74504231200935,
+      "delta_to_projected_m": 0.039582639324002855,
+      "delta_to_public_median_m": 0.06462495133335722
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        105.78025102279909,
+        150.19007943803445,
+        50.76797052758279
+      ],
+      "n": 83,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.69,
+      "z_projected_linear": 50.74512739389416,
+      "delta_to_projected_m": 0.022843133688631667,
+      "delta_to_public_median_m": 0.07797052758279222
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        107.07341954124126,
+        151.73671277146786,
+        50.751316103832224
+      ],
+      "n": 81,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.67,
+      "z_projected_linear": 50.74575683396557,
+      "delta_to_projected_m": 0.005559269866651562,
+      "delta_to_public_median_m": 0.0813161038322221
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        108.36658805968344,
+        153.28334610490128,
+        50.73466168008166
+      ],
+      "n": 78,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.660000000000004,
+      "z_projected_linear": 50.72277612416368,
+      "delta_to_projected_m": 0.011885555917977797,
+      "delta_to_public_median_m": 0.07466168008165397
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        109.65975657812561,
+        154.8299794383347,
+        50.71800725633109
+      ],
+      "n": 85,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.65,
+      "z_projected_linear": 50.69787945285107,
+      "delta_to_projected_m": 0.02012780348002252,
+      "delta_to_public_median_m": 0.06800725633109295
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        110.95292509656778,
+        156.37661277176812,
+        50.701352832580525
+      ],
+      "n": 82,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.63,
+      "z_projected_linear": 50.698289629725856,
+      "delta_to_projected_m": 0.0030632028546691004,
+      "delta_to_public_median_m": 0.07135283258052283
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        112.24609361500995,
+        157.92324610520154,
+        50.68469840882996
+      ],
+      "n": 78,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.615,
+      "z_projected_linear": 50.68369151950256,
+      "delta_to_projected_m": 0.0010068893273995627,
+      "delta_to_public_median_m": 0.06969840882995726
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        113.53926213345214,
+        159.46987943863496,
+        50.66804398507939
+      ],
+      "n": 82,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.61,
+      "z_projected_linear": 50.675960368060984,
+      "delta_to_projected_m": -0.007916382981591141,
+      "delta_to_public_median_m": 0.05804398507939368
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        114.83243065189431,
+        161.01651277206838,
+        50.65138956132883
+      ],
+      "n": 74,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.57,
+      "z_projected_linear": 50.64081830413121,
+      "delta_to_projected_m": 0.010571257197618422,
+      "delta_to_public_median_m": 0.08138956132882669
+    },
+    {
+      "id": "Flandre_muret_face_muret",
+      "segment": 0,
+      "xyz": [
+        116.1255991703365,
+        162.5631461055018,
+        50.63473513757826
+      ],
+      "n": 78,
+      "public_normal": [
+        0.7671694659786066,
+        -0.6414444718524742
+      ],
+      "z_median_public": 50.56,
+      "z_projected_linear": 50.6347351375783,
+      "delta_to_projected_m": -4.263256414560601e-14,
+      "delta_to_public_median_m": 0.07473513757825856
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 0,
+      "xyz": [
+        119.80169917480089,
+        166.94979610620067,
+        50.56954617880502
+      ],
+      "n": 81,
+      "public_normal": [
+        0.7663016880511038,
+        -0.6424809124713582
+      ],
+      "z_median_public": 50.52,
+      "z_projected_linear": 50.568321950204655,
+      "delta_to_projected_m": 0.0012242286003640857,
+      "delta_to_public_median_m": 0.04954617880501644
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 0,
+      "xyz": [
+        121.1140325065935,
+        168.51504610494402,
+        50.51019271087101
+      ],
+      "n": 78,
+      "public_normal": [
+        0.7663016880511038,
+        -0.6424809124713582
+      ],
+      "z_median_public": 50.495000000000005,
+      "z_projected_linear": 50.54623077905136,
+      "delta_to_projected_m": -0.03603806818035338,
+      "delta_to_public_median_m": 0.015192710871005488
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 0,
+      "xyz": [
+        122.42636583838612,
+        170.08029610368732,
+        50.450839242936986
+      ],
+      "n": 72,
+      "public_normal": [
+        0.7663016880511038,
+        -0.6424809124713582
+      ],
+      "z_median_public": 50.45,
+      "z_projected_linear": 50.485382598651206,
+      "delta_to_projected_m": -0.03454335571422007,
+      "delta_to_public_median_m": 0.0008392429369834531
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 0,
+      "xyz": [
+        123.73869917017873,
+        171.64554610243067,
+        50.39148577500297
+      ],
+      "n": 68,
+      "public_normal": [
+        0.7663016880511038,
+        -0.6424809124713582
+      ],
+      "z_median_public": 50.38,
+      "z_projected_linear": 50.391485775002934,
+      "delta_to_projected_m": 3.552713678800501e-14,
+      "delta_to_public_median_m": 0.011485775002967102
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 1,
+      "xyz": [
+        123.73869917017873,
+        171.64554610243067,
+        50.39148577500297
+      ],
+      "n": 71,
+      "public_normal": [
+        0.9950741893919538,
+        0.09913302984346865
+      ],
+      "z_median_public": 50.34,
+      "z_projected_linear": 50.3966933694191,
+      "delta_to_projected_m": -0.005207594416127392,
+      "delta_to_public_median_m": 0.05148577500296625
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 1,
+      "xyz": [
+        123.48053250434654,
+        174.23696276887011,
+        50.26950811534688
+      ],
+      "n": 90,
+      "public_normal": [
+        0.9950741893919538,
+        0.09913302984346865
+      ],
+      "z_median_public": 50.25,
+      "z_projected_linear": 50.28023912823304,
+      "delta_to_projected_m": -0.010731012886161295,
+      "delta_to_public_median_m": 0.019508115346880572
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 1,
+      "xyz": [
+        123.22236583851432,
+        176.82837943530953,
+        50.14753045569078
+      ],
+      "n": 89,
+      "public_normal": [
+        0.9950741893919538,
+        0.09913302984346865
+      ],
+      "z_median_public": 50.17,
+      "z_projected_linear": 50.15050485910686,
+      "delta_to_projected_m": -0.0029744034160827937,
+      "delta_to_public_median_m": -0.022469544309224432
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 1,
+      "xyz": [
+        122.96419917268213,
+        179.41979610174894,
+        50.02555279603468
+      ],
+      "n": 72,
+      "public_normal": [
+        0.9950741893919538,
+        0.09913302984346865
+      ],
+      "z_median_public": 50.06,
+      "z_projected_linear": 49.999428362689365,
+      "delta_to_projected_m": 0.026124433345316334,
+      "delta_to_public_median_m": -0.034447203965321194
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 2,
+      "xyz": [
+        122.96419917268213,
+        179.41979610174894,
+        50.02555279603468
+      ],
+      "n": 74,
+      "public_normal": [
+        0.6308491711898637,
+        0.7759054860026845
+      ],
+      "z_median_public": 49.980000000000004,
+      "z_projected_linear": 50.0274181694224,
+      "delta_to_projected_m": -0.001865373387715863,
+      "delta_to_public_median_m": 0.0455527960346771
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 2,
+      "xyz": [
+        121.28118250550082,
+        180.78817110198239,
+        50.003616613803715
+      ],
+      "n": 79,
+      "public_normal": [
+        0.6308491711898637,
+        0.7759054860026845
+      ],
+      "z_median_public": 49.93,
+      "z_projected_linear": 50.0289394936381,
+      "delta_to_projected_m": -0.025322879834384082,
+      "delta_to_public_median_m": 0.07361661380371487
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 2,
+      "xyz": [
+        119.5981658383195,
+        182.15654610221586,
+        49.981680431572755
+      ],
+      "n": 77,
+      "public_normal": [
+        0.6308491711898637,
+        0.7759054860026845
+      ],
+      "z_median_public": 49.9,
+      "z_projected_linear": 50.018700447385285,
+      "delta_to_projected_m": -0.037020015812530005,
+      "delta_to_public_median_m": 0.08168043157275662
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 2,
+      "xyz": [
+        117.91514917113818,
+        183.5249211024493,
+        49.95974424934179
+      ],
+      "n": 77,
+      "public_normal": [
+        0.6308491711898637,
+        0.7759054860026845
+      ],
+      "z_median_public": 49.89,
+      "z_projected_linear": 49.9652184631722,
+      "delta_to_projected_m": -0.00547421383041069,
+      "delta_to_public_median_m": 0.06974424934178813
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 2,
+      "xyz": [
+        116.23213250395686,
+        184.89329610268274,
+        49.93780806711082
+      ],
+      "n": 80,
+      "public_normal": [
+        0.6308491711898637,
+        0.7759054860026845
+      ],
+      "z_median_public": 49.870000000000005,
+      "z_projected_linear": 49.95246286996709,
+      "delta_to_projected_m": -0.014654802856270521,
+      "delta_to_public_median_m": 0.06780806711081766
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 2,
+      "xyz": [
+        114.54911583677556,
+        186.26167110291618,
+        49.915871884879856
+      ],
+      "n": 92,
+      "public_normal": [
+        0.6308491711898637,
+        0.7759054860026845
+      ],
+      "z_median_public": 49.84,
+      "z_projected_linear": 49.94245260228517,
+      "delta_to_projected_m": -0.026580717405316534,
+      "delta_to_public_median_m": 0.0758718848798523
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "segment": 2,
+      "xyz": [
+        112.86609916959424,
+        187.63004610314965,
+        49.893935702648896
+      ],
+      "n": 90,
+      "public_normal": [
+        0.6308491711898637,
+        0.7759054860026845
+      ],
+      "z_median_public": 49.82,
+      "z_projected_linear": 49.921565980248225,
+      "delta_to_projected_m": -0.02763027759932868,
+      "delta_to_public_median_m": 0.07393570264889604
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        62.21249917260138,
+        228.83969610463828,
+        49.11663016168772
+      ],
+      "n": 55,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.0,
+      "z_projected_linear": 49.12076899882479,
+      "delta_to_projected_m": -0.004138837137070084,
+      "delta_to_public_median_m": 0.11663016168772344
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        63.809747089217126,
+        227.53894193798382,
+        49.13983735924304
+      ],
+      "n": 50,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.04,
+      "z_projected_linear": 49.14003179313601,
+      "delta_to_projected_m": -0.00019443389297180147,
+      "delta_to_public_median_m": 0.09983735924303971
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        65.40699500583287,
+        226.23818777132934,
+        49.163044556798354
+      ],
+      "n": 51,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.07,
+      "z_projected_linear": 49.17178652963797,
+      "delta_to_projected_m": -0.008741972839615642,
+      "delta_to_public_median_m": 0.093044556798354
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        67.00424292244861,
+        224.93743360467488,
+        49.18625175435367
+      ],
+      "n": 37,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.08,
+      "z_projected_linear": 49.181624291876986,
+      "delta_to_projected_m": 0.004627462476683775,
+      "delta_to_public_median_m": 0.1062517543536714
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        68.60149083906435,
+        223.63667943802042,
+        49.20945895190899
+      ],
+      "n": 37,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.11,
+      "z_projected_linear": 49.21679777017463,
+      "delta_to_projected_m": -0.007338818265637315,
+      "delta_to_public_median_m": 0.09945895190899279
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        70.1987387556801,
+        222.33592527136597,
+        49.23266614946431
+      ],
+      "n": 70,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.13,
+      "z_projected_linear": 49.20814953357935,
+      "delta_to_projected_m": 0.024516615884955684,
+      "delta_to_public_median_m": 0.10266614946430508
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        71.79598667229584,
+        221.03517110471148,
+        49.255873347019616
+      ],
+      "n": 75,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.160000000000004,
+      "z_projected_linear": 49.20094766114323,
+      "delta_to_projected_m": 0.05492568587638402,
+      "delta_to_public_median_m": 0.09587334701961225
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        73.39323458891158,
+        219.73441693805702,
+        49.27908054457494
+      ],
+      "n": 76,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.19,
+      "z_projected_linear": 49.247023205907105,
+      "delta_to_projected_m": 0.032057338667833335,
+      "delta_to_public_median_m": 0.08908054457494075
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        74.99048250552732,
+        218.43366277140257,
+        49.30228774213025
+      ],
+      "n": 71,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.21,
+      "z_projected_linear": 49.275434828197646,
+      "delta_to_projected_m": 0.026852913932600586,
+      "delta_to_public_median_m": 0.09228774213024593
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        76.58773042214307,
+        217.13290860474808,
+        49.32549493968557
+      ],
+      "n": 74,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.25,
+      "z_projected_linear": 49.28889691543913,
+      "delta_to_projected_m": 0.03659802424643743,
+      "delta_to_public_median_m": 0.0754949396855693
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        78.18497833875881,
+        215.8321544380936,
+        49.34870213724088
+      ],
+      "n": 76,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.26,
+      "z_projected_linear": 49.32927358949141,
+      "delta_to_projected_m": 0.019428547749470226,
+      "delta_to_public_median_m": 0.08870213724087961
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        79.78222625537455,
+        214.53140027143917,
+        49.3719093347962
+      ],
+      "n": 72,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.27,
+      "z_projected_linear": 49.317459779382816,
+      "delta_to_projected_m": 0.05444955541338459,
+      "delta_to_public_median_m": 0.10190933479619702
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        81.3794741719903,
+        213.23064610478468,
+        49.39511653235151
+      ],
+      "n": 69,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.28,
+      "z_projected_linear": 49.354348898479266,
+      "delta_to_projected_m": 0.04076763387224247,
+      "delta_to_public_median_m": 0.11511653235150732
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        82.97672208860604,
+        211.9298919381302,
+        49.41832372990683
+      ],
+      "n": 80,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.29,
+      "z_projected_linear": 49.38884728219845,
+      "delta_to_projected_m": 0.02947644770838309,
+      "delta_to_public_median_m": 0.12832372990683183
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        84.57397000522178,
+        210.62913777147577,
+        49.44153092746214
+      ],
+      "n": 77,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.31,
+      "z_projected_linear": 49.41094654850507,
+      "delta_to_projected_m": 0.030584378957065894,
+      "delta_to_public_median_m": 0.13153092746213702
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        86.17121792183752,
+        209.32838360482128,
+        49.46473812501746
+      ],
+      "n": 84,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.33,
+      "z_projected_linear": 49.44424633510083,
+      "delta_to_projected_m": 0.020491789916633252,
+      "delta_to_public_median_m": 0.13473812501746352
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        87.76846583845327,
+        208.02762943816683,
+        49.48794532257277
+      ],
+      "n": 83,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.35,
+      "z_projected_linear": 49.45610316096966,
+      "delta_to_projected_m": 0.03184216160310882,
+      "delta_to_public_median_m": 0.1379453225727687
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        89.365713755069,
+        206.72687527151234,
+        49.51115252012809
+      ],
+      "n": 81,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.38,
+      "z_projected_linear": 49.468305082161066,
+      "delta_to_projected_m": 0.04284743796702628,
+      "delta_to_public_median_m": 0.1311525201280901
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        90.96296167168475,
+        205.42612110485788,
+        49.5343597176834
+      ],
+      "n": 82,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.4,
+      "z_projected_linear": 49.48606491265958,
+      "delta_to_projected_m": 0.04829480502382211,
+      "delta_to_public_median_m": 0.13435971768340238
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        92.5602095883005,
+        204.12536693820343,
+        49.55756691523872
+      ],
+      "n": 80,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.42,
+      "z_projected_linear": 49.49093845216502,
+      "delta_to_projected_m": 0.06662846307370529,
+      "delta_to_public_median_m": 0.13756691523872178
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        94.15745750491622,
+        202.82461277154894,
+        49.58077411279404
+      ],
+      "n": 93,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.44,
+      "z_projected_linear": 49.524161017899765,
+      "delta_to_projected_m": 0.05661309489427424,
+      "delta_to_public_median_m": 0.14077411279404117
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        95.75470542153198,
+        201.52385860489449,
+        49.603981310349354
+      ],
+      "n": 83,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.47,
+      "z_projected_linear": 49.52565169369166,
+      "delta_to_projected_m": 0.07832961665769744,
+      "delta_to_public_median_m": 0.13398131034935545
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        97.35195333814772,
+        200.22310443824003,
+        49.62718850790467
+      ],
+      "n": 78,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.525000000000006,
+      "z_projected_linear": 49.55511655970881,
+      "delta_to_projected_m": 0.07207194819586249,
+      "delta_to_public_median_m": 0.10218850790466405
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        98.94920125476345,
+        198.92235027158554,
+        49.650395705459985
+      ],
+      "n": 81,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.56,
+      "z_projected_linear": 49.64873958606042,
+      "delta_to_projected_m": 0.0016561193995627832,
+      "delta_to_public_median_m": 0.09039570545998288
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "segment": 0,
+      "xyz": [
+        100.54644917137921,
+        197.6215961049311,
+        49.6736029030153
+      ],
+      "n": 87,
+      "public_normal": [
+        0.6314666274949837,
+        0.7754030554235078
+      ],
+      "z_median_public": 49.6,
+      "z_projected_linear": 49.67360290301529,
+      "delta_to_projected_m": 7.105427357601002e-15,
+      "delta_to_public_median_m": 0.07360290301529915
+    },
+    {
+      "id": "Maroc_front_entree_muret",
+      "segment": 0,
+      "xyz": [
+        108.64949916867772,
+        190.9961961018853,
+        49.808976750126355
+      ],
+      "n": 72,
+      "public_normal": [
+        0.6314481481192843,
+        0.7754181041455807
+      ],
+      "z_median_public": 49.74,
+      "z_projected_linear": 49.80897675012635,
+      "delta_to_projected_m": 7.105427357601002e-15,
+      "delta_to_public_median_m": 0.06897675012635318
+    },
+    {
+      "id": "Maroc_front_entree_muret",
+      "segment": 0,
+      "xyz": [
+        106.7810158363427,
+        192.51776276854798,
+        49.79266134095904
+      ],
+      "n": 81,
+      "public_normal": [
+        0.6314481481192843,
+        0.7754181041455807
+      ],
+      "z_median_public": 49.7,
+      "z_projected_linear": 49.77673363422314,
+      "delta_to_projected_m": 0.01592770673590138,
+      "delta_to_public_median_m": 0.09266134095904022
+    },
+    {
+      "id": "Maroc_front_entree_muret",
+      "segment": 0,
+      "xyz": [
+        104.91253250400769,
+        194.03932943521068,
+        49.77634593179173
+      ],
+      "n": 81,
+      "public_normal": [
+        0.6314481481192843,
+        0.7754181041455807
+      ],
+      "z_median_public": 49.67,
+      "z_projected_linear": 49.79164714671811,
+      "delta_to_projected_m": -0.01530121492638159,
+      "delta_to_public_median_m": 0.10634593179172924
+    },
+    {
+      "id": "Maroc_front_entree_muret",
+      "segment": 0,
+      "xyz": [
+        103.04404917167267,
+        195.56089610187337,
+        49.76003052262442
+      ],
+      "n": 84,
+      "public_normal": [
+        0.6314481481192843,
+        0.7754181041455807
+      ],
+      "z_median_public": 49.64,
+      "z_projected_linear": 49.760030522624376,
+      "delta_to_projected_m": 4.263256414560601e-14,
+      "delta_to_public_median_m": 0.12003052262441827
+    },
+    {
+      "id": "Maroc_portail_photo_ESTIME",
+      "segment": 0,
+      "xyz": [
+        108.8889991696924,
+        191.02029610145837,
+        49.81748592606744
+      ],
+      "n": 77,
+      "public_normal": [
+        0.6187177157787193,
+        0.7856133834027803
+      ],
+      "z_median_public": 49.74,
+      "z_projected_linear": 49.82298010653229,
+      "delta_to_projected_m": -0.005494180464850729,
+      "delta_to_public_median_m": 0.07748592606743898
+    },
+    {
+      "id": "Maroc_portail_photo_ESTIME",
+      "segment": 0,
+      "xyz": [
+        110.86649916885654,
+        189.46289610257372,
+        49.87219828789777
+      ],
+      "n": 89,
+      "public_normal": [
+        0.6187177157787193,
+        0.7856133834027803
+      ],
+      "z_median_public": 49.78,
+      "z_projected_linear": 49.908818717600134,
+      "delta_to_projected_m": -0.03662042970236712,
+      "delta_to_public_median_m": 0.09219828789776585
+    },
+    {
+      "id": "Maroc_portail_photo_ESTIME",
+      "segment": 0,
+      "xyz": [
+        112.84399916802067,
+        187.90549610368907,
+        49.92691064972809
+      ],
+      "n": 93,
+      "public_normal": [
+        0.6187177157787193,
+        0.7856133834027803
+      ],
+      "z_median_public": 49.81,
+      "z_projected_linear": 49.927811850338074,
+      "delta_to_projected_m": -0.00090120060998089,
+      "delta_to_public_median_m": 0.11691064972809073
+    }
+  ],
+  "max_abs_projected_delta_m": 0.07832961665769744,
+  "n_stations": 75,
+  "station_min_n": 37,
+  "method": "Original classe2.npy, public normal chosen per segment from outward direction versus parcel centre; banda0.8..3.5m/tangent±1.5m; median±.25m fit streetlayer48..53m. Uses no builder measurements."
+}

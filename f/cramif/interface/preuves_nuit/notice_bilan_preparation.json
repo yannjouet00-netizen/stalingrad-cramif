@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-11T07:03:05.591Z",
+  "browser": "Chrome headless CDP 9227",
+  "notice": "interface/BILAN_PREPARATION_NUIT.txt",
+  "category": "decisions",
+  "technical_reports_hidden": [
+    "recette_A_E",
+    "bilan_dix_lots_A17",
+    "bilan_eole"
+  ],
+  "search_results": 1,
+  "reader_open": true,
+  "pending_section_present": true,
+  "overflow": 0,
+  "scope": "Recherche et lecture du point préparatoire, pas clôture du chantier"
+}

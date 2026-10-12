@@ -1,0 +1,11 @@
+{
+  "verified_reopen": true,
+  "idempotent": true,
+  "trees": 96,
+  "objects_metadata": 192,
+  "sol_A8_exact_float32": true,
+  "canopies_A9_preserved": true,
+  "scope": "Métadonnées96arbres/192objets corrigées, terrain et canopées préservés",
+  "native_sha256": "76c1b1b0ce1fe4c18f37d72c03cef7e4490ca3595e81db4d4c9f03216161e32f",
+  "published_at": "2026-10-11T04:29:32.770259+00:00"
+}

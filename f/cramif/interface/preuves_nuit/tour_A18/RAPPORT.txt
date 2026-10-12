@@ -1,0 +1,30 @@
+RECETTE CIBLÉE TOUR — A18
+11 octobre 2026. Contrôle en lecture seule terminé à 2026-10-11T10:25:53.040054+00:00.
+
+VERDICT : reprise ciblée appliquée dans le natif A18 ET exposée par l’API web. Ce verdict clôt le contrôle du lot annoncé dans la capture 04:43 ; il ne certifie pas une restitution complète des façades.
+Natif : /Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend
+SHA256 vérifié avant lecture, après rendus et à livraison : 05b662aedbb5da36b19af634b79765b474c5b72d9301d40094f94902530c1b82.
+Aucun import, aucune sauvegarde du natif, aucun backend/état partagé modifié.
+
+RÉSULTATS EXACTS
+- 23 anciens composants parasites absents de la scène 06 active et de bpy.data. Leurs géométries originales restent dans l’archive durable référencée par sources.json. Ne pas annoncer qu’ils restent cachés dans ce natif.
+- 46 composants de balcon : 23 dalles et 23 composants de garde-corps. Ce nombre ne désigne pas 46 balcons individuels.
+- 25 éléments de reprise de façade : 24 parties et un couronnement. Ce nombre ne désigne pas 25 panneaux de parement seuls.
+- 3 objets A14 supplémentaires : deux baies entièrement observées et un retour vitré supérieur. Ils ne sont pas compris dans les 25 ci-dessus.
+- 74 objets au total dans ce contrôle ; 24 572 triangles.
+- Les 46 composants et les 24 parties ont mêmes nombres de sommets et mêmes faces que les paquets durables ; coordonnées mondes à moins de 0,05 mm (conversion numérique, pas précision de relevé). Couronnement conforme à l’extraction historique source, delta nul.
+- API réelle /api/couche/bati_v3 : 295 603 triangles ; ROI Tour + voisins 26 593. Les 24 572 triangles des 74 objets sont tous présents avec sommets monde float32 identiques, indépendamment de leur ordre. Les 24 572 portent la palette catégorielle attendue. La palette web est distincte des matériaux Blender ; aucune égalité photométrique n’est prétendue.
+
+PREUVES VISUELLES
+Les deux PNG sont des rendus rapprochés ponctuels du natif A18, objets du lot isolés en mémoire, aucune modification sauvegardée. tour_front_proche.png montre la pile de balcons, le voile clair, le bandeau vitré et les deux baies. tour_retour_proche.png montre le retour vitré supérieur avec les deux baies. La seconde vue est cadrée sur la partie haute ; elle ne vérifie pas le contact au sol, les commerces ou le contexte.
+La capture 04:43 est une fiche d’état, pas une photographie de façade. Les vues de référence 00:51:35 et 23:11:37 sont partielles, en perspective, de date d’acquisition inconnue ; les heures sont celles des captures d’écran. Leur lecture confirme la composition générale, sans recalage photogrammétrique calibré.
+
+STATUTS ET LIMITES
+ESTIME : implantation/retrait des balcons et façade, niveaux des composants, profondeur du retrait 1,10 m, cotes/positions des deux baies et affectation du retour vitré. Ces dimensions ne sont pas des MESURE_LIDAR.
+CONVENTION : épaisseur des dalles 0,18 m, garde-corps 1,05 m, sections/entraxes, trames simplifiées des fonds vitrés et du retour supérieur, palette et matériaux. Ces choix ne constituent pas une conformité réglementaire.
+Les deux baies présentent une trame 3×3 observée ; leurs dimensions et cotes demeurent ESTIME. Habillage de surface, pas ouverture traversante ni intérieur modélisé. Aucun remplissage des parties occultées n’a été ajouté lors de cette recette.
+Restent à documenter : trame exacte du bandeau central, troisième baie partiellement masquée et parties basses/commerces, subdivisions du retour vitré, profondeur réelle des balcons et sections des garde-corps. La preuve suivante utile serait un relevé ou des photos frontales géoréférencées/calibrées des seules parties concernées. Aucun ajout nouveau n’est proposé ici.
+
+MÉTHODE ET PÉRIMÈTRE
+Lecture Blender scène 06 active, contrôle des noms supprimés et comparaison aux lots durables. Extraction temporaire des triangles en coordonnées monde. Lecture HTTP locale réelle de l’API, extraction ROI puis comparaison de chaque triangle float32 + couleur catégorielle. Le surplus de triangles ROI correspond aussi aux voisins : il ne prouve pas une duplication Tour. La validation couvre l’exposition des géométries et leur lecture rapprochée, pas chaque fonction du navigateur ni toute la scène.
+Fichiers utiles et empreintes : MANIFEST.json. Sources exactes : sources.json. Vérifications par objet : validation.json. Aucun snapshot complet du modèle n’est livré.

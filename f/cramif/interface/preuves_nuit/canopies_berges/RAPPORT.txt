@@ -1,0 +1,28 @@
+CANOPÉES ÉCLUSE / BERGES — CONTRÔLE DIMENSIONNEL
+11 octobre 2026, 06:14 Paris. Lecture seule ; aucun arbre ni aucun pied modifié.
+
+Secteur local X20..260 / Y−260..30, excluant Éole. 341 arbres, 682 objets tronc/houppier.
+Natif lu : d788977e362976dc8c75723d3b0ece07b2b50196694c0d4ed27b41cd00e84f58 (A7). Le correctif A8 porte uniquement sur deux triangles de sol de la cour CRAMIF, hors secteur ; il ne modifie pas ces canopées.
+
+Résultats : 208 arbres avec essence/position d'inventaire et couronne LiDAR, 14 couronnes LiDAR sans essence attribuée, 119 couronnes ESTIMÉES d'après l'inventaire. Les sommets des 341 objets natifs correspondent à la table arbres_v3.json à moins de 0,000007 m. Aucun défaut d'échelle lors de l'import n'est donc observé.
+Pour les couronnes LiDAR non scindées, différence absolue sommet natif / quantile99 des retours attribués : médiane0,372m, P950,848m, maximum1,263m. Ces différences ne justifient pas un redimensionnement uniforme : le sommet de table et le quantile ne sont pas la même définition.
+106 couronnes du secteur ont été scindées. Le cache partagé contient encore les points de leur parent : ses dimensions ne doivent pas être utilisées directement comme dimensions individuelles.
+
+Dix alertes brutes ont été examinées. Huit correspondent à des retours hauts au-dessus d'arbres d'inventaire, mais attribués au moins en partie à des houppiers déjà modélisés. Un agrandissement automatique pourrait compter deux fois la même couronne. Pour deux cas, ces recoupements sont seulement partiels : l'alerte reste à qualifier, sans correction fiable à ce stade.
+
+Deux poiriers à fleurs, IDs10735 et11153, présentent des supports LiDAR distincts au-dessus des proxies de5m :
+10735 : pied(146,766 ; −204,244), 148points classe5 dans3m ; Zq99=59,7666m. Diamètres du support entre quantiles5et95 :2,9195×2,655m.
+11153 : pied(166,032 ; −217,234), 39points classe5 dans3m ; Zq99=59,8186m. Diamètres du support entre quantiles5et95 :1,601×1,263m.
+Le second nuage est peu fourni : son contour extérieur ne peut pas être certifié. Le premier est à proximité d'une façade classe6, clairement séparée en hauteur sur le profil.
+
+Qualification temporelle : le LiDAR est daté de mars2023. L'inventaire a été extrait le9octobre2026, mais la date de mesure de chaque hauteur n'est pas connue. Une taille ou un remplacement depuis2023 n'est pas exclu. On ne peut donc pas présenter le support2023 comme preuve certaine de la dimension actuelle.
+Paquet candidats_dates.json : deux propositions de hauteurs datées, approved=false. AUCUN importeur géométrique livré, afin de ne pas appliquer une interprétation non validée. Les tailles d'emprise calculées sont des supports statistiques ; elles ne sont ni des diamètres botaniques exacts ni des instructions de mise à l'échelle.
+
+Fichiers :
+- audit_canopies.json / .csv : inventaire dimensionnel des341arbres, diamètresXY natifs, hauteurs, sources et supportsLiDAR.
+- native.json : bbox et empreintes géométriques des682objets.
+- attribution_suspects.json : recoupements entre les10alertes et les houppiers déjà présents.
+- deux_poiriers.json / deux_poiriers_profils.png : preuves mesurées des2cas restant à qualifier.
+- candidats_dates.json : propositions séparées, non approuvées.
+
+Les pieds restent ceux déjà contrôlés. Aucune essence ajoutée, aucune canopée supprimée ou gonflée. Les limites d'attribution et de date sont conservées dans les données.

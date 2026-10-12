@@ -1,0 +1,387 @@
+{
+  "native_read_only": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend",
+  "old_meshes": 13082,
+  "old_geometry_changed": [],
+  "other_scenes_changed": [],
+  "originals_excluded_scene06": 23,
+  "preserved_tower_ids": [
+    "2505941",
+    "2505942",
+    "2505943",
+    "2505944",
+    "2506371",
+    "2506373"
+  ],
+  "new_objects": 46,
+  "triangles": 22912,
+  "checks": [
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505966",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052658821145694,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505966",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.00017816407489590347,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506355",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052658821145694,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506355",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.00017816407489590347,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505965",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052658821145694,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505965",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.00017816407489590347,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505964",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052658821145694,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505964",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.00017816407489590347,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505963",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052658821145694,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505963",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.0001781633278975884,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505904",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052658821145694,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505904",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.00017816482674485692,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505962",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052658821145694,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505962",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.0001781633278975884,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506356",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052658821145694,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506356",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.00017816482674485692,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505961",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052147624393303,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505961",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.00017816482674485692,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505960",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052147624393303,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505960",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.00017816482674485692,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505959",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052658821145694,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505959",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.0001781633278975884,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2505958",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.2052658821145694,
+      "triangles": 12,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2505958",
+      "nonmanifold_edges": 0,
+      "components": 49,
+      "min_component_volume": 0.0001781633278975884,
+      "triangles": 588,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506366",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 7.798982319732508,
+      "triangles": 16,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506366",
+      "nonmanifold_edges": 0,
+      "components": 130,
+      "min_component_volume": 0.00017816407489590347,
+      "triangles": 1560,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506360",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 7.241040860613187,
+      "triangles": 24,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506360",
+      "nonmanifold_edges": 0,
+      "components": 137,
+      "min_component_volume": 0.00017816407489590347,
+      "triangles": 1644,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506361",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 6.394976186255613,
+      "triangles": 16,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506361",
+      "nonmanifold_edges": 0,
+      "components": 126,
+      "min_component_volume": 0.00017816407489590347,
+      "triangles": 1512,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506362",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 5.675923861563206,
+      "triangles": 16,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506362",
+      "nonmanifold_edges": 0,
+      "components": 122,
+      "min_component_volume": 0.00017816407489590347,
+      "triangles": 1464,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506363",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 4.924358156820138,
+      "triangles": 16,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506363",
+      "nonmanifold_edges": 0,
+      "components": 120,
+      "min_component_volume": 0.0001781633278975884,
+      "triangles": 1440,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506364",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 4.221043296158314,
+      "triangles": 16,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506364",
+      "nonmanifold_edges": 0,
+      "components": 117,
+      "min_component_volume": 0.00017816482674485692,
+      "triangles": 1404,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506365",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 3.4941999490062394,
+      "triangles": 16,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506365",
+      "nonmanifold_edges": 0,
+      "components": 114,
+      "min_component_volume": 0.0001781633278975884,
+      "triangles": 1368,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506358",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 2.7586770628889403,
+      "triangles": 16,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506358",
+      "nonmanifold_edges": 0,
+      "components": 111,
+      "min_component_volume": 0.00017816482674485692,
+      "triangles": 1332,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506359",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 2.0694598580400148,
+      "triangles": 16,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506359",
+      "nonmanifold_edges": 0,
+      "components": 109,
+      "min_component_volume": 0.00017816482674485692,
+      "triangles": 1308,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506369",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 1.3561230935156345,
+      "triangles": 16,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506369",
+      "nonmanifold_edges": 0,
+      "components": 105,
+      "min_component_volume": 0.00017816482674485692,
+      "triangles": 1260,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_DALLE_2506368",
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_volume": 0.6112013198435307,
+      "triangles": 16,
+      "statut": "ESTIME"
+    },
+    {
+      "name": "VLAU_STAL_OUVRAGES_TOUR_GARDE_2506368",
+      "nonmanifold_edges": 0,
+      "components": 103,
+      "min_component_volume": 0.0001781633278975884,
+      "triangles": 1236,
+      "statut": "ESTIME"
+    }
+  ]
+}

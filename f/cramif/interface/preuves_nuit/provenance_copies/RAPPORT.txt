@@ -1,0 +1,30 @@
+PROVENANCE DES IMAGES ARCHIVÉES — CORRESPONDANCES SHA EXACTES
+
+État figé le 11 octobre 2026 vers 08:35 Paris, depuis hub.inventaire_images(force=True), en lecture seule. Aucun endpoint, fichier de métadonnées central, backend, modèle natif ou image n’a été modifié. Le compteur quota autorisait ce lot jusqu’à 08:44 Paris.
+
+RÉSULTAT
+9 129 images présentes dans l’inventaire, dont 311 documentées et 8 818 inconnues au départ. Toutes les 9 129 images ont une empreinte SHA-256 calculée avec succès. Au premier passage, 102 variations d’horodatage pendant la lecture ont empêché une validation ; la reprise stable a permis de vérifier ces 102 fichiers. Aucun échec restant.
+
+33 images initialement inconnues correspondent exactement aux octets d’au moins une image documentée : 16 dans le projet, 16 dans le cache de calculs et une dans CRAMIF. Elles se répartissent sur 17 empreintes distinctes : 30 copies de références Google Earth / Street View, deux copies d’une orthophoto IGN et une copie d’analyse de houppiers. Deux attributions IGN conservent le producteur individuel non renseigné ; la source WMS est explicitement documentée. Aucun auteur nouveau n’est inventé.
+
+Zéro groupe présentant des métadonnées documentées contradictoires dans les rapprochements obtenus. Le moteur refuse toutefois toute propagation si les graines d’un même SHA donnent des valeurs incompatibles pour URL d’origine, producteur, licence, date d’acquisition, date de source ou date des données. Les contradictions, si présentes, seraient livrées séparément et resteraient INCONNUE.
+
+Les 947 fichiers de la nouvelle session ad5ab4a8 n’ont aucune empreinte commune avec les 311 graines documentées du snapshot. Leur conservation dans une archive de session ne prouve ni leur auteur ni un producteur Claude. Aucune provenance n’est attribuée à ces 947 fichiers dans ce lot.
+
+MÉTHODE ET GARANTIES
+SHA-256 sur les octets bruts ; aucune égalité visuelle, nom, dossier, taille ou mtime n’est utilisée pour relier deux images. Une provenance n’est transmise qu’à une fiche INCONNUE. Les champs absents restent absents. Les emplacements, rôles d’archive et dates du fichier ne sont pas remplacés. Les graines sont incluses dans chaque entrée avec leurs identifiants, emplacement et métadonnées documentées. Les 33 cibles et toutes leurs graines ont été relues et rehashées après constitution du mapping : égalité stricte confirmée, identifiants uniques. Les URL reprises ont déjà été filtrées par le module hub ; aucun jeton ou accès d’authentification n’est exporté.
+
+LIMITES DES SOURCES HISTORIQUES
+Les trois fichiers scratchpad/dl_commons/panneau.jpg, panneau_haut.jpg et panneau_bas.jpg ne partagent pas les octets de H28_panneau.jpg documenté. La table historique associe H28 à la photographie du panneau Rotonde de William Jexpire, mais cela ne permet pas d’attribuer les trois autres fichiers sous la contrainte SHA exacte. Le script générique commons_dl.py ne nomme pas ces trois sorties : aucune source n’est transmise par supposition.
+
+Les manifestes IIIF Paris Musées de scratchpad/pm et dl_carnavalet sont conservés mais ne fournissent pas d’empreinte reliant le fichier local elev_D13864-46.jpg aux pixels de la ressource. Les noms évoquant rendu ou Blender ne sont pas une attestation de production ; une déclaration de render.filepath, seule, ne certifie pas que le fichier actuel vient de cette exécution. Ces cas restent inconnus. La prochaine preuve utile est une attestation fichier + SHA + URL source, ou fichier + SHA + script/exécution documentée. Aucun téléchargement ni recadrage n’a été effectué pour forcer une correspondance.
+
+UTILISATION PAR L’INTÉGRATEUR
+mapping_sha256.json contient meta, updates et contradictions. Chaque update porte id, racine, rel, sha256, taille, ancienne provenance inconnue, nouvelle provenance, explication et preuves. Au moment de l’application, revérifier que le fichier cible a toujours le SHA indiqué et que sa fiche est encore INCONNUE. Ne pas écraser une provenance renseignée après 08:35 ; réexaminer alors une éventuelle divergence. Ne pas remplacer le rôle, le contexte ou la qualité d’archive de l’emplacement cible. Il s’agit d’un mapping de proposition ; aucun code d’application automatique n’a été exécuté.
+
+FICHIERS UTILES
+mapping_sha256.json — 33 propositions et leurs preuves exactes.
+verification.json — statistiques et contrôles finaux source/cible.
+limites_archives.json — 947 archives sans rapprochement et cas source explicites insuffisants.
+RAPPORT.txt — méthode, résultats et précautions d’intégration.
+Les snapshots complets et scripts de calcul restent temporaires, hors du paquet utile. Aucune image copiée.

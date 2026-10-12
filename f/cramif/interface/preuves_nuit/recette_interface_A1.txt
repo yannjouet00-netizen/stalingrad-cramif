@@ -1,0 +1,52 @@
+MISSION INTERFACE — BILAN DU LOT DE NUIT
+11 octobre 2026, 04:54 Europe/Paris.
+Ce bilan remplace l’arrêt initial lié à l’absence de compteur chez l’agent.
+Quota contrôlé par root : 1 % à 04:40, 3 % à 04:46, 4 % à 04:50. Bail autorisé jusqu’à 04:56 ; aucun nouveau lot sans renouvellement.
+
+CORRECTIONS ENREGISTRÉES DANS LE PROJET
+1. pro_cramif.html et Brain : suppression des déductions jalons × 25 et du statut Terminé calculé depuis percent=100 ou jalons=4. Barres uniquement pour une mesure qualifiée ou un compte completed/total. État terminé explicite requis.
+2. Repères Pro : fraîcheur réévaluée toutes les 30 secondes, même si les données restent inchangées ; barre absente si valeur inconnue, aucun faux 0 %. Compactage et retrait du symbole Ⅱ étaient déjà implémentés et ont été conservés. Le badge d’attente peut conserver son symbole pause, conformément à la précision du parent.
+3. Activité : horodatage confirmé du lot ou des agents prioritaire sur l’activité globale des journaux de tokens. L’animation d’un agent requiert à la fois active et un état récent.
+4. Introduction : fermeture rendue idempotente. Le fond clair, le mouvement et les styles existants ont été préservés ; ils ne sont pas déclarés visuellement validés.
+5. Hub et index : source humaine prioritaire sur le chemin technique ; producteur et licence affichés lorsqu’ils sont renseignés. Inventaire actualisé toutes les cinq minutes, suspendu lorsque l’onglet est masqué. Recherche sur tout l’inventaire et affichage par lots de 48 conservés.
+6. Brain : navigation mobile rétablie ; recherche sans distinction d’accents, incluant les opérations et les étapes ; résultats directement sélectionnables, Entrée pour ouvrir, Échap pour effacer. Calcul des collisions fondé sur la taille DOM réelle des étiquettes, y compris les titres sur plusieurs lignes.
+7. Étude des rues : navigation principale conservée sur téléphone.
+8. progression_interface.json : checklist réelle de recette distinguant corrections de code et vérifications visuelles. 5 tâches sur 8 accomplies ; 62,5 % concerne uniquement cette checklist. La recette graphique restante est explicite.
+
+FICHIERS MODIFIÉS
+suivi/pro_cramif.html
+suivi/hub.html
+suivi/index_cramif.html
+documentation/v3/cramif/interface/brain.html
+documentation/v3/cramif/etude_rues/ETUDE_RUES.html
+suivi/progression_interface.json
+
+CONTRÔLES RÉUSSIS
+- Syntaxe JavaScript des pages corrigées : valide.
+- 7 cas de calcul d’avancement : valeurs absentes, non qualifiées ou invalides rejetées ; mesure qualifiée et compte 3/5 acceptés.
+- 7 cas Brain : états explicites, expiration réelle de l’activité et recherche dans les accents/étapes.
+- HTTP à 04:47 : /pro, /brain, /images, /carnet, /suivi et /etude-rues répondent 200 et servent les corrections.
+- API à 04:53 : contrat interface reçu avec status=controle, completed=5, total=8, percent=62.5, percent_measured=true, progress_basis=comptage_etapes.
+- Banque historique réelle : 8 086 images ; chacune a une explication, une provenance et une note distinguant date de fichier et date d’observation. 271 provenances documentées, 7 images embarquées de comptes rendus Claude. Les autres provenances restent déclarées inconnues.
+
+OBSERVATIONS CUA ET LIMITES
+Safari a permis de lire le Suivi et de naviguer vers Pro puis Brain. L’AX a confirmé le chargement du modèle à 04:42:21 et la disparition de l’introduction. La première capture montrait seulement le logo et le fond clair ; elle ne valide ni le mouvement ni l’image finale.
+Après navigation vers Brain : capture/AX expirée à 120 secondes, lecture AX bornée expirée à 20 secondes, nouvelle sélection Safari expirée à 120 secondes malgré une borne demandée de 20 secondes. Aucune nouvelle manipulation graphique n’est déclarée réussie.
+Parent signale un rapport de crash Blender intermittent et autorise sa fermeture par OK ; aucune fenêtre de rapport n’était observable depuis cet agent. Aucune fermeture n’a donc été effectuée.
+Recette visuelle encore ouverte : introduction, caméra Cour et autres arrivées, transition aérienne, coupes de périmètre, panneaux, Brain orbitable/noyau/collisions/recherche/mobile, galerie et carnet complets.
+Les corrections de code ne constituent pas une certification visuelle.
+
+PREUVES ET INTÉGRITÉ
+Dossier temporaire : /private/tmp/nuit_interface_0440
+Contient sauvegardes avant retouche, scripts, tests, résultats HTTP/API et empreintes SHA256.
+Les observations CUA sont dans les résultats d’outils de la tâche. Aucune capture finale persistée de Brain n’est annoncée.
+Aucun fichier natif, NPZ ou agents_chantier.json modifié. Aucun redémarrage de serveur par cet agent. Le parent a redémarré le serveur et corrigé le contrat API.
+
+COMPLÉMENT DU LOT RENOUVELÉ — 05:00 PARIS
+Quota central : 5 % à 04:53. Bail renouvelé jusqu’à 05:03.
+- Chargeur Pro : l’attente de requestAnimationFrame peut rester suspendue lorsque l’onglet est masqué. Ajout d’une cession par MessageChannel dans ce cas, et repli borné si les frames visibles sont suspendues ; les ports sont fermés.
+- Statut réel : seules les couches construites avec succès comptent ; un retour202 ou une erreur ne produit plus «Modèle chargé». Les tentatives reprennent toutes les six secondes, avec finalisation unique après succès. Le texte de chargement reste lisible indépendamment des animations CSS.
+- eole_voies : format maillage standard confirmé par root ; couche ajoutée à l’ordre, aux couches par défaut, au libellé et au découpage continu du périmètre. Cela prépare son affichage lorsque le backend annonce sa disponibilité ; aucune géométrie produite ici.
+- Tests chargeur : onglet masqué, frame normale et frame suspendue résolvent tous l’attente. Retours202/erreurAPI donnent false ; couche construite donne true. Syntaxe finale valide.
+- Contrôles algorithmiques du code de coupes existant : boîte coupée avec aire100m², plan limite sans cap ajouté, deux volumes conservés distincts, graphe ouvert signalé sans fermeture inventée, intervalle hors domaine ignoré. Aucune certification visuelle des coupes sur la maquette.
+- Checklist désormais6/9 opérations de recette accomplies ; 66,7% de cette liste uniquement. Les trois vérifications graphiques restent ouvertes.

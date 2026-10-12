@@ -1,0 +1,40 @@
+STALINGRAD — BILAN DES DIX LOTS AU JALON A17
+Synthèse préparée le 11 octobre 2026 à 08:52 Paris pour consolidation et bilan de 10 h.
+Ce document décrit A17 ; il ne préjuge pas des opérations qui seraient publiées ensuite.
+
+Le fichier de travail A17 est sauvegardé et réouvert par le coordinateur. Cette synthèse relit les preuves existantes : aucun nouveau contrôle du natif ni aucune modification n’a été effectué pour la produire.
+
+CE QUI A RÉELLEMENT CHANGÉ PENDANT LA MISSION DE NUIT
+• Interface : introduction, états, coupes et cadrages corrigés ; Brain testé avec neuf interactions ; Carnet et galerie recettés dans Chrome. Les 947 images historiques ont été copiées et vérifiées dans l’archive durable.
+• Tour voisine : deux baies visibles et un retour vitré ajoutés en A14, avec dimensions estimées. Les balcons et le retrait existaient déjà ; ils ont été contrôlés et conservés.
+• Cour sud : deux corrections locales de terrain A6 et A8, puis une couverture de 174,27 m² ajoutée en A17. Cette couverture ne modifie pas le sol dessous. Ombrage à 30° rétabli sans changement de coordonnées.
+• Voirie : 19 bandes sur deux passages, Tanger/Maroc et écluse. Cela ne constitue pas le relevé de toute la voirie.
+• Rotonde : un contact ponctuel au porche NO corrigé ; aucun remodelage du monument.
+• Berges : six houppiers remplacés par des enveloppes de points historiques, pieds et troncs conservés.
+
+CE QUI ÉTAIT DÉJÀ FAIT ET A ÉTÉ CONTRÔLÉ
+• Sols des îlots Seine/Loire simplifiés, cour centrale et entrée Maroc reprises.
+• Quatre bases de murets raccordées ; couronnements et ouvertures conservés.
+• Balcons, retrait et parements de la tour ; 71 objets de la Rotonde.
+• Neuf solides de l’écluse et 20 plans de terrasses/berges. Aucune nouvelle réparation de berge n’a été justifiée.
+• Eau : réglage de rendu signalé dans l’aperçu ; aucune modification de cote ou géométrie pendant la mission établie par ces preuves.
+
+POURQUOI CERTAINES CORRECTIONS RESTENT EN ATTENTE
+Cour sud : la vue A17 montre encore des facettes. Les sources distinguent plusieurs niveaux réels, parfois superposés. Les 270 retours restants sont localisés ; relever ou aplanir sans délimiter les ruptures effacerait des passages bas. La prochaine opération utile est un raccord local à surfaces séparées, après qualification de ses limites.
+Rotonde NE : la photo de 2016 suggère environ sept marches contre quatre conventionnelles dans le modèle. Le seuil haut et les girons ne sont pas mesurés, et le LiDAR ne voit pas la volée centrale. Ajouter trois marches déplacerait arbitrairement le seuil ou réduirait leur hauteur à 9,29 cm.
+Berge basse : l’écart local de 5,46 m correspond à un trottoir haut au-dessus d’un niveau bas. Le petit reste de domaine sous couronnement ne démontre pas une facette cassée ni une dalle manquante. Une coupe ou vue oblique est nécessaire.
+Arbres : les deux poiriers en conflit avec l’inventaire restent inchangés. Les six enveloppes livrées décrivent le LiDAR de 2023, pas une croissance mesurée en 2026.
+Sols Loire : 58 limites ouvertes héritées restent à qualifier ; elles n’ont pas été rebouchées sans preuve.
+
+PORTÉE DE LA LIVRAISON
+Les dix lots sont tous représentés dans la matrice détaillée. Un contrôle réussi ou une reprise partielle ne signifie pas que tout le lot est terminé. Aucun pourcentage global de fidélité n’est calculé. La recette d’interface porte sur Chrome headless/SwiftShader et des dimensions bureau/téléphone ; Safari, gestes tactiles et performance GPU ne sont pas certifiés.
+Éole, le parking et le faisceau font l’objet d’une synthèse parallèle. Les 31 houppiers cumulés comprennent 25 à Éole et six aux berges.
+
+FICHIERS
+matrice_10_lots.json : état, antériorité, preuves, limites et suite utile pour chacun des dix lots.
+matrice_10_lots.html : tableau lisible autonome.
+RAPPORT.txt : détail et avertissements sur les documents historiques dépassés.
+preuves_manifest.json : 28 sources durables effectivement relues, avec empreintes SHA-256.
+
+Référence native A17 :
+443186a6e9f7d7247c78d915ae81c75af548b6a3ff26facf24830f9e389f92d6

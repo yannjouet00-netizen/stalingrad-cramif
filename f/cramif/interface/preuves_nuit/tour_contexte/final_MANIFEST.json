@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-11T13:07:00+02:00",
+  "source": "Capture réelle Chrome headless SwiftShader ; lecture native Blender sans sauvegarde ; API locale",
+  "native_sha256": "8dd55fa238f5dcc7b9b581cccf6f4ffd4a271a5be6ff73e272b1402fb83d86ec",
+  "files": [
+    {
+      "name": "pan_vue_haute.png",
+      "sha256": "f310570dc9ff623ff9c7c0bc2154ccbbe7c98094266bb0a19e0d54373763f334"
+    },
+    {
+      "name": "tour_contexte.png",
+      "sha256": "b6a825413a22b0a3d4ac06e56c086e58a9352581caf484691b585d3e46a1dbbe"
+    },
+    {
+      "name": "tour_pan_et_toiture.png",
+      "sha256": "c2bbbe8ebc17dd22990cd3149623992239375e32cc3f2484451758192d747760"
+    },
+    {
+      "name": "pro_activite.png",
+      "sha256": "3740825c8577a75e55b2352c6f1e68be15a6d62123805578d57a9e26d1994f8f"
+    },
+    {
+      "name": "brain_activite.png",
+      "sha256": "c9391a5d873d6b13813075930d6a1ec7a0ee632d61141d8652a7cc85d07b3cfc"
+    },
+    {
+      "name": "comparaison_exacte.json",
+      "sha256": "81b4ae4959996206155694ae61fea722358d5363fa8153851e21622ba5ebf599"
+    },
+    {
+      "name": "native_3volumes.json",
+      "sha256": "20e75e1e343cde8da546f2bca83a2806f1b3f9dca814fdbdbe8c6fdcf2735e32"
+    },
+    {
+      "name": "recette.json",
+      "sha256": "081d7695e20b97ef770118fccd18798855403785598e9b0e88656827eb27520e"
+    },
+    {
+      "name": "RAPPORT.txt",
+      "sha256": "c87f7585a35d06a1c255011a5e98cc742f84ce2386d1aeab19a4a2dc22c402c3"
+    }
+  ]
+}

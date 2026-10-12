@@ -1,0 +1,30 @@
+BRAIN — RECETTE RÉELLE ET CORRECTIONS, 11 OCTOBRE 2026, 07:04 PARIS
+Session Chrome indépendante : port 9228, profil /private/tmp/stalingrad_brain_recette_9228. Le navigateur du root sur 9227 n'a pas été utilisé. Trois passages bornés ; navigateur indépendant fermé après chaque passage, dernière sortie de processus confirmée à 0. Aucun natif modifié.
+
+RÉSULTAT FINAL : NEUF CONTRÔLES RÉUSSIS
+1. Animation automatique arrêtée par le bouton ; état Reprendre et aria-pressed=false.
+2. Projection stable avant le geste (variation maximale de labels 0,22 px).
+3. Glissement de souris commencé sur un point dont elementFromPoint était réellement le canvas, pas un label : 220 px horizontalement, 70 px verticalement. Dix-sept labels changent de plus de 20 px, variation maximale 651,34 px. Vues avant et après examinées : rotation effective de la galaxie.
+4. Bouton Zoomer : projection modifiée, variation maximale 130,69 px ; seize labels changent de plus de 20 px.
+5. Recentrer : lecture directe de camera.position et controls.target dans la portée réelle du gestionnaire avec le debugger CDP. Position finale [0, 440.00000000000006, 740], cible [0, 0, 0], autoRotate=false.
+6. Recherche «ecluse» sans accent : Passerelle et berges en premier, puis Arbres des berges, puis Voirie et marquages.
+7. Entrée sélectionne Passerelle et berges et ouvre le détail correspondant. Capture examinée.
+8. Échap efface la recherche.
+9. Aucune exception JavaScript reçue par Runtime.exceptionThrown pendant le passage.
+
+DEUX DÉFAUTS RÉELS CORRIGÉS DANS brain.html
+Recherche : le titre abrégé affiché supprimait le mot Écluse ; raw.titre n'était pas recherché. Le titre complet est désormais indexé. Les correspondances exactes/début de titre/titre passent avant les mentions dans le texte des étapes ; Entrée utilise ce même classement.
+Recentrage : l'inertie d'OrbitControls continuait à déplacer la caméra après la remise à zéro. Mesure avant correction : [-4.3787, 441.3940, 739.1564], cible nulle et rotation automatique arrêtée. Le reset consomme désormais les deltas résiduels sans amortissement avant de rétablir la position et la cible, puis restaure les préférences de contrôle.
+Le premier test fondé seulement sur la position des labels n'était pas une preuve de défaut caméra : l'évitement de collisions conserve un historique de placement. Le contrôle final a donc lu la caméra elle-même, sans modifier ni exposer de nouvel objet global dans le produit.
+
+PREUVES
+final/resultats.json : gestes, états DOM avant/après, caméra et neuf résultats.
+final/01_avant_orbite.png ; final/02_apres_orbite.png ; final/03_apres_zoom.png ; final/04_recherche_selection.png.
+recette_final.mjs : script reproductible, ferme le navigateur indépendant.
+empreintes.json : SHA256 du HTML final et des quatre captures.
+Les passages initiaux restent dans tmp pour expliquer la reproduction ; seules les quatre captures finales sont utiles à la livraison.
+
+LIMITES
+Chrome headless avec WebGL logiciel SwiftShader, viewport 1440 × 1000. Ce n'est ni une mesure de performance GPU du poste ni une recette tactile sur téléphone ou Safari. Le zoom testé ici est le bouton ; molette et pincement restent distincts. Les avertissements du pilote logiciel dans le journal Chrome ne sont pas des exceptions JavaScript de la page.
+La disposition mobile et l'absence de débordement avaient été vérifiées séparément par root ; aucune nouvelle validation mobile revendiquée ici.
+Quota central : bail jusqu'à 07:08, dernier point root 06:57, 12 % brut / effectif 19 %.

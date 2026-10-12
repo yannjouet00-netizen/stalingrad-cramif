@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-10-11T07:17:41.588481+00:00",
+  "native": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend",
+  "native_sha256": "443186a6e9f7d7247c78d915ae81c75af548b6a3ff26facf24830f9e389f92d6",
+  "api_bati_sha256": "3dc74b750426606db59eae437461675ec4bbb857cdcb6793bdf5bdf90d123720",
+  "api_matches_A17": true,
+  "gallery": {
+    "total": 9141,
+    "date_inventaire": 1791703064.7165241,
+    "refresh_seconds": 30,
+    "racines": {
+      "cramif": 88,
+      "images_claude_travail": 947,
+      "images_projet": 4144,
+      "images_calcul": 3955,
+      "images_claude": 0,
+      "cr_image": 7
+    },
+    "provenances_documentees": 349,
+    "sources_inconnues": 8792,
+    "non_previsualisables": 9,
+    "limites": [
+      "Inventaire des fichiers conservés et images embarquées du compte rendu Stalingrad. Les images perdues ou jamais enregistrées localement ne sont pas récupérables ici.",
+      "Les copies conservées dans plusieurs dossiers restent visibles avec leur emplacement ; pas de déduplication de contenu.",
+      "Auteur et date d’acquisition inconnus restent explicitement inconnus ; mtime sert au tri, pas à dater le terrain.",
+      "Références Google : accès interne conservant l’authentification du serveur."
+    ],
+    "racines_absentes": [
+      "images_claude"
+    ]
+  },
+  "historical_images": 947,
+  "exact_copy_attributions": 33,
+  "proof_documents": [
+    {
+      "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A17.json",
+      "sha256": "33ec8efe9f7a751c095f7e027efe0bdaedf4652aa7be0600244287c44471cdfa"
+    },
+    {
+      "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/API_A17.json",
+      "sha256": "74ff6a8db4cbfcc0796cdd065fd1a07a1fd72ae48dfcfc198072b9a4b784a7e2"
+    },
+    {
+      "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/bati_A17_preservation.json",
+      "sha256": "c3f658472340fb9baa54d4f4fe65d2620ec3881ff80d00b31c1a53ad6179bc92"
+    },
+    {
+      "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_A_E/MATRICE_A_I_APRES_A_E.json",
+      "sha256": "9173080394cecb7cbe67d97882462c00a6a2eca53b5c66a7448279d5d1009313"
+    },
+    {
+      "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/bilan_dix_lots_A17/matrice_10_lots.json",
+      "sha256": "99547f3c2102196f1030ab8fe4b1c3040fe8a5b8015def651dc718bdc89f8df5"
+    },
+    {
+      "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/bilan_eole/synthese.json",
+      "sha256": "5833bfa4d684b7e7e59b923ee258f40f2715f9666b75894f9a713d15ea249523"
+    },
+    {
+      "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/liens_preuves_0907.json",
+      "sha256": "7ee662c9cc3d3391c97e0ba251d1eb306d64dccc42cf297f31bd5f56b5d5ff06"
+    },
+    {
+      "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/notice_bilan_preparation.json",
+      "sha256": "1437012acc6b2a7b820f64509a3f686eb581ae3190cc41e4765d392780e9647b"
+    }
+  ],
+  "scope": "Contrôle de cohérence des livraisons et provenances appliquées ; pas nouvelle recette géométrique ni tactile."
+}

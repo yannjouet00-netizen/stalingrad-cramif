@@ -1,0 +1,28 @@
+{
+  "status": 200,
+  "bytes": 3841488,
+  "source": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/ballast_a3/Ballast_Eole.npz",
+  "triangles": 47424,
+  "header": {
+    "type": "maillage",
+    "parts": [
+      {
+        "nom": "Ballast_Eole",
+        "n": 142272,
+        "off": 0
+      }
+    ],
+    "titre": "Éole · assise des voies, profil conventionnel"
+  },
+  "positions_exactes": true,
+  "rgb_exact": true,
+  "rgb_forme": [
+    47424,
+    3
+  ],
+  "rgb_distinct": 1,
+  "normales_finies": true,
+  "normales_nulles": 0,
+  "aretes_ouvertes_source": 0,
+  "aretes_non_manifold_source": 0
+}

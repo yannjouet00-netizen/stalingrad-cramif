@@ -1,0 +1,24 @@
+CORRECTIF LOCAL CRAMIF — 11 octobre 2026
+
+Paquet : /private/tmp/cramif_reparation_sol/patch_v1
+Importeur : /private/tmp/cramif_reparation_sol/importer_sol.py
+Calcul reproductible : construire_patch.py ; verifier_patch.py ; check_outside.py
+
+RESULTAT CONSTRUCTIBLE
+Remplacement effectif de triangles dans trois maillages complets : Sol_lisse.npz, Amenagements.npz, Trottoirs.npz. Les autres parts du terrain restent celles du projet. Ces NPZ sont directement compatibles avec le schéma v/f/mat/classe/zone_id/aretes_vives/sommet_global du viewer existant.
+258 triangles source interceptant les trois domaines sont retirés (170/37/51), leurs portions extérieures sont retriangulées ; 1736 triangles construisent les surfaces et raccords. Le manifeste liste chaque indice source retiré, empreintes SHA256 et compte final.
+
+COUR CENTRALE : domaine de 420 m² ; deux rampes distinctes aux pentes opposées, dérivées de 644 et 708 points LiDAR classe 2. Résidus RMS des plans : 4,49 et 3,92 cm. Cour haute : 1402 points, RMS 2,94 cm. Ni dalle commune sur le creux ni surface de recouvrement ajoutée. Les 40 points NW exclus de la rampe sont exclusivement en tête (Z44,91..45,18), raccordés à la cour haute ~45m. Emprises des rampes et parois latérales ESTIME, pas contour d'ouvrage levé. Raccord progressif à l'ancien sol sur 1,5 m de bordure. Topologie : 0 arête ouverte intérieure ou de raccord, 0 arête non manifold intérieure.
+
+MAROC : deux bandes de 11,20 et 7,80 m² au front d'entrée et au portail. Projection publique dérivée des supports classe 2 du lot clôtures ; largeur 0,30 m côté cour et 1,25 m côté rue, choix de domaine CONVENTION. Les cours basses extérieures aux bandes restent conservées. Surfaces remplacées et raccords verticaux ; pas de superposition. Aucun défaut intérieur de topologie. Limite : trois arêtes verticales de bord restent ouvertes au contact des discontinuités de niveaux des parts natives (XY 103.151273/195.692567 ; 108.756793/191.127953 ; 108.888999/191.020296). Le terrain complet n'est donc pas un solide fermé à ces contacts. Ne pas qualifier la réparation Maroc de solide étanche.
+
+COUR SUD : préparations LiDAR conservées dans sources ; aucun changement de terrain sud dans cette version. Risque de surfaces superposées réelles sous dalle et absence de contour public fiable ; garder ce diagnostic distinct du résultat central réalisé.
+
+INTEGRATION PAR ROOT
+1. Persister le paquet et l'importeur dans les répertoires convenus du projet, sans écraser les NPZ sources originaux. Configurer SOL_PATCH_ROOT (global ou environnement) vers ce paquet si déplacé ; STALINGRAD_ROOT vers le projet.
+2. Dans la copie Blender visible, exécuter importer_sol.py. Prévalidation globale : SHA sources, vertex world et ordre des triangles identiques à la source attendue. En cas de modification utilisateur du terrain, refus avant toute mutation. Les objets, scènes et matériaux sont conservés ; anciennes datablocks conservées en mémoire. Script relançable par empreinte du patch.
+3. Vérifier la vue centrale puis Maroc, enregistrer la copie depuis root uniquement. L'importeur ne sauvegarde jamais.
+4. Viewer : faire lire les trois NPZ du paquet à la place des trois sources correspondantes, conserver les trois autres parts. Aucun overlay à ajouter.
+
+TEST
+Import sans sauvegarde réussi dans Blender 5.2 sur Stalingrad_CRAMIF_travail.blend ; 3 objets V3 Sol lisse / V3 Amenagements / V3 Trottoirs reconnus et remplacés en mémoire. Seconde exécution après dernier nettoyage du triangle dégénéré également réussie : 169321 / 37522 / 68278 faces. Source originale non modifiée.

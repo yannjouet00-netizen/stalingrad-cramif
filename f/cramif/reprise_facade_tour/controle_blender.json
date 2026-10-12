@@ -1,0 +1,186 @@
+{
+  "old_meshes": 13082,
+  "old_changed": [],
+  "other_scenes_changed": [],
+  "new_objects": 25,
+  "checks": [
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_SOCLE_VOILE_BLANC_0",
+      "components": 1,
+      "min_volume": 101.19769105839077,
+      "triangles": 28,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_SOCLE_MASSE_DROITE_0",
+      "components": 1,
+      "min_volume": 210.61147030194604,
+      "triangles": 36,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_SOCLE_CORPS_0",
+      "components": 1,
+      "min_volume": 820.6758695642153,
+      "triangles": 92,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_RETRAIT_VOILE_BLANC_0",
+      "components": 1,
+      "min_volume": 956.4212258309128,
+      "triangles": 28,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_RETRAIT_MASSE_DROITE_0",
+      "components": 1,
+      "min_volume": 1990.492845694224,
+      "triangles": 36,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_RETRAIT_CORPS_0",
+      "components": 1,
+      "min_volume": 7539.861443995032,
+      "triangles": 108,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_COURONNEMENT_VOILE_BLANC_0",
+      "components": 1,
+      "min_volume": 27.06596823390767,
+      "triangles": 28,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_COURONNEMENT_MASSE_DROITE_0",
+      "components": 1,
+      "min_volume": 56.329381619890526,
+      "triangles": 36,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_COURONNEMENT_CORPS_0",
+      "components": 1,
+      "min_volume": 219.49501903355124,
+      "triangles": 92,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_0_0",
+      "components": 1,
+      "min_volume": 1.181214412053426,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_1_0",
+      "components": 1,
+      "min_volume": 1.181214412053426,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_2_0",
+      "components": 1,
+      "min_volume": 1.181214412053426,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_3_0",
+      "components": 1,
+      "min_volume": 1.181214412053426,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_4_0",
+      "components": 1,
+      "min_volume": 1.181214412053426,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_5_0",
+      "components": 1,
+      "min_volume": 1.181214412053426,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_6_0",
+      "components": 1,
+      "min_volume": 1.181214412053426,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_7_0",
+      "components": 1,
+      "min_volume": 1.181214412053426,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_8_0",
+      "components": 1,
+      "min_volume": 1.1811643441518147,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_9_0",
+      "components": 1,
+      "min_volume": 1.1811643441518147,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_10_0",
+      "components": 1,
+      "min_volume": 1.181214412053426,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_PLANCHER_RETRAIT_11_0",
+      "components": 1,
+      "min_volume": 1.181214412053426,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_FOND_BALCONS_VITRAGE_0",
+      "components": 1,
+      "min_volume": 11.78385583559672,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_RENFONCEMENT_CENTRAL_VITRAGE_0",
+      "components": 1,
+      "min_volume": 12.831072409947714,
+      "triangles": 12,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_TRAME_VITREE_ESTIMEE",
+      "components": 56,
+      "min_volume": 0.01186499606653039,
+      "triangles": 672,
+      "closed": true
+    },
+    {
+      "name": "VLAU_STAL_VOLUMES_TOUR_COURONNEMENT_DROIT",
+      "components": 1,
+      "min_volume": 24.28692634900411,
+      "triangles": 12,
+      "closed": true
+    }
+  ],
+  "triangles": 1336,
+  "file": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend",
+  "native_saved": false
+}

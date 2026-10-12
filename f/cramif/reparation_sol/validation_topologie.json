@@ -1,0 +1,20 @@
+[
+  {
+    "id": "COUR_CENTRALE_2_RAMPES",
+    "edges_open_interior": 0,
+    "edges_nonmanifold_interior": 0,
+    "edges_open_seam": 0
+  },
+  {
+    "id": "MAROC_FRONT_ENTREE_SOL_RUE",
+    "edges_open_interior": 0,
+    "edges_nonmanifold_interior": 0,
+    "edges_open_seam": 2
+  },
+  {
+    "id": "MAROC_PORTAIL_CANDIDAT_PHOTO_SOL_RUE",
+    "edges_open_interior": 0,
+    "edges_nonmanifold_interior": 0,
+    "edges_open_seam": 1
+  }
+]

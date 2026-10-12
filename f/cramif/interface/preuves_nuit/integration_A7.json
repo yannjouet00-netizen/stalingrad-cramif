@@ -1,0 +1,48 @@
+{
+  "verified_reopen": true,
+  "v_f": [
+    100727,
+    171539
+  ],
+  "web_npz_exact_float32": true,
+  "idempotent": true,
+  "scope": "Accès Éole : profils de trois montées et deux paliers estimés, représentation lisse sans marches inventées",
+  "contacts": {
+    "source_native_sha256": "837b3e0d7328aaed74012c9ba68b4a91799c72c826c433bec0f564769fbd8813",
+    "domain_m2": 33.96745677490548,
+    "source_faces_cut": 34,
+    "v_f_before": [
+      100295,
+      170779
+    ],
+    "v_f_after": [
+      100727,
+      171539
+    ],
+    "surface_xy_difference_m2": 0.0,
+    "boundary_contacts": 596,
+    "boundary_max_z_difference_m": 2.1316282072803006e-14,
+    "max_z_change_m": 0.32663021586825636,
+    "p95_z_change_m": 0.21724846890348137,
+    "representation": "3montées2paliers, surfaces lisses CONVENTION ; pas marches inventées",
+    "native_saved": false,
+    "outside_used_vertices_unchanged": 100291,
+    "outside_vertex_max_distance_m": 0.0,
+    "center_profile_samples": 250,
+    "center_profile_max_error_to_estimated_model_m": 0.002832618039292356,
+    "lidar_stations_tested": 86,
+    "lidar_profile_before_p90_m": 0.21172954753195583,
+    "lidar_profile_after_p90_m": 0.0198827110346258,
+    "lidar_profile_after_max_m": 0.04271910249047295,
+    "zero_area_3d_faces_before": 0,
+    "zero_area_3d_faces_after": 0,
+    "npz_float32_zero_area_3d_faces": 0,
+    "npz_float32_min_area_3d_m2": 1.4398680251251471e-06,
+    "tree_inventory_inside_domain": 0,
+    "tree_nearest_domain_distance_m": 3.312582551669521,
+    "platform_documented_polygon_intersection_m2": 0.0,
+    "platform_documented_polygon_distance_m": 0.8802361208353805
+  },
+  "native_sha256": "d788977e362976dc8c75723d3b0ece07b2b50196694c0d4ed27b41cd00e84f58",
+  "published_at": "2026-10-11T04:08:17.269056+00:00"
+}

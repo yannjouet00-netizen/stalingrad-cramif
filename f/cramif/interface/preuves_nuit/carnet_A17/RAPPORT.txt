@@ -1,0 +1,25 @@
+CARNET ET IMAGES — PUBLICATION DOCUMENTAIRE A17
+11 octobre 2026
+
+APPLIQUÉ
+Trois notices métier : couverture de la cour sud, six houppiers historiques des berges, diagnostic des deux lacunes ferroviaires A16. Couverture et houppiers sont qualifiés comme intégrés au natif A17, réouverture contrôlée, sur confirmation explicite de la coordination (SHA443186a6e9f7d7247c78d915ae81c75af548b6a3ff26facf24830f9e389f92d6). Les statuts MESURE_LIDAR / ESTIME / CONVENTION et les limites sont conservés séparément. A16 reste un diagnostic sans géométrie ajoutée.
+
+Le dossier durable couverture_sud_a17 ne contient que comparatif.png et apres_oblique.png : ces deux images seules ont été attestées. avant.png et apres.png n’existent pas dans ce dossier, ne sont ni copiées ni référencées. L’image des six houppiers et les trois figures du diagnostic A16 ont également été documentées. Ces six preuves gardent leur stade préparatoire ou analytique ; elles ne sont pas présentées comme des rendus nouveaux d’A17.
+
+COMPLÉMENTS À LA DEMANDE DE LA COORDINATION
+Deux images du diagnostic Rotonde NE durable (rotonde_diagnostic_NE) documentées, SHA vérifiés contre le manifeste. Comparatif photographique attribué à G. Vellut, 13 août 2016, CC BY 2.0 ; profil de marche non mesuré et aucun patch géométrique.
+Capture réelle cour_A17.png documentée comme Chrome headless, 11 octobre 2026 à 08:20 Paris, après intégration A17. Sa qualification est distincte des images préparatoires. La notice couverture renvoie à cette preuve distincte sans prétendre une validation Safari/tactile ou une synchronisation Blender.
+La notice Rotonde reste préparée uniquement dans rotonde_proposition/NOTICE.txt et catalogue_proposition.json ; elle n’est pas publiée dans le carnet. Les métadonnées de ses deux images sont déjà appliquées, indiqué dans le fragment.
+Diagnostic_suite_A18 signalé par la coordination : conservé pour une éventuelle prochaine reprise éditoriale, non analysé ni publié ici. Aucune affirmation d’une révision native globalement chargée n’en est tirée.
+
+CONSERVATION ET TESTS
+Les 129 entrées de référence (29 notices +100 techniques) gardent exactement titres, descriptions, catégories et liens. Avec les trois notices et les nouveaux documents déposés par la coordination, le catalogue HTTP actuel contient 140 documents : 32 notices métier,108 techniques. Deux nouveaux rapports internes de fraîcheur et carnet ont été classés techniques ; ils restent accessibles. Aucun document visible non PDF n’est dépourvu de résumé.
+Les neuf images ciblées sont réellement DOCUMENTEE dans l’API avec titre et SHA exacts. Les trois routes de notices et /carnet servent exactement les fichiers sauvegardés. Métadonnées locales conservées près des images et fusion centralisée sans modifier les anciennes attestations. Aucun fichier image changé.
+Syntaxe des deux pages vérifiée, hub/index identiques. Aucune nouvelle recette graphique effectuée.
+
+MODIFICATIONS
+Documentation des trois notices, deux pages UI du carnet, métadonnées locales d’images et manifeste central uniquement. Aucun backend, natif, état de chantier ou fichier agents modifié. Aucun redémarrage.
+
+PREUVES
+application.json, catalogue_applique.json, validation_catalogue.json, attestations_appliquees.json, attestations_complementaires.json, http_final.json, test_catalogue.cjs.
+Catalogue final SHA03ca122145b2795b16fef9d24750569b240e4286ee48314c27b6692ca6c64b71.

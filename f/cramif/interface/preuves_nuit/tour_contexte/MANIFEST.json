@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-11T12:51:00+02:00",
+  "source": "Chrome headless local SwiftShader, localhost:8790",
+  "files": [
+    {
+      "name": "tour_rapprochee.png",
+      "sha256": "69644aa0c9ab4657d931cd056f9569d1ad71783062adf75e8c0e0d0bbcd28541"
+    },
+    {
+      "name": "tour_contexte.png",
+      "sha256": "0a94b6ae76d985cd2d227d189b58629cd306effa43e8d5e1d018a04a6acc38ec"
+    },
+    {
+      "name": "pro_activite.png",
+      "sha256": "2215bb2a260b8f27343340b76f648293b8a3aefe044c1fe9666b0936d1f447ce"
+    },
+    {
+      "name": "brain_activite.png",
+      "sha256": "f94f3f601d0d670b36cfa352f0a90f4e39f2ef1067d39578defe4edd3a116571"
+    },
+    {
+      "name": "recette.json",
+      "sha256": "5b448e9dcef181b9b27129eb68379c3a5baa214504a9845f80be53db71758c56"
+    },
+    {
+      "name": "api.json",
+      "sha256": "d4cde0aa8eef4ca98e4d7526924117986ab2b0c9101a5352a162a8130c335a88"
+    },
+    {
+      "name": "categories_roi.json",
+      "sha256": "978d55cb68394702fd12c922d0dc01801d9eb44826822ba867c8d895e0bcd22a"
+    },
+    {
+      "name": "RAPPORT.txt",
+      "sha256": "4cf120f1870e4a2153db22403cc56b0ebf3b3bd703b347fc43199ad20fffe35c"
+    }
+  ]
+}

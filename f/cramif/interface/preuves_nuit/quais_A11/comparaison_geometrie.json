@@ -1,0 +1,74 @@
+[
+  {
+    "bloc": "SEINE",
+    "area_m2": 19373.246074669496,
+    "parts": [
+      {
+        "part": "Sol_lisse",
+        "vertices_ROI": 1827,
+        "max_vertex_distance_m": 2.1253543766268932e-05,
+        "unmatched_over_0_1mm": 0,
+        "faces_reference": 3139,
+        "faces_native": 3139,
+        "faces_missing": 0,
+        "faces_added": 0
+      },
+      {
+        "part": "Amenagements",
+        "vertices_ROI": 120,
+        "max_vertex_distance_m": 1.7808878355164592e-05,
+        "unmatched_over_0_1mm": 0,
+        "faces_reference": 120,
+        "faces_native": 120,
+        "faces_missing": 0,
+        "faces_added": 0
+      },
+      {
+        "part": "Trottoirs",
+        "vertices_ROI": 937,
+        "max_vertex_distance_m": 2.1253543766268932e-05,
+        "unmatched_over_0_1mm": 0,
+        "faces_reference": 1375,
+        "faces_native": 1375,
+        "faces_missing": 0,
+        "faces_added": 0
+      }
+    ]
+  },
+  {
+    "bloc": "LOIRE",
+    "area_m2": 34043.665809770835,
+    "parts": [
+      {
+        "part": "Sol_lisse",
+        "vertices_ROI": 3846,
+        "max_vertex_distance_m": 3.066860981101029e-05,
+        "unmatched_over_0_1mm": 0,
+        "faces_reference": 6806,
+        "faces_native": 6806,
+        "faces_missing": 0,
+        "faces_added": 0
+      },
+      {
+        "part": "Amenagements",
+        "vertices_ROI": 283,
+        "max_vertex_distance_m": 3.0436298709925415e-05,
+        "unmatched_over_0_1mm": 0,
+        "faces_reference": 216,
+        "faces_native": 216,
+        "faces_missing": 0,
+        "faces_added": 0
+      },
+      {
+        "part": "Trottoirs",
+        "vertices_ROI": 1102,
+        "max_vertex_distance_m": 3.045723646644188e-05,
+        "unmatched_over_0_1mm": 0,
+        "faces_reference": 1589,
+        "faces_native": 1589,
+        "faces_missing": 0,
+        "faces_added": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+COUR SUD — COUVERTURE SUPÉRIEURE INTÉGRÉE
+Notice d’intervention — 11 octobre 2026
+
+Une couverture supérieure a été intégrée au-dessus de la partie sud de la cour, sans modifier les sols ni les niveaux inférieurs. Son grand bord est rendu rectiligne à partir du support source ; l’encoche d’extrémité est conservée. Ce contour simplifié reste ESTIME : il ne constitue pas un relevé architectural certifié.
+
+Le plan supérieur reprend l’ajustement des retours LiDAR IGN de mars 2023. L’altitude est documentée par ces mesures historiques ; l’épaisseur et l’aspect gris restent CONVENTION. Aucun mur, poteau, sous-face structurelle détaillée ou appui supposé n’est ajouté. Les supports réels sous la couverture ne sont pas établis.
+
+La couverture est intégrée au natif A17 ; sa sauvegarde et sa réouverture ont été contrôlées par la coordination. Les images du paquet de couverture sont celles de la préparation sur A15 : elles ne sont pas présentées comme de nouveaux rendus du fichier A17 rouvert.
+
+Rapport source à conserver dans le projet : donnees/v3/cramif/couverture_sud_a17/RAPPORT.txt.
+
+Une capture distincte de la vue Cour dans Chrome headless après intégration A17 est conservée dans la banque d’images. Elle montre la couverture visible en partie sud ; elle ne certifie ni Safari ni les gestes tactiles.

@@ -1,0 +1,13 @@
+{
+  "bati_v3": {
+    "bytes": 23870091,
+    "parts": 1
+  },
+  "sol_web_exact": true,
+  "maillage_v3": {
+    "bytes": 29176477,
+    "parts": 9
+  },
+  "rotonde_triangles_exact": 60,
+  "total_bati_triangles": 294691
+}

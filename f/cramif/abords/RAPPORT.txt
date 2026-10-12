@@ -1,0 +1,38 @@
+AUDIT CIBLÉ DES ABORDS CRAMIF — 10/10/2026
+Périmètre : boîte locale [4,94]–[121,234] +80m ; repère local L93 E–653700,N–6865100,ZIGN69m.
+Sources projet/native en lecture seule ; tous les résultats dans /private/tmp/cramif_abords. Aucun rebouchage, lissage ou modèle natif modifié.
+
+CONCLUSION
+Le sol solide récent ne crée pas les bandes/fragments visibles des captures : sur475436points, p99delta(surfacefermée/source)=0.00m ; seulement3écarts>3cm(max28.4cm). Les fortes variations de cour sud sont réelles et doivent rester. Le contour arrondi trottoirFlandre/Maroc existe auPVP. L'identité de chaque dent capturée n'est pas encore démontrée ; aucune correction arbitraire n'est justifiée.
+
+EXPLOITATION / LIMITES
+1. Surface maillage publiée + sol solide : calcul barycentrique et contrôle475807points classe2 dont475436couverts. Écart médian source/LiDAR+0.00019m, p95absolu0.182m,p99absolu0.528m. Ces chiffres intègrent points sousdalles/malclassés et ne constituent pas une précision garantie. Sol_lisseMESURE_LIDAR, Trottoirs/ChausseesESTIME, BorduresCONVENTION.
+2. Pentes rouges carte_pentes.png :38composantes>0.1m² et pente>100% horsclassesverticales. Cour sud(26.00,116.19), dénivelé6.47m ; (16.16,123.78),4.70m ; angleCRAMIF(104.73,187.46),4.29m. Valeurs dérivées de maillage, pas hauteur d’un muret. Ne pas considérer tous ces candidats comme défauts : nombreux sont ruptures véritables ou deuxniveaux superposés.
+3. Rampe cour sud :12stationsclasse2 descendantes(11.58,127.83,46.30)→(29,115,43.42),3–15observations/rayon0.7m. Profil de2.88m de descente sur21.6m environ (axeXYESTIME, ZMESURE_LIDAR). Imagecour_sud.png, profil_cour_sud.png. Largeur et contour non attestés, pas de rambarde déduite, pas de dalle ajoutée ni d'ouverture arbitraire du terrain/dalle haute. rampe_cour_sud.json demeure trace indicatrice.
+4. TrottoirangleFlandre/Maroc~(125,175) : trottoir_angle_PVP.geojson conserve le contour source reprojetéL93. PlanSOURCE_DOCUMENTAIRE, altitude noncotée. Son lobe n’est pas à rectifier en rectangle.
+5. Mobilier : mobilier_pvp_groupes_xyz.json contient45BORNE et1BARRIERE, provenant du lotPVP indépendant de controle_cramif. Implantations/dimensionssymboles à contrôler visuellement par cetagent. Altitude barycentrique du sol solideESTIME ; supportLiDARclasse2MESURE_LIDAR. Les bases suivent exactement la surface native. Lignebarrière densifiée au pas≤0.5m pour adapter les pieds, champspolyline_xyz_densifiee/controle_altitude_densifie. Les formes physiques, hauteur/épaisseur du mobilier restentCONVENTION.
+6. Affichage : captures22.46.* montrent les fenêtres procédurales de l’ancienviewer. L’intérieur du bboxCRAMIF a distance0 ; un filtre80m ne coupe pas au pied de ses façades. Le parent a depuis rendu sol/MNT/eau continus. Matériaux uniformes et suppression des faux motifs réduisent les fragments visuels sans altérerlesdonnées.
+
+SUITE JUSTIFIÉE
+Poser le lotmobilierPVP cotés sur la copie courante, contrôleindépendant par controle_cramif. Préserver toutes les cours/rampes. Pour améliorer la jonction sousdallecourSud, relever largeur/contour et distinguer explicitement deuxsurfaces avant modificationtopologique. Aucun patchNPZ terrain livré sans cettepreuve.
+
+ARTEFACTS
+- audit.json : mesures, candidats détaillés, limites/actions et comparaison source/solfermé.
+- carte_pentes.png : coordonnées localisées et contoursPVP.
+- ecarts_ortho.png : écart classe2/source sur vue IGN20cm.
+- cour_sud.png, cour_centrale.png, angle_Flandre_Maroc.png, rue_Tanger.png, trottoir_Flandre.png : détails avecsourcevolumesréelle(contourjaune) et LiDAR.
+- audit_points.npz : points/supportcomparaison reproductible, calcul temporaire.
+- audit.py/details.py/rampe.py/coter_mobilier.py/finaliser.py : scripts lectureseule et sortie temporaire.
+
+CONTROLE MOBILIER
+{
+  "items": 46,
+  "points_controles": 71,
+  "ecart_surface_median_abs_max_m": 0.09995001671607895,
+  "n_lidar_couche_min": 17,
+  "z_statut": "ESTIME",
+  "support": "MESURE_LIDAR"
+}
+
+SECOND LOT : 5 BANCS BA2
+Identification par controle_cramif depuis charte PVP ; fichier bancs_pvp_groupes_xyz.json. 15 points de base (centres + extrémités), minimum21 observations classe2 proches, écart surface/médiane LiDAR maximal0.10992m. Aucun A_VERIFIER. Dénivelés aux deux extrémités1.35–3.14cm. Z interpolé ESTIME ; assise horizontale et hauteurs/formes CONVENTION ; pieds à caler sur les Z individuels. Les11 symboles circulaires ambigus sont exclus.

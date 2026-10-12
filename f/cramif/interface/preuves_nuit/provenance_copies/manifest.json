@@ -1,0 +1,26 @@
+{
+  "status": "READY — MAPPING DE PROVENANCE UNIQUEMENT ; AUCUN CHANGEMENT EFFECTUÉ",
+  "date": "2026-10-11T06:39:43.340154+00:00",
+  "files": [
+    {
+      "file": "mapping_sha256.json",
+      "sha256": "ed5ad2baa62dfd8be297d7ef431a50208edce1598172b8a827c582c2c33e99dc",
+      "bytes": 62905
+    },
+    {
+      "file": "verification.json",
+      "sha256": "bc9ac0b24c7306a6affe2d4c18406fea8bcc844ea3d87e75a62f270d84f9ed92",
+      "bytes": 13582
+    },
+    {
+      "file": "limites_archives.json",
+      "sha256": "f8e29f8b4c282037957e42241b38f691d6798fa001e60edd91eb3a1e54134255",
+      "bytes": 3454
+    },
+    {
+      "file": "RAPPORT.txt",
+      "sha256": "42bdaba49c53d08d094620cfc7bbad9c0f32724ee814abcb52c5f3676e0bd297",
+      "bytes": 4840
+    }
+  ]
+}

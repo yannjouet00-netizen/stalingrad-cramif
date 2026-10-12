@@ -1,0 +1,45 @@
+COHÉRENCE GÉOMÉTRIQUE A14 — NATIF / CACHE / API
+11 octobre 2026, 07:51 Paris
+
+VERDICT : CONFORME dans le périmètre géométrique demandé.
+
+Natif ouvert en lecture seule avec Blender 5.2.0 LTS :
+/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend
+SHA256 : b5d4542a8bd8b4caee5fa171cf048e374c1a13e9fdcd675ea64976be9371d2ee
+Scène : 06_Sol_et_voirie_V3
+Collection : CRAMIF_TOUR_BAIES_PHOTO_ESTIMEES
+
+Trois objets contrôlés directement dans le natif :
+- VLAU_STAL_VOLUMES_TOUR_BAIE_HAUTE : 72 sommets, 108 triangles.
+- VLAU_STAL_VOLUMES_TOUR_BAIE_SECONDE : 72 sommets, 108 triangles.
+- VLAU_STAL_VOLUMES_TOUR_RETOUR_VITRE_SUPERIEUR : 72 sommets, 108 triangles.
+Aucun modificateur ; aucun de ces objets masqué par hide_viewport ou hide_render.
+
+Méthode indépendante : sommets natifs transformés en coordonnées monde, triangulation Blender, conversion float32 puis clé canonique par permutation cyclique conservant l’orientation. Comparaison des multiplicités avec la totalité des triangles du cache. Aucun arrondi spatial ou rapprochement approximatif nécessaire.
+
+Les 324 triangles orientés sont uniques, présents exactement une fois dans le cache, aux indices 295215 à 295538 inclus. Aucun triangle manquant ou dupliqué pour ce lot. Les trois objets représentent exactement les 324 triangles supplémentaires au-delà des 295215 précédents ; ce contrôle ne recertifie pas la conservation des objets précédents par comparaison avec une ancienne version native.
+Écart maximal natif monde → float32 du cache : 0 m, inférieur à la tolérance demandée de 0,00002 m.
+
+Cache : /Users/yannjouet/Library/Caches/stalingrad_v3/suivi_cramif/batiments_v3.npz
+295539 triangles.
+SHA256 : 17d61794b28af4811e5fd44c4f03746709dec38ffc9a0f3f43b4638d7953c9fa
+
+API HTTP réellement lue : /api/couche/bati_v3.
+886617 sommets développés = 295539 triangles. Toutes les positions float32 de cette réponse sont strictement identiques au cache, pas seulement celles des trois baies.
+SHA256 réponse binaire : 5076c778957ef48192a0c8a82ae050b625d6612c206c2ede08c8e55ff0270812
+Le cache était plus récent que le natif avant la requête ; aucun export n’a été déclenché par le contrôle.
+
+Intégrité : SHA256 du natif et du cache relus après l’audit, strictement inchangés. Aucun enregistrement Blender, modification backend ou manipulation du navigateur de coordination.
+
+OBSERVATION DISTINCTE SUR LA PALETTE
+Les 324 triangles du lot portent la catégorie cache k=0, correspondant au bâti générique dans le serveur actuel. La conformité géométrique est indépendante de cette affectation ; la fidélité des matériaux vitrage/cadres n’est pas certifiée par cet audit. Observation transmise au parent sans mutation.
+
+PREUVES
+validation.json : métriques, empreintes, bornes des trois objets et verdicts.
+matched_cache_indices.json : 324 indices du cache correspondant au lot.
+baies_source_readonly.npz : triangles extraits du natif, fichier temporaire de contrôle.
+bati_v3.bin + api_header.json : réponse HTTP réellement comparée.
+controler.py : script exécuté en arrière-plan, sans appel de sauvegarde.
+
+LIMITES
+Pas de validation graphique supplémentaire, ni de mesure terrain des dimensions ESTIME du lot. Le contrôle vérifie la transmission de la géométrie publiée, pas sa justesse photogrammétrique.

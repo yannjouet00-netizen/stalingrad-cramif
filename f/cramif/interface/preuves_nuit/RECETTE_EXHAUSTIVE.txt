@@ -1,0 +1,57 @@
+RECETTE UI — DEMANDES ILLUSTRÉES A À I
+État au 11 octobre 2026, 05:08 Paris. Aucun élément ci-dessous n’est déclaré validé graphiquement sans une observation correspondante.
+
+A — NAVIGATION ET PANNEAUX
+Vérifié dans les fichiers : quatre entrées initiales plus Brain, Vue3D=>/pro, Tour/Abords/Bancs absents des boutons de vue, Rotonde présente, Conception en bas, ancien bloc supprimé. Filtres du hub en boutons. Le select Pro résiduel est interne et masqué avec display:none!important.
+Observation CUA : Suivi=>Pro=>Brain fonctionne dans l’arbre d’accessibilité.
+À vérifier graphiquement : alterner Chantier/Réglages/Conception ; aucun recouvrement ; liens de retour et bandeau à390/768/1440px.
+Preuves attendues : vues des trois panneaux ouverts séparément, navigation téléphone.
+
+B — CHANTIER, AGENTS ET MESURES
+Corrigé et testé : aucune extrapolation jalons×25 ; barres seulement mesure/compte explicite ; statut Terminé explicite ; expiration d’activité ; horodatage global des tokens retiré par root. Les compteurs restent déclarés cache inclus et attribution limitée.
+API réelle vérifiée : status, completed,total,percent_measured et progress_basis transmis.
+À vérifier graphiquement : ouvrir détails d’une tâche, attente, tokens et agents ; contrôler texte de la tâche et fin d’animation après180s sans retour.
+
+C — CAMÉRAS
+Code relu : Cour top-down (62,164,310) vers(62,164,50), orientation diagonale ; transitions aériennes ; préréglages dédiés.
+À vérifier : vueCour selon capture03:46:54, puisCRAMIF/Flandre/Maroc/Rotonde/Bassin/Plan/Ensemble ; absence de mur au premierplan et cadrage pertinent, téléphone inclus.
+Aucune certification de cadrage sur simple lecture.
+
+D — PÉRIMÈTRES ET COUPES
+Code de coupes existant testé sur5scénarios synthétiques : boîte, planlimite, volumes séparés, grapheouvert, intervallehorsdomaine. Aucun remplissage inventé sur grapheouvert.
+Éole/voies raccordé au découpage continu.
+À vérifier : Bâtiment/Quartier/Ensemble sous plusieursangles ; terrains/eau/bâtiments/couchesensemble ; absence de trianglesparasites, faces ouvertes et coutures.
+Les tests synthétiques ne prouvent pas la qualité sur toute la maquette.
+
+E — RÉGLAGES
+Code : noms usuels, Éole/voies nommé ; anciennesversions sous une rubrique distincte ; réglages standard/haute ; analyses secondaires.
+À vérifier : checkboxs réelles et état du modèle, qualité/lumière, tous les libellés. Couche Éole seulement après disponibilitébackend.
+
+F — CARNET, RUES ET GALERIE
+Code : Fracktif et palette commune ; navigation mobile Brain/rues ; catégories du carnet ; fichiers techniques cachés ; extraits textuels limités/cache/concurrence3 ; référence locale cliquable ; source humaine/producteur/licence ; observation et fichier distingués.
+Contenu contrôlé : 8 091 images conservées sans fichier manquant/vide ;15liens réels répondent200 ;7imagesClaude incluses.24documents utiles et36techniques.22extraits possibles sur23documentsTXT/MD examinés.
+À vérifier graphiquement : filtre/recherche/reset/pagination48/zoom ; readerfermeture/retour ; provenanceinconnue ; image nonprévisualisable ; téléphone.
+Les plans de préparation renvoient vers le Suivi actuel ; leurs anciennes formulations ne sont pas des états opérationnels courants.
+
+G — INTRODUCTION
+Corrigé : cession à MessageChannel horsécran, repli80ms si rAF suspendu, statut de chargement lisible sans animation, échecs/202 exclus du compte, réessai et finalisation uniquement après succès.
+Tests simulés : masqué, normal, frame suspendue ;202, succès et échecAPI.
+CUA a confirmé Modèlechargé04:42:21 après attente ; aucune preuve finale du fond ou du mouvement.
+À vérifier : contour de l’image fondu sur fondclair, mouvement lent, sortie fluide, progression correspondant aux couches construites, boutonPasser.
+
+H — REPÈRES 3D
+Code : largeur124px, retrait duⅡ des repères, textecompréhensible, pasdefaux0, expiration30s.
+À vérifier : lisibilitédistance, absence de chevauchement/occlusion descommandes, étatattente et activité, clicverslot/vue.
+
+I — BRAIN
+Code : scèneWebGL réelle/OrbitControls, noyauclair, satellitesd’étapes, liens explicités commegroupements, pause/reprise/zoom/recentrage ; navigationmobile ; rechercheaccents/opérations/étapes etrésultatscliquables/clavier ; collision surdimensionsDOMréelles.
+Tests : états/fraîcheur/recherche7cas.
+À vérifier : orbite réelle, qualité du noyau, collisions à chaqueangle età390px, recherche/Entrée/Échap, sélectiondétail, pause/reprise, zoom/recentrage etliens.
+
+MÉTHODE DE CAPTURE DISPONIBLE
+CUA natif Safari a fonctionné au départ puis troisappels ont expiré. Inventairebrowserautonome cua.listBrowsers()=[] ; aucunautreoutildédiébrowser danscecontexte. Ne pas relancer unappelSky120s sans changementdecondition.
+Lorsqu’une surface revient : demanderétat actuel, effectuerUNEinteractionouunpetitlotdéterministe, relireAX, captureruniquementaprèsrésultatvisible. Ne pas remplacer la preuvegraphique par un test de syntaxe.
+Pas de manipulationhorsoutilsautorisés, pas d’expositionduprojet surunserviceexterne etpasdenouvellepermission requise tantque l’outilactuel resteindisponible.
+
+INTÉGRITÉ
+Aucun natif modifié ; aucune géométrie changée par ce lot interface. Sources et sauvegardes des pages dans /private/tmp/nuit_interface_0440. Le serveur est redémarré uniquement par root.

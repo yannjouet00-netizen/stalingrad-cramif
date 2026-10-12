@@ -1,0 +1,153 @@
+{
+  "sha256": "05b662aedbb5da36b19af634b79765b474c5b72d9301d40094f94902530c1b82",
+  "objects": [
+    {
+      "id": "Flandre_muret_face_muret",
+      "name": "VLAU_STAL_OUVRAGES_Flandre_muret_face_muret",
+      "vertex_max_difference_from_integrated_patch_m": 7.625811036859886e-06,
+      "vertices": 1096,
+      "triangles": 2188,
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "properties": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; niveau natif au pied distinct de la couche de rue; cours basses et dalles hautes préservées, raccord local à affiner. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution. Bas du corps prolongé localement jusquau terrain conservé sous emprise, sans changer hauteur du couronnement ni la grille ; extension constructive ESTIME, enfoncement2cmCONVENTION.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": 2.9061646108487125,
+        "Hauteur_definition": "Etendue totale du corps avec extension descendante de contact ESTIME ; hauteur du couronnement et grille conservees. Pas une profondeur de fondation mesuree.",
+        "Id_source": "Flandre_muret_face_muret",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Flandre_muret_face_muret",
+        "Type_element": "muret",
+        "Generateur": "CRAMIF_MURETS_BASE_ADAPTATIVE_V1",
+        "Signature_record": "3ba9e09b034fa0eafa796da9133e8e23efefd2b89c891e0e2ff4b19d8e378c79",
+        "Parametres": "{\"largeur\": 0.32, \"hauteur\": 0.45}",
+        "Dimensions_statuts": "{\"largeur\": \"CONVENTION\", \"hauteur\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2421660, 2346738]",
+        "Volume_composants_m3": 41.040652485292924,
+        "Composants_fermes": 1,
+        "Reparation_base_signature": "9c0772652649445c31b1af6e24c4f3ff391434160583823a70e9681cddbe5043",
+        "Source_reparation": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/reparation_murets/patch_murets.json"
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "CRAMIF_04_CLOTURES_ESTIMEES"
+      ]
+    },
+    {
+      "id": "Flandre_front_nord_muret",
+      "name": "VLAU_STAL_OUVRAGES_Flandre_front_nord_muret",
+      "vertex_max_difference_from_integrated_patch_m": 7.556047592061077e-06,
+      "vertices": 560,
+      "triangles": 1108,
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "properties": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; niveau natif au pied distinct de la couche de rue; cours basses et dalles hautes préservées, raccord local à affiner. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution. Bas du corps prolongé localement jusquau terrain conservé sous emprise, sans changer hauteur du couronnement ni la grille ; extension constructive ESTIME, enfoncement2cmCONVENTION.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": 1.1456104761561292,
+        "Hauteur_definition": "Etendue totale du corps avec extension descendante de contact ESTIME ; hauteur du couronnement et grille conservees. Pas une profondeur de fondation mesuree.",
+        "Id_source": "Flandre_front_nord_muret",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Flandre_front_nord_muret",
+        "Type_element": "muret",
+        "Generateur": "CRAMIF_MURETS_BASE_ADAPTATIVE_V1",
+        "Signature_record": "db2ab29188c8b599272c4d63af05bbb788829d830140461557ca8a30f3848da5",
+        "Parametres": "{\"largeur\": 0.32, \"hauteur\": 0.45}",
+        "Dimensions_statuts": "{\"largeur\": \"CONVENTION\", \"hauteur\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2483971]",
+        "Volume_composants_m3": 4.095962906824138,
+        "Composants_fermes": 3,
+        "Reparation_base_signature": "142dbe7eeb74f0a76c73e6f5ef9fb3318b2e4269c4e441f0125d7f0824770d4d",
+        "Source_reparation": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/reparation_murets/patch_murets.json"
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "CRAMIF_04_CLOTURES_ESTIMEES"
+      ]
+    },
+    {
+      "id": "Maroc_front_long_muret",
+      "name": "VLAU_STAL_OUVRAGES_Maroc_front_long_muret",
+      "vertex_max_difference_from_integrated_patch_m": 7.608674422954209e-06,
+      "vertices": 996,
+      "triangles": 1988,
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "properties": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; niveau natif au pied distinct de la couche de rue; cours basses et dalles hautes préservées, raccord local à affiner. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution. Bas du corps prolongé localement jusquau terrain conservé sous emprise, sans changer hauteur du couronnement ni la grille ; extension constructive ESTIME, enfoncement2cmCONVENTION.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": 5.184060067565014,
+        "Hauteur_definition": "Etendue totale du corps avec extension descendante de contact ESTIME ; hauteur du couronnement et grille conservees. Pas une profondeur de fondation mesuree.",
+        "Id_source": "Maroc_front_long_muret",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Maroc_front_long_muret",
+        "Type_element": "muret",
+        "Generateur": "CRAMIF_MURETS_BASE_ADAPTATIVE_V1",
+        "Signature_record": "03c8515633d2b87d95fda0deab9517773478a58f6a1635d79b199cb98e204be0",
+        "Parametres": "{\"largeur\": 0.32, \"hauteur\": 0.55}",
+        "Dimensions_statuts": "{\"largeur\": \"CONVENTION\", \"hauteur\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2459192]",
+        "Volume_composants_m3": 72.8303236326492,
+        "Composants_fermes": 1,
+        "Reparation_base_signature": "ae4adf4125fa772162ff37cf2b3d9d36ff5d7b7393f3212f73ca00dbaa237566",
+        "Source_reparation": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/reparation_murets/patch_murets.json"
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "CRAMIF_04_CLOTURES_ESTIMEES"
+      ]
+    },
+    {
+      "id": "Maroc_front_entree_muret",
+      "name": "VLAU_STAL_OUVRAGES_Maroc_front_entree_muret",
+      "vertex_max_difference_from_integrated_patch_m": 7.571365244984918e-06,
+      "vertices": 152,
+      "triangles": 300,
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "properties": {
+        "Categorie": "OUVRAGES",
+        "Statut": "ESTIME",
+        "Statut_detail": "Implantation XY ESTIME depuis axes médians de traits PVP; présence de muret/grille recoupée aux photos octobre2025. Z ESTIME par plan local classe2 côté rue, puis interpolation linéaire entre sommets retenus; niveau natif au pied distinct de la couche de rue; cours basses et dalles hautes préservées, raccord local à affiner. Retours rentrants incertains exclus. Hauteurs, sections et entraxes CONVENTION, apparence claire/sombre ESTIME. Interruptions existantes préservées; ne vaut pas relevé d’exécution. Bas du corps prolongé localement jusquau terrain conservé sous emprise, sans changer hauteur du couronnement ni la grille ; extension constructive ESTIME, enfoncement2cmCONVENTION.",
+        "Source": "https://opendata.paris.fr/explore/dataset/plan-de-voirie-murs/ ; donnees/v3/cramif/clotures/sources/axes_fronts_rue_xyz.json ; photos utilisateur Flandre23.11.15/Maroc23.11.59, imagerie octobre2025",
+        "Hauteur_m": 4.961989636200727,
+        "Hauteur_definition": "Etendue totale du corps avec extension descendante de contact ESTIME ; hauteur du couronnement et grille conservees. Pas une profondeur de fondation mesuree.",
+        "Id_source": "Maroc_front_entree_muret",
+        "Mission": "CRAMIF_CLOTURES",
+        "Date_donnee": "Photos octobre2025; IGN LiDAR2023; PVP selon provenance",
+        "Nom_contrat": "VLAU_STAL_OUVRAGES_Maroc_front_entree_muret",
+        "Type_element": "muret",
+        "Generateur": "CRAMIF_MURETS_BASE_ADAPTATIVE_V1",
+        "Signature_record": "614fa75ff416d474ce8d5baa0242fb49758b78cd335d96b2bac9b5194047540c",
+        "Parametres": "{\"largeur\": 0.32, \"hauteur\": 0.55}",
+        "Dimensions_statuts": "{\"largeur\": \"CONVENTION\", \"hauteur\": \"CONVENTION\"}",
+        "Implantation_statut": "ESTIME",
+        "Source_ids": "[2403815, 2242579]",
+        "Volume_composants_m3": 10.304350458235977,
+        "Composants_fermes": 1,
+        "Reparation_base_signature": "541ab1a64156e779f9ede9d39356d2d206ed5a231044503f2c4ec4c343b4abf9",
+        "Source_reparation": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/reparation_murets/patch_murets.json"
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "collections": [
+        "CRAMIF_04_CLOTURES_ESTIMEES"
+      ]
+    }
+  ]
+}

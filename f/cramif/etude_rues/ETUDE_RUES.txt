@@ -1,0 +1,537 @@
+ETUDE DES RUES CRAMIF — 10 OCTOBRE 2026
+Interface : http://localhost:8790/etude-rues
+Modèle de travail préservé, inspection en lecture seule.
+CRAMIF — étude des rues ← Revenir au modèle 3D 
+Les rues autour de la CRAMIF 
+
+Étude des écarts entre le modèle et les sources. Priorité aux volumes, aux niveaux et aux relations entre bâtiment et rue, puis au mobilier et aux matériaux. 
+Flandre Maroc Tanger Département Bâtiment voisin Corrections Plans et profils Dates et travaux Sources État de référence : octobre 2025 pour les deux vues datées. La troisième vue n’a pas de date d’acquisition visible. La vignette juillet 2026 n’a pas été examinée. Cette étude ne certifie donc pas un état complet du quartier en octobre 2026. Aucune nouvelle dimension n’est mesurée sur une perspective seule. 
+Ce que l’audit change 
+
+Le modèle restitue une implantation générale, mais son niveau de détail ne suffit pas au voisinage immédiat de la CRAMIF. Les trois émergences de toiture sont appuyées sur le LiDAR ; les cinq bancs et la barrière sont des formes conventionnelles implantées à partir de symboles de plan. Ils doivent rester identifiés comme tels. 
+
+Les différences les plus visibles concernent les trames de façade propres à chaque rue, le socle en retrait, les portails et clôtures, les balcons de la tour voisine et l’organisation du terre-plein. Une texture répétitive ne résoudrait pas ces écarts. 
+
+Étude en lecture seule du modèle natif. Publication par étapes ; les étapes de calcul hors Blender ne constituent pas une synchronisation continue. 
+
+Étude des quatre rues sur les données de plan 
+
+Bande de 250 m autour de la boîte d’emprise CRAMIF (rouge). Traits colorés : axes municipaux ; points verts : arbres associés par proximité, sans garantie d’adresse. La bande dépasse les seuls fronts immédiats. 
+
+Rue  | Tronçons  | Cumul axes (m)  | Altitude de surface (m IGN69)  | Arbres voisins  | Primitives mobilier  | 
+
+Avenue de Flandre  | 8  | 1001.6  | 48.87–52.35  | 190  | 882  | 
+
+Rue de Tanger  | 6  | 528.5  | 48.56–51.41  | 24  | 1452  | 
+
+Rue du Maroc  | 5  | 307.6  | 48.51–50.36  | 8  | 334  | 
+
+Rue du Département  | 3  | 182.0  | 50.10–50.84  | 8  | 210  | 
+
+22 tronçons et 2 032 stations de profil. Les axes sont échantillonnés à environ 1 m. Les altitudes de la surface haute du sol solide exporté (encore distinct du terrain affiché) sont interpolées puis contrôlées contre les points LiDAR classe 2 de 2023. Sur la couche de surface retenue, les écarts absolus au 95e percentile sont de 4,0 à 4,6 cm selon la rue ; aucun saut de plus de 30 cm par mètre n’est détecté sur les axes. Cela ne valide ni les bordures, ni les marches, ni les niveaux situés sous une dalle. 
+
+La couche LiDAR de contrôle est sélectionnée autour du niveau interpolé (±50 cm) : un niveau inférieur peut être exclu. Ces résidus ne sont donc pas une précision globale garantie du terrain. Les tronçons municipaux sont schématiques ; les contours PVP servent à relever les sections. Flandre possède deux chaussées : leur cumul d’axes n’est pas la longueur d’une rue unique. 
+
+Flandre : les tilleuls dominent 
+
+190 arbres proches des axes ; 185 portent une adresse d’alignement Flandre. Dans les 190 voisins : 65 Tilia tomentosa et 111 Tilia sans espèce renseignée. Leurs hauteurs documentaires vont de 8 à 15 m entre les percentiles 10 et 90, médiane 12 m. Les essences non précisées restent non précisées ; ces hauteurs ne sont pas des mesures réalisées aujourd’hui. 
+
+Tanger : une composition différente 
+
+24 arbres proches ; 13 correspondent à l’alignement Tanger. Le voisinage comprend notamment 13 Tilia × euchlora, quatre platanes et deux Parrotia persica. Hautes silhouettes et plantations plus petites coexistent ; appliquer une seule famille d’arbre à toute la rue serait incorrect. 
+
+Maroc et Département 
+
+Huit arbres voisins pour chaque rue, mais aucun n’est attribué à l’alignement de ces rues par l’adresse de l’inventaire. Ils peuvent appartenir à un jardin ou à une rue voisine. Ces résultats ne prouvent pas l’absence de végétation privée, notamment du palmier visible rue du Maroc. 
+
+Mobilier : 2 878 primitives de dessin 
+
+Les traits PVP sont rattachés à la rue la plus proche parmi les quatre, à moins de 25 m. Un banc, un arceau ou une barrière peut être composé de plusieurs traits. Ces 2 878 primitives ne représentent pas 2 878 objets physiques ; les carrefours demandent un contrôle particulier. 
+
+Sections documentaires, tronçon par tronçon 
+
+Rue / ID  | Section médiane de chaussée (m)  | Couverture  | 
+
+Rue de Tanger / TV_750598982  | 7.20  | 4 sections  | 
+
+Rue de Tanger / TV_750599138  | 7.15  | 9 sections  | 
+
+Rue de Tanger / TV_750598771  | 14.54  | 16 sections  | 
+
+Avenue de Flandre / TV_750599175  | 33.74  | 4 sections  | 
+
+Rue du Département / TV_750598983  | 7.76  | 10 sections  | 
+
+Rue du Maroc / TV_750620752  | Non calculée  | 0 sections  | 
+
+Avenue de Flandre / TV_750598305  | 8.95  | 2 sections  | 
+
+Rue de Tanger / TV_750598245  | 8.22  | 19 sections  | 
+
+Rue de Tanger / TV_750598894  | 13.03  | 11 sections  | 
+
+Avenue de Flandre / TV_750599103  | 8.98  | 34 sections  | 
+
+Avenue de Flandre / TV_750599206  | 32.93  | 3 sections  | 
+
+Rue du Maroc / TV_750598734  | 11.93  | 19 sections  | 
+
+Avenue de Flandre / TV_750598398  | 8.96  | 16 sections  | 
+
+Rue du Département / TV_750598806  | 7.38  | 4 sections  | 
+
+Avenue de Flandre / TV_750599135  | 8.96  | 35 sections  | 
+
+Rue du Maroc / TV_750598768  | Non calculée  | 0 sections  | 
+
+Rue du Maroc / TV_750598440  | 7.12  | 20 sections  | 
+
+Rue de Tanger / TV_750598486  | 9.00  | 21 sections  | 
+
+Avenue de Flandre / TV_750598733  | 8.95  | 30 sections  | 
+
+Avenue de Flandre / TV_750598767  | 8.94  | 42 sections  | 
+
+Rue du Maroc / TV_750598506  | 7.18  | 5 sections  | 
+
+Rue du Département / TV_750598880  | 6.80  | 10 sections  | 
+
+Sections issues des contours de chaussée PVP uniquement lorsque l’axe les traverse. Sur Flandre, largeur d’une chaussée séparée ; jamais largeur totale de l’avenue. Aux raccords, élargissements et axes schématiques, vérifier la section manuellement avant modélisation. 
+
+Sources : tronçons municipaux , inventaire des arbres , PVP local. Géométries, profils et identifiants conservés dans le dossier d’étude. 
+
+Changements après octobre 2025 
+
+1–3 rue du Maroc. L’arrêté 2026 T 15510, publié le 2 juin 2026, prévoit une emprise pour réhabilitation du 2 juin au 30 septembre 2026 et une fermeture ponctuelle de Flandre vers la place du Maroc le 15 juin. Les restrictions de stationnement au droit des n°1–3 sont temporaires. C’est une preuve de chantier prévu sur la période, pas un constat d’achèvement ni la preuve d’une modification de tous les volumes. 
+
+Tanger 15–17. La rénovation du groupe scolaire est lauréate du Budget participatif 2025. Les propositions de végétalisation de la marche exploratoire de 2023 et les projets votés restent distincts de l’état effectivement construit. 
+
+Arrêté officiel 2026 T 15510 . Pour arrêter un état 2026, comparer les vues plus récentes et leurs dates ; la vignette juillet 2026 fournie dans la capture n’a pas encore été examinée. 
+
+Contrôle géométrique du fichier de travail 
+
+Contours issus des triangles du modèle sur orthophoto IGN. Les z indiqués sont des altitudes absolues IGN69, pas des hauteurs de façade. L’axe rose de rampe est estimé en plan ; ses niveaux bas sont recoupés au LiDAR. 
+
+37 corps inspectés dans Blender 
+
+8 corps CRAMIF et 29 corps de la tour voisine. Tous ces solides sont fermés ; leur géométrie concorde avec les triangles sources à environ 0,011 mm au maximum. Ce contrôle vérifie le transfert, pas la fidélité architecturale : les façades, retraits et balcons restent simplifiés. 
+
+Tour voisine : balcons à reconstituer 
+
+Le recoupement des enseignes, du géocodage et des emprises désigne fortement le 27–31 avenue de Flandre, parcelle 750068239, distincte de la CRAMIF. Plusieurs bandes fines sont des pleins extrudés depuis le sol ; la photographie montre des dalles de balcons espacées. Chaque bande doit être identifiée avant remplacement : ajouter des balcons sur les pleins laisserait subsister l’erreur. 
+
+Une hauteur estimée mérite une reprise 
+
+Sur le volume voisin 2505941, 155 points intérieurs ont une médiane à 80,61 m, contre un toit estimé à 85,73 m dans le modèle. L’écart de 5,12 m est un signal sérieux, mais les retours hauts voisins se mélangent : aucune baisse de tout le volume n’est appliquée avant séparation spatiale des points. 
+
+Hauteurs principales de la CRAMIF 
+
+Les nouvelles vues ne prouvent pas qu’il faut abaisser ou relever les ailes principales. Les trames et le socle doivent être détaillés dans les bonnes enveloppes. Le nombre d’étages documentaire et une hauteur calculée depuis un sol de cour bas ne remplacent pas une coupe de façade sur rue. 
+
+Front  | Corps repérés  | Altitudes supérieures  | 
+
+Flandre  | 2512234 / 2512233 ; socle 2505949  | 81,83 / 78,41 m ; socle 56,40 m  | 
+
+Maroc  | 2505948 / 2505950 ; raccord au groupe Flandre  | 78,77 / 75,06 m  | 
+
+Tanger / cour  | 2505946 / 2505947  | 84,95 / 86,95 m  | 
+
+Attribution par groupe volumétrique ; les peaux exactes, le pignon et les éléments de raccord restent à caler. Inspection en arrière-plan sans sauvegarde ni modification du modèle visible. 
+
+Identification du voisin : Acceslibre , registre de l’ancien Espace Fleurs , géocodage IGN et emprise APUR locale. 
+
+Avenue de Flandre 
+
+Façade principale, accès et terre-plein 
+
+Capture fournie par Yann le 10 octobre 2026 · prise de vue : 2025-10. Adresse affichée du point de vue ; ne désigne pas nécessairement le bâtiment photographié. 
+
+F01 · Façade, partie supérieure et milieu 
+P1 Observation photographique 
+Longue façade scandée par des montants verticaux clairs continus ; champs vitrés bleutés et panneaux opaques clairs alternent par niveau. 
+
+Écart / enjeu. La volumétrie unie ne restitue ni rythme ni hiérarchie ; une grille uniforme de fenêtres carrées serait incorrecte. 
+
+Vérification avant modélisation 
+
+Caler les extrémités du plan de façade sur emprise ; rectifier image ; décompter travées/niveaux visibles, conserver masques sous arbres. Géométrie simple des montants seulement après calage métrique. 
+
+Nombre total, pas, largeur et profondeur non mesurés ; reflets/stores ne sont pas une teinte uniforme fiable. 
+
+F02 · Bande RDC sous façade 
+P1 Observation photographique 
+Façade supérieure portée au-dessus d’un socle en retrait ; appuis/poteaux sombres et grandes baies, grilles verticales en avant. 
+
+Écart / enjeu. Un volume plein descendant sans retrait gomme la profondeur du pied de façade. 
+
+Vérification avant modélisation 
+
+Relever limite du retrait et alignement grille sur plan et photos latérales ; séparer peau supérieure, socle et clôture. 
+
+Recul, hauteur libre, sections inconnus. 
+
+F03 · Entrée centre droit, porte sous panneau 17–19 
+P1 Observation partielle 
+Porte d’entrée vitrée, accès légèrement surélevé ; plusieurs lignes de nez de marches visibles au seuil derrière la grille. 
+
+Écart / enjeu. Le contact terrain / façade ne doit pas effacer le perron ni induire une rampe imaginaire. 
+
+Vérification avant modélisation 
+
+Recouper LiDAR et plan de seuil. Pas de nombre de marches ni pente réglementaire déduits de cette seule photo. 
+
+Nombre exact de marches, hauteur totale et largeur non validés ; zones masquées par mobiliers et personnes. 
+
+F04 · Faîte de la façade 
+P2 Observation partielle 
+Bande de couronnement opaque claire, petit garde-corps léger visible sur certaines rives et équipements ponctuels masqués. 
+
+Écart / enjeu. Complément local possible aux émergences LiDAR ; ne pas propager garde-corps autour de toutes les toitures. 
+
+Vérification avant modélisation 
+
+Comparer paires de vues et points hauts ; attribuer uniquement segments visibles. 
+
+Hauteur et continuité non mesurées ; aucune preuve de contour arrière. 
+
+F05 · Grille et muret bord rue 
+P1 Observation photographique 
+Clôture verticale sombre à espacement serré, posée par endroits sur muret/enduit clair ; variations au droit des accès. 
+
+Écart / enjeu. Les deux lisses conventionnelles de la barrière Tanger ne correspondent pas à cette clôture Flandre. 
+
+Vérification avant modélisation 
+
+Créer famille séparée grille barreaudée sur muret, implantation à recouper PVP. Ne jamais réutiliser l’ID BRO de Tanger. 
+
+Hauteur, diamètre/section, entraxe et longueurs non mesurés. 
+
+U01 · Lampadaire central au premier plan 
+P1 Observation photographique 
+Candélabre historique sombre : socle mouluré, fût fin, collerettes, lanterne vitrée à couronnement ; silhouette distincte du luminaire contemporain. 
+
+Écart / enjeu. Un simple poteau cylindrique coiffé d’un globe serait incorrect. 
+
+Vérification avant modélisation 
+
+Localiser avec l’inventaire éclairage public ; produire un profil de révolution approché et une lanterne simple, statut ESTIME / CONVENTION selon le paramètre. 
+
+Dimensions non mesurées ; référence fabricant et matériau exacts non confirmés. 
+
+U02 · Gauche du terre-plein et arrière-plan 
+P2 Observation partielle 
+Plusieurs types d’éclairage coexistent : lanternes historiques, supports avec bras latéral et luminaires hauts plus contemporains. 
+
+Écart / enjeu. Ne pas instancier un seul lampadaire uniforme dans tout le quartier. 
+
+Vérification avant modélisation 
+
+Classifier chaque candélabre depuis les plans et les photos ; garder les éléments non identifiés neutres et signalés. 
+
+Comptage incomplet à cause des arbres ; positions relatives seulement. 
+
+U03 · Banc à gauche, devant la voie 
+P1 Observation · type probable 
+Banc à assise et dossier en longues lames, piétement métallique ouvragé sombre/vert. Silhouette compatible avec la famille historique Davioud. 
+
+Écart / enjeu. Les cinq bancs doubles en prismes gris actuels sont des substituts conventionnels, pas des copies exactes de ce mobilier. 
+
+Vérification avant modélisation 
+
+Identifier chaque banc PVP par recoupement spatial. Remplacer la forme uniquement sur une correspondance fiable ; nomenclature Davioud probable, pas un modèle certain. 
+
+Dimensions locales et association aux cinq IDs PVP non établies ; modèle précis non confirmé. 
+
+U04 · Premier plan en bas à gauche, autour des vélos 
+P1 Observation partielle 
+Plusieurs arceaux métalliques en U renversé arrondi, certains avec barre transversale, vélos appuyés ; rangée orientée dans l’espace public. 
+
+Écart / enjeu. Ne pas substituer des potelets pleins aux arceaux ; les dix symboles BORNE allongés peuvent relever du stationnement deux-roues mais association non prouvée. 
+
+Vérification avant modélisation 
+
+Confronter axes PVP aux ancrages photo et à l’orthophoto ; garder vélos/occupants hors géométrie pérenne. 
+
+Nombre réel sous les masques, diamètre, hauteur et entraxe inconnus. 
+
+U05 · Centre bas derrière le lampadaire 
+P3 Observation · interprétation incertaine 
+Longs éléments horizontaux sombres empilés/décalés, extrémités à marquages contrastés ; caractère temporaire plausible. 
+
+Écart / enjeu. Risque élevé de fausse interprétation en banc permanent ou muret. 
+
+Vérification avant modélisation 
+
+Ne pas modéliser comme mobilier pérenne sans seconde vue ou date ; conserver comme annotation photographique temporaire. 
+
+Nature exacte (stockage, obstacle, chantier, dispositif) non établie. 
+
+U06 · Pieds d’arbres et sol au premier plan 
+P1 Observation partielle 
+Fosses d’arbres rectangulaires/bordées, sol asphalté et bandes pavées, transitions et bordures à la traversée piétonne. 
+
+Écart / enjeu. La voirie ne doit pas être un unique aplat si le détail des abords est visé ; en revanche la texture ne remplace pas les niveaux. 
+
+Vérification avant modélisation 
+
+Croiser PVP trottoirs et classe 2, distinguer bordure réelle et simple changement de matériau ; matérialisation neutre sans pavage inventé. 
+
+Cotes de bordure et pentes non mesurées ; limites couvertes de feuilles et vélos. 
+
+U07 · Plans devant et derrière la voie 
+P1 Observation photographique 
+La photo distingue terre-plein arboré, voie de circulation, trottoir devant la CRAMIF, clôture et socle ; passage piéton relie les espaces. 
+
+Écart / enjeu. Ordre spatial primordial ; risque de reporter le mobilier du terre-plein contre la façade. 
+
+Vérification avant modélisation 
+
+Créer coupe de contrôle depuis PVP et terrain puis rattacher chaque objet au bon espace, sans dimensions déduites de perspective seule. 
+
+Largeurs et profils transversaux non mesurés. 
+
+U08 · Cadre vertical gauche et signalisation 
+P2 Observation partielle 
+Panneau d’affichage autonome sombre, corbeille proche du banc et petits panneaux routiers ; équipements distincts des structures de bâtiment. 
+
+Écart / enjeu. Ne pas fusionner supports, corbeilles et potelets sous une même famille. 
+
+Vérification avant modélisation 
+
+Rechercher primitives PVP propres et preuve photo individuelle ; texte graphique non reconstitué. 
+
+Sous-types, dimensions et géolocalisation exacte inconnus. 
+
+Rue du Maroc 
+
+Portail, muret et jardin de la CRAMIF 
+
+Capture fournie par Yann le 10 octobre 2026 · prise de vue : 2025-10. Adresse du point de vue, pas preuve de parcelle. Une vignette juillet 2026 est proposée mais non ouverte. 
+
+M01 · Grand volume gauche et sa bande vitrée 
+P1 Observation photographique 
+Grand pan clair quasi plein avec joints de panneaux ; étroite bande vitrée verticale entre deux pans opaques, avec panneaux bleus d’allège. 
+
+Écart / enjeu. Une répétition du traitement Flandre sur ce pignon serait fausse. 
+
+Vérification avant modélisation 
+
+Isoler trois zones : pan opaque / bande vitrée / pan opaque ; calage sur géométrie source puis modélisation sobre sans texture de salissure. 
+
+Largeur bande, division des châssis et dimensions des panneaux inconnues. 
+
+M02 · Retour long à droite 
+P1 Observation partielle 
+Baies individualisées et ordonnées par rangées dans une façade claire ; joints du parement et retraits fins visibles. 
+
+Écart / enjeu. Les trames de Flandre et Maroc ne sont pas interchangeables. 
+
+Vérification avant modélisation 
+
+Rectifier ce plan séparément du pignon ; ne pas copier un nombre de travées hors cadre. 
+
+Comptage global incomplet à droite hors champ, perspective fortement déformée. 
+
+M03 · Joint entre pignon et retour, bande étroite centrale 
+P2 Observation photographique 
+Raccord vertical vitré en retrait, hauteur continue et quelques lignes horizontales. 
+
+Écart / enjeu. Une arête opaque continue ferait disparaître l’articulation entre corps. 
+
+Vérification avant modélisation 
+
+Conserver bande de raccord distincte ; aucune attribution de cage d’escalier sans plan. 
+
+Largeur et recul non mesurés ; fonction interne non identifiée. 
+
+M04 · Portail central bas 
+P1 Observation photographique 
+Portail/grille sombre à barreaux verticaux ; angles supérieurs latéraux arrondis en éventail, parties droites centrales hautes ; panneaux d’information fixés. 
+
+Écart / enjeu. Un portail rectangulaire générique à deux lisses serait visuellement trompeur. 
+
+Vérification avant modélisation 
+
+Documenter silhouette depuis photo frontale, fixer position via plan. Ne pas décider coulissant/battant ; séparer panneaux temporaires de structure. 
+
+Ouverture utile, hauteur, nombre de vantaux et mécanisme non établis. 
+
+M05 · Bas de l’image, à gauche et droite du portail 
+P1 Observation partielle 
+Muret clair continu/segmenté, grille sombre au-dessus ; jardin en arrière. Niveaux hauts et bas sont partiellement masqués. 
+
+Écart / enjeu. Séparer clôture, muret et terrain pour éviter une dalle inclinée conjecturale. 
+
+Vérification avant modélisation 
+
+Relever couronnement muret et seuils en coordonnées ; conserver plusieurs niveaux si données confirmées. 
+
+Épaisseur et hauteur des murets, niveaux jardin/trottoir et ressauts non mesurés. 
+
+M06 · Jardin devant pignon gauche 
+P2 Observation photographique 
+Un palmier à feuilles en éventail est nettement visible ; massifs arbustifs denses et arbre feuillu à gauche. 
+
+Écart / enjeu. Une série uniforme d’arbres de rue ne restitue pas ce jardin privé. 
+
+Vérification avant modélisation 
+
+Marquer un emplacement de palmier estimé dans le jardin après calage ; modèle botanique simple adapté, sans inventer une espèce ni distribuer des palmiers ailleurs. 
+
+Espèce, diamètre/tronc et hauteur exacts inconnus ; silhouettes se superposent. 
+
+M07 · Portail et extrême gauche 
+P3 Observation photographique 
+Panneaux cartographiques devant la clôture et panneaux bleus sur le portail. 
+
+Écart / enjeu. Détails secondaires ; ne pas reproduire un texte approximatif ni leur attribuer une fonction structurelle. 
+
+Vérification avant modélisation 
+
+Représenter au besoin des panneaux neutres, avec datation de la photo et sans fausse typographie. 
+
+Contenu illisible en partie, dimensions non mesurées, pérennité inconnue. 
+
+Bâtiment voisin sur Flandre 
+
+Silhouette, balcons et socle commercial 
+
+Capture fournie par Yann le 10 octobre 2026 · prise de vue : date inconnue. Localisation fournie par le contexte utilisateur ; recoupement fort avec le 27–31 avenue de Flandre, parcelle indépendante de la CRAMIF. 
+
+T01 · Grand pan clair vertical central gauche 
+P1 Observation photographique 
+Tour composée de volumes contrastés : grand pan vertical clair plein, aile gauche vitrée et balconée, partie droite sombre en redents. 
+
+Écart / enjeu. Un parallélépipède simple ignore une silhouette importante du contexte, mais il ne faut pas fusionner cette tour avec la CRAMIF. 
+
+Vérification avant modélisation 
+
+Associer photo à une adresse et parcelle distinctes avant le détail ; traiter la silhouette et principaux retraits en priorité. 
+
+Hauteur métrique et emprise non établies depuis la photo ; identité parcellaire à confirmer. 
+
+T02 · Colonne de balcons à gauche 
+P1 Observation partielle 
+Balcons superposés en saillie, dalles visibles et garde-corps métalliques partiellement transparents ; baies en retrait derrière. 
+
+Écart / enjeu. Une texture de façade plate ne reproduit pas les ombres/profondeurs. 
+
+Vérification avant modélisation 
+
+Après calage, volumes de dalles réels et plans de garde-corps distincts ; nombre de balcons seulement sur zone non masquée. 
+
+Saillie, sections, niveaux exacts et remplissage non mesurés ; végétation masque le bas. 
+
+T03 · Haut de la partie sombre et sommet 
+P2 Observation partielle 
+Couronnement irrégulier avec terrasse, garde-corps, boîtes et ressauts en saillie ; toit non plan unique. 
+
+Écart / enjeu. À comparer aux maxima LiDAR plutôt qu’ajouter un étage plein. 
+
+Vérification avant modélisation 
+
+Croiser les hauteurs LiDAR et vues orthogonales ; surfaces invisibles laissées en estimation explicite. 
+
+Profondeur et contours arrière invisibles. 
+
+T04 · RDC et enseigne de pharmacie 
+P2 Observation partielle 
+Socle commercial en retrait/avancée locale, grandes vitrines et panneaux d’enseigne ; trottoir arboré. 
+
+Écart / enjeu. Le détail du contexte peut rester simplifié, mais le retrait du socle influence la relation à la rue. 
+
+Vérification avant modélisation 
+
+Conserver volume du socle et ouvertures principales ; éviter toute reconstitution de textes ou logos à partir d’une image insuffisante. 
+
+Limites commerciales ne sont pas des limites foncières ; enseignes temporaires. 
+
+Rue de Tanger 
+
+Deux séquences à distinguer : la façade de la CRAMIF côté n°19–25 et la relation aux écoles côté n°15–17 et rue du Département. Le compte-rendu CAUE / Ville de la marche exploratoire du 21 novembre 2023 décrit la monumentalité de la CRAMIF, la largeur de chaussée et les deux pistes cyclables. Il constate une double rangée de barrières devant l’école : ce constat ancien doit être comparé à une vue récente. 
+
+La barrière ajoutée au modèle correspond à un seul symbole PVP interprété comme barrière roulante probable. Elle ne couvre ni toutes les barrières de la rue ni les clôtures privées. Ses 12 m représentent la longueur relevée sur le plan, pas une mesure sur chantier ; les deux lisses et les poteaux restent une convention. 
+
+Niveaux. Dans la cour sud, un profil bas recoupé avec le LiDAR descend d’environ 46,30 à 43,42 m IGN69 sur l’axe estimé. Des points autour de 50 m se superposent : le terrain 2,5D ne peut représenter simultanément rampe basse et dalle haute. Les limites, largeur, seuils et protections restent à relever avant reconstruction ; aucun lissage arbitraire n’est appliqué. 
+
+Source : Marche exploratoire CAUE / Ville . Audit local : profil LiDAR de la cour sud conservé dans la documentation des abords. 
+
+Rue du Département et raccord au sud 
+
+Le travail doit couvrir les traversées, les bordures, les entrées de parcelles et le raccord aux écoles et à Tanger. Les captures transmises ne montrent pas suffisamment cette séquence pour détailler sa façade ou donner le type et le nombre de garde-corps. 
+
+Le volume au sud de la CRAMIF, vers y=75–95 dans le repère local, est associé à une autre parcelle dans les données APUR. Il ne doit pas recevoir automatiquement le traitement de façade de la CRAMIF. Les retraits et passages sont à comparer à des vues propres à ce front. 
+
+État de la couverture : données de plan disponibles, couverture photographique locale encore insuffisante. Ne pas assimiler une absence de photographie à une absence de mobilier. 
+
+Arbres et jardin privé 
+
+À moins de 25 m des corps CRAMIF, l’inventaire préparé comprend 26 arbres prioritaires : 23 tilleuls argentés, un olivier, un Prunus et une essence inconnue. Ce périmètre ne décrit pas à lui seul toutes les plantations du terre-plein, ni le jardin privé visible rue du Maroc. 
+
+Le palmier en éventail observé dans ce jardin doit être traité séparément : son essence et ses dimensions ne sont pas confirmées. La silhouette, l’espacement et les dimensions de houppier varient selon les arbres ; la saison d’octobre ne doit pas être confondue avec une propriété permanente de l’essence. 
+
+Préparation d’assets Enscape en cours : aucun proxy botanique exact ni import Enscape n’est encore validé dans l’application cible. 
+
+Ordre des corrections 
+
+Ordre  | Travail  | Condition avant exécution  | 
+
+1  | Plans de façade distincts Flandre / Maroc ; socle, retraits et raccords  | Appariement aux corps APUR, calage métrique et décompte des travées visibles  | 
+
+2  | Murets, clôtures, portail et seuils au pied de la CRAMIF  | Axes de plan, altitudes recoupées ; dimensions cachées explicitement estimées  | 
+
+3  | Coupe Flandre : terre-plein, chaussée, trottoir, jardin et socle  | Profils PVP / LiDAR ; distinguer bordure et changement de matériau  | 
+
+4  | Candélabres, vrais types de bancs, arceaux et fosses  | Correspondance objet de plan / photographie, sans copier une famille sur tous les symboles  | 
+
+5  | Silhouette et balcons du bâtiment voisin  | Identification de parcelle indépendante, contrôles de hauteur et profondeur  | 
+
+6  | Rampe et dalle de la cour sud, garde-corps associés  | Contours et superposition des niveaux établis ; pas de comblement conjectural  | 
+
+7  | Arbres, palmier et matériaux locaux  | Essences, silhouettes et échelle ; assets utilisables et contrôlés dans l’application cible  | 
+
+Les zones lointaines restent sobres. Le détail est concentré sur les faces du projet et les rues qui construisent leur perception. Aucun nombre de marches, entraxe de grille ou espèce de palmier n’est inventé pour donner une impression de précision. 
+
+Compléter la couverture photographique 
+
+Neuf positions de contrôle sont proposées sur les axes municipaux. Elles n’ont pas été visitées pendant cette étude. La hauteur de caméra proposée de 1,65 m est une convention ; ce tableau ne représente pas des caméras Google Earth mesurées. 
+
+À documenter : les deux trottoirs et leurs raccords, les seuils et la rampe côté Tanger, les retours de la tour au 27–31 Flandre, les traversées rue du Département, puis l’état du portail et de la rue du Maroc après les travaux de 2026. Chaque vue devra conserver sa date d’acquisition. 
+
+Rue  | Tronçon proposé  | Position locale x / y (m)  | 
+
+Avenue de Flandre  | TV_750599103  | 85.4 / 98.7  | 
+
+Avenue de Flandre  | TV_750598733  | 202.6 / 237.9  | 
+
+Rue du Maroc  | TV_750598734  | 101.4 / 209.3  | 
+
+Rue de Tanger  | TV_750598771  | 10.5 / 202.5  | 
+
+Rue de Tanger  | TV_750598894  | -41.2 / 130.1  | 
+
+Rue du Département  | TV_750598983  | -119.9 / 88.9  | 
+
+Rue du Département  | TV_750598880  | -178.0 / 128.0  | 
+
+Rue du Département  | TV_750598806  | -226.5 / 153.3  | 
+
+Rue de Tanger  | TV_750598486  | 91.1 / 318.6  | 
+
+Sources et dates 
+
+Trois captures Google Earth / Street View fournies par Yann ; deux acquisitions octobre 2025, une acquisition inconnue. 
+
+PVP Ville de Paris : implantation et symboles. Horodatage d’export / enregistrement distinct d’une date de levé terrain. 
+
+LiDAR HD 2023 : altimétrie recoupée, pas garantie de l’état photographié en 2025–2026 ; points de façades et niveaux superposés à qualifier. 
+
+Emprises APUR / parcellaire Ville : attribution des volumes ; enveloppes simplifiées. 
+
+CAUE / Ville : marche du 21 novembre 2023 — constat et propositions, pas preuve de réalisation. 
+
+Ville de Paris : famille de bancs Davioud — caractéristiques de catalogue ; le type et l’appariement des cinq bancs locaux restent à confirmer. 
+
+Rénovation du groupe scolaire Tanger, lauréat 2025 — projet voté, ne démontre pas sa réalisation complète. 
+
+Repère de travail : x=E Lambert-93−653700, y=N Lambert-93−6865100, z IGN69. Les hauteurs « Caméra 51 / 52 m » affichées dans Google Earth ne sont pas des hauteurs de bâtiment. Images conservées pour l’étude locale, avec leur attribution visible. 

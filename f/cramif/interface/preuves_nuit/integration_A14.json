@@ -1,0 +1,13 @@
+{
+  "reopened": true,
+  "rails_miter_joints": 10,
+  "rail_vertices_xy_modified": 160,
+  "rail_z_unchanged": true,
+  "baies_estimated": 3,
+  "closed_meshes": true,
+  "baies_idempotent": true,
+  "sol_A8_canopies_A12_metadata_A10_preserved": true,
+  "native_sha256": "b5d4542a8bd8b4caee5fa171cf048e374c1a13e9fdcd675ea64976be9371d2ee",
+  "previous_sha256": "f74782b40cdff8b9f51e2324faaf7279ef1ac762d9574dc48e5195149dc0e93f",
+  "published_at": "2026-10-11T05:28:14.615312+00:00"
+}

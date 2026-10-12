@@ -1,0 +1,9 @@
+{
+  "inventory_exact": true,
+  "files": 947,
+  "unexpected_files": 0,
+  "missing_files": 0,
+  "symlinks": 0,
+  "verified_at_utc": "2026-10-11T06:41:47.786243+00:00",
+  "manifest_sha256": "f8c8ba01e5fa728b706cb8337b317cda75219801b26a7c02e5299b6bcee9687f"
+}

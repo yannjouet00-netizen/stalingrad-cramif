@@ -1,0 +1,43 @@
+PALETTE DES BAIES — CONTRÔLE A14 / A15
+11 octobre 2026, 07:57 Paris
+
+VERDICT : CONFORME dans le périmètre géométrie et palette demandé.
+
+Natif A14 de référence : /private/tmp/Stalingrad_avant_nuit_A15.blend
+SHA256 vérifié : b5d4542a8bd8b4caee5fa171cf048e374c1a13e9fdcd675ea64976be9371d2ee
+Natif A15 actuel : /Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend
+SHA256 vérifié : 723de37962771133003e9a772394b3009a8f2f807d85eeae2e45011865eb41f8
+
+Blender 5.2.0 LTS a ouvert successivement les deux fichiers dans un processus isolé en arrière-plan, sans sauvegarde.
+
+RÉSULTATS SUR LE LOT
+Trois objets CRAMIF_TOUR_BAIES_PHOTO_ESTIMEES, 324 triangles.
+36 triangles VITRAGE → catégorie web k=10.
+288 triangles CADRE → catégorie web k=6.
+Chaque affectation est contrôlée par l’indice de matériau du triangle natif, pas seulement par les totaux.
+Les 324 positions sont exactement identiques entre A14, A15, le cache courant et l’API. Aucun écart ou tolérance spatiale nécessaire.
+
+PRÉSERVATION HORS LOT
+295215 triangles hors des trois baies.
+Positions et normales de la totalité de la réponse API A15 exactement identiques à la réponse A14 conservée.
+Couleurs RGB hors lot strictement identiques.
+Catégories hors lot strictement identiques : le cache NPZ A14 n’avait pas été copié, mais sa réponse API binaire réelle était conservée. Les catégories A14 sont reconstituées sans ambiguïté à partir des douze couleurs RGB distinctes de la palette utilisée ; elles correspondent exactement au k du cache A15 hors lot. Les 324 anciennes catégories étaient toutes k=0.
+
+MATÉRIAUX NATIFS
+Géométrie et affectations des trois objets strictement identiques dans les deux natifs vérifiés. Comparaison des emplacements de matériaux, noms, RGBA diffuse, métal, rugosité, types de nœuds, valeurs des entrées et connexions du graphe, ainsi que des indicateurs de surface pris en charge. Ces propriétés sont inchangées. La correction concerne bien l’export de palette, pas une mutation des matériaux natifs.
+
+TRAÇABILITÉ
+Cache A15 : 8766e13cd81ce1e0f518221d01287f8178fe9286015129871cbc9df8699b2614
+Réponse /api/couche/bati_v3 A15 : 6da48a9d1124244fa2cfb8c06268f21f08b55115bf951b7797fd2d45cac1b865
+295539 triangles dans le cache et l’API.
+Empreintes des deux natifs et du cache identiques avant et après contrôle. Aucun fichier source, backend ou natif modifié ; aucun accès au navigateur de la coordination.
+
+PREUVES
+validation.json : verdicts et détail des propriétés des trois objets.
+materiaux_A14.json : propriétés natives de référence extraites.
+controler.py : script de comparaison exécuté.
+bati_v3_A15.bin : réponse HTTP réellement contrôlée.
+Référence A14 : /private/tmp/controle_baies_A14_0749/bati_v3.bin et matched_cache_indices.json.
+
+LIMITES
+Cette vérification clôt la cohérence des positions et de la palette exportée pour ce lot. Elle ne certifie ni des dimensions terrain estimées, ni l’apparence finale de transparence dans un moteur de rendu. Aucune nouvelle validation visuelle revendiquée.

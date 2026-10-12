@@ -1,0 +1,42 @@
+CONSIGNE ACTUELLE — 2026-10-11T12:39:54.792806+00:00
+Yann autorise désormais une réserve de10% restant : arrêt90% utilisés, remplace la précédente limite70%. Mission de nuit close ; reprise actuelle en lots courts parallèles. Aucun reset ou achat autorisé.
+
+CHANTIER DE NUIT — STALINGRAD — 11 OCTOBRE 2026
+ÉTAT : mission active depuis le 11 octobre 04:38 Paris ; nouveau quota vérifié à 0 % utilisé. Jalon A1 natif Éole/contact Rotonde enregistré et réouvert. Le checkpoint machine mission_nuit.json fait foi pour le quota et le statut.
+ARRÊT : dès que le quota Codex affiche 30 % restant (70 % utilisés). Quota global du compte, pas un nombre exact de tokens du projet. Vérifier avant chaque lot et entre opérations. Raccourcir les opérations au voisinage du seuil. À la limite : ne lancer aucun nouveau calcul ni agent ; sauvegarder les opérations déjà faites, interrompre les agents, publier les états en pause et désactiver la reprise automatique. Aucun achat, reset de quota ou changement de modèle autorisé.
+PORTÉE : toutes les corrections demandées dans cette conversation et illustrées par les captures, puis travaux de modélisation répartis entre CRAMIF/quais et Éole/parking/voies. La référence vidéo vise la qualité de géométrie ; rendu final ultérieur.
+
+FICHIER UNIQUE À POURSUIVRE
+/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend
+Relire son état et les modifications de Yann au lancement. Préserver Stalingrad.blend. Un seul intégrateur écrit le natif ; agents éventuels produisent des paquets séparés. Ouvrir la copie de travail et recharger à chaque jalon visible. Calculs intermédiaires hors du dossier de projet. Le viewer montre les sauvegardes, pas une synchronisation continue de Blender.
+
+LOT 0 — RECETTE DE TOUTES LES DEMANDES VISUELLES
+A. Navigation et panneaux : aucune superposition chantier/réglages ; ancienne carte Vue 3D mène à /pro ; bandeau équilibré ; Tour, Abords et Bancs retirés des vues ; Rotonde ajoutée ; Images du menu inférieur renommé Conception ; bloc Autres vues et images supprimé ; aucun menu natif Apple dans les filtres ou périmètres.
+B. Chantier : étapes faites/en cours/à faire explicites ; pourcentage seulement lorsque mesuré ou compté, aucun 75 % artificiel pour trois jalons ; détail de l’opération réelle ; animation discrète active seulement avec retour récent ; attente graphique ; compteurs de tokens sourcés et leur attribution limitée explicitée ; états des agents avec leur tâche.
+C. Caméras : vue d’arrivée utile sans mur au premier plan pour chaque lieu ; transition aérienne entre zones ; Cour cadrée en vue aérienne conformément à la capture du 11 octobre 03:46:54.
+D. Périmètre : sol et toutes les couches adaptés ensemble ; contours graphiques réguliers ; volumes périphériques fermés sur les coupes, sans triangles parasites de canal ni flancs ouverts.
+E. Réglages : noms usuels et couches historiques séparées ; confort détaillé/léger et lumière lisibles ; outils d’analyse secondaires.
+F. Carnet, étude des rues, images : même identité claire Fracktif/carbone ; rôle du carnet expliqué ; inventaire historique incluant images des comptes rendus Claude ; source et brève explication ; dates d’acquisition distinctes des dates de fichier ; provenance inconnue indiquée, sans invention. Ne pas promettre les images supprimées ou introuvables.
+G. Introduction : fond clair continu sans rectangle blanc de l’image ; apparition progressive et mouvement lent, transition soignée vers le modèle ; progression liée au chargement réel, sans durée artificiellement ajoutée.
+H. Repères de modélisation 3D : lisibles de loin mais compacts ; symbole Ⅱ retiré ; noms et travail à venir clairs ; chargement uniquement pour activité réelle, attente discrète autrement.
+I. Brain : véritable galaxie 3D orbitable ; noyau clair et soigné ; lots et étapes répartis sans chevauchement ; mouvement fluide ; clic vers détail ; recherche, zoom, recentrage et pause ; adaptation téléphone. Liens de regroupement explicités, pas de dépendances inventées ; satellites des étapes réelles, étoiles décoratives identifiées.
+Pour chacun : examiner l’état actuel avant de réécrire ; plusieurs sont déjà intégrés. Tester les interactions dans le navigateur et garder les preuves pertinentes. Ne pas marquer une correction vérifiée sur une simple lecture du code.
+
+LOT 1 — CRAMIF ET QUAIS
+Contre-contrôle de la tour : balcons séparés, retrait vitré et volumes parasites retirés ; murets raccordés ; cour centrale et entrée Maroc ; cour sud et pieds de façade restant à corriger. Compléter la géométrie seulement sur preuves suffisantes, distinguer mesures et estimations. Contrôler les sols Seine/Loire déjà simplifiés : surfaces et contacts, pas de superposition, conservation des reliefs attestés. Voirie, marquages, Rotonde/gradins, écluse/passerelle/berges et végétation : traiter selon captures et sources, dans la limite du quota. Fidélité de modélisation demandée dans la vidéo, pas rendu final.
+
+LOT 2 — JARDINS D’ÉOLE, PARKING ET FAISCEAU
+Suivre le plan détaillé documentation/v3/cramif/interface/PLAN_EOLE_VOIES.txt. Identifier d’abord le parking visé dans les captures. Reprendre grandes surfaces, allées, niveaux, promenade/escaliers et végétation avec inventaire local ; conserver ouvrages existants. Voies : axes documentés/orthophoto lisible, ballast, rails et traverses sobres, aiguillages lisibles, portiques localisables ; pas de voies inventées depuis les seules emprises PVP. Si sources insuffisantes : signaler et livrer les surfaces attestées, garder les axes douteux en attente.
+
+ORDRE ET LIVRAISON
+1. État initial relu ; checklist exhaustive des captures reliée à leurs corrections.
+2. Recette UI ; corriger les échecs observés en priorité et enregistrer preuves.
+3. CRAMIF/quais : finir les corrections intégrées encore non vérifiées.
+4. Préparer puis intégrer Éole/parking/voies ; partager l’effort entre les deux ensembles.
+5. Par jalon : sauvegarde native, rechargement visible, export web cohérent, captures datées, progression honnête et tâches/agents mis à jour dans Brain/chantier.
+6. À la limite ou à fin des travaux : fichier natif ouvrable, site fonctionnel, bref bilan fait/non fait, preuves, points encore incertains. État en pause si quota ; ne pas afficher « terminé » pour les lots non livrés.
+
+PRÉCISION DE YANN — CAPTURE DU11OCTOBRE04:43:48
+Les dix lots affichés sont expressément inclus : interface/introduction/suivi ; sols îlots Seine/Loire ; tour ; cour centrale/entréeMaroc ; quatre murets ; eau ; voirie/marquages ; Rotonde/abords/gradins ; écluse/passerelle/berges ; arbres secteur écluse/berges. Aucun lot ne doit être écarté parce qu’il est affiché non lancé. Vérifier les intégrations existantes, puis traiter les lots nouveaux selon sources et temps/quota. Les afficher en attente s’ils ne peuvent pas être achevés ; ne pas inventer achèvement. Éole/parking/faisceau reste inclus en parallèle. Objectif bilan et livraison10hParis, consolidation09:15.
+
+QUOTA À PARTIR DE06H : compteur19→0avec nouvelle échéance sans reset demandé. Garder19comme maximum historique. Valeur effective=max(valeur effective précédente,usedPercent actuel), sans addition des fenêtres. Arrêter si compteurbrut ouvaleur effective≥70 ; conserver anomalie pour bilan.

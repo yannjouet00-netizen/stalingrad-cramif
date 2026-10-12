@@ -1,0 +1,18 @@
+{
+  "maillage_v3": {
+    "vertices_served": 514650,
+    "native_export_exact": true,
+    "other_parts": 8
+  },
+  "eole_voies": {
+    "vertices_served": 218199,
+    "native_export_exact": true,
+    "other_parts": 0
+  },
+  "eole_ballast": {
+    "vertices_served": 142512,
+    "native_export_exact": true,
+    "other_parts": 0
+  },
+  "checked_at": "2026-10-11T10:16:18.739745+00:00"
+}

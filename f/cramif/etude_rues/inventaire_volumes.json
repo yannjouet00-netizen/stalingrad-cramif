@@ -1,0 +1,2481 @@
+{
+  "repere": "x=E2154-653700,y=N2154-6865100,zIGN69",
+  "source": "donnees/v3/volumes/Volumes.npz + volumes.json; aucune mutation",
+  "records_sans_mesh_dans_Volumes_npz": [
+    "2506357"
+  ],
+  "volumes": [
+    {
+      "cle": "2505944",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 86.52,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 49.776,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.776,
+          "z_toit": 86.52,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 36.41,
+      "nb_pl": 13,
+      "alertes": [],
+      "centre": [
+        132.6,
+        201.1
+      ],
+      "aire_m2": 2.39,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          5,
+          5
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        131.521,
+        200.035,
+        133.675,
+        202.233
+      ],
+      "triangles": 16,
+      "z_minmax": [
+        49.776,
+        86.52
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 1,
+        "z_p05_med_p95": [
+          86.44,
+          86.44,
+          86.44
+        ],
+        "residu_toit_abs_med_p95": [
+          0.0799999999999983,
+          0.0799999999999983
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2505950",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750087099_0",
+      "z_toit": 75.06,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 43.626,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 43.626,
+          "z_toit": 75.06,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 29.93,
+      "nb_pl": 7,
+      "alertes": [],
+      "centre": [
+        76.5,
+        209.8
+      ],
+      "aire_m2": 469.18,
+      "facade": {
+        "ecart_hausdorff_m": 0.119,
+        "modifiee": true,
+        "chaines_sous_eps": 1,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          14,
+          8
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        41.98406726737028,
+        184.537,
+        106.40920222975754,
+        233.57963227822398
+      ],
+      "triangles": 28,
+      "z_minmax": [
+        43.626,
+        75.06
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 4633,
+        "z_p05_med_p95": [
+          75.01,
+          75.06,
+          77.07000000000001
+        ],
+        "residu_toit_abs_med_p95": [
+          0.01999999999999602,
+          2.010000000000005
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2512234",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750087099_0",
+      "z_toit": 81.83,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 45.2,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 45.2,
+          "z_toit": 81.83,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 33.84,
+      "nb_pl": 10,
+      "alertes": [],
+      "centre": [
+        91.4,
+        153.3
+      ],
+      "aire_m2": 1042.8,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          10,
+          10
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        41.676,
+        95.585,
+        115.23,
+        180.19
+      ],
+      "triangles": 32,
+      "z_minmax": [
+        45.2,
+        81.83
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 10054,
+        "z_p05_med_p95": [
+          81.77,
+          81.83,
+          82.10000000000001
+        ],
+        "residu_toit_abs_med_p95": [
+          0.030000000000001137,
+          0.3200000000000074
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2505943",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 80.56,
+      "statut_toit": "ESTIME",
+      "z_base": 49.782,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.782,
+          "z_toit": 80.56,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 30.38,
+      "nb_pl": 3,
+      "alertes": [
+        "toit_heterogene",
+        "mesure_peu_fiable",
+        "etages_incoherents"
+      ],
+      "centre": [
+        128.3,
+        205.5
+      ],
+      "aire_m2": 17.33,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          5,
+          5
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        124.843,
+        201.549,
+        131.709,
+        209.534
+      ],
+      "triangles": 16,
+      "z_minmax": [
+        49.782,
+        80.56
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 133,
+        "z_p05_med_p95": [
+          80.536,
+          80.64,
+          85.21000000000001
+        ],
+        "residu_toit_abs_med_p95": [
+          0.0799999999999983,
+          4.650000000000006
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2512233",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750087099_0",
+      "z_toit": 78.41,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 47.327,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 47.327,
+          "z_toit": 78.41,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 28.2,
+      "nb_pl": 9,
+      "alertes": [
+        "toit_heterogene",
+        "toit_plusieurs_niveaux_residuel",
+        "ecart_lidar_sup_0_5"
+      ],
+      "centre": [
+        95.5,
+        147.2
+      ],
+      "aire_m2": 374.15,
+      "facade": {
+        "ecart_hausdorff_m": 0.13,
+        "modifiee": true,
+        "chaines_sous_eps": 1,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          15,
+          10
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        50.228,
+        93.66,
+        120.72974857488036,
+        183.99697875851845
+      ],
+      "triangles": 28,
+      "z_minmax": [
+        47.327,
+        78.41
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 4755,
+        "z_p05_med_p95": [
+          57.397,
+          78.34,
+          79.01
+        ],
+        "residu_toit_abs_med_p95": [
+          0.5600000000000023,
+          21.012999999999998
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2505942",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 85.73,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 49.551,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.551,
+          "z_toit": 85.73,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 35.75,
+      "nb_pl": 1,
+      "alertes": [
+        "etages_incoherents"
+      ],
+      "centre": [
+        125.1,
+        202.7
+      ],
+      "aire_m2": 19.54,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 1,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": [
+          {
+            "anneau": 0,
+            "chaine": 1,
+            "peigne": false,
+            "sommets_avant": 4,
+            "sommets_apres": 3,
+            "ecart_m": 1.201,
+            "accepte": false,
+            "aire_ajoutee_m2": 0.43,
+            "aire_retiree_m2": 4.23,
+            "densite_ref": 6.7,
+            "densites_ajout": [],
+            "densites_retrait": [
+              2.1
+            ],
+            "densites_cede_receveur": [],
+            "toit_dans_ajout": true,
+            "pas_de_toit_dans_retrait": false,
+            "toit_du_receveur_dans_la_matiere_cedee": true
+          },
+          {
+            "anneau": 0,
+            "chaine": 1,
+            "peigne": false,
+            "sommets_avant": 4,
+            "sommets_apres": 3,
+            "ecart_m": 1.214,
+            "accepte": false,
+            "aire_ajoutee_m2": 0.06,
+            "aire_retiree_m2": 5.04,
+            "densite_ref": 6.7,
+            "densites_ajout": [],
+            "densites_retrait": [
+              2.1
+            ],
+            "densites_cede_receveur": [],
+            "toit_dans_ajout": true,
+            "pas_de_toit_dans_retrait": false,
+            "toit_du_receveur_dans_la_matiere_cedee": true
+          }
+        ]
+      },
+      "bounds": [
+        120.684,
+        199.485,
+        128.508,
+        207.04
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.551,
+        85.73
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 54,
+        "z_p05_med_p95": [
+          85.6265,
+          85.725,
+          85.8135
+        ],
+        "residu_toit_abs_med_p95": [
+          0.04999999999999716,
+          0.11699999999999793
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2505963",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 63.475,
+      "statut_toit": "ESTIME",
+      "z_base": 49.795,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.795,
+          "z_toit": 63.475,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 13.37,
+      "nb_pl": 5,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        141.1,
+        193.5
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        140.53,
+        192.901,
+        141.754,
+        194.016
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.795,
+        63.475
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2505946",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750087099_0",
+      "z_toit": 84.95,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 43.825,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 43.825,
+          "z_toit": 84.95,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 38.24,
+      "nb_pl": 11,
+      "alertes": [],
+      "centre": [
+        30.8,
+        177.1
+      ],
+      "aire_m2": 1320.82,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 2,
+        "retour": null,
+        "sommets": [
+          23,
+          23
+        ],
+        "journal_lidar": [
+          {
+            "anneau": 0,
+            "chaine": 3,
+            "peigne": false,
+            "sommets_avant": 4,
+            "sommets_apres": 3,
+            "ecart_m": 0.361,
+            "accepte": false,
+            "aire_ajoutee_m2": 0.01,
+            "aire_retiree_m2": 8.41,
+            "densite_ref": 11.4,
+            "densites_ajout": [],
+            "densites_retrait": [],
+            "densites_cede_receveur": [],
+            "toit_dans_ajout": true,
+            "pas_de_toit_dans_retrait": false,
+            "toit_du_receveur_dans_la_matiere_cedee": true
+          },
+          {
+            "anneau": 0,
+            "chaine": 3,
+            "peigne": false,
+            "sommets_avant": 4,
+            "sommets_apres": 3,
+            "ecart_m": 0.361,
+            "accepte": false,
+            "aire_ajoutee_m2": 0.0,
+            "aire_retiree_m2": 8.57,
+            "densite_ref": 11.4,
+            "densites_ajout": [],
+            "densites_retrait": [],
+            "densites_cede_receveur": [],
+            "toit_dans_ajout": true,
+            "pas_de_toit_dans_retrait": false,
+            "toit_du_receveur_dans_la_matiere_cedee": true
+          }
+        ]
+      },
+      "bounds": [
+        4.157,
+        119.072,
+        71.875,
+        211.497
+      ],
+      "triangles": 76,
+      "z_minmax": [
+        43.825,
+        84.95
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 14406,
+        "z_p05_med_p95": [
+          69.6525,
+          84.95,
+          85.91
+        ],
+        "residu_toit_abs_med_p95": [
+          0.04000000000000625,
+          15.297500000000003
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2505964",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 73.205,
+      "statut_toit": "ESTIME",
+      "z_base": 49.803,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.803,
+          "z_toit": 73.205,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 23.09,
+      "nb_pl": 4,
+      "alertes": [
+        "toit_estime_classe_1",
+        "etages_incoherents"
+      ],
+      "centre": [
+        141.4,
+        193.8
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        140.823,
+        193.263,
+        142.049,
+        194.378
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.803,
+        73.205
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2505965",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 53.13,
+      "statut_toit": "ESTIME",
+      "z_base": 49.818,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.818,
+          "z_toit": 53.13,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 3.0,
+      "nb_pl": 3,
+      "alertes": [
+        "toit_heterogene",
+        "mesure_peu_fiable",
+        "etages_incoherents",
+        "ecart_lidar_sup_0_5"
+      ],
+      "centre": [
+        141.7,
+        194.2
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        141.117,
+        193.625,
+        142.344,
+        194.74
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.818,
+        53.13
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2505966",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 86.8,
+      "statut_toit": "ESTIME",
+      "z_base": 49.842,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.842,
+          "z_toit": 86.8,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 36.61,
+      "nb_pl": 1,
+      "alertes": [
+        "toit_heterogene",
+        "toit_estime_voisin",
+        "etages_incoherents",
+        "ecart_lidar_sup_0_5"
+      ],
+      "centre": [
+        142.3,
+        194.9
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        141.704,
+        194.35,
+        142.933,
+        195.464
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.842,
+        86.8
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2505948",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750087099_0",
+      "z_toit": 78.77,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 44.228,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 44.228,
+          "z_toit": 78.77,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 33.58,
+      "nb_pl": 10,
+      "alertes": [],
+      "centre": [
+        85.6,
+        193.7
+      ],
+      "aire_m2": 533.94,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          8,
+          8
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        60.576,
+        173.94,
+        107.912,
+        215.704
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        44.228,
+        78.77
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 5466,
+        "z_p05_med_p95": [
+          78.73,
+          78.78,
+          80.76
+        ],
+        "residu_toit_abs_med_p95": [
+          0.030000000000001137,
+          2.0
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2506371",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 86.8,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 48.728,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 48.728,
+          "z_toit": 86.8,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 36.58,
+      "nb_pl": 13,
+      "alertes": [
+        "facade_liberee_redressee",
+        "fente_comblee_passe4",
+        "fente_comblee_passe4"
+      ],
+      "centre": [
+        135.9,
+        205.2
+      ],
+      "aire_m2": 318.83,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 2,
+        "retour": null,
+        "sommets": [
+          51,
+          51
+        ],
+        "journal_lidar": [
+          {
+            "anneau": 0,
+            "chaine": 5,
+            "peigne": false,
+            "sommets_avant": 4,
+            "sommets_apres": 3,
+            "ecart_m": 0.758,
+            "accepte": false,
+            "aire_ajoutee_m2": 2.25,
+            "aire_retiree_m2": 0.0,
+            "densite_ref": 11.1,
+            "densites_ajout": [
+              0.0
+            ],
+            "densites_retrait": [],
+            "densites_cede_receveur": [],
+            "toit_dans_ajout": false,
+            "pas_de_toit_dans_retrait": true,
+            "toit_du_receveur_dans_la_matiere_cedee": true
+          },
+          {
+            "anneau": 0,
+            "chaine": 5,
+            "peigne": false,
+            "sommets_avant": 4,
+            "sommets_apres": 3,
+            "ecart_m": 0.74,
+            "accepte": false,
+            "aire_ajoutee_m2": 1.23,
+            "aire_retiree_m2": 0.02,
+            "densite_ref": 11.1,
+            "densites_ajout": [],
+            "densites_retrait": [],
+            "densites_cede_receveur": [],
+            "toit_dans_ajout": false,
+            "pas_de_toit_dans_retrait": true,
+            "toit_du_receveur_dans_la_matiere_cedee": true
+          }
+        ]
+      },
+      "bounds": [
+        126.433,
+        190.759,
+        150.062,
+        219.298
+      ],
+      "triangles": 108,
+      "z_minmax": [
+        48.728,
+        86.8
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 3024,
+        "z_p05_med_p95": [
+          85.25,
+          87.09,
+          87.4485
+        ],
+        "residu_toit_abs_med_p95": [
+          0.4100000000000108,
+          1.5899999999999892
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2505949",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750087099_0",
+      "z_toit": 56.4,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 47.894,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 47.894,
+          "z_toit": 56.4,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 7.7,
+      "nb_pl": 1,
+      "alertes": [
+        "etages_incoherents"
+      ],
+      "centre": [
+        98.5,
+        146.4
+      ],
+      "aire_m2": 159.55,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 1,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        78.301,
+        122.572,
+        118.687,
+        170.136
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        47.894,
+        56.4
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 585,
+        "z_p05_med_p95": [
+          56.35,
+          56.4,
+          56.6
+        ],
+        "residu_toit_abs_med_p95": [
+          0.020000000000003126,
+          0.20000000000000284
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2506355",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 87.235,
+      "statut_toit": "ESTIME",
+      "z_base": 49.831,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.831,
+          "z_toit": 87.235,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 37.08,
+      "nb_pl": 2,
+      "alertes": [
+        "toit_heterogene",
+        "mesure_peu_fiable",
+        "etages_incoherents",
+        "ecart_lidar_sup_0_5"
+      ],
+      "centre": [
+        142.0,
+        194.5
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        141.411,
+        193.988,
+        142.638,
+        195.102
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.831,
+        87.235
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506365",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 68.89,
+      "statut_toit": "ESTIME",
+      "z_base": 48.998,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 48.998,
+          "z_toit": 68.89,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 19.43,
+      "nb_pl": 7,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        143.1,
+        216.9
+      ],
+      "aire_m2": 4.09,
+      "facade": {
+        "ecart_hausdorff_m": 0.289,
+        "modifiee": true,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 1,
+        "greffes_recues": 1,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          8,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        140.288,
+        213.104,
+        145.91,
+        220.668
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        48.998,
+        68.89
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2505945",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750087099_0",
+      "z_toit": 79.005,
+      "statut_toit": "ESTIME",
+      "z_base": 44.69,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 44.69,
+          "z_toit": 79.005,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 33.92,
+      "nb_pl": 1,
+      "alertes": [
+        "mesure_peu_fiable",
+        "etages_incoherents"
+      ],
+      "centre": [
+        64.6,
+        201.6
+      ],
+      "aire_m2": 7.91,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        62.492,
+        199.251,
+        66.771,
+        203.939
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        44.69,
+        79.005
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 4,
+        "z_p05_med_p95": [
+          74.8815,
+          76.78,
+          78.8145
+        ],
+        "residu_toit_abs_med_p95": [
+          2.2249999999999943,
+          4.123499999999993
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2505960",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 81.3,
+      "statut_toit": "ESTIME",
+      "z_base": 49.762,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.762,
+          "z_toit": 81.3,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 31.22,
+      "nb_pl": 10,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        139.7,
+        191.6
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        139.061,
+        191.09,
+        140.281,
+        192.207
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.762,
+        81.3
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506364",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 66.33,
+      "statut_toit": "ESTIME",
+      "z_base": 48.935,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 48.935,
+          "z_toit": 66.33,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 16.95,
+      "nb_pl": 6,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        143.5,
+        217.2
+      ],
+      "aire_m2": 4.04,
+      "facade": {
+        "ecart_hausdorff_m": 0.276,
+        "modifiee": true,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 1,
+        "greffes_recues": 1,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          8,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        140.657,
+        213.377,
+        146.265,
+        220.944
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        48.935,
+        66.33
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506359",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 74.59,
+      "statut_toit": "ESTIME",
+      "z_base": 49.181,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.181,
+          "z_toit": 74.59,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 24.95,
+      "nb_pl": 9,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        142.4,
+        216.3
+      ],
+      "aire_m2": 3.96,
+      "facade": {
+        "ecart_hausdorff_m": 0.268,
+        "modifiee": true,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 1,
+        "greffes_recues": 1,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          8,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        139.608,
+        212.566,
+        145.22,
+        220.122
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.181,
+        74.59
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2505947",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750087099_0",
+      "z_toit": 86.95,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 44.216,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 44.216,
+          "z_toit": 86.95,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 41.06,
+      "nb_pl": 13,
+      "alertes": [],
+      "centre": [
+        38.4,
+        176.9
+      ],
+      "aire_m2": 510.81,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          14,
+          14
+        ],
+        "journal_lidar": [
+          {
+            "anneau": 0,
+            "chaine": 1,
+            "peigne": true,
+            "sommets_avant": 12,
+            "sommets_apres": 6,
+            "ecart_m": 2.09,
+            "accepte": false,
+            "aire_ajoutee_m2": 4.34,
+            "aire_retiree_m2": 35.57,
+            "densite_ref": 11.3,
+            "densites_ajout": [
+              9.1
+            ],
+            "densites_retrait": [
+              13.2,
+              12.0,
+              14.4
+            ],
+            "densites_cede_receveur": [
+              1.1,
+              0.3,
+              4.3,
+              0.5
+            ],
+            "toit_dans_ajout": true,
+            "pas_de_toit_dans_retrait": false,
+            "toit_du_receveur_dans_la_matiere_cedee": false
+          }
+        ]
+      },
+      "bounds": [
+        17.604,
+        151.04,
+        65.472,
+        208.153
+      ],
+      "triangles": 48,
+      "z_minmax": [
+        44.216,
+        86.95
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 5069,
+        "z_p05_med_p95": [
+          86.89,
+          86.97,
+          87.95
+        ],
+        "residu_toit_abs_med_p95": [
+          0.04999999999999716,
+          1.0100000000000051
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2505958",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 77.66,
+      "statut_toit": "ESTIME",
+      "z_base": 49.732,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.732,
+          "z_toit": 77.66,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 27.61,
+      "nb_pl": 12,
+      "alertes": [
+        "toit_estime_classe_1",
+        "etages_incoherents"
+      ],
+      "centre": [
+        139.1,
+        190.9
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        138.474,
+        190.366,
+        139.692,
+        191.483
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.732,
+        77.66
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506360",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 52.28,
+      "statut_toit": "ESTIME",
+      "z_base": 48.292,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 48.292,
+          "z_toit": 52.28,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 3.21,
+      "nb_pl": 2,
+      "alertes": [
+        "toit_estime_voisin",
+        "etages_incoherents"
+      ],
+      "centre": [
+        144.3,
+        219.2
+      ],
+      "aire_m2": 4.7,
+      "facade": {
+        "ecart_hausdorff_m": 0.26,
+        "modifiee": true,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 1,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          8,
+          6
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        142.076,
+        214.482,
+        147.668,
+        222.022
+      ],
+      "triangles": 20,
+      "z_minmax": [
+        48.292,
+        52.28
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506366",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 52.28,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 48.19,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 48.19,
+          "z_toit": 52.28,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 3.31,
+      "nb_pl": 1,
+      "alertes": [
+        "mesure_propre_gardee"
+      ],
+      "centre": [
+        144.7,
+        219.3
+      ],
+      "aire_m2": 3.1,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          6,
+          6
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        142.387,
+        214.758,
+        148.147,
+        222.199
+      ],
+      "triangles": 20,
+      "z_minmax": [
+        48.19,
+        52.28
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2505904",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 69.18,
+      "statut_toit": "ESTIME",
+      "z_base": 49.794,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.794,
+          "z_toit": 69.18,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 19.08,
+      "nb_pl": 6,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        140.8,
+        193.1
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        140.236,
+        192.539,
+        141.46,
+        193.654
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.794,
+        69.18
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506368",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 80.125,
+      "statut_toit": "ESTIME",
+      "z_base": 49.354,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.354,
+          "z_toit": 80.125,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 30.32,
+      "nb_pl": 11,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        142.7,
+        214.4
+      ],
+      "aire_m2": 3.4,
+      "facade": {
+        "ecart_hausdorff_m": 0.266,
+        "modifiee": true,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 1,
+        "greffes_recues": 1,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          9,
+          5
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        138.907,
+        212.015,
+        144.522,
+        219.557
+      ],
+      "triangles": 16,
+      "z_minmax": [
+        49.354,
+        80.125
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2505962",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 77.97,
+      "statut_toit": "ESTIME",
+      "z_base": 49.79,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.79,
+          "z_toit": 77.97,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 27.88,
+      "nb_pl": 7,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        140.6,
+        192.7
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        139.942,
+        192.177,
+        141.165,
+        193.292
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.79,
+        77.97
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2505941",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 85.73,
+      "statut_toit": "ESTIME",
+      "z_base": 49.675,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.675,
+          "z_toit": 85.73,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 35.64,
+      "nb_pl": 2,
+      "alertes": [
+        "toit_heterogene",
+        "toit_estime_voisin",
+        "etages_incoherents",
+        "ecart_lidar_sup_0_5"
+      ],
+      "centre": [
+        126.7,
+        204.3
+      ],
+      "aire_m2": 17.39,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        123.252,
+        200.29,
+        130.118,
+        208.287
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.675,
+        85.73
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 155,
+        "z_p05_med_p95": [
+          80.547,
+          80.61,
+          85.5
+        ],
+        "residu_toit_abs_med_p95": [
+          5.1200000000000045,
+          5.183000000000004
+        ],
+        "limite": "Retours mélangés pour balcons/saillies empilés; ces résidus ne démontrent pas une erreur de dalle."
+      }
+    },
+    {
+      "cle": "2506369",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 77.715,
+      "statut_toit": "ESTIME",
+      "z_base": 49.272,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.272,
+          "z_toit": 77.715,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 27.98,
+      "nb_pl": 10,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        142.1,
+        216.1
+      ],
+      "aire_m2": 4.14,
+      "facade": {
+        "ecart_hausdorff_m": 0.281,
+        "modifiee": true,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 1,
+        "greffes_recues": 1,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          8,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        139.238,
+        212.287,
+        144.877,
+        219.847
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.272,
+        77.715
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2505959",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 76.09,
+      "statut_toit": "ESTIME",
+      "z_base": 49.753,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.753,
+          "z_toit": 76.09,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 26.02,
+      "nb_pl": 11,
+      "alertes": [
+        "toit_estime_classe_1",
+        "etages_incoherents"
+      ],
+      "centre": [
+        139.4,
+        191.3
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        138.767,
+        190.728,
+        139.986,
+        191.845
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.753,
+        76.09
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506358",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 72.05,
+      "statut_toit": "ESTIME",
+      "z_base": 49.094,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.094,
+          "z_toit": 72.05,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 22.5,
+      "nb_pl": 8,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        142.8,
+        216.6
+      ],
+      "aire_m2": 3.83,
+      "facade": {
+        "ecart_hausdorff_m": 0.267,
+        "modifiee": true,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 1,
+        "greffes_recues": 1,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          8,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        139.96,
+        212.835,
+        145.563,
+        220.379
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.094,
+        72.05
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506356",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 64.85,
+      "statut_toit": "ESTIME",
+      "z_base": 49.78,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.78,
+          "z_toit": 64.85,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 14.76,
+      "nb_pl": 8,
+      "alertes": [
+        "toit_estime_classe_1",
+        "etages_incoherents"
+      ],
+      "centre": [
+        140.3,
+        192.4
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        139.648,
+        191.814,
+        140.87,
+        192.93
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.78,
+        64.85
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506361",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 57.35,
+      "statut_toit": "ESTIME",
+      "z_base": 48.585,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 48.585,
+          "z_toit": 57.35,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 8.23,
+      "nb_pl": 3,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        144.5,
+        218.0
+      ],
+      "aire_m2": 4.0,
+      "facade": {
+        "ecart_hausdorff_m": 0.271,
+        "modifiee": true,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 1,
+        "greffes_recues": 1,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          8,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        141.715,
+        214.215,
+        147.316,
+        221.779
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        48.585,
+        57.35
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506362",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 60.375,
+      "statut_toit": "ESTIME",
+      "z_base": 48.75,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 48.75,
+          "z_toit": 60.375,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 11.17,
+      "nb_pl": 4,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        144.2,
+        217.7
+      ],
+      "aire_m2": 4.18,
+      "facade": {
+        "ecart_hausdorff_m": 0.281,
+        "modifiee": true,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 1,
+        "greffes_recues": 1,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          8,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        141.337,
+        213.937,
+        146.977,
+        221.496
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        48.75,
+        60.375
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506363",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 63.35,
+      "statut_toit": "ESTIME",
+      "z_base": 48.848,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 48.848,
+          "z_toit": 63.35,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 14.07,
+      "nb_pl": 5,
+      "alertes": [
+        "toit_estime_classe_1"
+      ],
+      "centre": [
+        143.8,
+        217.4
+      ],
+      "aire_m2": 3.91,
+      "facade": {
+        "ecart_hausdorff_m": 0.269,
+        "modifiee": true,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 1,
+        "greffes_recues": 1,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          8,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        141.01,
+        213.656,
+        146.623,
+        221.2
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        48.848,
+        63.35
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2506373",
+      "nature": "U",
+      "l_b_u": "11a12",
+      "parent_apur": "750113299_0",
+      "z_toit": 87.13,
+      "statut_toit": "MESURE_LIDAR",
+      "z_base": 80.567,
+      "statut_base": "ESTIME",
+      "blocs": [
+        {
+          "z_base": 80.567,
+          "z_toit": 87.13,
+          "statut_base": "ESTIME",
+          "base": "niveaux 11-12 : base niveau 11 x 2.76 m (étage : noyau V mitoyen (2))",
+          "niveaux": "11-12",
+          "statut_toit": "MESURE"
+        }
+      ],
+      "hauteur_m": 36.92,
+      "nb_pl": 2,
+      "alertes": [],
+      "centre": [
+        148.8,
+        204.8
+      ],
+      "aire_m2": 3.7,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 1,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        147.014,
+        203.264,
+        150.65,
+        206.414
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        80.567,
+        87.13
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    },
+    {
+      "cle": "2505961",
+      "nature": "V",
+      "l_b_u": null,
+      "parent_apur": "750113299_0",
+      "z_toit": 70.175,
+      "statut_toit": "ESTIME",
+      "z_base": 49.771,
+      "statut_base": "CONVENTION",
+      "blocs": [
+        {
+          "z_base": 49.771,
+          "z_toit": 70.175,
+          "statut_base": "CONVENTION",
+          "base": "sol V3 min - 0.3 m",
+          "niveaux": "sol"
+        }
+      ],
+      "hauteur_m": 20.09,
+      "nb_pl": 9,
+      "alertes": [
+        "toit_estime_classe_1",
+        "etages_incoherents"
+      ],
+      "centre": [
+        140.0,
+        192.0
+      ],
+      "aire_m2": 0.56,
+      "facade": {
+        "ecart_hausdorff_m": 0.0,
+        "modifiee": false,
+        "chaines_sous_eps": 0,
+        "chaines_lidar": 0,
+        "chaines_peigne": 0,
+        "greffes_recues": 0,
+        "greffes_lidar": 0,
+        "chaines_conservees": 0,
+        "retour": null,
+        "sommets": [
+          4,
+          4
+        ],
+        "journal_lidar": []
+      },
+      "bounds": [
+        139.355,
+        191.452,
+        140.576,
+        192.568
+      ],
+      "triangles": 12,
+      "z_minmax": [
+        49.771,
+        70.175
+      ],
+      "lidar_interieur_erosion_50cm": {
+        "n": 0
+      }
+    }
+  ]
+}

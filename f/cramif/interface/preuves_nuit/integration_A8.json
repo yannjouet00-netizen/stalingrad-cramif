@@ -1,0 +1,14 @@
+{
+  "verified_reopen": true,
+  "web_npz_exact_float32": true,
+  "idempotent": true,
+  "v_f": [
+    100729,
+    171543
+  ],
+  "source_A7_preserved": true,
+  "scope": "Cour NE : raccord limité à15,30m², niveaux hauts préservés,91observations améliorées aucune dégradée",
+  "residuals": "91 points améliorés, aucun dégradé",
+  "native_sha256": "4b87cfbc8ba4a744f10acd5808ee64b78f77d1d941e478f1e3ebc83825a1b994",
+  "published_at": "2026-10-11T04:11:41.206213+00:00"
+}

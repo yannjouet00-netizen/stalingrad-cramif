@@ -1,0 +1,5 @@
+rue,troncons,longueur_cumulee_axes_m,stations_1m,z_min_m,z_max_m,p95_abs_ecart_classe2_couche_m,arbres_proximite25m,arbres_adresse_alignement_exacte,primitives_pvp_mobilier
+Rue du Département,3,182.03,184,50.097,50.845,0.0401,8,0,210
+Rue du Maroc,5,307.56,311,48.514,50.365,0.0463,8,0,334
+Avenue de Flandre,8,1001.64,1006,48.869,52.347,0.0406,190,185,882
+Rue de Tanger,6,528.48,531,48.565,51.414,0.0423,24,13,1452

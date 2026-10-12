@@ -1,0 +1,14 @@
+CARNET — CLASSEMENT ET NOTICES LISIBLES
+11 octobre 2026, 07:21 Paris
+
+Correction appliquée : hub.html et index_cramif.html uniquement. Aucun fichier source supprimé ou modifié ; aucun redémarrage, aucune modification du modèle natif.
+
+Défaut confirmé : le mot « contrôle » suffisait à classer une mission d’agent dans les décisions ; les intitulés génériques et les premiers paragraphes des procédures faisaient apparaître des chemins d’import en tête du carnet.
+
+Correction : priorité au statut technique, aux extensions de données/scripts et aux noms de mission/instruction/procédure. Liste explicite des missions, recettes internes, procédures d’import et doublon texte de l’étude. Vingt-cinq rapports métier conservés avec titre, résumé et sujet éditorial. Les étapes anciennes sont signalées comme telles ; les limites des mesures et contrôles sont maintenues. Les extraits automatiques écartent les paragraphes de chemins temporaires, de quota et d’importeurs.
+
+Tests sur les 113 entrées réelles de /api/hub : 27 documents par défaut, 86 derrière « Inclure les fichiers techniques », 113 liens originaux uniques toujours accessibles. Conservation vérifiée des rapports métier de sols, clôtures et murets. Les deux pages restent identiques et leur JavaScript est syntaxiquement valide. HTTP /carnet sert exactement le fichier modifié (http.json).
+
+Premières décisions : Sols des quais · contrôle des cours ; Brain · navigation et recherche vérifiées ; Interface · contrôles visuels du 11 octobre ; Tour et abords · vérification des contacts ; Sols · correction de l’ombrage.
+
+Preuves : validation.json, test.cjs, documents.json, http.json et différences des deux pages. Vérification graphique de cette modification demandée au parent sur son navigateur ; non revendiquée ici.

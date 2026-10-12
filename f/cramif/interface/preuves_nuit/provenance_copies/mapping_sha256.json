@@ -1,0 +1,1366 @@
+{
+  "meta": {
+    "date_verification": "2026-10-11T06:37:33.243058+00:00",
+    "methode": "SHA-256 des octets bruts uniquement ; aucun rapprochement visuel, nom, dossier, taille ou mtime.",
+    "inventaire_total": 9129,
+    "documentees_initiales": 311,
+    "hashes_reussis": 9129,
+    "hashes_echecs": 0,
+    "nouvelles_attributions": 33,
+    "groupes_contradictoires": 0,
+    "cibles_contradictoires": 0,
+    "par_racine": {
+      "cramif": 1,
+      "images_calcul": 16,
+      "images_projet": 16
+    },
+    "producteurs_inconnus_preserves": 2
+  },
+  "updates": [
+    {
+      "id": "36c4ee49c2ba94d4eee6",
+      "racine": "cramif",
+      "rel": "interface/preuves_nuit/canopies_Eole_A11.png",
+      "sha256": "12f876e245ab5a9d549d71202e4209b29790031b54c38e584f840eefdd99fda4",
+      "taille": 447283,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Chantier Stalingrad · analyse des retours IGN LiDAR HD / segmentation ARB3",
+        "date_acquisition": "2026-10-11",
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": "Mars 2023 selon la documentation du nuage IGN HD, sans feuilles",
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/cramif/interface/preuves_nuit/images_meta.json",
+        "reference_fichier": "documentation/v3/cramif/interface/preuves_nuit/images_meta.json",
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Comparaison analytique de huit anciennes formes et des enveloppes construites sur 2 704 retours de végétation. Les troncs et les pieds sont conservés ; les enveloppes convexes restent conventionnelles.",
+      "preuves": [
+        {
+          "id": "b7bff31439bdd96067f0",
+          "racine": "images_projet",
+          "rel": "donnees/v3/eole/canopies_a11/preuve_canopies_avant_apres.png",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/cramif/interface/preuves_nuit/images_meta.json",
+            "reference_fichier": "documentation/v3/cramif/interface/preuves_nuit/images_meta.json",
+            "producteur": "Chantier Stalingrad · analyse des retours IGN LiDAR HD / segmentation ARB3",
+            "date_acquisition": "2026-10-11",
+            "date_source": null,
+            "date_donnees_source": "Mars 2023 selon la documentation du nuage IGN HD, sans feuilles",
+            "description_source": "Comparaison analytique de huit anciennes formes et des enveloppes construites sur 2 704 retours de végétation. Les troncs et les pieds sont conservés ; les enveloppes convexes restent conventionnelles.",
+            "titre_source": "Éole · huit houppiers, comparaison A11",
+            "role": "Preuve / analyse",
+            "contexte": "Chantier de nuit · contrôles du 11 octobre 2026",
+            "archive": false,
+            "production_locale": true,
+            "note": "Figure produite le 11 octobre 2026. Attribution individuelle des retours estimée ; fermeture convexe conventionnelle. Aucun couvert d’été 2026 ni détail de branches revendiqué.",
+            "date_note": "Image produite le 11 octobre 2026. Données représentées : Mars 2023 selon la documentation du nuage IGN HD, sans feuilles. La date du fichier ne date pas le terrain.",
+            "reference_document": "donnees/v3/eole/canopies_a11/RAPPORT.txt",
+            "sha256": "12f876e245ab5a9d549d71202e4209b29790031b54c38e584f840eefdd99fda4"
+          },
+          "explication": "Comparaison analytique de huit anciennes formes et des enveloppes construites sur 2 704 retours de végétation. Les troncs et les pieds sont conservés ; les enveloppes convexes restent conventionnelles.",
+          "role": "Preuve / analyse"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "6bf4a93e4cf094400110",
+      "racine": "images_calcul",
+      "rel": "phase7/ROTONDE/existant/donnees/images_blend/ortho_ign.png",
+      "sha256": "00c8bfbfb54eb4f088472878e95452b468f80ef64d9b8bd9f6c8da055825b0a0",
+      "taille": 10561085,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": null,
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": "https://data.geopf.fr/wms-r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=HR.ORTHOIMAGERY.ORTHOPHOTOS&STYLES=&CRS=EPSG%3A2154&BBOX=652800%2C6864200%2C654800%2C6866200&WIDTH=2000&HEIGHT=2000&FORMAT=image%2Fpng",
+        "reference": null,
+        "reference_fichier": "sources/web/manifest.json",
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Image de référence conservée : « ortho ign ». Elle ne constitue pas à elle seule un relevé de dimensions.",
+      "preuves": [
+        {
+          "id": "220db0db8392e0ac49a4",
+          "racine": "images_projet",
+          "rel": "sources/web/ortho_ign.png",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": "https://data.geopf.fr/wms-r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=HR.ORTHOIMAGERY.ORTHOPHOTOS&STYLES=&CRS=EPSG%3A2154&BBOX=652800%2C6864200%2C654800%2C6866200&WIDTH=2000&HEIGHT=2000&FORMAT=image%2Fpng",
+            "reference": null,
+            "reference_fichier": "sources/web/manifest.json",
+            "producteur": null,
+            "date_acquisition": null,
+            "date_source": null,
+            "licence": null,
+            "description_source": "",
+            "titre_source": null,
+            "date_telechargement": "2026-09-29T09:55:41.413308+00:00",
+            "note": "URL d’origine enregistrée dans un manifeste ; date de téléchargement distincte de la prise de vue."
+          },
+          "explication": "Image de référence conservée : « ortho ign ». Elle ne constitue pas à elle seule un relevé de dimensions.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "371e6160e7543ba13138",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/phase7/ROTONDE/existant/donnees/images_blend/ortho_ign.png",
+      "sha256": "00c8bfbfb54eb4f088472878e95452b468f80ef64d9b8bd9f6c8da055825b0a0",
+      "taille": 10561085,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": null,
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": "https://data.geopf.fr/wms-r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=HR.ORTHOIMAGERY.ORTHOPHOTOS&STYLES=&CRS=EPSG%3A2154&BBOX=652800%2C6864200%2C654800%2C6866200&WIDTH=2000&HEIGHT=2000&FORMAT=image%2Fpng",
+        "reference": null,
+        "reference_fichier": "sources/web/manifest.json",
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Image de référence conservée : « ortho ign ». Elle ne constitue pas à elle seule un relevé de dimensions.",
+      "preuves": [
+        {
+          "id": "220db0db8392e0ac49a4",
+          "racine": "images_projet",
+          "rel": "sources/web/ortho_ign.png",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": "https://data.geopf.fr/wms-r/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=HR.ORTHOIMAGERY.ORTHOPHOTOS&STYLES=&CRS=EPSG%3A2154&BBOX=652800%2C6864200%2C654800%2C6866200&WIDTH=2000&HEIGHT=2000&FORMAT=image%2Fpng",
+            "reference": null,
+            "reference_fichier": "sources/web/manifest.json",
+            "producteur": null,
+            "date_acquisition": null,
+            "date_source": null,
+            "licence": null,
+            "description_source": "",
+            "titre_source": null,
+            "date_telechargement": "2026-09-29T09:55:41.413308+00:00",
+            "note": "URL d’origine enregistrée dans un manifeste ; date de téléchargement distincte de la prise de vue."
+          },
+          "explication": "Image de référence conservée : « ortho ign ». Elle ne constitue pas à elle seule un relevé de dimensions.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "ea74bee1037d616674fb",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W12_dessus.jpg",
+      "sha256": "b36ad0cf44285eb6d314f2a45adb11b10638706a86f38f46507b5fa2300838fc",
+      "taille": 104670,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "55c329d1626c2bcf127e",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W12_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "7184ea6b3e66ee078412",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W12_dessus.jpg",
+      "sha256": "b36ad0cf44285eb6d314f2a45adb11b10638706a86f38f46507b5fa2300838fc",
+      "taille": 104670,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "55c329d1626c2bcf127e",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W12_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "b4748a83b669d03b87b7",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W09_dessus.jpg",
+      "sha256": "f72b2cbbcb82be97149e794d26a15d911a59cd0f197312fe40f75277bb75c401",
+      "taille": 104332,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "362ad2ab7741eec16fdc",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W09_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "c872274d69d1e10d7236",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W09_dessus.jpg",
+      "sha256": "f72b2cbbcb82be97149e794d26a15d911a59cd0f197312fe40f75277bb75c401",
+      "taille": 104332,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "362ad2ab7741eec16fdc",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W09_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "108feaceee8529a8f8e8",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W15_dessus.jpg",
+      "sha256": "39f42ba103f61d823079c0dc1037988b22cfb3d6c87726450c8edb11cb63c44e",
+      "taille": 97154,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "dfea18a734c652f0ffbc",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W15_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "4f0fda41a743d50dc4e7",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W15_dessus.jpg",
+      "sha256": "39f42ba103f61d823079c0dc1037988b22cfb3d6c87726450c8edb11cb63c44e",
+      "taille": 97154,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "dfea18a734c652f0ffbc",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W15_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "c2a879b4d17478f908c1",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W14_dessus.jpg",
+      "sha256": "99bd0cebc979e546dfa9824ad8e1ba47e57d0132869d5793ade2fdcf08b78686",
+      "taille": 117206,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "86b04b41762322ad7ba8",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W14_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "ac84c6cf1a0fee8dba49",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W14_dessus.jpg",
+      "sha256": "99bd0cebc979e546dfa9824ad8e1ba47e57d0132869d5793ade2fdcf08b78686",
+      "taille": 117206,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "86b04b41762322ad7ba8",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W14_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "ef783ff011971241673b",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W13_dessus.jpg",
+      "sha256": "709a1e680f84c65af892d433b398b9264653f7ccf3e679e930cbcccf76d595b8",
+      "taille": 110803,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "69d0ba03829e1058ecea",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W13_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "d855b7819d1c2cf5861d",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W13_dessus.jpg",
+      "sha256": "709a1e680f84c65af892d433b398b9264653f7ccf3e679e930cbcccf76d595b8",
+      "taille": 110803,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "69d0ba03829e1058ecea",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W13_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "f501cc40444c0173a221",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W11_dessus.jpg",
+      "sha256": "caffbb69d30581aaec81b2773326a0dca9aa2d5bc37a96908c136c59044b9332",
+      "taille": 138181,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "45836129a9caa7a4c306",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W11_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "e9dc3b71896826510a17",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W11_dessus.jpg",
+      "sha256": "caffbb69d30581aaec81b2773326a0dca9aa2d5bc37a96908c136c59044b9332",
+      "taille": 138181,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "45836129a9caa7a4c306",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W11_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "bf3e74ad418e0096ed23",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W10_dessus.jpg",
+      "sha256": "358b50e34b8bcdb4d3f0565a718e155b486c26aa97a2efc239fe764e940b0b66",
+      "taille": 130381,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "64d2510923bad72bb226",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W10_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "9c4246999e1ce5269a83",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W10_dessus.jpg",
+      "sha256": "358b50e34b8bcdb4d3f0565a718e155b486c26aa97a2efc239fe764e940b0b66",
+      "taille": 130381,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "64d2510923bad72bb226",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W10_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "cbd17721e46d97a609b9",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W08_dessus.jpg",
+      "sha256": "d804fd0657eb69cec049c865cdd44570b456880f183b733bf0acb66706ec5e50",
+      "taille": 144831,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "c2902798abde4556afe8",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W08_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "5d8c8b4e07445b49334b",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W08_dessus.jpg",
+      "sha256": "d804fd0657eb69cec049c865cdd44570b456880f183b733bf0acb66706ec5e50",
+      "taille": 144831,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "c2902798abde4556afe8",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W08_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "d34d7f5b260162a698a2",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W07_dessus.jpg",
+      "sha256": "f962f73f021f445b7146c7155e6ef432494156576553359ae9ced976d4e1ca81",
+      "taille": 119666,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "2a1a9ef0bb2a9e1bbe42",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W07_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "deafc59113e49d1e3759",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W07_dessus.jpg",
+      "sha256": "f962f73f021f445b7146c7155e6ef432494156576553359ae9ced976d4e1ca81",
+      "taille": 119666,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "2a1a9ef0bb2a9e1bbe42",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W07_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "078077c1c9b947566f09",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W06_dessus.jpg",
+      "sha256": "2aa94682f90eef07e725e3c861d22c6deb798ed047a5df3d254479f2b4278b5f",
+      "taille": 103476,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "57f34f5d4dc3e9306e99",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W06_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "10d83bd84af4a087a1c6",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W06_dessus.jpg",
+      "sha256": "2aa94682f90eef07e725e3c861d22c6deb798ed047a5df3d254479f2b4278b5f",
+      "taille": 103476,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "57f34f5d4dc3e9306e99",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W06_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "187e5994e0e603e62a45",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W05_dessus.jpg",
+      "sha256": "499b24b4194f50946e1ba3a2a39424816ff0ac9f2227f6960242243324f1b86c",
+      "taille": 142101,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "7d3da6f237953d136224",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W05_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "c240f3bd3d877b72ccb0",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W05_dessus.jpg",
+      "sha256": "499b24b4194f50946e1ba3a2a39424816ff0ac9f2227f6960242243324f1b86c",
+      "taille": 142101,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "7d3da6f237953d136224",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W05_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "5ea48a9c610a108e16c4",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W04_dessus.jpg",
+      "sha256": "57b4c8032a1e61ba4823f7f11ab9e2a2504d952a06b78c16837303c628382489",
+      "taille": 132073,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "f29b2ad4acccc1663611",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W04_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "037ceb5de27c6d37b0e2",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W04_dessus.jpg",
+      "sha256": "57b4c8032a1e61ba4823f7f11ab9e2a2504d952a06b78c16837303c628382489",
+      "taille": 132073,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "f29b2ad4acccc1663611",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W04_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "7d943ac8a5b3b53b68c5",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W03_dessus.jpg",
+      "sha256": "51923c0c0d49da2e9f61fdedf49f9f5d5858a7af04bf5caf882d2b438b88d5de",
+      "taille": 123181,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "2516050f64d9f75e5f89",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W03_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "43d0d392950ad821a1f5",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W03_dessus.jpg",
+      "sha256": "51923c0c0d49da2e9f61fdedf49f9f5d5858a7af04bf5caf882d2b438b88d5de",
+      "taille": 123181,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "2516050f64d9f75e5f89",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W03_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "46266892056baa11fd45",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W02_dessus.jpg",
+      "sha256": "e5ce013a3ff994f73bf37b23c01d0f44bf224ca58d76e8a8ae713368318a0e14",
+      "taille": 134369,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "c7930e19b9761da8a0fa",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W02_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "af1f9b8bc6cf77a66e72",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W02_dessus.jpg",
+      "sha256": "e5ce013a3ff994f73bf37b23c01d0f44bf224ca58d76e8a8ae713368318a0e14",
+      "taille": 134369,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "c7930e19b9761da8a0fa",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W02_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "9cb8456fb0205d203619",
+      "racine": "images_calcul",
+      "rel": "m11/captures/W01_dessus.jpg",
+      "sha256": "cc49d58ec6be0d7f88e37ee8689f2b27aead748ecc6339f4773cc674e4446bab",
+      "taille": 141256,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "85b41e51891ab19d9f2e",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W01_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    },
+    {
+      "id": "b2d89337e6a4cbd337ac",
+      "racine": "images_projet",
+      "rel": "ARCHIVE_RECHERCHE/m11/captures/W01_dessus.jpg",
+      "sha256": "cc49d58ec6be0d7f88e37ee8689f2b27aead748ecc6339f4773cc674e4446bab",
+      "taille": 141256,
+      "ancien_statut": "INCONNUE",
+      "provenance": {
+        "producteur": "Google Earth / Street View",
+        "date_acquisition": null,
+        "date_source": null,
+        "licence": null,
+        "date_donnees_source": null,
+        "statut": "DOCUMENTEE",
+        "url": null,
+        "reference": "/f/conception/LISEZ_MOI.md",
+        "reference_fichier": null,
+        "note": "Correspondance SHA-256 exacte avec une image déjà documentée ; emplacement d’archive distinct, aucune date déduite du fichier ni aucun auteur déduit du dossier."
+      },
+      "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+      "preuves": [
+        {
+          "id": "85b41e51891ab19d9f2e",
+          "racine": "images_projet",
+          "rel": "images_conception/12_google_earth/W01_dessus.jpg",
+          "provenance": {
+            "statut": "DOCUMENTEE",
+            "url": null,
+            "reference": "/f/conception/LISEZ_MOI.md",
+            "producteur": "Google Earth / Street View",
+            "date_acquisition": null,
+            "note": "Origine Google Earth documentée pour cette série dans LISEZ_MOI.md ; date d’acquisition inconnue, capture à usage interne."
+          },
+          "explication": "Capture ou superposition de contrôle des arbres sur Google Earth ; usage interne, à distinguer des vues du modèle.",
+          "role": "Source visuelle"
+        }
+      ],
+      "methode": "SHA256_EXACTE",
+      "conserver_emplacement_role": true
+    }
+  ],
+  "contradictions": []
+}

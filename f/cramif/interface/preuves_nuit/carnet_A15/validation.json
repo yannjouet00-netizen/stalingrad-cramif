@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-11T06:03:20.774Z",
+  "total": 129,
+  "default": 29,
+  "technical": 100,
+  "allLinksUnique": true,
+  "newNotices": [
+    {
+      "rel": "reparation_ferroviaire/NOTICE_A15.txt",
+      "title": "Éole · continuité des voies et de leur assise",
+      "description": "Raccord local des rails, traverses et ballast pour corriger un décalage de profil soutenu par le LiDAR de 2023. Niveaux reconstruits ESTIME et représentation simplifiée ; les appareils de voie détaillés restent hors de cette intervention.",
+      "category": "decisions",
+      "url": "/f/cramif/reparation_ferroviaire/NOTICE_A15.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/tour_A14/RAPPORT.txt",
+      "title": "Tour de Flandre · deux baies et retour vitré",
+      "description": "Deux baies visibles sur les photos et un retour vitré ont été ajoutés, en conservant balcons, retraits et couronnement. Dimensions et implantation ESTIME ; trame du retour CONVENTION. Aucun intérieur ni fenêtre masquée extrapolé.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/tour_A14/RAPPORT.txt"
+    }
+  ],
+  "firstDecisions": [
+    {
+      "rel": "reparation_ferroviaire/NOTICE_A15.txt",
+      "title": "Éole · continuité des voies et de leur assise",
+      "description": "Raccord local des rails, traverses et ballast pour corriger un décalage de profil soutenu par le LiDAR de 2023. Niveaux reconstruits ESTIME et représentation simplifiée ; les appareils de voie détaillés restent hors de cette intervention.",
+      "category": "decisions",
+      "url": "/f/cramif/reparation_ferroviaire/NOTICE_A15.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/tour_A14/RAPPORT.txt",
+      "title": "Tour de Flandre · deux baies et retour vitré",
+      "description": "Deux baies visibles sur les photos et un retour vitré ont été ajoutés, en conservant balcons, retraits et couronnement. Dimensions et implantation ESTIME ; trame du retour CONVENTION. Aucun intérieur ni fenêtre masquée extrapolé.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/tour_A14/RAPPORT.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/recette_headless/QUALIFICATION.txt",
+      "title": "Interface · contrôles visuels du 11 octobre",
+      "description": "Périmètre des vérifications visuelles de l’introduction, de la vue 3D et du Brain, sur ordinateur et en format mobile. Les limites de la recette restent indiquées.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/quais_A11/RAPPORT.txt",
+      "title": "Sols des quais · contrôle des cours",
+      "description": "Contrôle ciblé des îlots Seine et Loire sur la version A11. Aucun nouveau défaut n’a été confirmé dans le périmètre examiné.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/quais_A11/RAPPORT.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt",
+      "title": "Brain · navigation et recherche vérifiées",
+      "description": "Neuf contrôles réalisés dans Chrome le 11 octobre : orbite, zoom, retour à la vue initiale, recherche et sélection. Cette recette ne couvre pas Safari ni les gestes tactiles.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt"
+    }
+  ],
+  "unexplainedDefaultNonPdf": [],
+  "syntax": "pass",
+  "bothPagesEqual": true
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-11T10:08:14.750Z",
+  "results": [
+    {
+      "route": "/brain",
+      "phase": "avant",
+      "width": 1440,
+      "overflow": 0,
+      "blocks": [],
+      "modelLoaded": false
+    },
+    {
+      "route": "/brain",
+      "phase": "apres",
+      "width": 1440,
+      "overflow": 0,
+      "blocks": [
+        {
+          "top": 212.5,
+          "bottom": 454.703125,
+          "title": "En cours maintenant",
+          "cards": 4,
+          "animated": 0,
+          "text": "En cours maintenant\n\nDerniers retours des agents · activité récente : moins de 3 min.\n\nTour · reprise ciblée\nCoordination\nÉtat à actualiser\n\nReprise : integration des correctifs vérifiables, priorité au résultat visible\n\nDernier état reçu : travail. Aucun retour récent.\n\nMise à jour · 12:01:25\n\nTour · reprise ciblée\nInterface\nÉtat à actualiser\n\nÉtude des rues et Carnet mobile ; contrôle Safari si accessible\n\nDernier état reçu : travail. Aucun retour récent.\n\nMise à jour · 12:01:25\n\nTour · reprise ciblée\nGéométrie\nÉtat à actualiser\n\nCour sud : rupture existante S9/S14, candidat de déplacement limité\n\nDernier état reçu : travail. Aucun retour récent.\n\nMise à jour · 12:01:25\n\nTour · reprise ciblée\nSources\nÉtat à actualiser\n\nÉole : raccord local avec support admissible\n\nDernier état reçu : travail. Aucun retour récent.\n\nMise à jour · 12:01:25"
+        }
+      ],
+      "modelLoaded": false
+    },
+    {
+      "route": "/suivi",
+      "phase": "avant",
+      "width": 1440,
+      "overflow": 0,
+      "blocks": [],
+      "modelLoaded": false
+    },
+    {
+      "route": "/suivi",
+      "phase": "apres",
+      "width": 1440,
+      "overflow": 0,
+      "blocks": [
+        {
+          "top": 286.6875,
+          "bottom": 528.890625,
+          "title": "En cours maintenant",
+          "cards": 4,
+          "animated": 0,
+          "text": "En cours maintenant\n\nDerniers retours des agents · activité récente : moins de 3 min.\n\nTour · reprise ciblée\nCoordination\nÉtat à actualiser\n\nReprise : integration des correctifs vérifiables, priorité au résultat visible\n\nDernier état reçu : travail. Aucun retour récent.\n\nMise à jour · 12:01:25\n\nTour · reprise ciblée\nInterface\nÉtat à actualiser\n\nÉtude des rues et Carnet mobile ; contrôle Safari si accessible\n\nDernier état reçu : travail. Aucun retour récent.\n\nMise à jour · 12:01:25\n\nTour · reprise ciblée\nGéométrie\nÉtat à actualiser\n\nCour sud : rupture existante S9/S14, candidat de déplacement limité\n\nDernier état reçu : travail. Aucun retour récent.\n\nMise à jour · 12:01:25\n\nTour · reprise ciblée\nSources\nÉtat à actualiser\n\nÉole : raccord local avec support admissible\n\nDernier état reçu : travail. Aucun retour récent.\n\nMise à jour · 12:01:25"
+        }
+      ],
+      "modelLoaded": false
+    },
+    {
+      "route": "/pro#vue=cour",
+      "phase": "avant",
+      "width": 1440,
+      "overflow": 0,
+      "blocks": [],
+      "modelLoaded": true
+    },
+    {
+      "route": "/pro#vue=cour",
+      "phase": "apres",
+      "width": 1440,
+      "overflow": 0,
+      "blocks": [],
+      "modelLoaded": true
+    },
+    {
+      "route": "/brain",
+      "phase": "mobile",
+      "width": 390,
+      "overflow": 0,
+      "block": {
+        "x": 12,
+        "y": 317.75,
+        "width": 366,
+        "height": 349.484375,
+        "top": 317.75,
+        "right": 378,
+        "bottom": 667.234375,
+        "left": 12
+      },
+      "cards": 4
+    }
+  ],
+  "errors": []
+}

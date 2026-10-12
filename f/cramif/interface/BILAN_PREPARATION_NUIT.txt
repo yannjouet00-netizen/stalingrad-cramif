@@ -1,0 +1,32 @@
+STALINGRAD — LIVRAISONS DE LA NUIT
+Point de préparation du 11 octobre 2026 à 09 h Paris. Le bilan de clôture est prévu à 10 h ; ce document ne marque pas l’ensemble du chantier terminé.
+
+MODÈLE DE TRAVAIL
+/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend
+Jalon A17 sauvegardé et réouvert. Le fichier d’origine est conservé. Le site montre les étapes enregistrées ; les éditions de Blender ne sont pas synchronisées en continu. La validation visuelle sous verrouillage a été effectuée dans Chrome headless ; l’application visible n’a pas pu être rechargée à l’écran verrouillé.
+
+INTERFACE
+Introduction claire au fond continu ; navigation simplifiée ; Conception, Rotonde et Cour aérienne. Sol et couches partagent le même périmètre, avec faces de coupe des volumes testés. Brain est une galaxie 3D orbitable, avec recherche, sélection, pause, zoom et recentrage. Le Carnet met les notices en avant et propose les données techniques à la demande. Le suivi distingue activité récente, attente et état périmé ; les tokens proviennent des journaux disponibles, avec attribution partielle explicitée.
+Recette : neuf interactions Brain et dix-neuf contrôles ciblés de panneaux, qualité, soleil et visibilité des couches réussis. Safari, gestes tactiles et performances GPU physiques restent à vérifier.
+
+CRAMIF ET QUAIS
+Les balcons, retraits, murets et sols déjà repris ont été contrôlés. Deux baies de la tour et un retour vitré sont intégrés avec dimensions estimées. Deux raccords locaux de cour sud et une couverture de 174,27 m² sont livrés ; la couverture ne corrige pas le sol dessous. Dix-neuf bandes de marquage sur deux passages sont intégrées. Un contact au porche nord-ouest de la Rotonde est corrigé. Six houppiers des berges sont remplacés par des enveloppes historiques, sans déplacer les troncs ni leurs pieds.
+
+ÉOLE ET FAISCEAU
+Dix-neuf axes OSM avec rails et traverses simplifiés, douze chemins et leur ballast sont intégrés. Prairie sud, plateau haut et profils de trois montées avec deux paliers sont repris. Dix raccords de rails mitrés et un raccord de niveau coordonné améliorent la continuité. Vingt-cinq houppiers Éole s’ajoutent aux six des berges : trente-et-un au total. Les sources LiDAR sont historiques, de 2023 ; sections, trames et enveloppes restent qualifiées comme conventions ou estimations.
+
+IMAGES RETROUVÉES
+947 fichiers issus d’une session historique Claude sont copiés dans une archive durable et vérifiés par SHA-256. Le contexte de session ne désigne pas leur auteur. 33 copies supplémentaires reçoivent une provenance par identité exacte avec une source documentée. Les auteurs et dates d’acquisition inconnus restent indiqués comme tels. Le nombre de fichiers de galerie comprend des copies historiques ; il ne constitue pas un nombre de photographies uniques.
+
+TRAVAUX RESTANT EN ATTENTE
+Cour sud : quinze foyers résiduels et des niveaux superposés exigent une délimitation des ruptures avant raccord.
+Rotonde nord-est : seuil, girons et pied de volée à relever ; le nombre de marches visible sur une photo ne suffit pas à fixer leurs cotes.
+Berge basse : une coupe ou vue oblique doit éclairer le dessous du couronnement.
+Voies : deux segments de ballast croisent un creux réel ; autres axes, aiguillages et portiques manquent de supports ou de plans suffisamment précis.
+Parking : le secteur demandé n’est pas localisé avec certitude.
+Arbres : deux poiriers contradictoires et certains individus récents restent à qualifier ; les enveloppes 2023 n’attestent pas l’état végétal 2026.
+Sols Loire : 58 limites ouvertes héritées restent à qualifier.
+
+PREUVES ET SUITE
+Les dix lots demandés et l’ensemble Éole/voies ont chacun une matrice détaillée, avec antériorité, intervention, preuve, limite et prochaine opération utile. Les pourcentages du suivi comptent les étapes du lot indiqué ; aucun pourcentage global de fidélité du projet n’est annoncé.
+Le budget est contrôlé séparément sur le quota du compte : arrêt prioritaire à 30 % restant, soit 70 % utilisés. Aucun achat ou reset demandé.

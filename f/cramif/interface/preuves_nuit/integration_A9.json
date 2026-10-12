@@ -1,0 +1,13 @@
+{
+  "verified_reopen": true,
+  "v_f": [
+    80,
+    152
+  ],
+  "web_npz_exact_tolerance_m": 2e-05,
+  "idempotent": true,
+  "closed": true,
+  "scope": "Éole : deux enveloppes de houppiers isolés mesurées,troncsconservés,shapeCONVENTION",
+  "native_sha256": "75f6d2f9375ff5b1cae35459f3b18dcb1729892bb7cf352779a23a1720a029ad",
+  "published_at": "2026-10-11T04:22:43.645317+00:00"
+}

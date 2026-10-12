@@ -1,0 +1,121 @@
+[
+  {
+    "file": "troncon_voie_meta.json",
+    "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/troncon_voie",
+    "bytes": 5066,
+    "sha256": "6103c2044aa232cc09f1e558d5f9dc009e54341cd6ab1ae9b3ff11452db7afa8",
+    "retrieved_at": "2026-10-10T21:22:05.705853+00:00"
+  },
+  {
+    "file": "les_arbres_meta.json",
+    "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/les-arbres",
+    "bytes": 6965,
+    "sha256": "187a2d21ae4f9e7df876871061a3542d22b0f2aac29bb526b3e0ed7e2f6924e8",
+    "retrieved_at": "2026-10-10T21:22:05.706006+00:00"
+  },
+  {
+    "file": "geocodage_27_flandre.json",
+    "url": "https://data.geopf.fr/geocodage/search?q=27+avenue+de+Flandre+75019+Paris&limit=3",
+    "bytes": 1693,
+    "sha256": "6da707f415372e7b4a47386a89ee40d87e5f76fce73791fd89594fbe8b483218",
+    "retrieved_at": "2026-10-10T21:22:05.705702+00:00"
+  },
+  {
+    "file": "pharmacie_officiel.html",
+    "url": "https://grandepharmaciedestalingrad.pharminfo.fr/legalnotice",
+    "bytes": 50215,
+    "sha256": "06e5ea4458f628ca1ade905053b7315af4d4d0bdc9aede1954dbfaa4c3d5a4c9",
+    "retrieved_at": "2026-10-10T21:22:06.416913+00:00"
+  },
+  {
+    "file": "lettre_EVQ_stalingrad_2025.pdf",
+    "url": "https://cdn.paris.fr/paris/2025/02/24/250213_lettre-habitants_stalingrad-19_a3_exe-bd-Xg9X.pdf",
+    "bytes": 543132,
+    "sha256": "76d9b166863113c183b0d9233a2a2757c11c0ecb041b5a192cd5ff087131309a",
+    "retrieved_at": "2026-10-10T21:22:06.498738+00:00"
+  },
+  {
+    "file": "bovp_maroc_2026.html",
+    "url": "https://bovp.apps.paris.fr/index.php?id=50762&lvl=notice_display",
+    "bytes": 62152,
+    "sha256": "edfc44443ffca7148535b181254b1ec452f978312ab617a2d1899754c0da3b44",
+    "retrieved_at": "2026-10-10T21:22:07.795308+00:00"
+  },
+  {
+    "file": "travaux_aubervilliers_2025.pdf",
+    "url": "https://cdn.paris.fr/paris/2025/08/07/lar-rue-d-aubervilliers-aout-2025-4H4Z.pdf",
+    "bytes": 83764,
+    "sha256": "181f1816d1c2440af3450a54fe09c7a26aea10b52b46be001a6a76234c07c436",
+    "retrieved_at": "2026-10-10T21:22:06.576367+00:00"
+  },
+  {
+    "file": "tanger_budget_participatif.html",
+    "url": "https://decider.paris.fr/bp/jsp/site/Portal.jsp?document_id=12383&view=consult_project",
+    "bytes": 64604,
+    "sha256": "a25fd85e1feed9c7538a91007d830b6fbb488f78025fbc559aab2dfc0f75da8f",
+    "retrieved_at": "2026-10-10T21:22:09.057228+00:00"
+  },
+  {
+    "file": "troncon_voie_roi.geojson",
+    "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/troncon_voie/exports/geojson?where=intersects%28geom%2Cgeom%27POLYGON%28%282.3653050350479887+48.88282967394167%2C2.3737180084526472+48.882873977781315%2C2.37364878535753+48.88862929862695%2C2.3652348821445406+48.88858499012253%2C2.3653050350479887+48.88282967394167%29%29%27%29",
+    "bytes": 65637,
+    "sha256": "37615840c72c79957f3b92032f400f485d84e275736c25046d011185e7a14d79",
+    "retrieved_at": "2026-10-10T21:24:56.182474+00:00"
+  },
+  {
+    "file": "les_arbres_roi.geojson",
+    "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/les-arbres/exports/geojson?where=intersects%28geo_point_2d%2Cgeom%27POLYGON%28%282.3653050350479887+48.88282967394167%2C2.3737180084526472+48.882873977781315%2C2.37364878535753+48.88862929862695%2C2.3652348821445406+48.88858499012253%2C2.3653050350479887+48.88282967394167%29%29%27%29",
+    "bytes": 601474,
+    "sha256": "f44586e91f0519d26afd217c6079e6f24444fa0f9295e0bac2006a57e33070d9",
+    "retrieved_at": "2026-10-10T21:24:56.367184+00:00"
+  },
+  {
+    "file": "voie_4rues.geojson",
+    "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/voie/exports/geojson?where=l_voie+in+%28%27FLANDRE%27%2C%27TANGER%27%2C%27MAROC%27%2C%27DEPARTEMENT%27%2C%27D%C3%89PARTEMENT%27%29",
+    "bytes": 6752,
+    "sha256": "075d3131495334666b4cb2391604db7c386de82da34af1cab954e820a7eb1d03",
+    "retrieved_at": "2026-10-10T21:24:56.101566+00:00"
+  },
+  {
+    "file": "voie_meta.json",
+    "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/voie",
+    "bytes": 4777,
+    "sha256": "01fcc99b3004844a51860b5c4754f36f604315fd045fc728eb125accc6de60ee",
+    "retrieved_at": "2026-10-10T21:24:56.085131+00:00"
+  },
+  {
+    "file": "arrete_maroc_2026.pdf",
+    "url": "https://bovp.apps.paris.fr/doc_num_data.php?explnum_id=52914",
+    "bytes": 106559,
+    "sha256": "fcd3c696ec5ea45df7253403e7664337107b7b60bccd59f6d2bb2b0236bc2742",
+    "retrieved_at": "2026-10-10T21:24:56.066259+00:00"
+  },
+  {
+    "file": "plan-de-voirie-mobiliers-urbains-bornes-barrieres-potelets_roi.geojson",
+    "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/plan-de-voirie-mobiliers-urbains-bornes-barrieres-potelets/exports/geojson?where=intersects%28geo_shape%2Cgeom%27POLYGON%28%282.3653050350479887+48.88282967394167%2C2.3737180084526472+48.882873977781315%2C2.37364878535753+48.88862929862695%2C2.3652348821445406+48.88858499012253%2C2.3653050350479887+48.88282967394167%29%29%27%29",
+    "bytes": 8594932,
+    "sha256": "b4593d4157cd757ec1d4cf4efb9eba7256665bfee67657e27c01990411afd1ff",
+    "retrieved_at": "2026-10-10T21:26:03.286849+00:00"
+  },
+  {
+    "file": "plan-de-voirie-mobiliers-urbains-bornes-barrieres-potelets_meta.json",
+    "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/plan-de-voirie-mobiliers-urbains-bornes-barrieres-potelets",
+    "bytes": 6781,
+    "sha256": "40ebd144a95aee08856d30c382b8d789263b18589e4e639384a70ca639710902",
+    "retrieved_at": "2026-10-10T21:26:00.638127+00:00"
+  },
+  {
+    "file": "plan-de-voirie-mobiliers-urbains-jardinieres-bancs-corbeilles-de-rue_roi.geojson",
+    "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/plan-de-voirie-mobiliers-urbains-jardinieres-bancs-corbeilles-de-rue/exports/geojson?where=intersects%28geo_shape%2Cgeom%27POLYGON%28%282.3653050350479887+48.88282967394167%2C2.3737180084526472+48.882873977781315%2C2.37364878535753+48.88862929862695%2C2.3652348821445406+48.88858499012253%2C2.3653050350479887+48.88282967394167%29%29%27%29",
+    "bytes": 846325,
+    "sha256": "3b0eda04887f7328b0801047337d5ebc8f40dccd03336fd3478a348431e227c0",
+    "retrieved_at": "2026-10-10T21:26:01.093538+00:00"
+  },
+  {
+    "file": "plan-de-voirie-mobiliers-urbains-jardinieres-bancs-corbeilles-de-rue_meta.json",
+    "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/plan-de-voirie-mobiliers-urbains-jardinieres-bancs-corbeilles-de-rue",
+    "bytes": 6118,
+    "sha256": "51f6ae820a72425e2cb66a009ed9ae1ad826ee8004a6d00bd51e61a61ee5e550",
+    "retrieved_at": "2026-10-10T21:26:00.633852+00:00"
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "2505950",
+    "a_xy": [
+      106.40920222975754,
+      186.9532463878438
+    ],
+    "b_xy": [
+      50.32483639870066,
+      233.57963227822398
+    ],
+    "longueur_m": 72.93473762118066,
+    "unitaire_xy": [
+      -0.7689664439783994,
+      0.6392891427477985
+    ],
+    "statut": "MESURE_GEOMETRIE_SOURCE; ne constitue pas un relevé de façade détaillée"
+  },
+  {
+    "id": "2505950",
+    "a_xy": [
+      104.426,
+      184.537
+    ],
+    "b_xy": [
+      67.003,
+      215.704
+    ],
+    "longueur_m": 48.70177427979396,
+    "unitaire_xy": [
+      -0.768411429632997,
+      0.6399561506926654
+    ],
+    "statut": "MESURE_GEOMETRIE_SOURCE; ne constitue pas un relevé de façade détaillée"
+  },
+  {
+    "id": "2512234",
+    "a_xy": [
+      50.228,
+      95.585
+    ],
+    "b_xy": [
+      115.23,
+      173.107
+    ],
+    "longueur_m": 101.16778384446306,
+    "unitaire_xy": [
+      0.6425167926969232,
+      0.7662716040037365
+    ],
+    "statut": "MESURE_GEOMETRIE_SOURCE; ne constitue pas un relevé de façade détaillée"
+  },
+  {
+    "id": "2512234",
+    "a_xy": [
+      67.464,
+      133.434
+    ],
+    "b_xy": [
+      106.7,
+      180.19
+    ],
+    "longueur_m": 61.037588681074226,
+    "unitaire_xy": [
+      0.642817005845544,
+      0.7660197758516224
+    ],
+    "statut": "MESURE_GEOMETRIE_SOURCE; ne constitue pas un relevé de façade détaillée"
+  },
+  {
+    "id": "2512233",
+    "a_xy": [
+      50.228,
+      95.585
+    ],
+    "b_xy": [
+      115.23,
+      173.107
+    ],
+    "longueur_m": 101.16778384446306,
+    "unitaire_xy": [
+      0.6425167926969232,
+      0.7662716040037365
+    ],
+    "statut": "MESURE_GEOMETRIE_SOURCE; ne constitue pas un relevé de façade détaillée"
+  },
+  {
+    "id": "2512233",
+    "a_xy": [
+      78.301,
+      124.364
+    ],
+    "b_xy": [
+      120.72974857488036,
+      174.99885999487265
+    ],
+    "longueur_m": 66.06124243708081,
+    "unitaire_xy": [
+      0.6422638601641664,
+      0.7664836162156528
+    ],
+    "statut": "MESURE_GEOMETRIE_SOURCE; ne constitue pas un relevé de façade détaillée"
+  },
+  {
+    "id": "2505948",
+    "a_xy": [
+      107.912,
+      181.635
+    ],
+    "b_xy": [
+      67.003,
+      215.704
+    ],
+    "longueur_m": 53.237609281409334,
+    "unitaire_xy": [
+      -0.7684229354432244,
+      0.6399423351246724
+    ],
+    "statut": "MESURE_GEOMETRIE_SOURCE; ne constitue pas un relevé de façade détaillée"
+  },
+  {
+    "id": "2505948",
+    "a_xy": [
+      101.454,
+      173.94
+    ],
+    "b_xy": [
+      60.576,
+      208.021
+    ],
+    "longueur_m": 53.221475411717016,
+    "unitaire_xy": [
+      -0.7680734080325865,
+      0.6403618038837168
+    ],
+    "statut": "MESURE_GEOMETRIE_SOURCE; ne constitue pas un relevé de façade détaillée"
+  }
+]

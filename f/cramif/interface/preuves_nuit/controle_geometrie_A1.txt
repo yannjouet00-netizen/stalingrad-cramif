@@ -1,0 +1,85 @@
+MISSION DE NUIT — GÉOMÉTRIE CRAMIF / QUAIS
+Actualisé le 11 octobre 2026, première tranche 04:40–04:48 Paris.
+Contrôle du quota centralisé par root ; renouvellement reçu à 04:46, limite de cette tranche 04:56 Paris.
+
+ÉTAT ET EMPREINTE
+Natif relu en lecture seule dans Blender 5.2, scène06 explicitement activée et view_layer actualisé.
+/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend
+SHA256 : ba8ac28ab239d9cee31d9a4f24e68b1fccb1613ce565d78e6408ae28ffd2a958
+Aucune sauvegarde native, aucun changement du projet ni du viewer. Calculs hors fenêtre visible ; aucune prétention de synchronisation.
+
+FAITS CONTRÔLÉS DANS LE NATIF COURANT
+- 168 objets ciblés inventoriés avec coordonnées, faces, matériaux, propriétés, topologie et empreinte géométrique par objet (audit_natif.json).
+- Trois sols correspondent au paquet simplification_quais : nombre/ordre des faces et indices matériaux identiques ; écart maximal aux coordonnées NPZ <0,031 mm, dû au stockage flottant Blender. Cela confirme la présence des corrections Seine/Loire et de leurs antécédents cour centrale/Maroc. Les parts de terrain sont des surfaces ; leurs frontières globales ouvertes ne sont pas assimilées à des défauts de solides.
+- 46 objets de balcons : géométrie/contrat/topologie conformes au lot ; aucun défaut sur ces nouveaux solides.
+- Les 23 volumes originaux remplacés par les balcons sont absents de la scène ET des datablocks du fichier courant. L'ancien contrôle qui exigeait leur conservation interne échoue pour cette seule raison. Aucun autre objet à leurs Id_source retrouvé dans la scène. Cette absence n'est pas une réapparition de parasites. Sources JSON originales conservées dans l'ancien paquet ; ne pas prétendre un retour arrière par reliaison des anciens datablocks.
+- 24 pièces de façade du lot comparées : faces identiques, écarts inférieurs à 0,01 mm ; noyau original absent de scène. Couronnement sombre présent, soit25objets de façade au total. Tous fermés selon inventaire.
+- Quatre murets : faces identiques au paquet adaptatif, erreur maximale <0,01 mm, aucun bord ouvert/non-manifold. Leurs contacts analytiques antérieurs sont préservés par l'identité des objets et des sols locaux ; la limite du terrain haut masquant un couronnement Flandre reste distincte et non résolue par ce contrôle.
+
+COUR SUD — AUDIT NOUVEAU ET DÉCISION
+16 991 points classe2 confrontés à tous les triangles couvrant leur XY, en choisissant la surface la plus proche en Z, sans rabattre les points bas sur un niveau haut.
+- Bas (<48m) :2080points couverts, médiane absolue3,80cm, p9539,03cm ;54points au-delà de50cm.
+- Transition48..49,3m :6787points, médiane5,32cm, p9530,87cm ;130points au-delà de50cm.
+- Hauts :8124points, médiane3,79cm, p9529,89cm ;138points au-delà de50cm.
+Le fond bas est donc déjà présent. Ce résultat ne certifie ni tous les pieds de façade ni les masques sous dalle ; il évite de créer une dalle qui boucherait la rampe.
+Un candidat de lissage soutenu par1986points a été construit :55sommets sur2parts, déplacement maximal13,76cm, XY/faces/matériaux/niveauxhauts préservés,0face inversée. Import en mémoire et relance idempotente testés sans sauvegarde.
+DÉCISION : CANDIDAT REJETÉ, NE PAS INTÉGRER.
+L'écart médian des normales au plan sur les facettes basses testées se dégrade légèrement0,681°→0,799° ; nombre de facettes>10° inchangé. Résidu LiDAR légèrement plus élevé. Aucun gain utile démontré. Le manifeste porte approuve_techniquement=false et l'importeur refuse désormais avant toute mutation.
+
+FICHIERS ET INTÉGRATION
+Preuves : audit_natif.json ; controle_tour.json ; originals_tour_visibilite.json ; controle_facade.json ; controle_murets.json ; cour_sud_residus.json/.npz ; cour_sud_audit.png ; patch_cour_sud/controle_facettes.json ; preuve_lissage_rampe.png ; test_import.json.
+Scripts reproductibles : audit_natif.py ; controle_lots.py ; audit_cour_sud.py ; preparer_cour_sud.py ; qualifier_patch.py.
+Le test_import.json relate un essai antérieur à la décision de rejet, en mémoire seulement. Il ne constitue pas une autorisation d'intégration.
+AUCUN CORRECTIF APPROUVÉ À IMPORTER DANS CETTE PREMIÈRE TRANCHE. Ne pas appliquer les NPZ candidats ni contourner le verrou de importer_cour_sud.py. Préserver le natif tel quel pour CRAMIF/quais jusqu'à preuve d'un défaut nouveau.
+
+NON FAITS / LIMITES
+Pas de recette visuelle dans l'application partagée. Les trois interfaces verticales Maroc déjà documentées ouvertes n'ont pas été artificiellement rebouchées. Pas de reconstruction complète de la cour sud, ni de modification des niveaux hauts, pieds de façade ou plantations non documentés. Les limites historiques des sols Loire58arêtes ouvertes et des reliefs protégés restent à distinguer du contrôle d'intégration réalisé.
+Les10lots utilisateur demeurent inclus dans le périmètre général ; ce rapport ne ferme pas eau, voirie/marquages, Rotonde/gradins, écluse/passerelle/berges ou arbres écluse.
+
+LOT SUIVANT RETENU : ROTONDE / GRADINS
+Relire le natif pour les71objets Rotonde existants, leurs contacts avec le terrain et le viaduc. La construction m19 et le rapport du10octobre sont déjà détaillés ; ne pas reconstruire le monument.
+Attention : le défaut de terrain traversant les dallages signalé à13:44 a déjà reçu un correctif m3_raccord_rotonde à15:58. Vérifier sa présence actuelle avant toute nouvelle correction.
+L'emmarchement NE ≈7marches est signalé mais non calibré dans rotonde_definition.json ; ne pas convertir aveuglément les4marches existantes en7 (dallage/entrée et portée à vérifier).
+Gradins/terrasses m8 : déjà construits sur plans LiDAR, talus et profils. Identifier les objets/surfaces actuels avant proposer une correction de contact ou de topologie.
+
+MISE À JOUR — LOT ROTONDE EFFECTIVEMENT PRODUIT, 04:53 PARIS
+Les mentions « aucun correctif approuvé » ci-dessus concernent uniquement le candidat cour sud rejeté.
+
+État Rotonde vérifié :71objets /53936triangles,0arête ouverte/non-manifold. Le raccord de terrain existant est déjà présent sous les4porches.
+Audit de contact sur grille10cm : NE/SO/SE sans traversée ; NO2échantillons >1cm. Analyse exacte des intersections triangles/emprise confirme3triangles pénétrants jusqu'à3,5169cm, sur0,1349m² d'intersections concernées (cette aire est celle des triangles tronqués examinés, pas l'aire exacte de pénétration).
+
+CORRECTIF APPROUVÉ À INTÉGRER : patch_contact_rotonde
+- Un point géométrique partagé, présent une fois dans Sol_lisse et une fois dans Trottoirs, est abaissé de0,0380021439m.
+- Coordonnées XY conservées :62,460999 /−69,575504 ; ancienZ51,8684719081, nouveauZ51,8304697642.
+- Le point lui-même est en limite extérieure du dallage. La nouvelle interpolation sous l'emprise mesurée reste≤51,829m, soit1mm sous le dessus NO51,830m. Aucun déplacement du dallage ni du monument.
+- Un triangle Sol_lisse et trois Trottoirs incidents, aire projetée totale1,1389m². Aucun indice, matériau, XY ou autre sommet changé.0face inversée, aire minimale0,04808m² après correction.
+- Déplacement minimal obtenu par contraintes affines aux sommets des intersections triangle/dallage. Marge1mmCONVENTION de contact ; cote du dallageMESURE_LIDAR déjà retenue. Ce n'est pas une nouvelle mesure de terrain.
+- Test réel Blender sanssave : premier appel applique1+1sommets ; second appelDEJA_APPLIQUE pour les2parts. Préflight global des2maillages avant mutation, refuse les coordonnées/topologies modifiées par Yann. Anciennes datablocks conservées, nouveaux maillages copiés.
+
+FICHIERS À PERSISTER ENSEMBLE
+- importer_contact_rotonde.py
+- patch_contact_rotonde/manifest.json, validation.json, Sol_lisse.npz, Trottoirs.npz
+- Sol_lisse_courant.npz et Trottoirs_courant.npz (snapshots natifs de préflight)
+- audit_natif.json, rotonde_natif.json, rotonde_contacts_dallages.json, preuve_contact_rotonde.png, test_import_rotonde.json.
+Les autres fichiers du dossier sont preuves/audits ou candidat rejeté ; ne pas intégrer patch_cour_sud.
+
+INSTRUCTIONS EXACTES ROOT
+1. Persister les fichiers utiles dans le sous-dossier projet choisi en conservant la structure ci-dessus ; ou utiliser temporairement /private/tmp/nuit_cramif_geometrie.
+2. Dans Blender visible, relire les modifications de Yann. Définir os.environ['NUIT_CRAMIF_ROOT'] vers ce dossier.
+3. Charger importer_contact_rotonde.py avec runpy.run_path(...), puis appeler la fonction retournée ['importer_contact_rotonde'](). Le module chargé via runpy sans run_name='__main__' n'applique rien avant cet appel.
+4. Contrôler le porche NO autour(62.46,−69.58,51.83). Le correctif est petit : ne pas annoncer une reconstruction des gradins ou du monument.
+5. Root seul sauvegarde le natif. Pour le viewer, remplacer seulement les sources Sol_lisse/Trottoirs par les deuxNPZ de patch_contact_rotonde ; Amenagements et les autresparts restent les dernières versions intégrées. Aucun overlay.
+6. Export/rechargement visible et comparaison avant/après restent à root. Le paquet n'a jamais sauvegardé le natif.
+
+RESTANT ROTONDE/GRADINS
+Emmarchement NE et terrasses/gradins m8 encore non reconstruits dans cette tranche. Continuer l'inventaire mesuré à réception du renouvellement, sans réappliquer le modèle Rotonde complet.
+
+MISE À JOUR — GRADINS / ÉCLUSE / BERGES, 05:00 PARIS
+- Inventaire natif et comparaison des9solides M8 :3volées et6vantaux présents, fermés,0arête non-manifold ; nombres de sommets/faces conformes et distance aux sommets sources≤0.00000999m.
+- 20plans M8 contrôlés sur19768points de grille50cm, emprise érodée20cm : couverture complète. Fonds des sas, banquettes, fosses, plateaux, plateformes et berges déjà construits. Écart généralement limité à la précision flottante hors raccords et ruptures.
+- 13écartsT2 :12points sous l'emprise de la passerelle ; le13e est un niveau bas réel (4pointsLiDAR locaux52,13..52,84m, médiane52,59 ; terrain52,117). Ne pas remplir jusqu'au plateau55,68m.
+- Un point de pied de mur en tête du canal demeure à contrôler sur la rupture de niveau. Aucun contour extrapolé. Les surfaces d'eau ouvertes en périphérie sont des nappes, pas des solides bâtiment à fermer.
+- Aucun nouveau maillage écluse/gradins approuvé à l'issue de cet audit. Le seul paquet d'intégration approuvé reste le correctif de contact RotondeNO.
+- Preuves : ecluse_natif.json, ecluse_solides_controle.json, gradins_plans_natifs.json, points_raccord_T2.npz, bilan_gradins_ecluse.json.
+- Le rapport historique amenagements_rapport.json porte encore une synthèse antérieure ; utiliser les géométries et statuts de amenagements.geojson, amenagements_solides.json et le niveau d'eauV3actualisé pour cet audit.
+- Validation visuelle de la fidélité des gradins, détails architecturaux, garde-corps et végétation reste ouverte. Ce contrôle d'intégration n'est pas une recette générale du site.

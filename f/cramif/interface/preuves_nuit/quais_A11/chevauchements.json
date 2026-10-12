@@ -1,0 +1,20 @@
+[
+  {
+    "bloc": "SEINE",
+    "triangles": 3208,
+    "projected_overlap_pairs": 0,
+    "sum_projected_overlap_pair_area_m2": 0.0,
+    "potential_coplanar_pairs_within_5mm": 0,
+    "sum_potential_coplanar_pair_area_m2": 0.0,
+    "examples": []
+  },
+  {
+    "bloc": "LOIRE",
+    "triangles": 6814,
+    "projected_overlap_pairs": 0,
+    "sum_projected_overlap_pair_area_m2": 0.0,
+    "potential_coplanar_pairs_within_5mm": 0,
+    "sum_potential_coplanar_pair_area_m2": 0.0,
+    "examples": []
+  }
+]

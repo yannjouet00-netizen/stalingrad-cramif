@@ -1,0 +1,45 @@
+{
+  "date_utc": "2026-10-11T11:04:33Z",
+  "native_sha256": "8dd55fa238f5dcc7b9b581cccf6f4ffd4a271a5be6ff73e272b1402fb83d86ec",
+  "http_statuses": [
+    200
+  ],
+  "api_triangles": 294667,
+  "method": "Identité exacte float32 XYZ, triangles canoniques indépendants de l’ordre des sommets",
+  "objects": [
+    {
+      "name": "TOUR_A20_TOIT_ARRIERE_INCLINE_0",
+      "triangles": 28,
+      "missing": 0,
+      "closed_native": true,
+      "api_rgb": {
+        "(140, 147, 153)": 28
+      },
+      "contexte_tour": "True",
+      "pan_status": "ESTIME"
+    },
+    {
+      "name": "TOUR_A20_TOIT_ARRIERE_INCLINE_1",
+      "triangles": 76,
+      "missing": 0,
+      "closed_native": true,
+      "api_rgb": {
+        "(140, 147, 153)": 76
+      },
+      "contexte_tour": "True",
+      "pan_status": "ESTIME"
+    },
+    {
+      "name": "TOUR_A20_CORPS_RESTE_0",
+      "triangles": 156,
+      "missing": 0,
+      "closed_native": true,
+      "api_rgb": {
+        "(140, 147, 153)": 156
+      },
+      "contexte_tour": "True",
+      "pan_status": "ESTIME"
+    }
+  ],
+  "pass": true
+}

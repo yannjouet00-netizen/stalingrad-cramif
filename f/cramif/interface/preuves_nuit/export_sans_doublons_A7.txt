@@ -1,0 +1,28 @@
+EXPORT CORRIGÉ — CONTRÔLE FINAL DU 11 OCTOBRE 2026 À 06:04 PARIS
+
+Le filtre serveur a été corrigé par le coordinateur. La couche bâtiments ne contient plus les chemins/rails Éole ni le ballast, qui disposent de leurs propres couches.
+Avant : 415 372 triangles.
+Après : 295 215 triangles.
+Retirés : 72 733 triangles identiques à la couche Éole et 47 424 au ballast, soit exactement 120 157 doublons.
+
+Conservation stricte
+Les 295 215 triangles restants correspondent exactement à tous les triangles précédents hors ces deux couches. Empreinte finale calculée sur les coordonnées float32 sans arrondi, après canonicalisation des faces/sommets : adcecbb552a21975647c17d18bf7d84bd8d1a14e89d84a651b56079d2649ce22.
+Le contrôle local CRAMIF (20 682 triangles) est également inchangé. L’empreinte globale stricte complète ce premier contrôle local à 0,1 mm.
+
+Coupes du nouvel export
+Huit plans testés : quatre au périmètre proche, quatre au périmètre projet.
+Aucun graphe ouvert dans la couche bâtiments corrigée. Les deux alertes correspondaient bien aux chemins drapés exportés en double ; elles disparaissent sans inventer de caps.
+Le ballast conserve dix contours fermés au périmètre projet, transmis au générateur de caps depuis le correctif précédent.
+
+A6
+Le terrain A6 reste exactement conforme aux sources actives : 170 779 triangles pour Sol_lisse, RGB par face exact, normales finies/unitaires/non nulles. Voir terrain_a6_api.json.
+
+Limites
+Contrôles de géométrie et de données réellement servies, sans validation graphique du navigateur. Aucun changement natif, aucune sauvegarde Blender par cet agent. Attribution native effectuée par deux lectures background sans save. Le serveur a été modifié/redémarré par le coordinateur.
+
+Preuves
+verification_export_corrige.json : avant/après et contrôle local.
+conservation_stricte.json : conservation de toute la géométrie restante.
+coupes_chargeur_apres.json : huit plans du nouvel export.
+attribution_native.json : chemins drapés identifiés, 2 025/2 025 triangles.
+diagnostic_independant.json et tolerances.json : origine des extrémités ouvertes.

@@ -1,0 +1,11 @@
+{
+  "reopened": true,
+  "rotonde_closed_triangles": 60,
+  "sol_vertices_changed": 3,
+  "sol_total_vertices": 100729,
+  "sol_web_matches_native": true,
+  "limitations": [
+    "Marches ESTIME, profils CONVENTION",
+    "Couronnement central haut non résolu"
+  ]
+}

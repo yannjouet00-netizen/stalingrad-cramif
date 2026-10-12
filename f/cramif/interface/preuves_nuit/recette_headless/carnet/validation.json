@@ -1,0 +1,848 @@
+{
+  "date": "2026-10-11T05:19:55.268Z",
+  "total": 113,
+  "default": 27,
+  "technical": 86,
+  "allAccessibleWhenIncluded": 113,
+  "firstDecisions": [
+    {
+      "rel": "interface/preuves_nuit/quais_A11/RAPPORT.txt",
+      "title": "Sols des quais · contrôle des cours",
+      "description": "Contrôle ciblé des îlots Seine et Loire sur la version A11. Aucun nouveau défaut n’a été confirmé dans le périmètre examiné.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/quais_A11/RAPPORT.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt",
+      "title": "Brain · navigation et recherche vérifiées",
+      "description": "Neuf contrôles réalisés dans Chrome le 11 octobre : orbite, zoom, retour à la vue initiale, recherche et sélection. Cette recette ne couvre pas Safari ni les gestes tactiles.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/recette_headless/QUALIFICATION.txt",
+      "title": "Interface · contrôles visuels du 11 octobre",
+      "description": "Périmètre des vérifications visuelles de l’introduction, de la vue 3D et du Brain, sur ordinateur et en format mobile. Les limites de la recette restent indiquées.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/details_natifs_A8/RAPPORT.txt",
+      "title": "Tour et abords · vérification des contacts",
+      "description": "Examen de rendus de la version A8 : tour, murets, Rotonde et écluse. Le rapport précise les éléments observés et les limites de cette étape.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/details_natifs_A8/RAPPORT.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/ombrage_RAPPORT.txt",
+      "title": "Sols · correction de l’ombrage",
+      "description": "Diagnostic de l’aspect des surfaces et correction de leur lissage dans le modèle. Le rapport distingue le rendu des formes géométriques.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/ombrage_RAPPORT.txt"
+    },
+    {
+      "rel": "reprise_facade_tour/LIRE.txt",
+      "title": "Tour de Flandre · retraits derrière les balcons",
+      "description": "Notice de reprise du fond opaque derrière les balcons. Les retraits et les dimensions interprétées restent qualifiés comme estimés.",
+      "category": "decisions",
+      "url": "/f/cramif/reprise_facade_tour/LIRE.txt"
+    }
+  ],
+  "defaultDocuments": [
+    {
+      "rel": "interface/preuves_nuit/quais_A11/RAPPORT.txt",
+      "title": "Sols des quais · contrôle des cours",
+      "description": "Contrôle ciblé des îlots Seine et Loire sur la version A11. Aucun nouveau défaut n’a été confirmé dans le périmètre examiné.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/quais_A11/RAPPORT.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt",
+      "title": "Brain · navigation et recherche vérifiées",
+      "description": "Neuf contrôles réalisés dans Chrome le 11 octobre : orbite, zoom, retour à la vue initiale, recherche et sélection. Cette recette ne couvre pas Safari ni les gestes tactiles.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/recette_headless/QUALIFICATION.txt",
+      "title": "Interface · contrôles visuels du 11 octobre",
+      "description": "Périmètre des vérifications visuelles de l’introduction, de la vue 3D et du Brain, sur ordinateur et en format mobile. Les limites de la recette restent indiquées.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/tour_trame/RAPPORT.txt",
+      "title": "Tour de Flandre · écarts de façade à préciser",
+      "description": "Comparaison du modèle et des photographies : trame, retraits vitrés et masse sombre. Les images éclairent les différences sans établir des dimensions mesurées.",
+      "category": "observations",
+      "url": "/f/cramif/interface/preuves_nuit/tour_trame/RAPPORT.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/details_natifs_A8/RAPPORT.txt",
+      "title": "Tour et abords · vérification des contacts",
+      "description": "Examen de rendus de la version A8 : tour, murets, Rotonde et écluse. Le rapport précise les éléments observés et les limites de cette étape.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/details_natifs_A8/RAPPORT.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/canopies_berges/RAPPORT.txt",
+      "title": "Arbres des berges · dimensions et sources",
+      "description": "Analyse de l’inventaire et des dimensions des arbres des berges. Ce rapport documente les points à vérifier, sans attester l’état actuel de la végétation.",
+      "category": "observations",
+      "url": "/f/cramif/interface/preuves_nuit/canopies_berges/RAPPORT.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/ombrage_RAPPORT.txt",
+      "title": "Sols · correction de l’ombrage",
+      "description": "Diagnostic de l’aspect des surfaces et correction de leur lissage dans le modèle. Le rapport distingue le rendu des formes géométriques.",
+      "category": "decisions",
+      "url": "/f/cramif/interface/preuves_nuit/ombrage_RAPPORT.txt"
+    },
+    {
+      "rel": "etude_rues/ETUDE_RUES.html",
+      "title": "Rues autour de la CRAMIF · étude illustrée",
+      "description": "Lire ensemble les observations des façades, des accès et des abords, les sources disponibles et les incertitudes de modélisation.",
+      "category": "observations",
+      "url": "/f/cramif/etude_rues/ETUDE_RUES.html"
+    },
+    {
+      "rel": "interface/PLAN_EOLE_VOIES.txt",
+      "title": "Éole et voies ferrées · plan initial",
+      "description": "Plan établi avant le lancement : sources, étapes de modélisation et points à préciser. Consulter le suivi pour connaître les interventions réalisées depuis.",
+      "category": "observations",
+      "url": "/f/cramif/interface/PLAN_EOLE_VOIES.txt"
+    },
+    {
+      "rel": "reprise_facade_tour/LIRE.txt",
+      "title": "Tour de Flandre · retraits derrière les balcons",
+      "description": "Notice de reprise du fond opaque derrière les balcons. Les retraits et les dimensions interprétées restent qualifiés comme estimés.",
+      "category": "decisions",
+      "url": "/f/cramif/reprise_facade_tour/LIRE.txt"
+    },
+    {
+      "rel": "reparation_murets/RAPPORT.txt",
+      "title": "Clôtures · raccord des murets au sol",
+      "description": "Méthode de reprise des pieds des murets en préservant leurs couronnements. Les niveaux de rue et de cour restent distincts ; les contacts sont qualifiés dans le rapport.",
+      "category": "decisions",
+      "url": "/f/cramif/reparation_murets/RAPPORT.txt"
+    },
+    {
+      "rel": "reparation_tour/LIRE.txt",
+      "title": "Tour de Flandre · première reprise des balcons",
+      "description": "Notice de remplacement des bandes extrudées par des dalles et des éléments de balcon. Elle décrit une étape antérieure ; les épaisseurs et garde-corps sont estimés.",
+      "category": "decisions",
+      "url": "/f/cramif/reparation_tour/LIRE.txt"
+    },
+    {
+      "rel": "EXPERIENCE_CRAMIF.txt",
+      "title": "CRAMIF · journal des premières interventions",
+      "description": "Historique des premières toitures ajoutées, des contrôles du modèle et de la vue à l’échelle 1. Ce journal décrit une étape datée, non l’ensemble de l’état courant.",
+      "category": "decisions",
+      "url": "/f/cramif/EXPERIENCE_CRAMIF.txt"
+    },
+    {
+      "rel": "clotures/ETAPE.txt",
+      "title": "Clôtures · première étape intégrée",
+      "description": "Bilan de la première implantation : quatre murets, quatre grilles et un portail. Les formes et dimensions non relevées sont qualifiées comme interprétées.",
+      "category": "decisions",
+      "url": "/f/cramif/clotures/ETAPE.txt"
+    },
+    {
+      "rel": "clotures/CONTROLE_FINAL.md",
+      "title": "Clôtures · contrôle de la première implantation",
+      "description": "Contrôle indépendant des neuf objets de clôture : géométrie, implantation, propriétés et préservation des objets précédents. La fermeture des volumes ne certifie pas les dimensions terrain.",
+      "category": "decisions",
+      "url": "/f/cramif/clotures/CONTROLE_FINAL.md"
+    },
+    {
+      "rel": "clotures/RAPPORT.txt",
+      "title": "Clôtures · implantation et niveaux de rue",
+      "description": "Sources des quatre fronts retenus : axes du plan de voirie et supports altimétriques LiDAR. Les niveaux de rue sont distingués des niveaux intérieurs.",
+      "category": "sources",
+      "url": "/f/cramif/clotures/RAPPORT.txt"
+    },
+    {
+      "rel": "etude_rues/sources_RAPPORT.txt",
+      "title": "Rues et abords · inventaire des sources",
+      "description": "Inventaire des données mobilisables pour les rues autour de la CRAMIF. Les indications cartographiques sont distinguées des dimensions réellement établies.",
+      "category": "sources",
+      "url": "/f/cramif/etude_rues/sources_RAPPORT.txt"
+    },
+    {
+      "rel": "etude_rues/geometrie_rapport.txt",
+      "title": "Façades et volumes · diagnostic initial",
+      "description": "Analyse initiale des volumes et des niveaux, croisée avec les photographies et les données altimétriques. Certains défauts décrits ont fait l’objet d’interventions ultérieures.",
+      "category": "observations",
+      "url": "/f/cramif/etude_rues/geometrie_rapport.txt"
+    },
+    {
+      "rel": "etude_rues/arrete_maroc_2026.pdf",
+      "title": "arrete maroc 2026",
+      "description": "",
+      "category": "sources",
+      "url": "/f/cramif/etude_rues/arrete_maroc_2026.pdf"
+    },
+    {
+      "rel": "etude_rues/ETUDE_VISUELLE_RUES.md",
+      "title": "Façades et abords · lecture des photographies",
+      "description": "Observations des fronts Flandre et Maroc et de la tour voisine. Les dates connues, les incertitudes et les limites de mesure à partir des images sont précisées.",
+      "category": "observations",
+      "url": "/f/cramif/etude_rues/ETUDE_VISUELLE_RUES.md"
+    },
+    {
+      "rel": "abords/CONTROLE_FINAL_MOBILIER.md",
+      "title": "Mobilier · contrôle de la barrière et des cinq bancs",
+      "description": "Contrôle des composants intégrés : 57 pour la barrière et 25 pour les cinq bancs. Les implantations sont documentées ; leurs formes conventionnelles ne sont pas des relevés exacts.",
+      "category": "decisions",
+      "url": "/f/cramif/abords/CONTROLE_FINAL_MOBILIER.md"
+    },
+    {
+      "rel": "abords/RAPPORT.txt",
+      "title": "Cours et abords · lecture des niveaux",
+      "description": "Analyse des niveaux de sol et des supports LiDAR. Les niveaux bas et les rampes sont distingués des défauts géométriques avant toute correction.",
+      "category": "observations",
+      "url": "/f/cramif/abords/RAPPORT.txt"
+    },
+    {
+      "rel": "abords/CONTROLE_PREMIER_LOT.md",
+      "title": "Barrière · contrôle de la première étape",
+      "description": "Contrôle du premier lot de mobilier avant les ajouts suivants. L’implantation et les dimensions conventionnelles sont documentées séparément.",
+      "category": "decisions",
+      "url": "/f/cramif/abords/CONTROLE_PREMIER_LOT.md"
+    },
+    {
+      "rel": "abords/charte_pvp_symboles.pdf",
+      "title": "charte pvp symboles",
+      "description": "",
+      "category": "sources",
+      "url": "/f/cramif/abords/charte_pvp_symboles.pdf"
+    },
+    {
+      "rel": "abords/pvp_barrieres_source.txt",
+      "title": "Barrières · source du plan de voirie",
+      "description": "Référence conservée vers le jeu de données public utilisé pour identifier les éléments du plan de voirie.",
+      "category": "sources",
+      "url": "/f/cramif/abords/pvp_barrieres_source.txt"
+    },
+    {
+      "rel": "cramif_controle/RAPPORT_FINAL.md",
+      "title": "CRAMIF · contrôle des trois toitures ajoutées",
+      "description": "Contrôle des trois émergences retenues et de la préservation des objets existants. Les données de toiture ne certifient pas les façades ni un rendu Enscape.",
+      "category": "decisions",
+      "url": "/f/cramif/cramif_controle/RAPPORT_FINAL.md"
+    },
+    {
+      "rel": "cramif_sources/rapport_sources.txt",
+      "title": "CRAMIF · sources et limites documentaires",
+      "description": "Adresses, documents et références identifiés pour la CRAMIF. Les données générales du bâtiment sont distinguées des mesures attribuables à un élément précis.",
+      "category": "sources",
+      "url": "/f/cramif/cramif_sources/rapport_sources.txt"
+    }
+  ],
+  "technicalDocuments": [
+    {
+      "rel": "interface/preuves_nuit/canopies_A12_API.json",
+      "title": "canopies A12 API",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/canopies_A12_API.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A12.json",
+      "title": "integration A12",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A12.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/images_meta.json",
+      "title": "images meta",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/images_meta.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/recette_headless/brain_interactions/CONTROLES.json",
+      "title": "CONTROLES",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/recette_headless/brain_interactions/CONTROLES.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/quais_A11/chevauchements.json",
+      "title": "chevauchements",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/quais_A11/chevauchements.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/quais_A11/controle_complement.json",
+      "title": "controle complement",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/quais_A11/controle_complement.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/quais_A11/validation_lidar.json",
+      "title": "validation lidar",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/quais_A11/validation_lidar.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/quais_A11/comparaison_geometrie.json",
+      "title": "comparaison geometrie",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/quais_A11/comparaison_geometrie.json"
+    },
+    {
+      "rel": "interface/brain.html",
+      "title": "brain",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/brain.html"
+    },
+    {
+      "rel": "interface/preuves_nuit/quais_A11/vues.json",
+      "title": "vues",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/quais_A11/vues.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/quais_A11/manifest_native.json",
+      "title": "manifest native",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/quais_A11/manifest_native.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/canopies_A11_API.json",
+      "title": "canopies A11 API",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/canopies_A11_API.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A11.json",
+      "title": "integration A11",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A11.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/tour_trame/faces_source.json",
+      "title": "faces source",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/tour_trame/faces_source.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A10.json",
+      "title": "integration A10",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A10.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/details_natifs_A8/index_preuves.json",
+      "title": "index preuves",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/details_natifs_A8/index_preuves.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A9.json",
+      "title": "integration A9",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A9.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/details_natifs_A8/manifest_details.json",
+      "title": "manifest details",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/details_natifs_A8/manifest_details.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/canopies_berges/candidats_dates.json",
+      "title": "candidats dates",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/canopies_berges/candidats_dates.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/RECETTE_UI_RESTANTE.txt",
+      "title": "RECETTE UI RESTANTE",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/RECETTE_UI_RESTANTE.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/terrain_A8_HTTP.json",
+      "title": "terrain A8 HTTP",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/terrain_A8_HTTP.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/canopies_berges/audit_canopies.csv",
+      "title": "audit canopies",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/canopies_berges/audit_canopies.csv"
+    },
+    {
+      "rel": "interface/preuves_nuit/canopies_berges/audit_canopies.json",
+      "title": "audit canopies",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/canopies_berges/audit_canopies.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A8.json",
+      "title": "integration A8",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A8.json"
+    },
+    {
+      "rel": "interface/MISSION_NUIT.txt",
+      "title": "MISSION NUIT",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/MISSION_NUIT.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/terrain_A7_HTTP.json",
+      "title": "terrain A7 HTTP",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/terrain_A7_HTTP.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A7.json",
+      "title": "integration A7",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A7.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/export_sans_doublons_A7.txt",
+      "title": "export sans doublons A7",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/export_sans_doublons_A7.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/coupes_chargeur_apres.json",
+      "title": "coupes chargeur apres",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/coupes_chargeur_apres.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/verification_export_corrige.json",
+      "title": "verification export corrige",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/verification_export_corrige.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/attribution_native.json",
+      "title": "attribution native",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/attribution_native.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/coupes_sources_ouvertes.txt",
+      "title": "coupes sources ouvertes",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/coupes_sources_ouvertes.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A6.json",
+      "title": "integration A6",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A6.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/coupes_A5_API.txt",
+      "title": "coupes A5 API",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/coupes_A5_API.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A5.json",
+      "title": "integration A5",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A5.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/ballast_A4_HTTP.json",
+      "title": "ballast A4 HTTP",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/ballast_A4_HTTP.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/ressources_A4.json",
+      "title": "ressources A4",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/ressources_A4.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A4.json",
+      "title": "integration A4",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A4.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/marquages_A3_HTTP.json",
+      "title": "marquages A3 HTTP",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/marquages_A3_HTTP.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A3_sur.json",
+      "title": "integration A3 sur",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A3_sur.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/API_Brain_0520.txt",
+      "title": "API Brain 0520",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/API_Brain_0520.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/terrain_A2_palette_HTTP.json",
+      "title": "terrain A2 palette HTTP",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/terrain_A2_palette_HTTP.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/tokens_attribution_nuit.txt",
+      "title": "tokens attribution nuit",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/tokens_attribution_nuit.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A2.json",
+      "title": "integration A2",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A2.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/vues_arrivee_native/parametres.json",
+      "title": "parametres",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/vues_arrivee_native/parametres.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/RECETTE_EXHAUSTIVE.txt",
+      "title": "RECETTE EXHAUSTIVE",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/RECETTE_EXHAUSTIVE.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/integration_A1.json",
+      "title": "integration A1",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/integration_A1.json"
+    },
+    {
+      "rel": "interface/preuves_nuit/controle_geometrie_A1.txt",
+      "title": "controle geometrie A1",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/controle_geometrie_A1.txt"
+    },
+    {
+      "rel": "interface/preuves_nuit/recette_interface_A1.txt",
+      "title": "recette interface A1",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/interface/preuves_nuit/recette_interface_A1.txt"
+    },
+    {
+      "rel": "simplification_quais/LIVRAISON.txt",
+      "title": "Bilan de l’intervention — Sols des quais",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/simplification_quais/LIVRAISON.txt"
+    },
+    {
+      "rel": "reprise_facade_tour/controle_blender.json",
+      "title": "controle blender",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/reprise_facade_tour/controle_blender.json"
+    },
+    {
+      "rel": "reparation_sol/validation_preservation.json",
+      "title": "validation preservation",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/reparation_sol/validation_preservation.json"
+    },
+    {
+      "rel": "reparation_sol/LIVRAISON.txt",
+      "title": "Bilan de l’intervention — Cours et sols",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/reparation_sol/LIVRAISON.txt"
+    },
+    {
+      "rel": "reparation_sol/manifest_patch.json",
+      "title": "manifest patch",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/reparation_sol/manifest_patch.json"
+    },
+    {
+      "rel": "reparation_murets/validation.json",
+      "title": "validation",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/reparation_murets/validation.json"
+    },
+    {
+      "rel": "reparation_sol/validation_topologie.json",
+      "title": "validation topologie",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/reparation_sol/validation_topologie.json"
+    },
+    {
+      "rel": "reparation_tour/controle_import_blender.json",
+      "title": "controle import blender",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/reparation_tour/controle_import_blender.json"
+    },
+    {
+      "rel": "reparation_tour/verification_preparation.json",
+      "title": "verification preparation",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/reparation_tour/verification_preparation.json"
+    },
+    {
+      "rel": "clotures/coupes_contact_rue.json",
+      "title": "coupes contact rue",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/clotures/coupes_contact_rue.json"
+    },
+    {
+      "rel": "clotures/controle_natif.json",
+      "title": "controle natif",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/clotures/controle_natif.json"
+    },
+    {
+      "rel": "clotures/controle_sources_lot.json",
+      "title": "controle sources lot",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/clotures/controle_sources_lot.json"
+    },
+    {
+      "rel": "clotures/LIRE.txt",
+      "title": "Comprendre l’intervention — Clôtures et accès",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/clotures/LIRE.txt"
+    },
+    {
+      "rel": "etude_rues/ETUDE_RUES.txt",
+      "title": "Étude des rues — Étude des rues",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/ETUDE_RUES.txt"
+    },
+    {
+      "rel": "etude_rues/synthese_quantifiee.csv",
+      "title": "synthese quantifiee",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/synthese_quantifiee.csv"
+    },
+    {
+      "rel": "etude_rues/matrice_faits_preuves.json",
+      "title": "matrice faits preuves",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/matrice_faits_preuves.json"
+    },
+    {
+      "rel": "etude_rues/stations_captures.json",
+      "title": "stations captures",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/stations_captures.json"
+    },
+    {
+      "rel": "etude_rues/audit_rues.json",
+      "title": "audit rues",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/audit_rues.json"
+    },
+    {
+      "rel": "etude_rues/profils_rues.json",
+      "title": "profils rues",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/profils_rues.json"
+    },
+    {
+      "rel": "etude_rues/repere_cramif.json",
+      "title": "repere cramif",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/repere_cramif.json"
+    },
+    {
+      "rel": "etude_rues/axes_faces.json",
+      "title": "axes faces",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/axes_faces.json"
+    },
+    {
+      "rel": "etude_rues/manifest.json",
+      "title": "manifest",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/manifest.json"
+    },
+    {
+      "rel": "etude_rues/inventaire_volumes.json",
+      "title": "inventaire volumes",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/inventaire_volumes.json"
+    },
+    {
+      "rel": "etude_rues/comparaison_natif.json",
+      "title": "comparaison natif",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/comparaison_natif.json"
+    },
+    {
+      "rel": "etude_rues/natif_extrait.json",
+      "title": "natif extrait",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/natif_extrait.json"
+    },
+    {
+      "rel": "etude_rues/les_arbres_meta.json",
+      "title": "les arbres meta",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/les_arbres_meta.json"
+    },
+    {
+      "rel": "etude_rues/troncon_voie_meta.json",
+      "title": "troncon voie meta",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/troncon_voie_meta.json"
+    },
+    {
+      "rel": "etude_rues/fiches_visuelles.json",
+      "title": "fiches visuelles",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/etude_rues/fiches_visuelles.json"
+    },
+    {
+      "rel": "abords/controle_natif_barriere.json",
+      "title": "controle natif barriere",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/abords/controle_natif_barriere.json"
+    },
+    {
+      "rel": "abords/validation_bancs.json",
+      "title": "validation bancs",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/abords/validation_bancs.json"
+    },
+    {
+      "rel": "abords/controle_independant_z.json",
+      "title": "controle independant z",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/abords/controle_independant_z.json"
+    },
+    {
+      "rel": "abords/validation_lot.json",
+      "title": "validation lot",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/abords/validation_lot.json"
+    },
+    {
+      "rel": "cramif_arbres/rapport.json",
+      "title": "Rapport du secteur — Arbres",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/cramif_arbres/rapport.json"
+    },
+    {
+      "rel": "cramif_arbres/GUIDE_IMPORT.txt",
+      "title": "GUIDE IMPORT",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/cramif_arbres/GUIDE_IMPORT.txt"
+    },
+    {
+      "rel": "cramif_controle/verification_finale.json",
+      "title": "verification finale",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/cramif_controle/verification_finale.json"
+    },
+    {
+      "rel": "cramif_arbres/inventaire_cramif_250m.csv",
+      "title": "inventaire cramif 250m",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/cramif_arbres/inventaire_cramif_250m.csv"
+    },
+    {
+      "rel": "cramif_sources/rapport_sources.json",
+      "title": "rapport sources",
+      "description": "",
+      "category": "technique",
+      "url": "/f/cramif/cramif_sources/rapport_sources.json"
+    }
+  ],
+  "syntax": "pass",
+  "sourcesUnchanged": true
+}

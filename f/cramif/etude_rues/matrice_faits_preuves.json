@@ -1,0 +1,497 @@
+{
+  "sources": [
+    {
+      "id": "VOIE",
+      "type": "SOURCE_DOCUMENTAIRE",
+      "url": "https://opendata.paris.fr/explore/dataset/voie/",
+      "date_traitement": "2026-09-28",
+      "date_releve": "inconnue",
+      "usage": "noms exacts/n_sq_vo jointure des4voies ; axe schématique, pas contour"
+    },
+    {
+      "id": "TRONCONS",
+      "type": "SOURCE_DOCUMENTAIRE",
+      "url": "https://opendata.paris.fr/explore/dataset/troncon_voie/",
+      "date_traitement": "2026-10-05",
+      "date_releve": "description juin2018 ; pas actualisationterrain datée",
+      "usage": "22segments découpés auxcroisements,clippésROI ; planetprofils"
+    },
+    {
+      "id": "PVP_SOL",
+      "type": "SOURCE_DOCUMENTAIRE",
+      "urls": [
+        "https://opendata.paris.fr/explore/dataset/plan-de-voirie-chaussees/",
+        "https://opendata.paris.fr/explore/dataset/plan-de-voirie-trottoirs-emprises/"
+      ],
+      "date_export_local": "2026-09-29",
+      "date_releve": "inconnue",
+      "usage": "contours-chaussée/trottoir et sections ; pas dimensionsdebordureenZ"
+    },
+    {
+      "id": "PVP_MOBILIER",
+      "type": "SOURCE_DOCUMENTAIRE",
+      "urls": [
+        "https://opendata.paris.fr/explore/dataset/plan-de-voirie-mobiliers-urbains-bornes-barrieres-potelets/",
+        "https://opendata.paris.fr/explore/dataset/plan-de-voirie-mobiliers-urbains-jardinieres-bancs-corbeilles-de-rue/"
+      ],
+      "dates_traitement": [
+        "2026-09-12",
+        "2026-09-14"
+      ],
+      "date_releve": "inconnue",
+      "usage": "primitives graphiques typées etimplantation ; symbole≠formeobjet physique"
+    },
+    {
+      "id": "ARBRES",
+      "type": "SOURCE_DOCUMENTAIRE",
+      "url": "https://opendata.paris.fr/explore/dataset/les-arbres/",
+      "date_traitement": "2026-10-09",
+      "date_releve": "dateindividuelle mesure nonfournie",
+      "usage": "genre/espèce/circonférence/hauteur municipaux ; inventairemunicipalpartiel"
+    },
+    {
+      "id": "LIDAR",
+      "type": "MESURE_LIDAR",
+      "fichier": "/Users/yannjouet/Library/Caches/stalingrad_v3/points/classe_2.npy",
+      "date_acquisition": "02–03/03/2023 selon documentation projet",
+      "url": "https://data.geopf.fr/annexes/ressources/documentation/DC_LiDAR_HD_1-0.pdf",
+      "usage": "2.399Mpointsclasse2dansROI supportindépendant des altitudes ; fauxclassés/niveauxsuperposés possibles"
+    },
+    {
+      "id": "APUR_BATI",
+      "type": "SOURCE_DOCUMENTAIRE",
+      "fichier": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/sources/web/apur_bati_site.geojson",
+      "url": "https://carto2.apur.org/apur/rest/services/OPENDATA/EMPRISE_BATIE_PARIS/MapServer/0",
+      "date_export_local": "2026-09-29",
+      "usage": "empreintes,hauteurs documentaires,an_const de la tour candidate750113299"
+    }
+  ],
+  "faits": [
+    {
+      "rue": "Rue du Département",
+      "fait": "axesPVP/terrainquantifiés",
+      "preuve": {
+        "n_troncons": 3,
+        "longueur_cumulee_m": 182.02654318469212,
+        "stations_profil": 184,
+        "z_min_max_m": [
+          50.09650383340079,
+          50.844725191361995
+        ],
+        "ecart_p95_abs_classe2_m": 0.04014061760086916
+      },
+      "statut_dimensions": "SOURCE_DOCUMENTAIRE axes/PVP ; ESTIME Zinterpolé ; supportMESURE_LIDAR",
+      "incertitude": "chaussées multiples Flandre comptées séparément ; contrôle filtré par couche±50cm non précision globale ni contrôle piedfaçades",
+      "action": "conserver lesprofilschaussée ; détailler pieds/façades par photoslocalisées"
+    },
+    {
+      "rue": "Rue du Département",
+      "fait": "arbre/mobilier associés",
+      "preuve": {
+        "arbres_proches_25m": 8,
+        "arbres_alignement_adresse_exacte": 0,
+        "essences_adresse_exacte": {},
+        "primitives_mobilier": 210,
+        "groupes_graphiques_3cm": {
+          "BORNE": 87,
+          "BARRIERE": 8,
+          "ENVIRONNEMENT": 6
+        }
+      },
+      "statut": "SOURCE_DOCUMENTAIRE ; associationgeomESTIME",
+      "incertitude": "proximité parmi4rues≠adresse confirmée ; groupesgraphiques≠nombreobjets physiques",
+      "action": "IDs/geomdisponiblespourrelevéciblé ; garderformesdimensionsCONVENTIONtantnonidentifiées"
+    },
+    {
+      "rue": "Rue du Maroc",
+      "fait": "axesPVP/terrainquantifiés",
+      "preuve": {
+        "n_troncons": 5,
+        "longueur_cumulee_m": 307.5561828590016,
+        "stations_profil": 311,
+        "z_min_max_m": [
+          48.51363604109835,
+          50.364735367945364
+        ],
+        "ecart_p95_abs_classe2_m": 0.04632715736635973
+      },
+      "statut_dimensions": "SOURCE_DOCUMENTAIRE axes/PVP ; ESTIME Zinterpolé ; supportMESURE_LIDAR",
+      "incertitude": "chaussées multiples Flandre comptées séparément ; contrôle filtré par couche±50cm non précision globale ni contrôle piedfaçades",
+      "action": "conserver lesprofilschaussée ; détailler pieds/façades par photoslocalisées"
+    },
+    {
+      "rue": "Rue du Maroc",
+      "fait": "arbre/mobilier associés",
+      "preuve": {
+        "arbres_proches_25m": 8,
+        "arbres_alignement_adresse_exacte": 0,
+        "essences_adresse_exacte": {},
+        "primitives_mobilier": 334,
+        "groupes_graphiques_3cm": {
+          "BORNE": 145,
+          "BARRIERE": 142,
+          "ENVIRONNEMENT": 15
+        }
+      },
+      "statut": "SOURCE_DOCUMENTAIRE ; associationgeomESTIME",
+      "incertitude": "proximité parmi4rues≠adresse confirmée ; groupesgraphiques≠nombreobjets physiques",
+      "action": "IDs/geomdisponiblespourrelevéciblé ; garderformesdimensionsCONVENTIONtantnonidentifiées"
+    },
+    {
+      "rue": "Avenue de Flandre",
+      "fait": "axesPVP/terrainquantifiés",
+      "preuve": {
+        "n_troncons": 8,
+        "longueur_cumulee_m": 1001.6371375600743,
+        "stations_profil": 1006,
+        "z_min_max_m": [
+          48.8691096249933,
+          52.34676921135187
+        ],
+        "ecart_p95_abs_classe2_m": 0.040631723445812895
+      },
+      "statut_dimensions": "SOURCE_DOCUMENTAIRE axes/PVP ; ESTIME Zinterpolé ; supportMESURE_LIDAR",
+      "incertitude": "chaussées multiples Flandre comptées séparément ; contrôle filtré par couche±50cm non précision globale ni contrôle piedfaçades",
+      "action": "conserver lesprofilschaussée ; détailler pieds/façades par photoslocalisées"
+    },
+    {
+      "rue": "Avenue de Flandre",
+      "fait": "arbre/mobilier associés",
+      "preuve": {
+        "arbres_proches_25m": 190,
+        "arbres_alignement_adresse_exacte": 185,
+        "essences_adresse_exacte": {
+          "Tilia tomentosa": 65,
+          "Tilia sp.": 111,
+          "Prunus avium": 5,
+          "Tilia cordata": 4
+        },
+        "primitives_mobilier": 882,
+        "groupes_graphiques_3cm": {
+          "BORNE": 429,
+          "BARRIERE": 40,
+          "ENVIRONNEMENT": 85
+        }
+      },
+      "statut": "SOURCE_DOCUMENTAIRE ; associationgeomESTIME",
+      "incertitude": "proximité parmi4rues≠adresse confirmée ; groupesgraphiques≠nombreobjets physiques",
+      "action": "IDs/geomdisponiblespourrelevéciblé ; garderformesdimensionsCONVENTIONtantnonidentifiées"
+    },
+    {
+      "rue": "Rue de Tanger",
+      "fait": "axesPVP/terrainquantifiés",
+      "preuve": {
+        "n_troncons": 6,
+        "longueur_cumulee_m": 528.477494233682,
+        "stations_profil": 531,
+        "z_min_max_m": [
+          48.5647406025294,
+          51.41373514489088
+        ],
+        "ecart_p95_abs_classe2_m": 0.04229181406017801
+      },
+      "statut_dimensions": "SOURCE_DOCUMENTAIRE axes/PVP ; ESTIME Zinterpolé ; supportMESURE_LIDAR",
+      "incertitude": "chaussées multiples Flandre comptées séparément ; contrôle filtré par couche±50cm non précision globale ni contrôle piedfaçades",
+      "action": "conserver lesprofilschaussée ; détailler pieds/façades par photoslocalisées"
+    },
+    {
+      "rue": "Rue de Tanger",
+      "fait": "arbre/mobilier associés",
+      "preuve": {
+        "arbres_proches_25m": 24,
+        "arbres_alignement_adresse_exacte": 13,
+        "essences_adresse_exacte": {
+          "Tilia x euchlora": 13
+        },
+        "primitives_mobilier": 1452,
+        "groupes_graphiques_3cm": {
+          "BORNE": 251,
+          "BARRIERE": 848,
+          "ENVIRONNEMENT": 29
+        }
+      },
+      "statut": "SOURCE_DOCUMENTAIRE ; associationgeomESTIME",
+      "incertitude": "proximité parmi4rues≠adresse confirmée ; groupesgraphiques≠nombreobjets physiques",
+      "action": "IDs/geomdisponiblespourrelevéciblé ; garderformesdimensionsCONVENTIONtantnonidentifiées"
+    },
+    {
+      "rue": "Flandre",
+      "fait": "capture23.11.15 au16AvFlandre affichefaçadeCRAMIF,variantecontenantmeneauxverticaux/grille/muret/éclairages",
+      "preuve": "captureutilisateur : libellé16AvFlandre et oct2025 visibles",
+      "statut": "SOURCE_DOCUMENTAIRE image",
+      "incertitude": "pasdimensionmétrique ; objets au premierplanpasnécessairementpermanents ; poutresempiléesrouge/noirnonbanc",
+      "action": "releverfaçadeparelementsvisibles,aucunerépétitiondefenêtreinventée"
+    },
+    {
+      "rue": "Maroc",
+      "fait": "capture23.11.59 libellé1RueMaroc,vueoct2025,grilleportailmuret,palmieretfrontdeCRAMIF",
+      "preuve": "captureutilisateur dated2025, barre historique montre aussi juil2026 non sélectionné",
+      "statut": "SOURCE_DOCUMENTAIRE image",
+      "incertitude": "palmiers privésnoncouvertsnécessairementinventairemunicipal ; pasespèce/hauteurdéduiteparimage",
+      "action": "faireétat2025distinctdurelevé2026"
+    },
+    {
+      "rue": "Maroc",
+      "fait": "emprise de travaux réhabilitation1–3Maroc prévue2juin–30sept2026",
+      "preuve": {
+        "arrete": "2026T15510",
+        "publication": "2026-06-02",
+        "signature": "2026-05-26",
+        "url": "https://bovp.apps.paris.fr/index.php?id=50762&lvl=notice_display",
+        "pdf": "arrete_maroc_2026.pdf",
+        "impact": "fermeture15juinFlandre→placeMaroc ; stationnement1–3neutralisé ; 2GIG/GICn°3reportés5–7"
+      },
+      "statut": "SOURCE_DOCUMENTAIRE",
+      "incertitude": "prévisionnellescibles ; aucunepreuvefintravauxau10oct2026, arrêtéapplicablejusqu’àdéposesignalisation",
+      "action": "nepasfixerstationnement/grilleétatactuel depuisoct2025"
+    },
+    {
+      "rue": "Tanger",
+      "fait": "projet rénovation scolaires15–17Tanger lauréatBP2025",
+      "preuve": {
+        "url": "https://mairie19.paris.fr/pages/budget-participatif-2025-les-resultats-32698",
+        "url_etapes": "https://decider.paris.fr/bp/jsp/site/Portal.jsp?document_id=12383&view=consult_project",
+        "contenu": "rénovationintérieure/énergie+jardinpédagogiqueaccessible ; résultatindexé indique phaseRéalisationtravauxdémarréeMars2026"
+      },
+      "statut": "SOURCE_DOCUMENTAIRE projet",
+      "incertitude": "HTMLlocalrenduJS ne fournitpasphases ; textephase issuindexation de pageofficielle ; pasplanextérieurniétatréaliséconfirmé",
+      "action": "nepasreconstruirecour/jardindepuispromesseprogrammatique"
+    },
+    {
+      "rue": "Maroc/Tanger/Département",
+      "fait": "travauxAubervilliers21–31les26–27août2025,impactsdecirculationMaroc",
+      "preuve": {
+        "url": "https://cdn.paris.fr/paris/2025/08/07/lar-rue-d-aubervilliers-aout-2025-4H4Z.pdf",
+        "contenu": "couche superficielle chaussée etmarquage ; fermetureMaroc→Département côtéAubervilliers,misesensuniqueMarocAubervilliers→Tanger"
+      },
+      "statut": "SOURCE_DOCUMENTAIRE",
+      "incertitude": "restrictiontemporaire≠géométriepérenne4rues",
+      "action": "datermarquages/pavage ; nepasimposerceplan circulationà2026"
+    },
+    {
+      "rue": "Maroc",
+      "fait": "rueauxécolesMarocannoncéeàvenirenfévrier2025",
+      "preuve": {
+        "url": "https://cdn.paris.fr/paris/2025/02/24/250213_lettre-habitants_stalingrad-19_a3_exe-bd-Xg9X.pdf",
+        "page": 2
+      },
+      "statut": "SOURCE_DOCUMENTAIRE projet",
+      "incertitude": "échéance/planfinauxnonconfirmés ; nonréaliséautomatiquement",
+      "action": "montrerprojetdocumenté,séparerdelagéométrieobservée"
+    },
+    {
+      "rue": "Département",
+      "fait": "pastransformationpérennedansportionROIprouvéeparlesdocumentscollectés",
+      "preuve": "22segments/PVP/LiDARlocal ; arrêté2026T11574vuindexation concerne18e et portionnonlocalisée",
+      "statut": "INCERTITUDE",
+      "incertitude": "absencepreuveretenuen’estpaspreuved’absencetravaux",
+      "action": "réaliserphotos3tronçons,nepasappliquerarrêtéhorsROI"
+    },
+    {
+      "rue": "Flandre",
+      "fait": "tour23.11.37trèsprobablement27–31AvFlandre,APUR750113299",
+      "preuve": {
+        "commerce": "GrandePharmacieStalingradsiteofficiel27–31",
+        "url": "https://grandepharmaciedestalingrad.pharminfo.fr/legalnotice",
+        "adresse_IGNBAN_local_m": [
+          141.31,
+          194.45
+        ],
+        "score_geocode": 0.9830354545454545,
+        "geocode_fichier": "geocodage_27_flandre.json",
+        "APUR_OBJECTID": 54117,
+        "APUR_n_sq_pc": 750068239,
+        "APUR_an_const": 1996,
+        "APUR_hauteur_med_max_m": [
+          36.19500122,
+          39.43999786
+        ]
+      },
+      "statut": "SOURCE_DOCUMENTAIRE ; attributionimageESTIMEtrèsforte",
+      "incertitude": "capture37sansdateacquisition ; copyright2026≠image2026 ; enseigneEspaceFleurspeutêtrehistorique,établissementfermé2021selonregistre ; adressegéocodéepointdevanturepasempriseexacte",
+      "action": "nommerprovisoirementgroupe27–31,pasremplacerpar108Flandre(socialsiègeautrepoint)"
+    }
+  ],
+  "methodologie": [
+    "Axes tronçons schématiques : pas contours routiers, sens de circulation non garanti ; le jeu mentionne juin2018 et traitement05/10/2026.",
+    "Arbres inventory09/10/2026 : hauteurs/source documentaire, dateindividuelle mesure inconnue, inventaire municipal partiel ; LiDAR03/2023.",
+    "Association mobilier/arbres : rue la plus proche à≤25m parmi ces4rues, ambiguïté carrefours ; pas attestation adresse de chacun.",
+    "Mobilier compte des primitives PVP, pas des objets physiques. Dimensions des symboles≠dimensionscertifiées.",
+    "ZhautesurfaceterraininterpoléeESTIME ; prèsouvrages/niveauxsuperposés, choix couche de contrôle par±50cm peut cacher niveau inférieur.",
+    "Largeurs section chaussée issues contoursPVP uniquement là où axe dedans ; chaquechaussée Flandre distincte, paslargeuravenueglobale."
+  ],
+  "stations": [
+    {
+      "id": "CAP_TV_750599103",
+      "troncon": "TV_750599103",
+      "rue": "Avenue de Flandre",
+      "camera_xy_local_m": [
+        85.43807872328267,
+        98.65073526799934
+      ],
+      "z_sol_interpole_m": 51.09716324356502,
+      "camera_z_m": 52.74716324356502,
+      "hauteur_camera_m": 1.65,
+      "hauteur_camera_statut": "CONVENTION",
+      "xy_station_statut": "CONVENTION proposition suraxe municipal",
+      "cibles_xy_indicatives": [
+        [
+          77,
+          160
+        ],
+        [
+          83,
+          120
+        ]
+      ],
+      "consigne": "documenter lesdeuxtrottoirs,piedsfaçades,ruptures,mobiliers,arbres ; noterdateimage,adresseexacte,pasdecopyrightcommedate"
+    },
+    {
+      "id": "CAP_TV_750598733",
+      "troncon": "TV_750598733",
+      "rue": "Avenue de Flandre",
+      "camera_xy_local_m": [
+        202.6086298359916,
+        237.94213746747883
+      ],
+      "z_sol_interpole_m": 49.572307928118704,
+      "camera_z_m": 51.2223079281187,
+      "hauteur_camera_m": 1.65,
+      "hauteur_camera_statut": "CONVENTION",
+      "xy_station_statut": "CONVENTION proposition suraxe municipal",
+      "cibles_xy_indicatives": [
+        [
+          135,
+          207
+        ]
+      ],
+      "consigne": "tour27–31 : vuefrontale etretourslatéraux,balcons/RDC/liaisonssol ; acquisitiondateànoter"
+    },
+    {
+      "id": "CAP_TV_750598734",
+      "troncon": "TV_750598734",
+      "rue": "Rue du Maroc",
+      "camera_xy_local_m": [
+        101.38716359608043,
+        209.3024511488413
+      ],
+      "z_sol_interpole_m": 49.55622364229576,
+      "camera_z_m": 51.20622364229576,
+      "hauteur_camera_m": 1.65,
+      "hauteur_camera_statut": "CONVENTION",
+      "xy_station_statut": "CONVENTION proposition suraxe municipal",
+      "cibles_xy_indicatives": [
+        [
+          95,
+          195
+        ]
+      ],
+      "consigne": "Maroc1–3 : grille,muret,portail,jardin et stationnement ; comparerjuillet2026àoct2025 ; relevé actuelnécessairepourfintravaux"
+    },
+    {
+      "id": "CAP_TV_750598771",
+      "troncon": "TV_750598771",
+      "rue": "Rue de Tanger",
+      "camera_xy_local_m": [
+        10.53912854587189,
+        202.52254566376456
+      ],
+      "z_sol_interpole_m": 49.04354282442546,
+      "camera_z_m": 50.69354282442546,
+      "hauteur_camera_m": 1.65,
+      "hauteur_camera_statut": "CONVENTION",
+      "xy_station_statut": "CONVENTION proposition suraxe municipal",
+      "cibles_xy_indicatives": [
+        [
+          43,
+          202
+        ],
+        [
+          17,
+          125
+        ]
+      ],
+      "consigne": "Tanger CRAMIF et accèscourSud : vuesversdeuxniveaux,entrée/sortierampe ; éviterocclusiondalle ; paslargeurdepuisprofilseul"
+    },
+    {
+      "id": "CAP_TV_750598894",
+      "troncon": "TV_750598894",
+      "rue": "Rue de Tanger",
+      "camera_xy_local_m": [
+        -41.175248105177296,
+        130.12236062447855
+      ],
+      "z_sol_interpole_m": 49.85444529396197,
+      "camera_z_m": 51.50444529396197,
+      "hauteur_camera_m": 1.65,
+      "hauteur_camera_statut": "CONVENTION",
+      "xy_station_statut": "CONVENTION proposition suraxe municipal",
+      "cibles_xy_indicatives": null,
+      "consigne": "Tanger CRAMIF et accèscourSud : vuesversdeuxniveaux,entrée/sortierampe ; éviterocclusiondalle ; paslargeurdepuisprofilseul"
+    },
+    {
+      "id": "CAP_TV_750598983",
+      "troncon": "TV_750598983",
+      "rue": "Rue du Département",
+      "camera_xy_local_m": [
+        -119.87675412793678,
+        88.90865241993693
+      ],
+      "z_sol_interpole_m": 50.654200915374,
+      "camera_z_m": 52.304200915374,
+      "hauteur_camera_m": 1.65,
+      "hauteur_camera_statut": "CONVENTION",
+      "xy_station_statut": "CONVENTION proposition suraxe municipal",
+      "cibles_xy_indicatives": null,
+      "consigne": "documenter lesdeuxtrottoirs,piedsfaçades,ruptures,mobiliers,arbres ; noterdateimage,adresseexacte,pasdecopyrightcommedate"
+    },
+    {
+      "id": "CAP_TV_750598880",
+      "troncon": "TV_750598880",
+      "rue": "Rue du Département",
+      "camera_xy_local_m": [
+        -178.04642213844457,
+        127.9706710421962
+      ],
+      "z_sol_interpole_m": 50.31289145846118,
+      "camera_z_m": 51.96289145846118,
+      "hauteur_camera_m": 1.65,
+      "hauteur_camera_statut": "CONVENTION",
+      "xy_station_statut": "CONVENTION proposition suraxe municipal",
+      "cibles_xy_indicatives": null,
+      "consigne": "documenter lesdeuxtrottoirs,piedsfaçades,ruptures,mobiliers,arbres ; noterdateimage,adresseexacte,pasdecopyrightcommedate"
+    },
+    {
+      "id": "CAP_TV_750598806",
+      "troncon": "TV_750598806",
+      "rue": "Rue du Département",
+      "camera_xy_local_m": [
+        -226.5311594865711,
+        153.30338047264726
+      ],
+      "z_sol_interpole_m": 50.36221166648817,
+      "camera_z_m": 52.01221166648817,
+      "hauteur_camera_m": 1.65,
+      "hauteur_camera_statut": "CONVENTION",
+      "xy_station_statut": "CONVENTION proposition suraxe municipal",
+      "cibles_xy_indicatives": null,
+      "consigne": "documenter lesdeuxtrottoirs,piedsfaçades,ruptures,mobiliers,arbres ; noterdateimage,adresseexacte,pasdecopyrightcommedate"
+    },
+    {
+      "id": "CAP_TV_750598486",
+      "troncon": "TV_750598486",
+      "rue": "Rue de Tanger",
+      "camera_xy_local_m": [
+        91.06861406124835,
+        318.6109139398777
+      ],
+      "z_sol_interpole_m": 48.82899152027639,
+      "camera_z_m": 50.47899152027639,
+      "hauteur_camera_m": 1.65,
+      "hauteur_camera_statut": "CONVENTION",
+      "xy_station_statut": "CONVENTION proposition suraxe municipal",
+      "cibles_xy_indicatives": null,
+      "consigne": "documenter lesdeuxtrottoirs,piedsfaçades,ruptures,mobiliers,arbres ; noterdateimage,adresseexacte,pasdecopyrightcommedate"
+    }
+  ]
+}

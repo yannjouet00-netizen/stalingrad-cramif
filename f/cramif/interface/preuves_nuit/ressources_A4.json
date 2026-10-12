@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "name": "capture_google_earth_2026-09-29.png",
+      "packed": true,
+      "filepath": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/../../Users/yannjouet/Documents/01_VLAU/Users/yannjouet/Documents/01_VLAU/Users/yannjouet/Documents/01_VLAU/Users/yannjouet/Documents/01_VLAU/Stalingrad/sources/originales/capture_google_earth_2026-09-29.png",
+      "exists": false
+    },
+    {
+      "name": "ortho_ign.png",
+      "packed": true,
+      "filepath": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/sources/web/ortho_ign.png",
+      "exists": true
+    }
+  ],
+  "libraries": []
+}

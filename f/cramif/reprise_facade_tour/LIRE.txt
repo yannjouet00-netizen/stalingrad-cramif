@@ -1,0 +1,17 @@
+REPRISE DU NOYAU DE TOUR — FAÇADE FLANDRE
+
+Problème corrigé : la première conversion des bandes en dalles laissait un plein opaque au fond des balcons. Le noyau source2506371 fusionne ce fond avec le voile clair et les masses arrière.
+
+Correction géométrique : retrait1,10m sur≈5,86m de large entre52,28 et85,85mIGN69. Le noyau est découpé en solides fermés. Douze prolongements de dalles rejoignent le fond reculé ; les dalles et rails déjà intégrés sont conservés. Le voile blanc garde son emprise. La façade vitrée en retrait se compose d'un parement fermé6cm et de profils géométriques, sans texture. Le renfoncement central suit une arête du plan source. La masse droite et son couronnement reçoivent une teinte sombre sur copies propres à scène06.
+
+Limites : présence des vitrages, voile clair et masse sombre observées sur les captures00.51.35 et23.11.37, date acquisition inconnue. Profondeur du retrait, hauteurs de fermeture et trame ESTIME/CONVENTION, pas mesurées. Hauteurs de toiture et emprises générales conservées. Les fenêtres isolées de la masse droite, les commerces et détails secondaires ne sont pas reconstruits. Cette livraison corrige le fond plein signalé ; elle ne certifie pas une restitution complète de la façade.
+
+Fichiers : lot_facade.json (géométrie+source+statuts), importer_facade.py (sans sauvegarde), test_facade.py (contrôles+2rendus en mémoire), controle_blender.json, plan_retrait.png, apercu_vue_basse.png, apercu_axonometrique.png.
+
+Intégration responsable : persister données dans donnees/v3/cramif/reprise_facade_tour et script dans scripts/v3/cramif/reprise_facade_tour. Définir variable CRAMIF_FACADE_ROOT vers les données, charger le module puis appeler importer_facade(). Le préflight refuse un noyau source modifié ; il ne touche pas aux anciennes données ni autres scènes. Nouvelle collectionCRAMIF_06_TOUR_RETRAITS_FACADE.
+
+Sauvegarde uniquement par responsable du natif. Exporter scène06, avec ses matériaux ; éviter un export global bpy.data.objects qui inclurait les originaux.
+
+Retour arrière : restaurer_facade() rétablit les2originaux dans scène06 et délie la nouvelle collection sans la supprimer. Elle reste récupérable pour préserver des modifications. Pas de sauvegarde automatique.
+
+Dépendance impérative : les46objets du premier lot dalles/gardes doivent déjà être présents dans scène06. Un préflight le vérifie. Lors des tests, le natif a été remplacé par une version sans ce lot vers01:00:33 ; test_facade.py sait préparer les deux lots en mémoire, sans enregistrer. Pour le fichier partagé, le responsable doit rétablir explicitement le premier lot avant cette reprise.

@@ -1,0 +1,13 @@
+CARTOUCHE PRO ET NOTICE ROTONDE — 11 octobre 2026, 08:33 Paris
+
+Livré : le titre du lot occupe sa propre ligne (14 px), la valeur qualifiée une seconde ligne discrète (11 px). Le calcul, les libellés, les compteurs, les jauges et les conditions de progression sont inchangés. Seules deux règles CSS et les classes de deux spans ont changé dans Pro.
+
+Recette réelle Chrome headless / SwiftShader via CDP 9227, réservé par le coordinateur pendant ce lot : captures 1440 × 1000 et 390 × 844 produites et inspectées. Le titre « Interface · introduction et suivi » tient sur une ligne dans les deux vues ; « 100 % des contrôles » est intégralement visible dessous. Espace vertical 4 px entre titre et valeur. Aucun chevauchement et aucun débordement horizontal de document. Le panneau a été défilé jusqu’au lot pour cette vérification ciblée. Le navigateur du coordinateur n’a pas été fermé. Aucune recette Safari, tactile ou Blender natif n’est déclarée.
+
+Notice Rotonde publiée dans documentation/v3/cramif/diagnostic_rotonde/NOTICE.txt et classée Observations dans le Carnet. Elle distingue photographie 2016, LiDAR historique 2023 et audit natif A15 ; sept contremarches suggérées ne sont pas sept mesures. Diagnostic sans modification géométrique. Aucun seuil, escalier ou massif n’a été ajouté.
+
+HTTP réel : /pro, /carnet et /f/cramif/diagnostic_rotonde/NOTICE.txt répondent 200 et leurs octets sont identiques aux fichiers publiés. Le catalogue actuel contient 145 documents, 34 notices et 111 fichiers techniques (le coordinateur ajoute également ses preuves). L’ensemble des entrées préexistantes conserve exactement son classement éditorial ; hub.html et index_cramif.html restent identiques. Test du module JavaScript réel : syntaxe valide. Comparaison du script Pro avant/après après retrait des deux affectations className : identique.
+
+Fichiers de preuve : pro_1440.png, pro_390.png, dom.json, http.json, validation.json, changement.diff. Les essais initiaux ont révélé deux erreurs du script de test (ciblage « Interface » au lieu du titre complet, puis extraction module sans attribut id) ; scripts corrigés et recette finale réussie. Aucun défaut applicatif n’en est déduit.
+
+Aucun changement du backend, des données de suivi, du modèle natif ou des couches géométriques. Aucun redémarrage serveur.

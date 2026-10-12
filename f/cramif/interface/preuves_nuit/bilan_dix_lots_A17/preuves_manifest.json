@@ -1,0 +1,142 @@
+[
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/archives_Claude/publication_durable.json",
+    "exists": true,
+    "sha256": "5d476f837507c02e81cca5b21a5a54f37bbe92c8bb8f4afa68cd6426d06d6059"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/canopies_berges/RAPPORT.txt",
+    "exists": true,
+    "sha256": "158c37b009ad96d3adfb2ac67f38da756bcf41613896b5007eb50f15a6d83526"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/coherence_baies_A14/validation.json",
+    "exists": true,
+    "sha256": "9d2ac870afd22ed4852447a59e939bacd0998889f13cfa9a9bc9b3371f0e5862"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/controle_geometrie_A1.txt",
+    "exists": true,
+    "sha256": "a91341cf48425fe27c3d7ca1edcdbd2ff67f4fd2e0c2691a7f2a3413ebb834da"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/details_natifs_A8/RAPPORT.txt",
+    "exists": true,
+    "sha256": "59989e3ada3e63054aea734066e38d45eefeb3e152a2b9558dfe1e9f8a338e02"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/galerie_recette/RAPPORT.txt",
+    "exists": true,
+    "sha256": "dfe3715fa974d4fe5b8d5702c5cafd2f259e6c6c4e00ec25e0b49df3f324df9b"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/hierarchie_Pro/RAPPORT.txt",
+    "exists": true,
+    "sha256": "ce6d60fbb9f67b7d983ef676d5e3f85ff062ceac8a4029a4d2b492bee566e70e"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A1.json",
+    "exists": true,
+    "sha256": "204feb22839a409fedc21e0afa9d995946bc37bc2fa0b6289627138da9c10c6f"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A14.json",
+    "exists": true,
+    "sha256": "27b9e3ea2af991c828e574c8eb771b7d7f8d88ea51995c8de109f8b9cb4cadb6"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A17.json",
+    "exists": true,
+    "sha256": "33ec8efe9f7a751c095f7e027efe0bdaedf4652aa7be0600244287c44471cdfa"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A2.json",
+    "exists": true,
+    "sha256": "079143bcf7306e5437df3487b2e6edd9697de9a3e8791ca4f41b3b63e76b57e7"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/integration_A6.json",
+    "exists": true,
+    "sha256": "2313099e9b825c5c9bd5ce81d6d8d70bf50b679b1dfd0629c825555641a12416"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/marquages_A3_HTTP.json",
+    "exists": true,
+    "sha256": "9c6f8ad3144aadfb8166d8bbbd82bf700a4e78012fe943b09846882597091024"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/quais_A11/RAPPORT.txt",
+    "exists": true,
+    "sha256": "2c2319d5f4c41b029909a96719755ceb673a9291c9ead20dd81dff26cfa192fd"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/quais_A11/chevauchements.json",
+    "exists": true,
+    "sha256": "b697bbbef0266f78dce28d0fefd39c713c6516601febc7dc90f64ec6bb338a84"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/quais_A11/comparaison_geometrie.json",
+    "exists": true,
+    "sha256": "2f9b6deb5d43b8522de0359b617abcb8896ae38ceffb1d9807c1fa2ebd86da92"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_headless/QUALIFICATION.txt",
+    "exists": true,
+    "sha256": "2d85646f79fde5c774144282c9970e64572c3e3ea41bb5dbe1c89f0965636e26"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_headless/brain_interactions/RAPPORT.txt",
+    "exists": true,
+    "sha256": "530f72e25f7ce5e853e80ae776cbc510dd2dd7385754e1258a7bfaa42b25e06f"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/recette_headless/vues/RAPPORT.txt",
+    "exists": true,
+    "sha256": "788e7138dec0b48a5bf591238c97ccddd9d3dc48b663eb2c8c5a55c751a66bbc"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/interface/preuves_nuit/tour_A14/RAPPORT.txt",
+    "exists": true,
+    "sha256": "71648b301dacae8554f75435b5f40562642d7d6112cdf85d95ad3efaff9aa408"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/documentation/v3/cramif/reparation_murets/RAPPORT.txt",
+    "exists": true,
+    "sha256": "518dafb8a28cbd708fb05181d106becdad9f6819774aab0b879646652b6002de"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/cour_sud_a6/rebase_A5_validation.json",
+    "exists": true,
+    "sha256": "c7e810d3a66b54f8b15c6a94745af1d82e514c76098e743b9666ca37253d4287"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/diagnostic_cours_a17/RAPPORT.txt",
+    "exists": true,
+    "sha256": "7873f3cb9ca81bcfcfc882e4ccee1fce0a793453acf178a4a2fb6ae6bef792ab"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/raccord_NE_a8/RAPPORT.txt",
+    "exists": true,
+    "sha256": "5641fa865d3fb3f19dfa115112e6756eaa62e95babcd3b0bdc5bf22a28df610b"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/cramif/rotonde_diagnostic_NE/RAPPORT.txt",
+    "exists": true,
+    "sha256": "4f966dbed446d26a09595903d609a7a7aa1387be1f534554ea969119dfaff064"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/canopies_berges_a17/RAPPORT.txt",
+    "exists": true,
+    "sha256": "99accbb694cc645ddc7b34d10e4b8b9b7cfa09be0bf4abb127a0e2e327d94a43"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/donnees/v3/eole/diagnostic_berge_a19/RAPPORT.txt",
+    "exists": true,
+    "sha256": "502f87b1eee4505fb9561cfbec500b4d68f2ef1e243039c5f17d2656d6d5e9b1"
+  },
+  {
+    "path": "/Users/yannjouet/Documents/01_VLAU/Stalingrad/suivi/chantier_cramif.json",
+    "exists": true,
+    "sha256": "8c0c82e8a1870b87530b2a40ada45400b8cf01d7c5a4ba725ef50592d3ce0ecd"
+  }
+]

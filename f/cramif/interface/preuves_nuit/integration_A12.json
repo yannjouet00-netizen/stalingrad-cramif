@@ -1,0 +1,15 @@
+{
+  "verified_reopen": true,
+  "idempotent": true,
+  "trees": 96,
+  "objects_metadata": 192,
+  "sol_A8_exact_float32": true,
+  "canopies_A9_preserved": true,
+  "canopies_A12_trees": 15,
+  "canopies_A12_vertices": 751,
+  "canopies_A12_triangles": 1442,
+  "canopies_A12_closed": true,
+  "scope": "Quinze houppiers historiques, pieds et troncs inchangés ; Sol A8 et métadonnées A10 préservés",
+  "native_sha256": "f74782b40cdff8b9f51e2324faaf7279ef1ac762d9574dc48e5195149dc0e93f",
+  "published_at": "2026-10-11T05:08:24.358279+00:00"
+}

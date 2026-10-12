@@ -1,0 +1,23 @@
+RECETTE TOUR MONOCHROME — 11 OCTOBRE 2026, 12:49–12:51 PARIS
+
+Aucune modification du code, du backend, du natif ou des états de chantier.
+Chrome headless isolé / CDP9228, SwiftShader, 1440×1000. Safari laissé intact. Navigateur isolé fermé par Browser.close ; processus sorti code0.
+
+Publication réellement lue
+/api/couche/bati_v3 répond200 ; 883821 sommets de soupe, soit294607 triangles. Modèle affiché chargé à12:49:33. Le test n’a pas observé l’état transitoire202 ; il constate l’état200 final.
+SHA natif annoncé par root : 2b3dda…2919. Aucun contrôle intégral natif répété dans ce lot.
+
+Observation graphique
+Tour rapprochée et contexte capturés et examinés. La tour présente un traitement neutre comparable au contexte, sans vitrage de couleur sombre distincte observé. Les creux des balcons restent sombres par l’éclairage et les ombres. Le détail des balcons reste présent ; ce lot ne juge pas sa fidélité à une photographie ni la future correction des pans inclinés.
+Captures : tour_rapprochee.png et tour_contexte.png.
+
+Couleurs API
+Le filtre spatial x120..164,y166..224,z>60 sélectionne16674 triangles :16660 portentRGB140,147,153 (catégorie4),7 portent170,160,140,7 portent204,147,76. Ces14 triangles supplémentaires sont dans la boîte de contrôle ; ils ne sont pas attribués à la tour par ce filtre spatial. Aucune catégorie sombre6,10ou11 dans cette sélection.
+Ce contrôle n’identifie pas individuellement les74objets ni les4trames masquées ; cette portée reste celle du contrôle d’intégration réalisé par root. Les données brutes et la sélection sont conservées dans api.json, bati_v3.bin et categories_roi.json.
+
+Activité Pro / Brain
+Les quatre cartes sont visibles. Coordination et Géométrie sont « État à actualiser » : leurs derniers retours12:42:30 ont plus de3min à12:49. Les anneaux ne tournent pas. Interface et Sources sont Livré. Les deux pages reprennent fidèlement ces données ; aucun faux statut actif ajouté. Brain n’a pas de débordement horizontal.
+Captures : pro_activite.png, brain_activite.png. DOM et état de chargement : recette.json.
+
+Limites
+Recette Chrome uniquement. Aucun résultat Safari, tactile ou Blender GUI revendiqué. Les captures correspondent à la version monochrome publiée, avant le nouveau signal d’intégration éventuelle de toiture. Aucun « après toiture » affirmé.

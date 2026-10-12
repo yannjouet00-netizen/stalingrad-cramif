@@ -1,0 +1,9 @@
+{
+  "selection": "Triangles dont les trois sommets sont dans x120..164,y166..224,z>60 ; filtre spatial, pas identit\u00e9 objet native",
+  "triangles": 16674,
+  "rgb_vertices": {
+    "(140, 147, 153)": 49980,
+    "(170, 160, 140)": 21,
+    "(204, 147, 76)": 21
+  }
+}

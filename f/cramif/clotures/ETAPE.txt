@@ -1,0 +1,8 @@
+11 octobre 2026 — lot clôtures intégré
+4 murets, 4 grilles, 1 portail ; 138,1 m de fronts repérés en plan. 13 764 triangles, 1 147 composants fermés.
+Fichier courant : /Users/yannjouet/Documents/01_VLAU/Stalingrad/modele/Stalingrad_CRAMIF_travail.blend
+SHA256 courant après correction d’annotations : e760c6da88b8ff844e77d0debd6b826bb1729ae3310d0fb18b8000cc38c709df
+La correction des annotations a supprimé le qualificatif incohérent pour les niveaux natifs distincts ; aucun maillage ni transformation modifié. Les signatures des neuf objets sont recalculées sur les notes corrigées du lot. Le contrôle géométrique indépendant précède uniquement cette correction textuelle.
+Sources XY PVP, axes dérivés et Z projetés côté rue ESTIME, hauteurs/sections/entraxe CONVENTION. Silhouette portail photo octobre2025, mécanisme et nombre réel de vantaux non certifiés. Raccords aux murets et sous-sol à affiner. Les 13 073 objets antérieurs sont inchangés et les cours basses restent préservées.
+Interface /pro : vue Rue du Maroc, teintes sobres, badge de qualification. Un seul serveur sur le port8790 ; lanceur existant dirigé vers serveur_cramif.py, protection réseau locale existante conservée.
+Fenêtre Blender non rechargée à cet instant : Mac verrouillé ; copie de travail sur disque actualisée. L’interface web affiche les étapes enregistrées, pas une synchronisation continue de Blender.

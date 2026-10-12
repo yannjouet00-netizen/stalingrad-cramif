@@ -1,0 +1,15 @@
+{
+  "documents": 145,
+  "notices": 34,
+  "techniques": 111,
+  "notice": {
+    "rel": "diagnostic_rotonde/NOTICE.txt",
+    "title": "Rotonde · marches du porche nord-est à relever",
+    "description": "Une photo de 2016 suggère un nombre de marches différent du modèle. Le LiDAR sous le porche ne permet pas d’établir le profil ni le seuil. Diagnostic sans modification géométrique ; relevé complémentaire nécessaire.",
+    "category": "observations",
+    "url": "/f/cramif/diagnostic_rotonde/NOTICE.txt"
+  },
+  "existingCataloguePreserved": true,
+  "progressLogicUnchanged": true,
+  "pagesEqual": true
+}

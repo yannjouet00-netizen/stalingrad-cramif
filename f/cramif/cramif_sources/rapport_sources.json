@@ -1,0 +1,265 @@
+{
+  "date_recherche": "2026-10-10",
+  "site": "CRAMIF Flandre, Paris 19e",
+  "localisation_solide": {
+    "adresse_siege": "17-19 avenue de Flandre 75019 Paris",
+    "ensemble_adresses": [
+      "17-25 avenue de Flandre",
+      "3 rue du Maroc",
+      "14 bis rue de Tanger"
+    ],
+    "center_WGS84_indicatif": {
+      "lat": 48.8857286,
+      "lon": 2.3695171,
+      "status": "SOURCE_DOCUMENTAIRE",
+      "source": "PSS_CRAMIF",
+      "note": "repère point et non emprise levée"
+    }
+  },
+  "sources": [
+    {
+      "id": "CRAMIF_AMI_2025",
+      "title": "AMI acquisition nouveau siège CRAMIF",
+      "url": "https://www.cramif.fr/sites/default/files/inline-files/appel-manifestation-interet-acquisition-siege-social-cramif_0.pdf",
+      "type": "primaire CRAMIF",
+      "status": "document intégral récupéré",
+      "local": "cramif_ami.pdf",
+      "pages": "3",
+      "facts": [
+        "Immeuble Flandre 17-19 avenue de Flandre Paris 19e",
+        "IGH construit en 1963",
+        "39 827 m² surface utile brute",
+        "CRAMIF entièrement propriétaire"
+      ],
+      "use": "Identification, histoire et surface globale.",
+      "limit": "Pas de plan ni cote de façade ; ne pas confondre surfaces/normes du futur siège avec Flandre existant."
+    },
+    {
+      "id": "PARIS_PC_2010",
+      "title": "BMO Paris 17 décembre 2010, permis PC-075-119-10-V-0061",
+      "url": "https://cdn.paris.fr/paris/2021/04/19/1005c111ab23ea32a84b087b5c948f4e.pdf",
+      "type": "primaire Ville de Paris",
+      "status": "texte et numéro de page vérifiés via web",
+      "pages": "PDF 54 / imprimée 3242",
+      "facts": [
+        "Adresses 17 au 25 avenue de Flandre, 1X place du Maroc, 14T au 16T rue de Tanger",
+        "Surface terrain 10 575 m²",
+        "Deux sous-sols attestés",
+        "Création de deux édicules de ventilation à RDC côté Tanger en 2010"
+      ],
+      "use": "Périmètre administratif, détails extérieurs attestés et piste dossier de permis consultable.",
+      "limit": "Avis publié, plans du permis non obtenus ; aucune adresse boulevard dans cet avis."
+    },
+    {
+      "id": "APUR_PP_1987",
+      "title": "Paris Projet n°27-28, aménagement Est parisien, Flandre Sud",
+      "url": "https://50ans.apur.org/data/b4s3_home/fiche/83/05_paris_projet_27_28_plan_est_7acd2.pdf",
+      "type": "primaire APUR urbanisme",
+      "date": "1987 (cartographie juillet 1987 dans document)",
+      "status": "PDF intégral récupéré, texte extrait et pages rendues/inspection visuelle",
+      "local": "apur_historique.pdf",
+      "pages": "PDF 83-84 / imprimées 162-165",
+      "facts": [
+        "Plan masse à caractère indicatif distingue bâtiments conservés et neufs",
+        "CRAMIF au sud de la rue du Maroc",
+        "Bureaux CRAMIF indiqués à 33 mètres de hauteur",
+        "La CRAMIF est conservée ; constructions nouvelles au sud raccordent vers boulevard"
+      ],
+      "use": "Topologie historique anneau/cour, distinction avec voisins et comparaison hauteur globale.",
+      "limit": "Plan urbain indicatif ancien, pas plan exécution ; cote 33 m non définie par aile ni référence altimétrique ; photo 1987 ne représente pas état courant."
+    },
+    {
+      "id": "ARCHI_LECAN_56_4",
+      "title": "Projet LECAN-J-56-4, Caisse régionale Sécurité sociale avenue Flandres, Paris 19e",
+      "url": "https://archiwebture.citedelarchitecture.fr/ark:/43435/962615",
+      "type": "primaire archive architecturale (lien référencé secondairement)",
+      "date": "1956-1957 selon PSS",
+      "status": "accès 403 / contenu non vérifié",
+      "facts": [],
+      "use": "Piste prioritaire plans/façades/coupes dans fonds André Leconte 409 IFA.",
+      "limit": "Ne pas affirmer que des plans cotés ou numérisés sont disponibles : inventaire non consulté."
+    },
+    {
+      "id": "CITE_LECONTE",
+      "title": "Colonnes n°26 juin 2010, fonds André Leconte 409 IFA",
+      "url": "https://www.citedelarchitecture.fr/sites/default/files/documents/2023-03/frapn02_col_2010_026.pdf",
+      "type": "primaire Cité architecture",
+      "status": "notice fonds vérifiée web",
+      "facts": [
+        "Fonds André Leconte 409 IFA"
+      ],
+      "use": "Confirme fonds à interroger.",
+      "limit": "Pas documentation directe CRAMIF vérifiée."
+    },
+    {
+      "id": "PSS_CRAMIF",
+      "title": "PSS CRAM Île-de-France #11208",
+      "url": "https://www.pss-archi.eu/immeubles/FR-75056-11208.html",
+      "type": "secondaire architectural",
+      "status": "page HTML récupérée + index web vérifié",
+      "local": "pss.html",
+      "facts": [
+        "Quatre barres disposées en équerre, cour centrale fermée parking et cour logistique semi-ouverte au sud",
+        "Architectes Michel Roux-Spitz, Jean Roux-Spitz, André Leconte",
+        "R+10, 7 à 10 étages selon ailes ; toit environ 38m et total environ 40m estimés",
+        "Image Laurent D Ruamps, lien photo #95355"
+      ],
+      "use": "Orientation documentaire ; pointer vers notice archive et photo.",
+      "limit": "Hauteurs expressément estimées, année ≈1966 incompatible date construction officielle 1963 ; ne pas substituer au LiDAR. Les étages ne sont pas assignés par aile."
+    },
+    {
+      "id": "PSS_PHOTO",
+      "title": "Photo PSS #95355 Laurent D Ruamps",
+      "url": "https://www.pss-archi.eu/photo-95355.html",
+      "image_url": "https://www.pss-archi.eu/photos/membres/4847/s/2025/11/1764148842rajx.jpg",
+      "type": "photographie auteur",
+      "status": "lien image trouvé dans HTML, pixels non consultés",
+      "date": "publication upload novembre 2025 d’après chemin ; date prise de vue non vérifiée",
+      "use": "Piste photo façade",
+      "limit": "Aucune baie comptée ni dimension déduite. Date upload ne prouve pas date prise de vue."
+    },
+    {
+      "id": "CRAMIF_CMS_2023",
+      "title": "Nouveaux accès temporaires CMS",
+      "url": "https://www.cramif.fr/actualites/travaux-au-centre-medical-stalingrad-nouveaux-acces-temporaires",
+      "type": "primaire CRAMIF",
+      "date": "1 juin 2023",
+      "status": "texte intégral vérifié web",
+      "facts": [
+        "À compter 19 juin 2023, consultations au 14 bis Tanger 2e étage et au 3 Maroc 2e étage"
+      ],
+      "use": "Identifier accès et temporalité travaux.",
+      "limit": "Pas de façade cotée."
+    },
+    {
+      "id": "CRAMIF_CMS_2025",
+      "title": "Dépliant informations CMS septembre 2025",
+      "url": "https://www.cramif.fr/sites/default/files/centre-medical-stalingrad-informations-pratiques-sept-2025cramif.pdf",
+      "type": "primaire CRAMIF",
+      "date": "juillet 2025 mention interne",
+      "status": "texte vérifié web",
+      "facts": [
+        "Adresse CMS 14 bis rue Tanger"
+      ],
+      "use": "Accès état récent.",
+      "limit": "Plan de situation simplifié, pas emprise métrique."
+    },
+    {
+      "id": "MARCHE_ASC_2026",
+      "title": "Modernisation éléments électriques et mécaniques deux ascenseurs P_024_2026",
+      "url": "https://www.marches-publics.gouv.fr/app.php/entreprise/consultation/3038019?orgAcronyme=s7h",
+      "secondary_url": "https://www.alertoffres.fr/tenders/modernisation-des-elements-electriques-et-mecaniques-de-2-ascenseurs-1",
+      "type": "primaire profil acheteur indisponible ; résumé IA tiers",
+      "status": "HTML profil récupéré mais indique accès consultation non autorisé ; RC non obtenu",
+      "local": "marche_primary.html",
+      "facts_unverified": [
+        "Quatre ailes Flandre, Maroc, Tanger, Sud",
+        "R+9 à R-2 / 13 niveaux",
+        "Batterie ascenseurs entre Tanger et Sud"
+      ],
+      "use": "Piste nomenclature à confirmer, aucune valeur prescriptive.",
+      "limit": "Résumé explicitement IA ; ne pas traiter en preuve primaire."
+    },
+    {
+      "id": "LEMONDE_1965",
+      "title": "Inauguration nouveau bâtiment Caisse régionale sécurité sociale Paris",
+      "url": "https://www.lemonde.fr/archives/article/1965/10/12/les-reformes-respecteront-la-vocation-profonde-de-l-institution-declare-m-grandval_2194048_1819218.html",
+      "type": "presse contemporaine témoin",
+      "date": "12 octobre 1965",
+      "status": "extrait public vérifié",
+      "facts": [
+        "Inauguration le samedi précédant le 12 octobre 1965 (9 octobre, inférence calendrière)"
+      ],
+      "use": "Distinguer inauguration 1965 de construction 1963.",
+      "limit": "Accès partiel réservé abonnés ; aucune dimension."
+    },
+    {
+      "id": "ARCHIVES_CRAMIF_2010",
+      "title": "Marc Dutertre, archives Comité régional histoire Sécurité sociale IDF",
+      "url": "https://shs.cairn.info/article/RHPS_003_0114/pdf?lang=fr",
+      "type": "article archivistique",
+      "status": "extrait indexé vérifié, PDF 403",
+      "facts": [
+        "Évoque brochure CRSSP juin 1965 présentant locaux avenue de Flandre et organisation services"
+      ],
+      "use": "Piste brochure historique et archives CRAMIF.",
+      "limit": "Brochure originale non obtenue ; aucun plan/façade attesté dans recherche."
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "surface utile brute ensemble Flandre",
+      "value": 39827,
+      "unit": "m²",
+      "status": "SOURCE_DOCUMENTAIRE",
+      "source": "CRAMIF_AMI_2025",
+      "scope": "ensemble bâtiment ; pas emprise"
+    },
+    {
+      "name": "surface terrain",
+      "value": 10575,
+      "unit": "m²",
+      "status": "SOURCE_DOCUMENTAIRE",
+      "source": "PARIS_PC_2010",
+      "scope": "terrain permis 2010"
+    },
+    {
+      "name": "hauteur historique générale bureaux",
+      "value": 33,
+      "unit": "m",
+      "status": "SOURCE_DOCUMENTAIRE",
+      "source": "APUR_PP_1987",
+      "scope": "non assignée par aile, ancienne, référence verticale non définie"
+    },
+    {
+      "name": "hauteur toit PSS",
+      "value": 38,
+      "unit": "m",
+      "status": "ESTIME",
+      "source": "PSS_CRAMIF",
+      "scope": "estimation secondaire non calage"
+    },
+    {
+      "name": "hauteur totale PSS",
+      "value": 40,
+      "unit": "m",
+      "status": "ESTIME",
+      "source": "PSS_CRAMIF",
+      "scope": "estimation secondaire non calage"
+    }
+  ],
+  "façades": {
+    "plans_cotes_obtenus": false,
+    "hauteur_et_largeur_baies_verifiees": false,
+    "comptage_baies": null,
+    "directive": "Aucune ouverture à générer par répétition supposée ; compter et repérer sur photographies rectifiées / plans vérifiés par aile et étage."
+  },
+  "separation_parties": [
+    "L’anneau CRAMIF autour de cour est identifié.",
+    "Aile supposée boulevard non attribuable à CRAMIF sur preuves recueillies. Le permis ne comporte aucune adresse boulevard ; plan masse ancien présente constructions voisines/neuves au sud. Vérifier capture et emprises avant inclusion.",
+    "Ailes historiques portent probablement noms Flandre/Maroc/Tanger/Sud, mais seule preuve trouvée du détail est résumé IA RC non obtenu."
+  ],
+  "limites": [
+    "Aucune campagne de relevé nouvelle. Aucun résultat MESURE_LIDAR créé par cette mission.",
+    "Aucun plan d’élévation/de coupe coté directement exploitable obtenu.",
+    "Aucune photographie contemporaine de toute façade et cour inspectée.",
+    "Aucune longueur cour/barre, épaisseur, trame ou baie inventée.",
+    "Documents projet lus seulement ; sources et modèle non modifiés."
+  ],
+  "recommendations": [
+    "Faire correspondre chaque aile aux emprises APUR/cadastre et objets modèle ; identifier expressément voisins du boulevard.",
+    "Caler emprises et toitures sur LiDAR conservé avec référence NGF, date acquisition et statistiques points.",
+    "Conserver 33m APUR comme contrôle historique documentaire, ≈38/40m PSS comme estimation séparée.",
+    "Obtenir inventaire/planches LECAN-J-56-4 auprès Centre archives architecture XXe, fonds 409 IFA, et dossier PC 2010 Ville Paris.",
+    "Utiliser plans masse APUR uniquement pour topologie et histoire, pas pour détail façade contemporain.",
+    "Relever photographies datées de chaque façade extérieure et cour avant modélisation des ouvertures ; zones masquées explicitement sans détails."
+  ],
+  "scope_user": "Épicentre CRAMIF. Ne pas inclure automatiquement voisin au boulevard ; aile limite à confirmer par sources, sans sollicitation utilisateur nécessaire.",
+  "capture_inspectee": {
+    "path": "/Users/yannjouet/Desktop/Capture d’écran 2026-10-10 à 22.34.03.png",
+    "date": "2026-10-10",
+    "observation": "La capture correspond au quadrilatère CRAMIF et à sa longue barre côté avenue de Flandre avec prolongement sud et cour logistique. L’axe planté oblique à droite est avenue de Flandre, non boulevard de la Villette. Le boulevard de la Villette se trouve en bas de l’îlot (hors partie principale cadrée). Aucun comptage de baie effectué depuis cette vue oblique Google.",
+    "status": "SOURCE_DOCUMENTAIRE",
+    "limit": "Date prise de vue Google non lisible ; topologie observable, pas métrique."
+  }
+}

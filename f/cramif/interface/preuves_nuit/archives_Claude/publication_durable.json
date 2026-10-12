@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "total": 9138,
+    "date_inventaire": 1791701016.385207,
+    "refresh_seconds": 30,
+    "racines": {
+      "cramif": 85,
+      "images_claude_travail": 947,
+      "images_projet": 4144,
+      "images_calcul": 3955,
+      "images_claude": 0,
+      "cr_image": 7
+    },
+    "provenances_documentees": 349,
+    "sources_inconnues": 8789,
+    "non_previsualisables": 9,
+    "limites": [
+      "Inventaire des fichiers conservés et images embarquées du compte rendu Stalingrad. Les images perdues ou jamais enregistrées localement ne sont pas récupérables ici.",
+      "Les copies conservées dans plusieurs dossiers restent visibles avec leur emplacement ; pas de déduplication de contenu.",
+      "Auteur et date d’acquisition inconnus restent explicitement inconnus ; mtime sert au tri, pas à dater le terrain.",
+      "Références Google : accès interne conservant l’authentification du serveur."
+    ],
+    "racines_absentes": [
+      "images_claude"
+    ]
+  },
+  "archives_durables": 947,
+  "new_exact_copies_documented": 33,
+  "unknown_archive_sources_preserved": 947,
+  "durable_original_served": true,
+  "no_extra_gallery_duplicates_from_copy": true
+}

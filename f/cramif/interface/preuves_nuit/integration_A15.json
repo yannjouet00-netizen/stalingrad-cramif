@@ -1,0 +1,27 @@
+{
+  "reopened": true,
+  "idempotent": true,
+  "patches": [
+    {
+      "object": "NUIT Eole ballast sobre",
+      "vertices_z_changed": 628
+    },
+    {
+      "object": "NUIT Eole rails axes OSM",
+      "vertices_z_changed": 720
+    },
+    {
+      "object": "NUIT Eole traverses convention",
+      "vertices_z_changed": 1200
+    }
+  ],
+  "new_support_closed": true,
+  "new_support_vertices": 32,
+  "new_support_triangles": 60,
+  "baies_A14_preserved": true,
+  "sol_A8_canopies_A12_metadata_A10_preserved": true,
+  "scope": "Raccord Z local de deux axes et assise ; pas de modification du Sol",
+  "native_sha256": "723de37962771133003e9a772394b3009a8f2f807d85eeae2e45011865eb41f8",
+  "previous_sha256": "b5d4542a8bd8b4caee5fa171cf048e374c1a13e9fdcd675ea64976be9371d2ee",
+  "published_at": "2026-10-11T05:53:11.547834+00:00"
+}

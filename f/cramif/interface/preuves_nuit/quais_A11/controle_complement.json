@@ -1,0 +1,52 @@
+[
+  {
+    "bloc": "SEINE",
+    "protected_area_m2": 1597.5958578599916,
+    "parts": [
+      {
+        "part": "Sol_lisse",
+        "protected_source_vertices": 604,
+        "max_xyz_m": 2.087886325369731e-05,
+        "max_z_m": 1.9073486328125e-06
+      },
+      {
+        "part": "Amenagements",
+        "protected_source_vertices": 120,
+        "max_xyz_m": 1.7808878355164592e-05,
+        "max_z_m": 1.895909285565267e-06
+      },
+      {
+        "part": "Trottoirs",
+        "protected_source_vertices": 0,
+        "max_xyz_m": 0.0,
+        "max_z_m": 0.0
+      }
+    ],
+    "coincident_triangle_duplicates_0_1mm": 0
+  },
+  {
+    "bloc": "LOIRE",
+    "protected_area_m2": 1624.2458086338809,
+    "parts": [
+      {
+        "part": "Sol_lisse",
+        "protected_source_vertices": 648,
+        "max_xyz_m": 3.052165723962065e-05,
+        "max_z_m": 1.9073486328125e-06
+      },
+      {
+        "part": "Amenagements",
+        "protected_source_vertices": 155,
+        "max_xyz_m": 3.0436298709925415e-05,
+        "max_z_m": 1.9073486328125e-06
+      },
+      {
+        "part": "Trottoirs",
+        "protected_source_vertices": 0,
+        "max_xyz_m": 0.0,
+        "max_z_m": 0.0
+      }
+    ],
+    "coincident_triangle_duplicates_0_1mm": 0
+  }
+]
