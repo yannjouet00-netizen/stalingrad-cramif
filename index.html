@@ -587,7 +587,7 @@ const lin3 = c => c.map(s2l);
 // ───────────── couches ─────────────
 const couches = {}, objets = {}, vus = {};
 async function chargerBin(nom, signal) {
-  const r = await fetch('api/couche/' + nom.replace(/\W/g,'_') + '.bin?v=20261012e', {signal});
+  const r = await fetch('api/couche/' + nom.replace(/\W/g,'_') + '.bin?v=20261012f', {signal});
   if (r.status !== 200) return null;
   const buf = await r.arrayBuffer(); const dv = new DataView(buf);
   const hl = dv.getUint32(0, true);
